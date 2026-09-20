@@ -1,4 +1,29 @@
 package com.example.csteacherprep.database;
 
-public class PracticeSetDao {
+import androidx.room.Dao;
+import androidx.room.Delete;
+import androidx.room.Insert;
+import androidx.room.Query;
+
+import com.example.csteacherprep.models.PracticeSet;
+
+import java.util.List;
+
+@Dao
+public interface PracticeSetDao {
+
+    @Insert
+    long insertSet(PracticeSet practiceSet);
+
+    @Query("SELECT * FROM practice_sets ORDER BY createdAt DESC")
+    List<PracticeSet> getAllSets();
+
+    @Query("SELECT * FROM practice_sets WHERE id = :setId LIMIT 1")
+    PracticeSet getSetById(int setId);
+
+    @Delete
+    void deleteSet(PracticeSet practiceSet);
+
+    @Query("DELETE FROM practice_sets")
+    void deleteAllSets();
 }

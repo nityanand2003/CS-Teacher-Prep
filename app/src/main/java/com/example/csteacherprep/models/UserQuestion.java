@@ -9,7 +9,7 @@ public class UserQuestion {
     @PrimaryKey(autoGenerate = true)
     private int id;
 
-    private int setId;
+    private int practiceSetId;
 
     private String questionText;
 
@@ -35,7 +35,7 @@ public class UserQuestion {
                         String correctAnswer,
                         String explanation) {
 
-        this.setId = setId;
+        this.practiceSetId = setId;
         this.questionText = questionText;
         this.optionA = optionA;
         this.optionB = optionB;
@@ -54,12 +54,12 @@ public class UserQuestion {
         this.id = id;
     }
 
-    public int getSetId() {
-        return setId;
+    public int getPracticeSetId() {
+        return practiceSetId;
     }
 
-    public void setSetId(int setId) {
-        this.setId = setId;
+    public void setPracticeSetId(int practiceSetId) {
+        this.practiceSetId = practiceSetId;
     }
 
     public String getQuestionText() {
