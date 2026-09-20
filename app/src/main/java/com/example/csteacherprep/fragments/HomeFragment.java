@@ -24,10 +24,47 @@ public class HomeFragment extends Fragment {
             @Nullable ViewGroup container,
             @Nullable Bundle savedInstanceState) {
 
-        return inflater.inflate(
+        View view = inflater.inflate(
                 R.layout.fragment_home,
                 container,
                 false
         );
+
+        // Bihar STET
+        view.findViewById(R.id.btnStet).setOnClickListener(v -> {
+
+            ExamFragment examFragment = new ExamFragment();
+
+            Bundle bundle = new Bundle();
+            bundle.putString("exam_name", "Bihar STET");
+            examFragment.setArguments(bundle);
+
+            requireActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.main_container, examFragment)
+                    .addToBackStack(null)
+                    .commit();
+        });
+
+
+        // BPSC PGT
+        view.findViewById(R.id.btnBpsc).setOnClickListener(v -> {
+
+            ExamFragment examFragment = new ExamFragment();
+
+            Bundle bundle = new Bundle();
+            bundle.putString("exam_name", "BPSC PGT");
+            examFragment.setArguments(bundle);
+
+            requireActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.main_container, examFragment)
+                    .addToBackStack(null)
+                    .commit();
+        });
+
+        return view;
     }
 }

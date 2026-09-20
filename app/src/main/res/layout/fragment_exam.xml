@@ -1,10 +1,230 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.ExamFragment">
+    android:fillViewport="true"
+    android:background="@color/screen_background">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/screen_padding">
+
+        <!-- Exam Header Card -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:cardBackgroundColor="@color/primary_blue_light"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="2dp"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/examName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bihar STET"
+                    android:textColor="@color/primary_blue"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Computer Science"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Choose how you want to prepare"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <!-- Section Title -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Choose Your Practice Mode"
+            android:textColor="@color/text_primary"
+            android:textSize="@dimen/text_title"
+            android:textStyle="bold" />
+
+
+        <!-- PYQ -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardPyq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="3dp"
+            app:strokeColor="@color/primary_blue"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/card_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Previous Year Questions"
+                    android:textColor="@color/primary_blue"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Practice questions from previous examinations."
+                    android:textColor="@color/text_secondary"
+                    android:textSize="@dimen/text_body" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnPyq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    android:text="Open PYQs  →"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <!-- Practice Sets -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardPractice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="3dp"
+            app:strokeColor="@color/primary_blue"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/card_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Practice Sets"
+                    android:textColor="@color/primary_blue"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Topic-wise, mixed and full mock practice sets."
+                    android:textColor="@color/text_secondary"
+                    android:textSize="@dimen/text_body" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnPractice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    android:text="Practice Now  →"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <!-- Self Designed Sets -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardSelfDesigned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="3dp"
+            app:strokeColor="@color/primary_blue"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/card_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Self Designed Sets"
+                    android:textColor="@color/primary_blue"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Create your own questions and practice them anytime."
+                    android:textColor="@color/text_secondary"
+                    android:textSize="@dimen/text_body" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSelfDesigned"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    android:text="My Sets  →"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</ScrollView>
