@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary App Colors -->
+    <color name="primary_blue">#1565C0</color>
+    <color name="primary_blue_dark">#0D47A1</color>
+    <color name="primary_blue_light">#E3F2FD</color>
+
+    <!-- Background -->
+    <color name="screen_background">#F7F9FC</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Quiz -->
+    <color name="option_background">#FFFFFF</color>
+    <color name="option_border">#D9E1EC</color>
+
+    <color name="correct_green">#2E7D32</color>
+    <color name="correct_green_light">#E8F5E9</color>
+
+    <color name="wrong_red">#C62828</color>
+    <color name="wrong_red_light">#FFEBEE</color>
+
+    <!-- Common -->
+    <color name="divider">#E5E7EB</color>
+    <color name="icon_gray">#6B7280</color>
+
 </resources>

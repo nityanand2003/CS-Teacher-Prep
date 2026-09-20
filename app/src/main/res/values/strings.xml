@@ -1,3 +1,25 @@
 <resources>
+
     <string name="app_name">CS Teacher Prep</string>
+    <string name="app_subtitle">Computer Science Teacher Exam Preparation</string>
+
+    <string name="bihar_stet">Bihar STET</string>
+    <string name="bpsc_pgt">BPSC PGT</string>
+
+    <string name="previous_year_questions">Previous Year Questions</string>
+    <string name="practice_sets">Practice Sets</string>
+    <string name="self_designed_sets">Self Designed Sets</string>
+
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="start">Start</string>
+    <string name="create_new_set">Create New Set</string>
+
+    <string name="correct">Correct</string>
+    <string name="wrong">Wrong</string>
+    <string name="unattempted">Unattempted</string>
+    <string name="score">Score</string>
+
+    <string name="advertisement">Advertisement</string>
+
 </resources>
