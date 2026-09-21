@@ -19,6 +19,8 @@ public class SetAdapter extends RecyclerView.Adapter<SetAdapter.SetViewHolder> {
 
     private final OnSetClickListener listener;
     private final OnDeleteClickListener deleteListener;
+    private final OnManageQuestionsClickListener manageQuestionsListener;
+    private final OnEditSetClickListener editSetListener;
 
     public interface OnSetClickListener {
         void onSetClick(String setName);
@@ -28,8 +30,15 @@ public class SetAdapter extends RecyclerView.Adapter<SetAdapter.SetViewHolder> {
         void onDeleteClick(String setName);
     }
 
-    // Existing constructor
-    // PYQ and Practice ke liye delete nahi dikhega
+    public interface OnManageQuestionsClickListener {
+        void onManageQuestionsClick(String setName);
+    }
+
+    public interface OnEditSetClickListener {
+        void onEditSetClick(String setName);
+    }
+
+    // PYQ / Practice
     public SetAdapter(
             List<String> setNames,
             List<Integer> questionCounts,
@@ -39,21 +48,62 @@ public class SetAdapter extends RecyclerView.Adapter<SetAdapter.SetViewHolder> {
                 setNames,
                 questionCounts,
                 listener,
+                null,
+                null,
                 null
         );
     }
 
-    // Self Designed Sets ke liye
+    // Self Designed - Delete
     public SetAdapter(
             List<String> setNames,
             List<Integer> questionCounts,
             OnSetClickListener listener,
             OnDeleteClickListener deleteListener) {
 
+        this(
+                setNames,
+                questionCounts,
+                listener,
+                deleteListener,
+                null,
+                null
+        );
+    }
+
+    // Self Designed - Delete + Manage Questions
+    public SetAdapter(
+            List<String> setNames,
+            List<Integer> questionCounts,
+            OnSetClickListener listener,
+            OnDeleteClickListener deleteListener,
+            OnManageQuestionsClickListener manageQuestionsListener) {
+
+        this(
+                setNames,
+                questionCounts,
+                listener,
+                deleteListener,
+                manageQuestionsListener,
+                null
+        );
+    }
+
+    // Full constructor
+    public SetAdapter(
+            List<String> setNames,
+            List<Integer> questionCounts,
+            OnSetClickListener listener,
+            OnDeleteClickListener deleteListener,
+            OnManageQuestionsClickListener manageQuestionsListener,
+            OnEditSetClickListener editSetListener) {
+
         this.setNames = setNames;
         this.questionCounts = questionCounts;
         this.listener = listener;
         this.deleteListener = deleteListener;
+        this.manageQuestionsListener = manageQuestionsListener;
+        this.editSetListener = editSetListener;
     }
 
     @NonNull
@@ -77,16 +127,31 @@ public class SetAdapter extends RecyclerView.Adapter<SetAdapter.SetViewHolder> {
         int questionCount = questionCounts.get(position);
 
         holder.tvSetName.setText(setName);
+
         holder.tvQuestionCount.setText(
                 questionCount + " Questions"
         );
 
-        // Open set
+        // Open Quiz
         holder.itemView.setOnClickListener(v ->
                 listener.onSetClick(setName)
         );
 
-        // Delete button
+        // Edit Set
+        if (editSetListener != null) {
+
+            holder.btnEditSet.setVisibility(View.VISIBLE);
+
+            holder.btnEditSet.setOnClickListener(v ->
+                    editSetListener.onEditSetClick(setName)
+            );
+
+        } else {
+
+            holder.btnEditSet.setVisibility(View.GONE);
+        }
+
+        // Delete Set
         if (deleteListener != null) {
 
             holder.btnDelete.setVisibility(View.VISIBLE);
@@ -99,6 +164,25 @@ public class SetAdapter extends RecyclerView.Adapter<SetAdapter.SetViewHolder> {
 
             holder.btnDelete.setVisibility(View.GONE);
         }
+
+        // Manage Questions
+        if (manageQuestionsListener != null) {
+
+            holder.btnManageQuestions.setVisibility(
+                    View.VISIBLE
+            );
+
+            holder.btnManageQuestions.setOnClickListener(v ->
+                    manageQuestionsListener
+                            .onManageQuestionsClick(setName)
+            );
+
+        } else {
+
+            holder.btnManageQuestions.setVisibility(
+                    View.GONE
+            );
+        }
     }
 
     @Override
@@ -106,23 +190,44 @@ public class SetAdapter extends RecyclerView.Adapter<SetAdapter.SetViewHolder> {
         return setNames.size();
     }
 
-    static class SetViewHolder extends RecyclerView.ViewHolder {
+    static class SetViewHolder
+            extends RecyclerView.ViewHolder {
 
         TextView tvSetName;
         TextView tvQuestionCount;
+        TextView btnEditSet;
         TextView btnDelete;
+        TextView btnManageQuestions;
 
-        public SetViewHolder(@NonNull View itemView) {
+        public SetViewHolder(
+                @NonNull View itemView) {
+
             super(itemView);
 
             tvSetName =
-                    itemView.findViewById(R.id.tvSetName);
+                    itemView.findViewById(
+                            R.id.tvSetName
+                    );
 
             tvQuestionCount =
-                    itemView.findViewById(R.id.tvQuestionCount);
+                    itemView.findViewById(
+                            R.id.tvQuestionCount
+                    );
+
+            btnEditSet =
+                    itemView.findViewById(
+                            R.id.btnEditSet
+                    );
 
             btnDelete =
-                    itemView.findViewById(R.id.btnDelete);
+                    itemView.findViewById(
+                            R.id.btnDelete
+                    );
+
+            btnManageQuestions =
+                    itemView.findViewById(
+                            R.id.btnManageQuestions
+                    );
         }
     }
 }

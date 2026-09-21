@@ -17,6 +17,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.csteacherprep.R;
 import com.example.csteacherprep.activities.CreateSetActivity;
+import com.example.csteacherprep.activities.ManageQuestionsActivity;
+import com.example.csteacherprep.activities.QuizActivity;
 import com.example.csteacherprep.adapters.SetAdapter;
 import com.example.csteacherprep.database.AppDatabase;
 import com.example.csteacherprep.models.PracticeSet;
@@ -50,14 +52,18 @@ public class SelfDesignedFragment extends Fragment {
         );
 
         TextView examName =
-                view.findViewById(R.id.selfDesignedExamName);
+                view.findViewById(
+                        R.id.selfDesignedExamName
+                );
 
         String selectedExam = "Bihar STET";
 
         if (getArguments() != null) {
 
             String argumentExam =
-                    getArguments().getString("exam_name");
+                    getArguments().getString(
+                            "exam_name"
+                    );
 
             if (argumentExam != null) {
                 selectedExam = argumentExam;
@@ -67,10 +73,14 @@ public class SelfDesignedFragment extends Fragment {
         examName.setText(selectedExam);
 
         recyclerView =
-                view.findViewById(R.id.selfDesignedRecyclerView);
+                view.findViewById(
+                        R.id.selfDesignedRecyclerView
+                );
 
         recyclerView.setLayoutManager(
-                new LinearLayoutManager(requireContext())
+                new LinearLayoutManager(
+                        requireContext()
+                )
         );
 
         String finalExam = selectedExam;
@@ -80,20 +90,22 @@ public class SelfDesignedFragment extends Fragment {
                 setNames,
                 questionCounts,
 
-                // Open set
+                // Open Quiz
                 setName -> {
 
-                    int position = setNames.indexOf(setName);
+                    int position =
+                            setNames.indexOf(setName);
 
                     if (position != -1) {
 
                         int selectedSetId =
                                 setIds.get(position);
 
-                        Intent intent = new Intent(
-                                requireContext(),
-                                com.example.csteacherprep.activities.QuizActivity.class
-                        );
+                        Intent intent =
+                                new Intent(
+                                        requireContext(),
+                                        QuizActivity.class
+                                );
 
                         intent.putExtra(
                                 "set_id",
@@ -104,28 +116,64 @@ public class SelfDesignedFragment extends Fragment {
                     }
                 },
 
-                // Delete set
-                this::showDeleteConfirmation
+                // Delete Set
+                this::showDeleteConfirmation,
+
+                // Manage Questions
+                setName -> {
+
+                    int position =
+                            setNames.indexOf(setName);
+
+                    if (position != -1) {
+
+                        int selectedSetId =
+                                setIds.get(position);
+
+                        Intent intent =
+                                new Intent(
+                                        requireContext(),
+                                        ManageQuestionsActivity.class
+                                );
+
+                        intent.putExtra(
+                                "set_id",
+                                selectedSetId
+                        );
+
+                        intent.putExtra(
+                                "set_name",
+                                setName
+                        );
+
+                        startActivity(intent);
+                    }
+                },
+
+                // Edit Set
+                this::editSet
         );
 
         recyclerView.setAdapter(adapter);
 
         // Create New Set
-        view.findViewById(R.id.btnCreateNewSet)
-                .setOnClickListener(v -> {
+        view.findViewById(
+                R.id.btnCreateNewSet
+        ).setOnClickListener(v -> {
 
-                    Intent intent = new Intent(
+            Intent intent =
+                    new Intent(
                             requireContext(),
                             CreateSetActivity.class
                     );
 
-                    intent.putExtra(
-                            "exam_name",
-                            finalExam
-                    );
+            intent.putExtra(
+                    "exam_name",
+                    finalExam
+            );
 
-                    startActivity(intent);
-                });
+            startActivity(intent);
+        });
 
         loadSets(finalExam);
 
@@ -144,7 +192,9 @@ public class SelfDesignedFragment extends Fragment {
             if (getArguments() != null) {
 
                 String argumentExam =
-                        getArguments().getString("exam_name");
+                        getArguments().getString(
+                                "exam_name"
+                        );
 
                 if (argumentExam != null) {
                     exam = argumentExam;
@@ -166,7 +216,8 @@ public class SelfDesignedFragment extends Fragment {
                     );
 
             List<PracticeSet> allSets =
-                    db.practiceSetDao().getAllSets();
+                    db.practiceSetDao()
+                            .getAllSets();
 
             setNames.clear();
             questionCounts.clear();
@@ -176,9 +227,13 @@ public class SelfDesignedFragment extends Fragment {
 
                 if (exam.equals(set.getExam())) {
 
-                    setIds.add(set.getId());
+                    setIds.add(
+                            set.getId()
+                    );
 
-                    setNames.add(set.getName());
+                    setNames.add(
+                            set.getName()
+                    );
 
                     int count =
                             db.userQuestionDao()
@@ -201,17 +256,58 @@ public class SelfDesignedFragment extends Fragment {
         }).start();
     }
 
-    private void showDeleteConfirmation(String setName) {
+    private void editSet(String setName) {
 
-        int position = setNames.indexOf(setName);
+        int position =
+                setNames.indexOf(setName);
 
         if (position == -1) {
             return;
         }
 
-        int setId = setIds.get(position);
+        int setId =
+                setIds.get(position);
 
-        new AlertDialog.Builder(requireContext())
+        Intent intent =
+                new Intent(
+                        requireContext(),
+                        CreateSetActivity.class
+                );
+
+        intent.putExtra(
+                "edit_mode",
+                true
+        );
+
+        intent.putExtra(
+                "set_id",
+                setId
+        );
+
+        intent.putExtra(
+                "set_name",
+                setName
+        );
+
+        startActivity(intent);
+    }
+
+    private void showDeleteConfirmation(
+            String setName) {
+
+        int position =
+                setNames.indexOf(setName);
+
+        if (position == -1) {
+            return;
+        }
+
+        int setId =
+                setIds.get(position);
+
+        new AlertDialog.Builder(
+                requireContext()
+        )
                 .setTitle("Delete Set?")
                 .setMessage(
                         "Are you sure you want to delete \"" +
@@ -225,12 +321,17 @@ public class SelfDesignedFragment extends Fragment {
                 .setPositiveButton(
                         "Delete",
                         (dialog, which) ->
-                                deleteSet(setId, setName)
+                                deleteSet(
+                                        setId,
+                                        setName
+                                )
                 )
                 .show();
     }
 
-    private void deleteSet(int setId, String setName) {
+    private void deleteSet(
+            int setId,
+            String setName) {
 
         new Thread(() -> {
 
@@ -240,11 +341,13 @@ public class SelfDesignedFragment extends Fragment {
                                     .getApplicationContext()
                     );
 
-            // First delete all questions
+            // Delete questions
             db.userQuestionDao()
-                    .deleteQuestionsBySetId(setId);
+                    .deleteQuestionsBySetId(
+                            setId
+                    );
 
-            // Then delete the set
+            // Delete set
             PracticeSet practiceSet =
                     db.practiceSetDao()
                             .getSetById(setId);
@@ -252,7 +355,9 @@ public class SelfDesignedFragment extends Fragment {
             if (practiceSet != null) {
 
                 db.practiceSetDao()
-                        .deleteSet(practiceSet);
+                        .deleteSet(
+                                practiceSet
+                        );
             }
 
             requireActivity().runOnUiThread(() -> {
@@ -269,7 +374,9 @@ public class SelfDesignedFragment extends Fragment {
 
                     String argumentExam =
                             getArguments()
-                                    .getString("exam_name");
+                                    .getString(
+                                            "exam_name"
+                                    );
 
                     if (argumentExam != null) {
                         exam = argumentExam;

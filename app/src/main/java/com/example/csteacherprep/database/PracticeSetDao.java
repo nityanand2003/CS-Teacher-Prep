@@ -4,6 +4,7 @@ import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
+import androidx.room.Update;
 
 import com.example.csteacherprep.models.PracticeSet;
 
@@ -23,6 +24,9 @@ public interface PracticeSetDao {
 
     @Delete
     void deleteSet(PracticeSet practiceSet);
+
+    @Update
+    void updateSet(PracticeSet practiceSet);
 
     @Query("DELETE FROM practice_sets")
     void deleteAllSets();

@@ -4,6 +4,7 @@ import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
+import androidx.room.Update;
 
 import com.example.csteacherprep.models.UserQuestion;
 
@@ -23,6 +24,9 @@ public interface UserQuestionDao {
 
     @Delete
     void deleteQuestion(UserQuestion question);
+
+    @Update
+    void updateQuestion(UserQuestion question);
 
     @Query("DELETE FROM user_questions WHERE practiceSetId = :setId")
     void deleteQuestionsBySetId(int setId);
