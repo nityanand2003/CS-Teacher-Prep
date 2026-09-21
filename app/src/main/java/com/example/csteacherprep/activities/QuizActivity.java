@@ -1,57 +1,444 @@
 package com.example.csteacherprep.activities;
 
+import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.csteacherprep.R;
+import com.example.csteacherprep.database.AppDatabase;
 import com.example.csteacherprep.models.Question;
+import com.example.csteacherprep.models.UserQuestion;
 import com.example.csteacherprep.utils.JsonHelper;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class QuizActivity extends AppCompatActivity {
 
-    private List<Question> questionList;
+    private List<Question> questionList = new ArrayList<>();
+
+    private int currentQuestionIndex = 0;
+    private int correctCount = 0;
+    private int wrongCount = 0;
+    private int unattemptedCount = 0;
+
+    private TextView questionNumber;
+    private TextView questionText;
+
+    private TextView optionA;
+    private TextView optionB;
+    private TextView optionC;
+    private TextView optionD;
+    private TextView optionE;
+
+    private TextView explanation;
+
+    private View selectedOption;
+
+    private boolean isSelfDesigned = false;
+    private int selfDesignedSetId = -1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_quiz);
 
-        // Load questions from JSON
-        questionList = JsonHelper.loadQuestions(
-                this,
-                R.raw.stet_pyq
+        questionNumber = findViewById(R.id.questionNumber);
+        questionText = findViewById(R.id.questionText);
+
+        optionA = findViewById(R.id.optionA);
+        optionB = findViewById(R.id.optionB);
+        optionC = findViewById(R.id.optionC);
+        optionD = findViewById(R.id.optionD);
+        optionE = findViewById(R.id.optionE);
+
+        explanation = findViewById(R.id.explanation);
+
+        findViewById(R.id.btnNext).setOnClickListener(
+                v -> nextQuestion()
         );
 
-        TextView questionNumber = findViewById(R.id.questionNumber);
-        TextView questionText = findViewById(R.id.questionText);
+        findViewById(R.id.btnSubmit).setOnClickListener(
+                v -> submitQuiz()
+        );
 
-        TextView optionA = findViewById(R.id.optionA);
-        TextView optionB = findViewById(R.id.optionB);
-        TextView optionC = findViewById(R.id.optionC);
-        TextView optionD = findViewById(R.id.optionD);
-        TextView optionE = findViewById(R.id.optionE);
+        optionA.setOnClickListener(
+                v -> selectOption(optionA, "A")
+        );
+
+        optionB.setOnClickListener(
+                v -> selectOption(optionB, "B")
+        );
+
+        optionC.setOnClickListener(
+                v -> selectOption(optionC, "C")
+        );
+
+        optionD.setOnClickListener(
+                v -> selectOption(optionD, "D")
+        );
+
+        optionE.setOnClickListener(
+                v -> selectOption(optionE, "E")
+        );
+
+        // Check whether this is a Self Designed Set
+        if (getIntent().hasExtra("set_id")) {
+
+            isSelfDesigned = true;
+
+            selfDesignedSetId =
+                    getIntent().getIntExtra(
+                            "set_id",
+                            -1
+                    );
+
+            loadSelfDesignedQuestions();
+
+        } else {
+
+            // Existing JSON-based PYQ / Practice Set
+            int jsonResourceId = getIntent().getIntExtra(
+                    "json_resource_id",
+                    R.raw.stet_pyq
+            );
+
+            questionList = JsonHelper.loadQuestions(
+                    this,
+                    jsonResourceId
+            );
+
+            showInitialQuestion();
+        }
+    }
+
+    private void loadSelfDesignedQuestions() {
+
+        new Thread(() -> {
+
+            AppDatabase db =
+                    AppDatabase.getInstance(
+                            getApplicationContext()
+                    );
+
+            List<UserQuestion> userQuestions =
+                    db.userQuestionDao()
+                            .getQuestionsBySetId(
+                                    selfDesignedSetId
+                            );
+
+            List<Question> convertedQuestions =
+                    new ArrayList<>();
+
+            for (UserQuestion userQuestion : userQuestions) {
+
+                Question question = new Question(
+                        userQuestion.getId(),
+                        userQuestion.getQuestionText(),
+                        userQuestion.getOptionA(),
+                        userQuestion.getOptionB(),
+                        userQuestion.getOptionC(),
+                        userQuestion.getOptionD(),
+                        userQuestion.getOptionE(),
+                        userQuestion.getCorrectAnswer(),
+                        userQuestion.getExplanation()
+                );
+
+                convertedQuestions.add(question);
+            }
+
+            runOnUiThread(() -> {
+
+                questionList = convertedQuestions;
+
+                showInitialQuestion();
+            });
+
+        }).start();
+    }
+
+    private void showInitialQuestion() {
 
         if (!questionList.isEmpty()) {
 
-            Question question = questionList.get(0);
-
-            questionNumber.setText("Question 1 of " + questionList.size());
-
-            questionText.setText(question.getQuestionText());
-
-            optionA.setText("A. " + question.getOptionA());
-            optionB.setText("B. " + question.getOptionB());
-            optionC.setText("C. " + question.getOptionC());
-            optionD.setText("D. " + question.getOptionD());
-            optionE.setText("E. " + question.getOptionE());
+            showQuestion();
 
         } else {
+
             questionNumber.setText("No questions");
-            questionText.setText("No questions available.");
+            questionText.setText(
+                    "No questions available."
+            );
+
+            findViewById(R.id.btnNext)
+                    .setVisibility(View.GONE);
+
+            findViewById(R.id.btnSubmit)
+                    .setVisibility(View.GONE);
         }
+    }
+
+    private void showQuestion() {
+
+        Question question =
+                questionList.get(currentQuestionIndex);
+
+        questionNumber.setText(
+                "Question "
+                        + (currentQuestionIndex + 1)
+                        + " of "
+                        + questionList.size()
+        );
+
+        questionText.setText(
+                question.getQuestionText()
+        );
+
+        optionA.setText(
+                "A. " + question.getOptionA()
+        );
+
+        optionB.setText(
+                "B. " + question.getOptionB()
+        );
+
+        optionC.setText(
+                "C. " + question.getOptionC()
+        );
+
+        optionD.setText(
+                "D. " + question.getOptionD()
+        );
+
+        optionE.setText(
+                "E. " + question.getOptionE()
+        );
+
+        resetOptions();
+
+        explanation.setVisibility(View.GONE);
+        explanation.setText("");
+
+        selectedOption = null;
+
+        if (currentQuestionIndex ==
+                questionList.size() - 1) {
+
+            findViewById(R.id.btnNext)
+                    .setVisibility(View.GONE);
+
+            findViewById(R.id.btnSubmit)
+                    .setVisibility(View.VISIBLE);
+
+        } else {
+
+            findViewById(R.id.btnNext)
+                    .setVisibility(View.VISIBLE);
+
+            findViewById(R.id.btnSubmit)
+                    .setVisibility(View.GONE);
+        }
+    }
+
+    private void selectOption(
+            TextView option,
+            String selectedAnswer) {
+
+        if (selectedOption != null) {
+            return;
+        }
+
+        selectedOption = option;
+
+        Question question =
+                questionList.get(currentQuestionIndex);
+
+        String correctAnswer =
+                question.getCorrectAnswer();
+
+        if (selectedAnswer.equalsIgnoreCase(
+                correctAnswer
+        )) {
+
+            option.setBackgroundColor(
+                    Color.parseColor("#E8F5E9")
+            );
+
+            option.setTextColor(
+                    Color.parseColor("#2E7D32")
+            );
+
+            correctCount++;
+
+        } else {
+
+            option.setBackgroundColor(
+                    Color.parseColor("#FFEBEE")
+            );
+
+            option.setTextColor(
+                    Color.parseColor("#C62828")
+            );
+
+            wrongCount++;
+
+            showCorrectAnswer(correctAnswer);
+        }
+
+        String explanationText =
+                question.getExplanation();
+
+        if (explanationText != null &&
+                !explanationText.trim().isEmpty()) {
+
+            explanation.setText(
+                    "Explanation: " +
+                            explanationText
+            );
+
+            explanation.setVisibility(View.VISIBLE);
+        }
+    }
+
+    private void showCorrectAnswer(
+            String correctAnswer) {
+
+        TextView correctOption = null;
+
+        switch (correctAnswer) {
+
+            case "A":
+                correctOption = optionA;
+                break;
+
+            case "B":
+                correctOption = optionB;
+                break;
+
+            case "C":
+                correctOption = optionC;
+                break;
+
+            case "D":
+                correctOption = optionD;
+                break;
+
+            case "E":
+                correctOption = optionE;
+                break;
+        }
+
+        if (correctOption != null) {
+
+            correctOption.setBackgroundColor(
+                    Color.parseColor("#E8F5E9")
+            );
+
+            correctOption.setTextColor(
+                    Color.parseColor("#2E7D32")
+            );
+        }
+    }
+
+    private void resetOptions() {
+
+        TextView[] options = {
+                optionA,
+                optionB,
+                optionC,
+                optionD,
+                optionE
+        };
+
+        for (TextView option : options) {
+
+            option.setBackgroundResource(
+                    R.drawable.bg_card
+            );
+
+            option.setTextColor(
+                    Color.parseColor("#1F2937")
+            );
+        }
+    }
+
+    private void nextQuestion() {
+
+        if (selectedOption == null) {
+            unattemptedCount++;
+        }
+
+        if (currentQuestionIndex <
+                questionList.size() - 1) {
+
+            currentQuestionIndex++;
+
+            showQuestion();
+        }
+    }
+
+    private void submitQuiz() {
+
+        if (questionList.isEmpty()) {
+            return;
+        }
+
+        if (selectedOption == null) {
+            unattemptedCount++;
+        }
+
+        Intent intent = new Intent(
+                this,
+                ResultActivity.class
+        );
+
+        intent.putExtra(
+                "total",
+                questionList.size()
+        );
+
+        intent.putExtra(
+                "correct",
+                correctCount
+        );
+
+        intent.putExtra(
+                "wrong",
+                wrongCount
+        );
+
+        intent.putExtra(
+                "unattempted",
+                unattemptedCount
+        );
+
+        if (isSelfDesigned) {
+
+            intent.putExtra(
+                    "set_id",
+                    selfDesignedSetId
+            );
+
+        } else {
+
+            int jsonResourceId =
+                    getIntent().getIntExtra(
+                            "json_resource_id",
+                            R.raw.stet_pyq
+                    );
+
+            intent.putExtra(
+                    "json_resource_id",
+                    jsonResourceId
+            );
+        }
+
+        startActivity(intent);
+        finish();
     }
 }

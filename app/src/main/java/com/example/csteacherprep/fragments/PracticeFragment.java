@@ -1,26 +1,150 @@
 package com.example.csteacherprep.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
 
-import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.csteacherprep.R;
+import com.example.csteacherprep.activities.QuizActivity;
+import com.example.csteacherprep.adapters.SetAdapter;
+import com.example.csteacherprep.models.JsonSet;
+import com.example.csteacherprep.utils.JsonHelper;
 
-public class PracticeFragment extends AppCompatActivity {
+import java.util.ArrayList;
+import java.util.List;
 
+public class PracticeFragment extends Fragment {
+
+    public PracticeFragment() {
+        // Required empty public constructor
+    }
+
+    @Nullable
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.fragment_practice);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+    public View onCreateView(
+            @NonNull LayoutInflater inflater,
+            @Nullable ViewGroup container,
+            @Nullable Bundle savedInstanceState) {
+
+        View view = inflater.inflate(
+                R.layout.fragment_practice,
+                container,
+                false
+        );
+
+        TextView examName =
+                view.findViewById(R.id.practiceExamName);
+
+        String selectedExam = "Bihar STET";
+
+        if (getArguments() != null) {
+            String argumentExam =
+                    getArguments().getString("exam_name");
+
+            if (argumentExam != null) {
+                selectedExam = argumentExam;
+            }
+        }
+
+        examName.setText(selectedExam);
+
+        RecyclerView recyclerView =
+                view.findViewById(R.id.practiceRecyclerView);
+
+        recyclerView.setLayoutManager(
+                new LinearLayoutManager(requireContext())
+        );
+
+        List<String> setNames = new ArrayList<>();
+        List<Integer> questionCounts = new ArrayList<>();
+        List<Integer> resourceIds = new ArrayList<>();
+
+        // Practice Set 1
+        if (selectedExam.equals("Bihar STET")) {
+
+            JsonSet set1 = JsonHelper.loadSet(
+                    requireContext(),
+                    R.raw.stet_practice_1
+            );
+
+            if (set1.getSetName() != null &&
+                    !set1.getSetName().isEmpty()) {
+
+                setNames.add(set1.getSetName());
+
+                int count = 0;
+
+                if (set1.getQuestions() != null) {
+                    count = set1.getQuestions().size();
+                }
+
+                questionCounts.add(count);
+                resourceIds.add(R.raw.stet_practice_1);
+            }
+
+            // Practice Set 2
+            JsonSet set2 = JsonHelper.loadSet(
+                    requireContext(),
+                    R.raw.stet_practice_2
+            );
+
+            if (set2.getSetName() != null &&
+                    !set2.getSetName().isEmpty()) {
+
+                setNames.add(set2.getSetName());
+
+                int count = 0;
+
+                if (set2.getQuestions() != null) {
+                    count = set2.getQuestions().size();
+                }
+
+                questionCounts.add(count);
+                resourceIds.add(R.raw.stet_practice_2);
+            }
+        }
+
+        SetAdapter adapter = new SetAdapter(
+                setNames,
+                questionCounts,
+                setName -> {
+
+                    int position =
+                            setNames.indexOf(setName);
+
+                    if (position != -1) {
+
+                        Intent intent = new Intent(
+                                requireContext(),
+                                QuizActivity.class
+                        );
+
+                        intent.putExtra(
+                                "json_resource_id",
+                                resourceIds.get(position)
+                        );
+
+                        intent.putExtra(
+                                "set_name",
+                                setName
+                        );
+
+                        startActivity(intent);
+                    }
+                }
+        );
+
+        recyclerView.setAdapter(adapter);
+
+        return view;
     }
 }

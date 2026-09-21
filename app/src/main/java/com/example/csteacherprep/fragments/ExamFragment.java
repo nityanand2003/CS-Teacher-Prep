@@ -33,16 +33,88 @@ public class ExamFragment extends Fragment {
 
         TextView examName = view.findViewById(R.id.examName);
 
-        // Get selected exam name
-        if (getArguments() != null) {
+        // Get selected exam
+        String exam = "Bihar STET";
 
-            String selectedExam =
+        if (getArguments() != null) {
+            String argumentExam =
                     getArguments().getString("exam_name");
 
-            if (selectedExam != null) {
-                examName.setText(selectedExam);
+            if (argumentExam != null) {
+                exam = argumentExam;
             }
         }
+
+        // Final value for lambda expressions
+        final String selectedExam = exam;
+
+        examName.setText(selectedExam);
+
+
+        // -----------------------------
+        // PYQ
+        // -----------------------------
+
+        view.findViewById(R.id.btnPyq).setOnClickListener(v -> {
+
+            PYQFragment fragment = new PYQFragment();
+
+            Bundle bundle = new Bundle();
+            bundle.putString("exam_name", selectedExam);
+
+            fragment.setArguments(bundle);
+
+            requireActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.main_container, fragment)
+                    .addToBackStack(null)
+                    .commit();
+        });
+
+
+        // -----------------------------
+        // Practice Sets
+        // -----------------------------
+
+        view.findViewById(R.id.btnPractice).setOnClickListener(v -> {
+
+            PracticeFragment fragment = new PracticeFragment();
+
+            Bundle bundle = new Bundle();
+            bundle.putString("exam_name", selectedExam);
+
+            fragment.setArguments(bundle);
+
+            requireActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.main_container, fragment)
+                    .addToBackStack(null)
+                    .commit();
+        });
+
+
+        // -----------------------------
+        // Self Designed Sets
+        // -----------------------------
+
+        view.findViewById(R.id.btnSelfDesigned).setOnClickListener(v -> {
+
+            SelfDesignedFragment fragment = new SelfDesignedFragment();
+
+            Bundle bundle = new Bundle();
+            bundle.putString("exam_name", selectedExam);
+
+            fragment.setArguments(bundle);
+
+            requireActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.main_container, fragment)
+                    .addToBackStack(null)
+                    .commit();
+        });
 
         return view;
     }

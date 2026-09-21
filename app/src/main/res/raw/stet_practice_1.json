@@ -1,0 +1,42 @@
+{
+  "setId": "stet_practice_1",
+  "setName": "Bihar STET Practice Set 1",
+  "exam": "Bihar STET",
+  "type": "Practice",
+  "description": "Bihar STET Computer Science Practice Set 1",
+  "questions": [
+    {
+      "id": 1,
+      "questionText": "Which data structure follows FIFO principle?",
+      "optionA": "Stack",
+      "optionB": "Queue",
+      "optionC": "Tree",
+      "optionD": "Graph",
+      "optionE": "Array",
+      "correctAnswer": "B",
+      "explanation": "Queue follows First In, First Out (FIFO) principle."
+    },
+    {
+      "id": 2,
+      "questionText": "Which of the following is a programming language?",
+      "optionA": "HTML",
+      "optionB": "CSS",
+      "optionC": "Java",
+      "optionD": "HTTP",
+      "optionE": "XML",
+      "correctAnswer": "C",
+      "explanation": "Java is a general-purpose programming language."
+    },
+    {
+      "id": 3,
+      "questionText": "Which memory is volatile?",
+      "optionA": "ROM",
+      "optionB": "Hard Disk",
+      "optionC": "RAM",
+      "optionD": "SSD",
+      "optionE": "CD-ROM",
+      "correctAnswer": "C",
+      "explanation": "RAM is volatile memory because its contents are lost when power is turned off."
+    }
+  ]
+}
