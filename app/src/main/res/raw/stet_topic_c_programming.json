@@ -1,0 +1,42 @@
+{
+  "setId": "stet_topic_c_programming",
+  "setName": "C Programming",
+  "exam": "Bihar STET",
+  "type": "Topic Wise",
+  "description": "Bihar STET C Programming Topic Wise Practice",
+  "questions": [
+    {
+      "id": 1,
+      "questionText": "Which symbol is used to end a statement in C?",
+      "optionA": ".",
+      "optionB": ";",
+      "optionC": ":",
+      "optionD": ",",
+      "optionE": "#",
+      "correctAnswer": "B",
+      "explanation": "A semicolon (;) is used to terminate a statement in C."
+    },
+    {
+      "id": 2,
+      "questionText": "Which function is the entry point of a C program?",
+      "optionA": "start()",
+      "optionB": "begin()",
+      "optionC": "main()",
+      "optionD": "run()",
+      "optionE": "execute()",
+      "correctAnswer": "C",
+      "explanation": "Execution of a C program begins from the main() function."
+    },
+    {
+      "id": 3,
+      "questionText": "Which header file is required for printf() in C?",
+      "optionA": "stdlib.h",
+      "optionB": "string.h",
+      "optionC": "math.h",
+      "optionD": "stdio.h",
+      "optionE": "ctype.h",
+      "correctAnswer": "D",
+      "explanation": "printf() is declared in the stdio.h header file."
+    }
+  ]
+}
