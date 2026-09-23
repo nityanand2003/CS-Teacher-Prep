@@ -13,6 +13,7 @@
         android:orientation="vertical"
         android:padding="@dimen/screen_padding">
 
+
         <!-- Welcome Card -->
 
         <com.google.android.material.card.MaterialCardView
@@ -42,7 +43,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Practice PYQs, mock tests and your own question sets — all in one place."
+                    android:text="Practice PYQs, topic-wise questions and mock tests — all in one place."
                     android:textColor="@color/text_secondary"
                     android:textSize="14sp" />
 
@@ -57,10 +58,67 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Choose Your Exam"
+            android:text="Choose Practice Category"
             android:textColor="@color/text_primary"
             android:textSize="@dimen/text_title"
             android:textStyle="bold" />
+
+
+        <!-- Topic Wise Card -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardTopicWise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="3dp"
+            app:strokeColor="@color/primary_blue"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/card_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Topic Wise"
+                    android:textColor="@color/primary_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Practice Computer Science topics individually"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="C Programming • Python • Java • DBMS • OS • CN • More"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="@dimen/text_small" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnTopicWise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    android:text="Explore Topics"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
 
 
         <!-- Bihar STET Card -->
@@ -69,7 +127,7 @@
             android:id="@+id/cardStet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="14dp"
             app:cardBackgroundColor="@color/card_background"
             app:cardCornerRadius="@dimen/card_corner_radius"
             app:cardElevation="3dp"
@@ -127,6 +185,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
+            android:layout_marginBottom="8dp"
             app:cardBackgroundColor="@color/card_background"
             app:cardCornerRadius="@dimen/card_corner_radius"
             app:cardElevation="3dp"

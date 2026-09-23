@@ -121,22 +121,38 @@ public class ResultActivity extends AppCompatActivity {
                 QuizActivity.class
         );
 
-        // Self Designed Set
-        if (getIntent().hasExtra("set_id")) {
+        // Topic Wise JSON Set
+        if (getIntent().hasExtra("asset_path")) {
 
-            int setId = getIntent().getIntExtra(
-                    "set_id",
-                    -1
+            String assetPath =
+                    getIntent().getStringExtra(
+                            "asset_path"
+                    );
+
+            intent.putExtra(
+                    "asset_path",
+                    assetPath
             );
+        }
+
+        // Self Designed Set
+        else if (getIntent().hasExtra("set_id")) {
+
+            int setId =
+                    getIntent().getIntExtra(
+                            "set_id",
+                            -1
+                    );
 
             intent.putExtra(
                     "set_id",
                     setId
             );
+        }
 
-        } else {
+        // PYQ / Practice Set
+        else {
 
-            // PYQ / Practice Set
             int jsonResourceId =
                     getIntent().getIntExtra(
                             "json_resource_id",

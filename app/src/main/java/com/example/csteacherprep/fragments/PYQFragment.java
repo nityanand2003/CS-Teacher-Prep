@@ -1,13 +1,11 @@
 package com.example.csteacherprep.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
-import android.content.Intent;
-import com.example.csteacherprep.activities.QuizActivity;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -16,11 +14,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.csteacherprep.R;
+import com.example.csteacherprep.activities.QuizActivity;
 import com.example.csteacherprep.adapters.SetAdapter;
 import com.example.csteacherprep.models.JsonSet;
 import com.example.csteacherprep.utils.JsonHelper;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class PYQFragment extends Fragment {
@@ -42,7 +42,10 @@ public class PYQFragment extends Fragment {
                 false
         );
 
-        // Exam name
+        // =====================================================
+        // Exam Name
+        // =====================================================
+
         TextView examName =
                 view.findViewById(R.id.pyqExamName);
 
@@ -61,7 +64,10 @@ public class PYQFragment extends Fragment {
         examName.setText(selectedExam);
 
 
+        // =====================================================
         // RecyclerView
+        // =====================================================
+
         RecyclerView recyclerView =
                 view.findViewById(R.id.pyqRecyclerView);
 
@@ -70,48 +76,145 @@ public class PYQFragment extends Fragment {
         );
 
 
-        // Load JSON Set
-        List<String> setNames = new ArrayList<>();
-        List<Integer> questionCounts = new ArrayList<>();
+        // =====================================================
+        // Load PYQ JSON Files from Assets
+        // =====================================================
+
+        List<String> setNames =
+                new ArrayList<>();
+
+        List<Integer> questionCounts =
+                new ArrayList<>();
+
+        List<String> assetPaths =
+                new ArrayList<>();
 
 
-        JsonSet jsonSet = JsonHelper.loadSet(
-                requireContext(),
-                R.raw.stet_pyq
-        );
+        String folderPath =
+                "bihar_stet/pyq";
 
-        if (jsonSet.getSetName() != null
-                && !jsonSet.getSetName().isEmpty()) {
 
-            setNames.add(jsonSet.getSetName());
+        try {
 
-            int questionCount = 0;
+            String[] files =
+                    requireContext()
+                            .getAssets()
+                            .list(folderPath);
 
-            if (jsonSet.getQuestions() != null) {
-                questionCount = jsonSet.getQuestions().size();
+            if (files != null) {
+
+                Arrays.sort(files);
+
+                for (String fileName : files) {
+
+                    if (!fileName.toLowerCase()
+                            .endsWith(".json")) {
+
+                        continue;
+                    }
+
+
+                    String assetPath =
+                            folderPath + "/" + fileName;
+
+
+                    JsonSet jsonSet =
+                            JsonHelper.loadAssetSet(
+                                    requireContext(),
+                                    assetPath
+                            );
+
+
+                    if (jsonSet.getSetName() == null
+                            || jsonSet.getSetName()
+                            .trim()
+                            .isEmpty()) {
+
+                        continue;
+                    }
+
+
+                    setNames.add(
+                            jsonSet.getSetName()
+                    );
+
+
+                    int questionCount = 0;
+
+                    if (jsonSet.getQuestions() != null) {
+
+                        questionCount =
+                                jsonSet.getQuestions().size();
+                    }
+
+
+                    questionCounts.add(
+                            questionCount
+                    );
+
+
+                    assetPaths.add(
+                            assetPath
+                    );
+                }
             }
 
-            questionCounts.add(questionCount);
+        } catch (Exception e) {
+
+            e.printStackTrace();
         }
 
 
+        // =====================================================
         // Adapter
-        SetAdapter adapter = new SetAdapter(
-                setNames,
-                questionCounts,
-                setName -> {
+        // =====================================================
 
-                    Intent intent = new Intent(
-                            requireContext(),
-                            QuizActivity.class
-                    );
+        SetAdapter adapter =
+                new SetAdapter(
+                        setNames,
+                        questionCounts,
+                        setName -> {
 
-                    intent.putExtra("json_resource_id", R.raw.stet_pyq);
-                    intent.putExtra("set_name", setName);
+                            int position =
+                                    setNames.indexOf(
+                                            setName
+                                    );
 
-                    startActivity(intent);
-                }
-        );
+
+                            if (position >= 0
+                                    && position <
+                                    assetPaths.size()) {
+
+                                String assetPath =
+                                        assetPaths.get(
+                                                position
+                                        );
+
+
+                                Intent intent =
+                                        new Intent(
+                                                requireContext(),
+                                                QuizActivity.class
+                                        );
+
+
+                                intent.putExtra(
+                                        "asset_path",
+                                        assetPath
+                                );
+
+
+                                intent.putExtra(
+                                        "set_name",
+                                        setName
+                                );
+
+
+                                startActivity(intent);
+                            }
+                        }
+                );
+
 
         recyclerView.setAdapter(adapter);
 

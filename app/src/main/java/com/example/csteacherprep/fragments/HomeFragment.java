@@ -30,7 +30,27 @@ public class HomeFragment extends Fragment {
                 false
         );
 
+        // -----------------------------
+        // Topic Wise
+        // -----------------------------
+
+        view.findViewById(R.id.btnTopicWise).setOnClickListener(v -> {
+
+            TopicWiseFragment fragment = new TopicWiseFragment();
+
+            requireActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.main_container, fragment)
+                    .addToBackStack(null)
+                    .commit();
+        });
+
+
+        // -----------------------------
         // Bihar STET
+        // -----------------------------
+
         view.findViewById(R.id.btnStet).setOnClickListener(v -> {
 
             ExamFragment examFragment = new ExamFragment();
@@ -48,7 +68,10 @@ public class HomeFragment extends Fragment {
         });
 
 
+        // -----------------------------
         // BPSC PGT
+        // -----------------------------
+
         view.findViewById(R.id.btnBpsc).setOnClickListener(v -> {
 
             ExamFragment examFragment = new ExamFragment();
@@ -64,6 +87,7 @@ public class HomeFragment extends Fragment {
                     .addToBackStack(null)
                     .commit();
         });
+
 
         return view;
     }
