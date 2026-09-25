@@ -15,6 +15,7 @@ public class ResultActivity extends AppCompatActivity {
     private int correct;
     private int wrong;
     private int unattempted;
+    private long timeTaken;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +44,11 @@ public class ResultActivity extends AppCompatActivity {
                 0
         );
 
+        timeTaken = getIntent().getLongExtra(
+                "time_taken",
+                0
+        );
+
         // Find views
         TextView tvScore =
                 findViewById(R.id.tvScore);
@@ -58,6 +64,9 @@ public class ResultActivity extends AppCompatActivity {
 
         TextView tvUnattempted =
                 findViewById(R.id.tvUnattempted);
+
+        TextView tvTimeTaken =
+                findViewById(R.id.tvTimeTaken);
 
         // Calculate percentage
         double percentage = 0;
@@ -90,6 +99,34 @@ public class ResultActivity extends AppCompatActivity {
         tvUnattempted.setText(
                 "Unattempted: " + unattempted
         );
+
+        long totalSeconds = timeTaken / 1000;
+
+        long hours = totalSeconds / 3600;
+        long minutes = (totalSeconds % 3600) / 60;
+        long seconds = totalSeconds % 60;
+
+        if (hours > 0) {
+
+            tvTimeTaken.setText(
+                    String.format(
+                            "⏱ Time Taken: %02d hr %02d min %02d sec",
+                            hours,
+                            minutes,
+                            seconds
+                    )
+            );
+
+        } else {
+
+            tvTimeTaken.setText(
+                    String.format(
+                            "⏱ Time Taken: %02d min %02d sec",
+                            minutes,
+                            seconds
+                    )
+            );
+        }
 
         // Retry
         findViewById(R.id.btnRetry)

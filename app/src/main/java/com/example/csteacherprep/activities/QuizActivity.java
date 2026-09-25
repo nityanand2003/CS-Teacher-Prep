@@ -3,6 +3,8 @@ package com.example.csteacherprep.activities;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.view.View;
 import android.widget.TextView;
 
@@ -43,11 +45,44 @@ public class QuizActivity extends AppCompatActivity {
 
     private TextView explanation;
 
+    // Timer
+    private TextView timerText;
+
+    private Handler timerHandler =
+            new Handler(Looper.getMainLooper());
+
+    private long startTime;
+
+    private boolean timerRunning = false;
+
+    private final Runnable timerRunnable =
+            new Runnable() {
+
+                @Override
+                public void run() {
+
+                    if (!timerRunning) {
+                        return;
+                    }
+
+                    long elapsedTime =
+                            System.currentTimeMillis() - startTime;
+
+                    updateTimer(elapsedTime);
+
+                    timerHandler.postDelayed(
+                            this,
+                            1000
+                    );
+                }
+            };
+
     private View selectedOption;
 
     private boolean isSelfDesigned = false;
 
     private int selfDesignedSetId = -1;
+
 
     @Override
     protected void onCreate(
@@ -99,6 +134,15 @@ public class QuizActivity extends AppCompatActivity {
                         R.id.explanation
                 );
 
+        timerText =
+                findViewById(
+                        R.id.timerText
+                );
+
+        // Start timer
+        startTimer();
+
+
         findViewById(
                 R.id.btnNext
         ).setOnClickListener(
@@ -110,6 +154,7 @@ public class QuizActivity extends AppCompatActivity {
         ).setOnClickListener(
                 v -> submitQuiz()
         );
+
 
         optionA.setOnClickListener(
                 v -> selectOption(
@@ -145,6 +190,7 @@ public class QuizActivity extends AppCompatActivity {
                         "E"
                 )
         );
+
 
         // =====================================================
         // Self Designed Set
@@ -210,6 +256,81 @@ public class QuizActivity extends AppCompatActivity {
         }
     }
 
+
+    // =========================================================
+    // Set Timer
+    // =========================================================
+
+    private void startTimer() {
+
+        startTime =
+                System.currentTimeMillis();
+
+        timerRunning = true;
+
+        timerHandler.post(
+                timerRunnable
+        );
+    }
+
+
+    private void updateTimer(
+            long elapsedTime) {
+
+        long totalSeconds =
+                elapsedTime / 1000;
+
+        long hours =
+                totalSeconds / 3600;
+
+        long minutes =
+                (totalSeconds % 3600) / 60;
+
+        long seconds =
+                totalSeconds % 60;
+
+
+        if (hours > 0) {
+
+            timerText.setText(
+                    String.format(
+                            "⏱ %02d:%02d:%02d",
+                            hours,
+                            minutes,
+                            seconds
+                    )
+            );
+
+        } else {
+
+            timerText.setText(
+                    String.format(
+                            "⏱ %02d:%02d",
+                            minutes,
+                            seconds
+                    )
+            );
+        }
+    }
+
+
+    // =========================================================
+    // Stop Timer when Activity is destroyed
+    // =========================================================
+
+    @Override
+    protected void onDestroy() {
+
+        timerRunning = false;
+
+        timerHandler.removeCallbacks(
+                timerRunnable
+        );
+
+        super.onDestroy();
+    }
+
+
     // =========================================================
     // Load Self Designed Questions
     // =========================================================
@@ -266,6 +387,7 @@ public class QuizActivity extends AppCompatActivity {
         }).start();
     }
 
+
     // =========================================================
     // Initial Question
     // =========================================================
@@ -300,6 +422,7 @@ public class QuizActivity extends AppCompatActivity {
         }
     }
 
+
     // =========================================================
     // Show Question
     // =========================================================
@@ -322,20 +445,45 @@ public class QuizActivity extends AppCompatActivity {
                 question.getQuestionText()
         );
 
-        optionA.setText("A. " + question.getOptionA());
-        optionB.setText("B. " + question.getOptionB());
-        optionC.setText("C. " + question.getOptionC());
-        optionD.setText("D. " + question.getOptionD());
+        optionA.setText(
+                "A. " + question.getOptionA()
+        );
+
+        optionB.setText(
+                "B. " + question.getOptionB()
+        );
+
+        optionC.setText(
+                "C. " + question.getOptionC()
+        );
+
+        optionD.setText(
+                "D. " + question.getOptionD()
+        );
 
         resetOptions();
 
-        String optionEText = question.getOptionE();
+        String optionEText =
+                question.getOptionE();
 
-        if (optionEText == null || optionEText.trim().isEmpty()) {
-            optionE.setVisibility(View.GONE);
+        if (
+                optionEText == null ||
+                        optionEText.trim().isEmpty()
+        ) {
+
+            optionE.setVisibility(
+                    View.GONE
+            );
+
         } else {
-            optionE.setVisibility(View.VISIBLE);
-            optionE.setText("E. " + optionEText);
+
+            optionE.setVisibility(
+                    View.VISIBLE
+            );
+
+            optionE.setText(
+                    "E. " + optionEText
+            );
         }
 
         explanation.setVisibility(
@@ -346,7 +494,9 @@ public class QuizActivity extends AppCompatActivity {
 
         selectedOption = null;
 
+
         // Last question
+
         if (
                 currentQuestionIndex ==
                         questionList.size() - 1
@@ -379,6 +529,7 @@ public class QuizActivity extends AppCompatActivity {
             );
         }
     }
+
 
     // =========================================================
     // Select Option
@@ -464,6 +615,7 @@ public class QuizActivity extends AppCompatActivity {
         }
     }
 
+
     // =========================================================
     // Show Correct Answer
     // =========================================================
@@ -476,33 +628,23 @@ public class QuizActivity extends AppCompatActivity {
         switch (correctAnswer) {
 
             case "A":
-
                 correctOption = optionA;
-
                 break;
 
             case "B":
-
                 correctOption = optionB;
-
                 break;
 
             case "C":
-
                 correctOption = optionC;
-
                 break;
 
             case "D":
-
                 correctOption = optionD;
-
                 break;
 
             case "E":
-
                 correctOption = optionE;
-
                 break;
         }
 
@@ -521,6 +663,7 @@ public class QuizActivity extends AppCompatActivity {
             );
         }
     }
+
 
     // =========================================================
     // Reset Options
@@ -548,9 +691,12 @@ public class QuizActivity extends AppCompatActivity {
                     )
             );
 
-            option.setVisibility(View.VISIBLE);
+            option.setVisibility(
+                    View.VISIBLE
+            );
         }
     }
+
 
     // =========================================================
     // Next Question
@@ -574,6 +720,7 @@ public class QuizActivity extends AppCompatActivity {
         }
     }
 
+
     // =========================================================
     // Submit Quiz
     // =========================================================
@@ -584,10 +731,23 @@ public class QuizActivity extends AppCompatActivity {
             return;
         }
 
+        // Stop timer
+        timerRunning = false;
+
+        timerHandler.removeCallbacks(
+                timerRunnable
+        );
+
+        long timeTaken =
+                System.currentTimeMillis() -
+                        startTime;
+
+
         if (selectedOption == null) {
 
             unattemptedCount++;
         }
+
 
         Intent intent =
                 new Intent(
@@ -615,7 +775,15 @@ public class QuizActivity extends AppCompatActivity {
                 unattemptedCount
         );
 
+        // Send time to ResultActivity
+        intent.putExtra(
+                "time_taken",
+                timeTaken
+        );
+
+
         // Self Designed
+
         if (isSelfDesigned) {
 
             intent.putExtra(
@@ -626,15 +794,21 @@ public class QuizActivity extends AppCompatActivity {
         }
 
         // Topic Wise JSON Set
-        else if (assetPath != null && !assetPath.isEmpty()) {
+
+        else if (
+                assetPath != null &&
+                        !assetPath.isEmpty()
+        ) {
 
             intent.putExtra(
                     "asset_path",
                     assetPath
             );
+
         }
 
-// Existing PYQ / Practice JSON Set
+        // Existing PYQ / Practice JSON Set
+
         else {
 
             int jsonResourceId =
@@ -648,6 +822,7 @@ public class QuizActivity extends AppCompatActivity {
                     jsonResourceId
             );
         }
+
 
         startActivity(intent);
 

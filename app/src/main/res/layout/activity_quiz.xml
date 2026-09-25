@@ -12,15 +12,35 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Question Number -->
-        <TextView
-            android:id="@+id/questionNumber"
+        <!-- Question Number + Timer -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Question 1 of 3"
-            android:textColor="@color/primary_blue"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Question Number - Left -->
+            <TextView
+                android:id="@+id/questionNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Question 1 of 3"
+                android:textColor="@color/primary_blue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- Timer - Right -->
+            <TextView
+                android:id="@+id/timerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⏱ 00:00"
+                android:textColor="@color/primary_blue"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
 
         <!-- Question -->
         <TextView

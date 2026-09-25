@@ -30,50 +30,6 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
-    <!-- Practice Type Toggle -->
-    <com.google.android.material.button.MaterialButtonToggleGroup
-        android:id="@+id/practiceTypeToggle"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginTop="14dp"
-        app:singleSelection="true"
-        app:selectionRequired="true"
-        app:checkedButton="@id/btnModelSets">
-
-        <!-- Model Sets -->
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnModelSets"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="Model Sets"
-            android:textSize="13sp"
-            android:textStyle="bold"
-            android:textAllCaps="false"
-
-            android:textColor="@color/practice_toggle_text"
-            app:backgroundTint="@color/practice_toggle_bg"
-            app:strokeColor="@color/primary_blue"
-            app:strokeWidth="1dp" />
-
-        <!-- Topic Wise -->
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnTopicWise"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="Topic Wise"
-            android:textSize="13sp"
-            android:textStyle="bold"
-            android:textAllCaps="false"
-
-            android:textColor="@color/practice_toggle_text"
-            app:backgroundTint="@color/practice_toggle_bg"
-            app:strokeColor="@color/primary_blue"
-            app:strokeWidth="1dp" />
-
-    </com.google.android.material.button.MaterialButtonToggleGroup>
-
     <!-- Practice Sets List -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/practiceRecyclerView"
