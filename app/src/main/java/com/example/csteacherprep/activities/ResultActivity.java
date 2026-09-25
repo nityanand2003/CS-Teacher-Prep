@@ -158,7 +158,7 @@ public class ResultActivity extends AppCompatActivity {
                 QuizActivity.class
         );
 
-        // Topic Wise JSON Set
+        // Asset Based JSON Set
         if (getIntent().hasExtra("asset_path")) {
 
             String assetPath =
@@ -184,21 +184,6 @@ public class ResultActivity extends AppCompatActivity {
             intent.putExtra(
                     "set_id",
                     setId
-            );
-        }
-
-        // PYQ / Practice Set
-        else {
-
-            int jsonResourceId =
-                    getIntent().getIntExtra(
-                            "json_resource_id",
-                            R.raw.stet_pyq
-                    );
-
-            intent.putExtra(
-                    "json_resource_id",
-                    jsonResourceId
             );
         }
 

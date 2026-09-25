@@ -233,27 +233,6 @@ public class QuizActivity extends AppCompatActivity {
 
             showInitialQuestion();
         }
-
-        // =====================================================
-        // Existing PYQ / Practice JSON
-        // =====================================================
-
-        else {
-
-            int jsonResourceId =
-                    getIntent().getIntExtra(
-                            "json_resource_id",
-                            R.raw.stet_pyq
-                    );
-
-            questionList =
-                    JsonHelper.loadQuestions(
-                            this,
-                            jsonResourceId
-                    );
-
-            showInitialQuestion();
-        }
     }
 
 
@@ -806,24 +785,6 @@ public class QuizActivity extends AppCompatActivity {
             );
 
         }
-
-        // Existing PYQ / Practice JSON Set
-
-        else {
-
-            int jsonResourceId =
-                    getIntent().getIntExtra(
-                            "json_resource_id",
-                            R.raw.stet_pyq
-                    );
-
-            intent.putExtra(
-                    "json_resource_id",
-                    jsonResourceId
-            );
-        }
-
-
         startActivity(intent);
 
         finish();

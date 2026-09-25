@@ -1,0 +1,42 @@
+{
+  "setId": "bpsc_2025_11_07_s1",
+  "setName": "BPSC PGT PYQ 1",
+  "exam": "Bihar STET",
+  "type": "Topic Wise",
+  "description": "Bihar STET Data Structures Topic Wise Practice",
+  "questions": [
+    {
+      "id": 1,
+      "questionText": "Which data structure follows LIFO principle?",
+      "optionA": "Queue",
+      "optionB": "Stack",
+      "optionC": "Tree",
+      "optionD": "Graph",
+      "optionE": "Array",
+      "correctAnswer": "B",
+      "explanation": "Stack follows the Last In, First Out (LIFO) principle."
+    },
+    {
+      "id": 2,
+      "questionText": "Which data structure follows FIFO principle?",
+      "optionA": "Stack",
+      "optionB": "Queue",
+      "optionC": "Tree",
+      "optionD": "Graph",
+      "optionE": "Heap",
+      "correctAnswer": "B",
+      "explanation": "Queue follows the First In, First Out (FIFO) principle."
+    },
+    {
+      "id": 3,
+      "questionText": "Which data structure is commonly used for hierarchical data?",
+      "optionA": "Array",
+      "optionB": "Queue",
+      "optionC": "Tree",
+      "optionD": "Stack",
+      "optionE": "Linked List",
+      "correctAnswer": "C",
+      "explanation": "Tree is commonly used to represent hierarchical data."
+    }
+  ]
+}

@@ -47,6 +47,7 @@ public class PracticeFragment extends Fragment {
         String selectedExam = "Bihar STET";
 
         if (getArguments() != null) {
+
             String argumentExam =
                     getArguments().getString("exam_name");
 
@@ -58,90 +59,150 @@ public class PracticeFragment extends Fragment {
         examName.setText(selectedExam);
 
         RecyclerView recyclerView =
-                view.findViewById(R.id.practiceRecyclerView);
+                view.findViewById(
+                        R.id.practiceRecyclerView
+                );
 
         recyclerView.setLayoutManager(
-                new LinearLayoutManager(requireContext())
+                new LinearLayoutManager(
+                        requireContext()
+                )
         );
 
-        List<String> setNames = new ArrayList<>();
-        List<Integer> questionCounts = new ArrayList<>();
-        List<Integer> resourceIds = new ArrayList<>();
+        // =====================================================
+        // Practice Sets
+        // =====================================================
 
-        // Practice Set 1
+        List<String> setNames =
+                new ArrayList<>();
+
+        List<Integer> questionCounts =
+                new ArrayList<>();
+
+        List<String> assetPaths =
+                new ArrayList<>();
+
+
+        // =====================================================
+        // Bihar STET Model Sets
+        // =====================================================
+
         if (selectedExam.equals("Bihar STET")) {
 
-            JsonSet set1 = JsonHelper.loadSet(
-                    requireContext(),
-                    R.raw.stet_practice_1
-            );
+            // -------------------------------------------------
+            // Model Set 1
+            // -------------------------------------------------
 
-            if (set1.getSetName() != null &&
+            String assetPath1 =
+                    "bihar_stet/model_set/stet_model_set_1.json";
+
+            JsonSet set1 =
+                    JsonHelper.loadAssetSet(
+                            requireContext(),
+                            assetPath1
+                    );
+
+            if (set1 != null &&
+                    set1.getSetName() != null &&
                     !set1.getSetName().isEmpty()) {
 
-                setNames.add(set1.getSetName());
+                setNames.add(
+                        set1.getSetName()
+                );
 
                 int count = 0;
 
                 if (set1.getQuestions() != null) {
-                    count = set1.getQuestions().size();
+
+                    count =
+                            set1.getQuestions().size();
                 }
 
                 questionCounts.add(count);
-                resourceIds.add(R.raw.stet_practice_1);
+
+                assetPaths.add(
+                        assetPath1
+                );
             }
 
-            // Practice Set 2
-            JsonSet set2 = JsonHelper.loadSet(
-                    requireContext(),
-                    R.raw.stet_practice_2
-            );
 
-            if (set2.getSetName() != null &&
+            // -------------------------------------------------
+            // Model Set 2
+            // -------------------------------------------------
+
+            String assetPath2 =
+                    "bihar_stet/model_set/stet_model_set_2.json";
+
+            JsonSet set2 =
+                    JsonHelper.loadAssetSet(
+                            requireContext(),
+                            assetPath2
+                    );
+
+            if (set2 != null &&
+                    set2.getSetName() != null &&
                     !set2.getSetName().isEmpty()) {
 
-                setNames.add(set2.getSetName());
+                setNames.add(
+                        set2.getSetName()
+                );
 
                 int count = 0;
 
                 if (set2.getQuestions() != null) {
-                    count = set2.getQuestions().size();
+
+                    count =
+                            set2.getQuestions().size();
                 }
 
                 questionCounts.add(count);
-                resourceIds.add(R.raw.stet_practice_2);
+
+                assetPaths.add(
+                        assetPath2
+                );
             }
         }
 
-        SetAdapter adapter = new SetAdapter(
-                setNames,
-                questionCounts,
-                setName -> {
 
-                    int position =
-                            setNames.indexOf(setName);
+        // =====================================================
+        // Set Adapter
+        // =====================================================
 
-                    if (position != -1) {
+        SetAdapter adapter =
+                new SetAdapter(
+                        setNames,
+                        questionCounts,
+                        setName -> {
 
-                        Intent intent = new Intent(
-                                requireContext(),
-                                QuizActivity.class
-                        );
+                            int position =
+                                    setNames.indexOf(
+                                            setName
+                                    );
 
-                        intent.putExtra(
-                                "json_resource_id",
-                                resourceIds.get(position)
-                        );
+                            if (position != -1) {
 
-                        intent.putExtra(
-                                "set_name",
-                                setName
-                        );
+                                Intent intent =
+                                        new Intent(
+                                                requireContext(),
+                                                QuizActivity.class
+                                        );
 
-                        startActivity(intent);
-                    }
-                }
-        );
+                                intent.putExtra(
+                                        "asset_path",
+                                        assetPaths.get(
+                                                position
+                                        )
+                                );
+
+                                intent.putExtra(
+                                        "set_name",
+                                        setName
+                                );
+
+                                startActivity(intent);
+                            }
+                        }
+                );
 
         recyclerView.setAdapter(adapter);
 
