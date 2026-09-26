@@ -49,6 +49,27 @@
             android:name=".activities.ManageQuestionsActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.DeveloperActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HelpSupportActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.PrivacyPolicyActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.DisclaimerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RateAppActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.ShareAppActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

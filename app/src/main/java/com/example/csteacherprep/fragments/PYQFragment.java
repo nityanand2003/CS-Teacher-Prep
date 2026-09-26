@@ -77,7 +77,7 @@ public class PYQFragment extends Fragment {
 
 
         // =====================================================
-        // Load PYQ JSON Files from Assets
+        // Lists
         // =====================================================
 
         List<String> setNames =
@@ -90,9 +90,27 @@ public class PYQFragment extends Fragment {
                 new ArrayList<>();
 
 
-        String folderPath =
-                "bihar_stet/pyq";
+        // =====================================================
+        // Select PYQ Asset Folder According to Exam
+        // =====================================================
 
+        String folderPath;
+
+        if (selectedExam.equals("BPSC PGT")) {
+
+            folderPath =
+                    "bpsc_pgt/pyq";
+
+        } else {
+
+            folderPath =
+                    "bihar_stet/pyq";
+        }
+
+
+        // =====================================================
+        // Load JSON Files
+        // =====================================================
 
         try {
 
@@ -107,7 +125,8 @@ public class PYQFragment extends Fragment {
 
                 for (String fileName : files) {
 
-                    if (!fileName.toLowerCase()
+                    if (!fileName
+                            .toLowerCase()
                             .endsWith(".json")) {
 
                         continue;
@@ -123,6 +142,11 @@ public class PYQFragment extends Fragment {
                                     requireContext(),
                                     assetPath
                             );
+
+
+                    if (jsonSet == null) {
+                        continue;
+                    }
 
 
                     if (jsonSet.getSetName() == null

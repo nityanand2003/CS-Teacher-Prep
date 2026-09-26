@@ -20,6 +20,7 @@ import com.example.csteacherprep.models.JsonSet;
 import com.example.csteacherprep.utils.JsonHelper;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class PracticeFragment extends Fragment {
@@ -41,6 +42,10 @@ public class PracticeFragment extends Fragment {
                 false
         );
 
+        // =====================================================
+        // Exam Name
+        // =====================================================
+
         TextView examName =
                 view.findViewById(R.id.practiceExamName);
 
@@ -58,6 +63,11 @@ public class PracticeFragment extends Fragment {
 
         examName.setText(selectedExam);
 
+
+        // =====================================================
+        // RecyclerView
+        // =====================================================
+
         RecyclerView recyclerView =
                 view.findViewById(
                         R.id.practiceRecyclerView
@@ -69,8 +79,9 @@ public class PracticeFragment extends Fragment {
                 )
         );
 
+
         // =====================================================
-        // Practice Sets
+        // Lists
         // =====================================================
 
         List<String> setNames =
@@ -84,88 +95,106 @@ public class PracticeFragment extends Fragment {
 
 
         // =====================================================
-        // Bihar STET Model Sets
+        // Select Model Set Folder According to Exam
         // =====================================================
 
-        if (selectedExam.equals("Bihar STET")) {
+        String folderPath;
 
-            // -------------------------------------------------
-            // Model Set 1
-            // -------------------------------------------------
+        if (selectedExam.equals("BPSC PGT")) {
 
-            String assetPath1 =
-                    "bihar_stet/model_set/stet_model_set_1.json";
+            folderPath =
+                    "bpsc_pgt/model_set";
 
-            JsonSet set1 =
-                    JsonHelper.loadAssetSet(
-                            requireContext(),
-                            assetPath1
-                    );
+        } else {
 
-            if (set1 != null &&
-                    set1.getSetName() != null &&
-                    !set1.getSetName().isEmpty()) {
-
-                setNames.add(
-                        set1.getSetName()
-                );
-
-                int count = 0;
-
-                if (set1.getQuestions() != null) {
-
-                    count =
-                            set1.getQuestions().size();
-                }
-
-                questionCounts.add(count);
-
-                assetPaths.add(
-                        assetPath1
-                );
-            }
-
-
-            // -------------------------------------------------
-            // Model Set 2
-            // -------------------------------------------------
-
-            String assetPath2 =
-                    "bihar_stet/model_set/stet_model_set_2.json";
-
-            JsonSet set2 =
-                    JsonHelper.loadAssetSet(
-                            requireContext(),
-                            assetPath2
-                    );
-
-            if (set2 != null &&
-                    set2.getSetName() != null &&
-                    !set2.getSetName().isEmpty()) {
-
-                setNames.add(
-                        set2.getSetName()
-                );
-
-                int count = 0;
-
-                if (set2.getQuestions() != null) {
-
-                    count =
-                            set2.getQuestions().size();
-                }
-
-                questionCounts.add(count);
-
-                assetPaths.add(
-                        assetPath2
-                );
-            }
+            folderPath =
+                    "bihar_stet/model_set";
         }
 
 
         // =====================================================
-        // Set Adapter
+        // Load Model Set JSON Files
+        // =====================================================
+
+        try {
+
+            String[] files =
+                    requireContext()
+                            .getAssets()
+                            .list(folderPath);
+
+            if (files != null) {
+
+                Arrays.sort(files);
+
+                for (String fileName : files) {
+
+                    if (!fileName
+                            .toLowerCase()
+                            .endsWith(".json")) {
+
+                        continue;
+                    }
+
+
+                    String assetPath =
+                            folderPath + "/" + fileName;
+
+
+                    JsonSet jsonSet =
+                            JsonHelper.loadAssetSet(
+                                    requireContext(),
+                                    assetPath
+                            );
+
+
+                    if (jsonSet == null) {
+                        continue;
+                    }
+
+
+                    if (jsonSet.getSetName() == null
+                            || jsonSet.getSetName()
+                            .trim()
+                            .isEmpty()) {
+
+                        continue;
+                    }
+
+
+                    setNames.add(
+                            jsonSet.getSetName()
+                    );
+
+
+                    int questionCount = 0;
+
+                    if (jsonSet.getQuestions() != null) {
+
+                        questionCount =
+                                jsonSet.getQuestions().size();
+                    }
+
+
+                    questionCounts.add(
+                            questionCount
+                    );
+
+
+                    assetPaths.add(
+                            assetPath
+                    );
+                }
+            }
+
+        } catch (Exception e) {
+
+            e.printStackTrace();
+        }
+
+
+        // =====================================================
+        // Adapter
         // =====================================================
 
         SetAdapter adapter =
@@ -179,7 +208,16 @@ public class PracticeFragment extends Fragment {
                                             setName
                                     );
 
-                            if (position != -1) {
+
+                            if (position >= 0
+                                    && position <
+                                    assetPaths.size()) {
+
+                                String assetPath =
+                                        assetPaths.get(
+                                                position
+                                        );
+
 
                                 Intent intent =
                                         new Intent(
@@ -187,24 +225,27 @@ public class PracticeFragment extends Fragment {
                                                 QuizActivity.class
                                         );
 
+
                                 intent.putExtra(
                                         "asset_path",
-                                        assetPaths.get(
-                                                position
-                                        )
+                                        assetPath
                                 );
+
 
                                 intent.putExtra(
                                         "set_name",
                                         setName
                                 );
 
+
                                 startActivity(intent);
                             }
                         }
                 );
 
+
         recyclerView.setAdapter(adapter);
+
 
         return view;
     }

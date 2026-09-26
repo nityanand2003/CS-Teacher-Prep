@@ -3,7 +3,6 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/screen_background"
@@ -15,15 +14,11 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- ================================================= -->
-        <!-- Header / App Banner -->
-        <!-- ================================================= -->
-
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardBackgroundColor="@color/primary_blue_light"
-            app:cardCornerRadius="20dp"
+            app:cardCornerRadius="18dp"
             app:cardElevation="2dp"
             app:strokeWidth="0dp">
 
@@ -31,56 +26,34 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:gravity="center"
-                android:padding="24dp">
-
-                <ImageView
-                    android:id="@+id/aboutAppLogo"
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:src="@mipmap/ic_launcher"
-                    android:contentDescription="@string/app_name" />
+                android:padding="20dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="14dp"
-                    android:text="@string/app_name"
+                    android:text="Help &amp; Support"
                     android:textColor="@color/primary_blue_dark"
-                    android:textSize="26sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:gravity="center"
-                    android:text="Computer Science Preparation App"
+                    android:layout_marginTop="8dp"
+                    android:text="Need help while using CS Teacher Prep? Check the information below."
                     android:textColor="@color/text_secondary"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:text="Bihar STET  •  BPSC PGT"
-                    android:textColor="@color/primary_blue"
-                    android:textSize="13sp"
-                    android:textStyle="bold" />
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="4dp" />
 
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
 
 
-        <!-- ================================================= -->
-        <!-- About the App -->
-        <!-- ================================================= -->
-
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="14dp"
             app:cardBackgroundColor="@color/card_background"
             app:cardCornerRadius="16dp"
             app:cardElevation="1dp"
@@ -96,28 +69,24 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="About the App"
+                    android:text="How can I use the app?"
                     android:textColor="@color/text_primary"
-                    android:textSize="19sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="CS Teacher Prep is a Computer Science preparation app designed to help students and aspirants practice important Computer Science questions in a simple and organized way."
+                    android:layout_marginTop="8dp"
+                    android:text="Choose the required examination section from the Home screen and practice Previous Year Questions, Model Sets, Practice Sets and Topic Wise questions."
                     android:textColor="@color/text_secondary"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="4dp" />
 
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
 
-
-        <!-- ================================================= -->
-        <!-- Exams Covered -->
-        <!-- ================================================= -->
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
@@ -138,70 +107,35 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Exams Covered"
+                    android:text="Found an issue?"
                     android:textColor="@color/text_primary"
-                    android:textSize="19sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="• Bihar STET&#10;• BPSC PGT (Computer Science)"
+                    android:layout_marginTop="8dp"
+                    android:text="Please report the issue with as much detail as possible so that it can be checked and fixed."
                     android:textColor="@color/text_secondary"
                     android:textSize="14sp"
-                    android:lineSpacingExtra="5dp" />
+                    android:lineSpacingExtra="4dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnEmailSupport"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Email Support"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_white"
+                    app:backgroundTint="@color/primary_blue"
+                    app:cornerRadius="12dp" />
 
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
 
-
-        <!-- ================================================= -->
-        <!-- Features -->
-        <!-- ================================================= -->
-
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            app:cardBackgroundColor="@color/card_background"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="1dp"
-            app:strokeColor="@color/divider"
-            app:strokeWidth="1dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="18dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Key Features"
-                    android:textColor="@color/text_primary"
-                    android:textSize="19sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="• Previous Year Questions&#10;• Model / Practice Sets&#10;• Topic Wise Practice&#10;• Self Designed Sets&#10;• Quiz with Timer&#10;• Result and Time Analysis"
-                    android:textColor="@color/text_secondary"
-                    android:textSize="14sp"
-                    android:lineSpacingExtra="5dp" />
-
-            </LinearLayout>
-
-        </com.google.android.material.card.MaterialCardView>
-
-
-        <!-- ================================================= -->
-        <!-- Version -->
-        <!-- ================================================= -->
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
@@ -217,26 +151,25 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_vertical"
+                android:orientation="vertical"
                 android:padding="18dp">
 
                 <TextView
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="App Version"
+                    android:text="Suggestions &amp; Feedback"
                     android:textColor="@color/text_primary"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="1.0.0"
-                    android:textColor="@color/primary_blue"
+                    android:layout_marginTop="8dp"
+                    android:text="Your suggestions and feedback can help improve CS Teacher Prep and make the app more useful for Computer Science exam preparation."
+                    android:textColor="@color/text_secondary"
                     android:textSize="14sp"
-                    android:textStyle="bold" />
+                    android:lineSpacingExtra="4dp" />
 
             </LinearLayout>
 
