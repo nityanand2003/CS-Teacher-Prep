@@ -12,64 +12,154 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center_horizontal"
-        android:padding="20dp">
+        android:padding="16dp">
+
+
+        <!-- ================================================= -->
+        <!-- HEADER BANNER -->
+        <!-- ================================================= -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_marginTop="4dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="2dp"
+            app:strokeWidth="0dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/category_banner"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@null" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Share This App"
+                        android:textColor="@color/primary_blue_dark"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Help others discover CS Teacher Prep"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <!-- ================================================= -->
+        <!-- MAIN CONTENT -->
+        <!-- ================================================= -->
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            app:cardBackgroundColor="@color/primary_blue_light"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="@color/card_background"
             app:cardCornerRadius="20dp"
             app:cardElevation="2dp"
-            app:strokeWidth="0dp">
+            app:strokeColor="@color/divider"
+            app:strokeWidth="1dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:gravity="center"
-                android:padding="28dp">
+                android:gravity="center_horizontal"
+                android:padding="22dp">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="↗"
-                    android:textColor="@color/primary_blue"
-                    android:textSize="50sp"
-                    android:textStyle="bold" />
+
+                <!-- ================================================= -->
+                <!-- SHARE ICON -->
+                <!-- ================================================= -->
+
+                <FrameLayout
+                    android:layout_width="76dp"
+                    android:layout_height="76dp"
+                    android:background="@drawable/share_icon_background">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="19dp"
+                        android:src="@drawable/ic_share_app"
+                        android:contentDescription="@null" />
+
+                </FrameLayout>
+
+
+                <!-- ================================================= -->
+                <!-- TITLE -->
+                <!-- ================================================= -->
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="16dp"
                     android:gravity="center"
-                    android:text="Share This App"
+                    android:text="Share CS Teacher Prep"
                     android:textColor="@color/text_primary"
-                    android:textSize="24sp"
+                    android:textSize="21sp"
                     android:textStyle="bold" />
+
+
+                <!-- ================================================= -->
+                <!-- MESSAGE -->
+                <!-- ================================================= -->
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="8dp"
                     android:gravity="center"
-                    android:text="Share CS Teacher Prep with friends and other Computer Science learners."
+                    android:text="Share the app with friends and other Computer Science learners who may find it useful for exam preparation."
                     android:textColor="@color/text_secondary"
                     android:textSize="14sp"
                     android:lineSpacingExtra="4dp" />
+
+
+                <!-- ================================================= -->
+                <!-- SHARE BUTTON -->
+                <!-- ================================================= -->
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnShareApp"
                     android:layout_width="match_parent"
                     android:layout_height="54dp"
-                    android:layout_marginTop="22dp"
+                    android:layout_marginTop="20dp"
                     android:text="Share App"
                     android:textColor="@color/text_white"
                     android:textSize="15sp"
                     android:textStyle="bold"
                     app:backgroundTint="@color/primary_blue"
-                    app:cornerRadius="14dp" />
+                    app:cornerRadius="14dp"
+                    app:icon="@drawable/ic_share_app"
+                    app:iconGravity="textStart"
+                    app:iconPadding="10dp"
+                    app:iconTint="@color/text_white" />
 
             </LinearLayout>
 

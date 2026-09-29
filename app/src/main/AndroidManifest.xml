@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
 
     <application
         android:allowBackup="true"
@@ -10,48 +19,83 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CSTeacherPrep">
+        android:theme="@style/Theme.CSTeacherPrep"
+        android:name=".CSTeacherPrepApp">
 
-        <!-- Main Activity -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <!-- ================================================= -->
+        <!-- SPLASH ACTIVITY -->
+        <!-- ================================================= -->
+
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.SplashActivity"
             android:exported="true"
-            android:windowSoftInputMode="adjustResize">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/Theme.CSTeacherPrep.Splash">
 
-                <category android:name="android.intent.category.LAUNCHER" />
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
+
         </activity>
 
-        <!-- Other Activities -->
+
+        <!-- ================================================= -->
+        <!-- MAIN ACTIVITY -->
+        <!-- ================================================= -->
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+
+        <!-- ================================================= -->
+        <!-- OTHER ACTIVITIES -->
+        <!-- ================================================= -->
+
         <activity
             android:name=".activities.QuizActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
         <activity
             android:name=".activities.ResultActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
         <activity
             android:name=".activities.CreateSetActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
         <activity
             android:name=".activities.AddQuestionActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
         <activity
             android:name=".activities.AboutActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
         <activity
             android:name=".activities.ManageQuestionsActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
         <activity
             android:name=".activities.DeveloperActivity"
             android:exported="false" />
+
         <activity
             android:name=".activities.HelpSupportActivity"
             android:exported="false" />
@@ -63,6 +107,7 @@
         <activity
             android:name=".activities.DisclaimerActivity"
             android:exported="false" />
+
         <activity
             android:name=".activities.RateAppActivity"
             android:exported="false" />
@@ -70,6 +115,22 @@
         <activity
             android:name=".activities.ShareAppActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".activities.PracticeReminderActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name=".receivers.PracticeReminderReceiver"
+            android:enabled="true"
+            android:exported="false">
+
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+
+        </receiver>
+
     </application>
 
 </manifest>

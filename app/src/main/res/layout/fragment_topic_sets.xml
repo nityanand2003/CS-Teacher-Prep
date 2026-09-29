@@ -11,26 +11,78 @@
     android:padding="@dimen/screen_padding"
     android:background="@color/screen_background">
 
-    <TextView
-        android:id="@+id/tvTopicTitle"
+    <!-- ================================================= -->
+    <!-- EXAM HEADER WITH CATEGORY BANNER -->
+    <!-- ================================================= -->
+
+    <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="145dp"
+        android:layout_marginTop="4dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="2dp"
+        app:strokeWidth="0dp">
 
-        android:text="C Programming"
-        android:textColor="@color/primary_blue"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tvTopicSubtitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+            <!-- Category Banner -->
 
-        android:layout_marginTop="6dp"
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/category_banner"
+                android:scaleType="centerCrop"
+                android:contentDescription="@null" />
 
-        android:text="Choose a practice set"
-        android:textColor="@color/text_secondary"
-        android:textSize="14sp" />
+            <!-- Exam Information -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EXAM PREPARATION"
+                    android:textColor="@color/primary_blue"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.08" />
+
+                <TextView
+                    android:id="@+id/tvTopicTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="C Programming"
+                    android:textColor="@color/primary_blue"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvTopicSubtitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="6dp"
+
+                    android:text="Choose a practice set"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/topicSetRecyclerView"

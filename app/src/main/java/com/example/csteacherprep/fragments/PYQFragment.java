@@ -197,6 +197,8 @@ public class PYQFragment extends Fragment {
                 new SetAdapter(
                         setNames,
                         questionCounts,
+                        true,
+                        "pyq_" + selectedExam + "_",
                         setName -> {
 
                             int position =

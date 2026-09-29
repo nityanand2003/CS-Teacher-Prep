@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 import android.content.Intent;
 
-public class ManageQuestionsActivity extends AppCompatActivity {
+public class ManageQuestionsActivity extends BaseAdActivity {
 
     private RecyclerView recyclerView;
     private TextView tvSetName;

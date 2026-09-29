@@ -44,6 +44,9 @@ dependencies {
     implementation("androidx.room:room-runtime:2.8.5")
     annotationProcessor("androidx.room:room-compiler:2.8.5")
 
+    // Google Mobile Ads
+    implementation("com.google.android.gms:play-services-ads:25.5.0")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(libs.ext.junit)

@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.csteacherprep.MainActivity;
 import com.example.csteacherprep.R;
 
-public class ResultActivity extends AppCompatActivity {
+public class ResultActivity extends BaseAdActivity {
 
     private int total;
     private int correct;

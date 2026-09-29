@@ -38,13 +38,21 @@
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigationView"
-        android:layout_width="300dp"
+        android:layout_width="310dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@color/card_background"
+        android:background="@drawable/drawer_background"
+        android:elevation="12dp"
+        android:fitsSystemWindows="true"
+
         app:itemBackground="@drawable/drawer_item_background"
-        app:itemHorizontalPadding="16dp"
-        app:itemVerticalPadding="8dp"
+        app:itemHorizontalPadding="18dp"
+        app:itemVerticalPadding="7dp"
+        app:itemShapeAppearance="@style/ShapeAppearance.Material3.Corner.Medium"
+        app:itemTextAppearance="@style/DrawerItemText"
+        app:itemIconTint="@color/drawer_item_icon_color"
+        app:itemTextColor="@color/drawer_item_text_color"
+
         app:headerLayout="@layout/drawer_header"
         app:menu="@menu/drawer_menu" />
 

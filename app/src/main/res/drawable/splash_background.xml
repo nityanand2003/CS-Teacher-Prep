@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- ================================================= -->
+    <!-- Base Soft Blue Gradient -->
+    <!-- ================================================= -->
+
+    <item>
+
+        <shape android:shape="rectangle">
+
+            <gradient
+                android:angle="135"
+                android:startColor="#E8F3FF"
+                android:centerColor="#F4F8FF"
+                android:endColor="#DDEEFF" />
+
+        </shape>
+
+    </item>
+
+
+    <!-- ================================================= -->
+    <!-- Soft Purple Glow -->
+    <!-- ================================================= -->
+
+    <item>
+
+        <shape android:shape="rectangle">
+
+            <gradient
+                android:type="radial"
+                android:gradientRadius="360dp"
+                android:centerX="50%"
+                android:centerY="43%"
+                android:startColor="#E8DFFF"
+                android:centerColor="#F2EBFF"
+                android:endColor="#00FFFFFF" />
+
+        </shape>
+
+    </item>
+
+
+    <!-- ================================================= -->
+    <!-- Soft Green Glow -->
+    <!-- ================================================= -->
+
+    <item>
+
+        <shape android:shape="rectangle">
+
+            <gradient
+                android:type="radial"
+                android:gradientRadius="300dp"
+                android:centerX="50%"
+                android:centerY="48%"
+                android:startColor="#DDF8EA"
+                android:centerColor="#EAF9F1"
+                android:endColor="#00FFFFFF" />
+
+        </shape>
+
+    </item>
+
+</layer-list>

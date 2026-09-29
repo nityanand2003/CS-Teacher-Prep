@@ -9,25 +9,75 @@
     android:padding="@dimen/screen_padding"
     android:background="@color/screen_background">
 
-    <!-- Exam Name -->
-    <TextView
-        android:id="@+id/pyqExamName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bihar STET"
-        android:textColor="@color/primary_blue"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+    <!-- ================================================= -->
+    <!-- EXAM HEADER WITH CATEGORY BANNER -->
+    <!-- ================================================= -->
 
-    <!-- Page Title -->
-    <TextView
+    <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:text="@string/previous_year_questions"
-        android:textColor="@color/text_primary"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:layout_height="145dp"
+        android:layout_marginTop="4dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="2dp"
+        app:strokeWidth="0dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Category Banner -->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/category_banner"
+                android:scaleType="centerCrop"
+                android:contentDescription="@null" />
+
+            <!-- Exam Information -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRACTICE"
+                    android:textColor="@color/primary_blue"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.08" />
+
+                <!-- Exam Name -->
+                <TextView
+                    android:id="@+id/pyqExamName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bihar STET"
+                    android:textColor="@color/primary_blue"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!-- Page Title -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/previous_year_questions"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </com.google.android.material.card.MaterialCardView>
 
     <!-- RecyclerView -->
     <androidx.recyclerview.widget.RecyclerView

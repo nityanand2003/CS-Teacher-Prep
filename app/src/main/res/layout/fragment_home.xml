@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
@@ -11,69 +13,108 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="@dimen/screen_padding">
+        android:padding="16dp">
 
-
-        <!-- Welcome Card -->
+        <!-- ================================================= -->
+        <!-- APP BRANDING BANNER -->
+        <!-- ================================================= -->
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            app:cardBackgroundColor="@color/primary_blue_light"
-            app:cardCornerRadius="18dp"
+            android:layout_marginTop="4dp"
+            app:cardCornerRadius="20dp"
             app:cardElevation="2dp"
             app:strokeWidth="0dp">
 
-            <LinearLayout
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="20dp">
+                android:layout_height="wrap_content">
 
-                <TextView
-                    android:layout_width="match_parent"
+                <!-- Background Banner -->
+
+                <ImageView
+                    android:id="@+id/appBanner"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="Prepare for your Computer Science Teacher Exams"
-                    android:textColor="@color/text_primary"
-                    android:textSize="21sp"
-                    android:textStyle="bold" />
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/app_banner"
+                    android:contentDescription="@string/app_name"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="Practice PYQs, topic-wise questions and mock tests — all in one place."
-                    android:textColor="@color/text_secondary"
-                    android:textSize="14sp" />
+                <!-- Logo + Text -->
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="135dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingStart="10dp"
+                    android:paddingTop="0dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_default="percent"
+                    app:layout_constraintWidth_percent="0.56">
 
-            </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Choose Practice Category"
+                        android:textColor="@color/text_primary"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FOR EXAM PREPARATION"
+                        android:textColor="@color/primary_blue"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.08" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Select how you want to prepare"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:maxLines="1"
+                        android:text="Topic Wise Set • Bihar STET  •  BPSC PGT"
+                        android:textColor="@color/primary_blue"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
         </com.google.android.material.card.MaterialCardView>
 
-
-        <!-- Section Title -->
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:text="Choose Practice Category"
-            android:textColor="@color/text_primary"
-            android:textSize="@dimen/text_title"
-            android:textStyle="bold" />
-
-
-        <!-- Topic Wise Card -->
+        <!-- ================================================= -->
+        <!-- TOPIC WISE -->
+        <!-- ================================================= -->
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardTopicWise"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="14dp"
             app:cardBackgroundColor="@color/card_background"
-            app:cardCornerRadius="@dimen/card_corner_radius"
-            app:cardElevation="3dp"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="2dp"
             app:strokeColor="@color/primary_blue"
             app:strokeWidth="1dp">
 
@@ -81,47 +122,86 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="@dimen/card_padding">
+                android:padding="16dp">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <!-- Top Row -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Topic Wise"
-                    android:textColor="@color/primary_blue"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <!-- Icon -->
+
+                    <ImageView
+                        android:layout_width="52dp"
+                        android:layout_height="52dp"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_topic_wise"
+                        android:background="@color/primary_blue_light"
+                        android:contentDescription="Topic Wise" />
+
+                    <!-- Text -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="14dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Topic Wise"
+                            android:textColor="@color/primary_blue"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="Practice Computer Science topics individually"
+                            android:textColor="@color/text_primary"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="Practice Computer Science topics individually"
-                    android:textColor="@color/text_primary"
-                    android:textSize="16sp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="11dp"
                     android:text="C Programming • Python • Java • DBMS • OS • CN • More"
                     android:textColor="@color/text_secondary"
-                    android:textSize="@dimen/text_small" />
+                    android:textSize="12sp" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnTopicWise"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="46dp"
                     android:layout_gravity="end"
-                    android:layout_marginTop="10dp"
-                    android:text="Explore Topics"
-                    android:textAllCaps="false" />
+                    android:layout_marginTop="12dp"
+                    android:text="Explore Topics  →"
+                    android:textAllCaps="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_blue_dark"
+                    app:backgroundTint="@color/primary_blue_light"
+                    app:cornerRadius="12dp"
+                    app:strokeWidth="0dp" />
 
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
 
 
-        <!-- Bihar STET Card -->
+        <!-- ================================================= -->
+        <!-- BIHAR STET -->
+        <!-- ================================================= -->
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardStet"
@@ -129,56 +209,95 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
             app:cardBackgroundColor="@color/card_background"
-            app:cardCornerRadius="@dimen/card_corner_radius"
-            app:cardElevation="3dp"
-            app:strokeColor="@color/primary_blue"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="2dp"
+            app:strokeColor="@color/home_green"
             app:strokeWidth="1dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="@dimen/card_padding">
+                android:padding="16dp">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <!-- Top Row -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Bihar STET"
-                    android:textColor="@color/primary_blue"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <!-- Icon -->
+
+                    <ImageView
+                        android:layout_width="52dp"
+                        android:layout_height="52dp"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_stet"
+                        android:background="@color/correct_green_light"
+                        android:contentDescription="BPSC PGT" />
+
+                    <!-- Text -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="14dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bihar STET"
+                            android:textColor="@color/home_green"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="Computer Science"
+                            android:textColor="@color/text_primary"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="Computer Science"
-                    android:textColor="@color/text_primary"
-                    android:textSize="16sp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="11dp"
                     android:text="PYQ • Practice Sets • Self Designed Sets"
                     android:textColor="@color/text_secondary"
-                    android:textSize="@dimen/text_small" />
+                    android:textSize="12sp" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnStet"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="46dp"
                     android:layout_gravity="end"
-                    android:layout_marginTop="10dp"
-                    android:text="Start Preparation"
-                    android:textAllCaps="false" />
+                    android:layout_marginTop="12dp"
+                    android:text="Start Preparation  →"
+                    android:textAllCaps="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/home_green"
+                    app:backgroundTint="@color/home_green_light"
+                    app:cornerRadius="12dp"
+                    app:strokeWidth="0dp" />
 
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
 
 
-        <!-- BPSC PGT Card -->
+        <!-- ================================================= -->
+        <!-- BPSC PGT -->
+        <!-- ================================================= -->
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardBpsc"
@@ -187,51 +306,116 @@
             android:layout_marginTop="14dp"
             android:layout_marginBottom="8dp"
             app:cardBackgroundColor="@color/card_background"
-            app:cardCornerRadius="@dimen/card_corner_radius"
-            app:cardElevation="3dp"
-            app:strokeColor="@color/primary_blue"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="2dp"
+            app:strokeColor="@color/home_orange"
             app:strokeWidth="1dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="@dimen/card_padding">
+                android:padding="16dp">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <!-- Top Row -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="BPSC PGT"
-                    android:textColor="@color/primary_blue"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <!-- Icon -->
+
+                    <ImageView
+                        android:layout_width="52dp"
+                        android:layout_height="52dp"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_bpsc"
+                        android:background="@color/home_orange_light"
+                        android:contentDescription="BPSC PGT" />
+
+                    <!-- Text -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="14dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BPSC PGT"
+                            android:textColor="@color/home_orange"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="Computer Science"
+                            android:textColor="@color/text_primary"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="Computer Science"
-                    android:textColor="@color/text_primary"
-                    android:textSize="16sp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="11dp"
                     android:text="PYQ • Practice Sets • Self Designed Sets"
                     android:textColor="@color/text_secondary"
-                    android:textSize="@dimen/text_small" />
+                    android:textSize="12sp" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnBpsc"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="46dp"
                     android:layout_gravity="end"
-                    android:layout_marginTop="10dp"
-                    android:text="Start Preparation"
-                    android:textAllCaps="false" />
+                    android:layout_marginTop="12dp"
+                    android:text="Start Preparation  →"
+                    android:textAllCaps="false"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/home_orange"
+                    app:backgroundTint="@color/home_orange_light"
+                    app:cornerRadius="12dp"
+                    app:strokeWidth="0dp" />
 
             </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <!-- ================================================= -->
+        <!-- FOOTER -->
+        <!-- ================================================= -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/divider"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="13dp"
+                android:text="Practice • Improve • Prepare"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:textStyle="bold" />
 
         </com.google.android.material.card.MaterialCardView>
 

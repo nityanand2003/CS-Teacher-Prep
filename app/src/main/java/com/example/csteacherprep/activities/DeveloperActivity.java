@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.csteacherprep.R;
 
-public class DeveloperActivity extends AppCompatActivity {
+public class DeveloperActivity extends BaseAdActivity {
 
     // =========================================================
     // Replace these two values with your actual contact details
@@ -41,10 +41,6 @@ public class DeveloperActivity extends AppCompatActivity {
 
         findViewById(R.id.btnYouTube).setOnClickListener(v ->
                 openUrl("https://www.youtube.com/@Nkumarshorts")
-        );
-
-        findViewById(R.id.btnHackerRank).setOnClickListener(v ->
-                openUrl("https://www.hackerrank.com/nityanand2003")
         );
 
         findViewById(R.id.btnLeetCode).setOnClickListener(v ->

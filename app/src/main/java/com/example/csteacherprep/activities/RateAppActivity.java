@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.csteacherprep.R;
 
-public class RateAppActivity extends AppCompatActivity {
+public class RateAppActivity extends BaseAdActivity {
 
     // Play Store par publish hone ke baad isi link ka use hoga
     private static final String PLAY_STORE_URL =

@@ -201,6 +201,8 @@ public class PracticeFragment extends Fragment {
                 new SetAdapter(
                         setNames,
                         questionCounts,
+                        true,
+                        "practice_" + selectedExam + "_",
                         setName -> {
 
                             int position =

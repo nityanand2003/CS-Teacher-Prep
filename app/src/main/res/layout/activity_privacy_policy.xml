@@ -2,6 +2,7 @@
 
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/screen_background"
@@ -13,8 +14,11 @@
         android:orientation="vertical"
         android:padding="16dp">
 
+        <!-- ================================================ -->
+        <!-- Main Privacy Policy Card -->
+        <!-- ================================================ -->
+
         <com.google.android.material.card.MaterialCardView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardBackgroundColor="@color/card_background"
@@ -29,6 +33,8 @@
                 android:orientation="vertical"
                 android:padding="20dp">
 
+                <!-- Title -->
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -37,19 +43,30 @@
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
+                <View
+                    android:layout_width="42dp"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/primary_blue" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="6dp"
+                    android:layout_marginTop="8dp"
                     android:text="CS Teacher Prep"
                     android:textColor="@color/primary_blue"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
+
+                <!-- ======================================== -->
+                <!-- 1. Introduction -->
+                <!-- ======================================== -->
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="18dp"
+                    android:layout_marginTop="22dp"
                     android:text="1. Introduction"
                     android:textColor="@color/text_primary"
                     android:textSize="18sp"
@@ -59,15 +76,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="4dp"
                     android:text="CS Teacher Prep is a Computer Science preparation application designed to provide practice and preparation resources for examinations such as Bihar STET and BPSC PGT (Computer Science)."
                     android:textColor="@color/text_secondary"
-                    android:textSize="14sp"
-                    android:lineSpacingExtra="4dp" />
+                    android:textSize="14sp" />
+
+
+                <!-- ======================================== -->
+                <!-- 2. Information Collection -->
+                <!-- ======================================== -->
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="18dp"
+                    android:layout_marginTop="20dp"
                     android:text="2. Information Collection"
                     android:textColor="@color/text_primary"
                     android:textSize="18sp"
@@ -77,15 +99,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="The current version of the app does not require users to create an account or provide personal information to use the main study features."
+                    android:lineSpacingExtra="4dp"
+                    android:text="The current version of the app does not require users to create an account or provide personal information to use the main study features.
+
+Users may voluntarily provide information when using external contact or support options such as email or messaging services."
                     android:textColor="@color/text_secondary"
-                    android:textSize="14sp"
-                    android:lineSpacingExtra="4dp" />
+                    android:textSize="14sp" />
+
+
+                <!-- ======================================== -->
+                <!-- 3. Locally Stored Data -->
+                <!-- ======================================== -->
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="18dp"
+                    android:layout_marginTop="20dp"
                     android:text="3. Locally Stored Data"
                     android:textColor="@color/text_primary"
                     android:textSize="18sp"
@@ -95,16 +124,23 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Self-designed questions and sets created by the user may be stored locally on the device to provide the corresponding app functionality."
+                    android:lineSpacingExtra="4dp"
+                    android:text="Self-designed questions and sets created by the user may be stored locally on the device to provide the corresponding app functionality.
+
+The app may also store local access information required to remember temporary set-unlock periods on the device."
                     android:textColor="@color/text_secondary"
-                    android:textSize="14sp"
-                    android:lineSpacingExtra="4dp" />
+                    android:textSize="14sp" />
+
+
+                <!-- ======================================== -->
+                <!-- 4. Advertising Services -->
+                <!-- ======================================== -->
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="18dp"
-                    android:text="4. Third-Party Services"
+                    android:layout_marginTop="20dp"
+                    android:text="4. Advertising Services"
                     android:textColor="@color/text_primary"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -113,16 +149,23 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="The app may use external services or links when the user chooses features such as social links, email, or other external content. Those services may have their own privacy policies and terms."
+                    android:lineSpacingExtra="4dp"
+                    android:text="The app may display banner advertisements and rewarded advertisements through third-party advertising services.
+
+Such advertising services may collect, use or process certain information according to their own privacy policies, terms and applicable settings."
                     android:textColor="@color/text_secondary"
-                    android:textSize="14sp"
-                    android:lineSpacingExtra="4dp" />
+                    android:textSize="14sp" />
+
+
+                <!-- ======================================== -->
+                <!-- 5. Third-Party Services -->
+                <!-- ======================================== -->
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="18dp"
-                    android:text="5. Children's Privacy"
+                    android:layout_marginTop="20dp"
+                    android:text="5. Third-Party Services"
                     android:textColor="@color/text_primary"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -131,16 +174,23 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="The app is intended for educational and examination preparation purposes. Users should avoid submitting sensitive personal information through any external contact or feedback channel."
+                    android:lineSpacingExtra="4dp"
+                    android:text="The app may use third-party services when users choose features such as advertisements, social links, email, messaging or other external content.
+
+These services may have their own privacy policies, terms and data-handling practices."
                     android:textColor="@color/text_secondary"
-                    android:textSize="14sp"
-                    android:lineSpacingExtra="4dp" />
+                    android:textSize="14sp" />
+
+
+                <!-- ======================================== -->
+                <!-- 6. Children's Privacy -->
+                <!-- ======================================== -->
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="18dp"
-                    android:text="6. Policy Updates"
+                    android:layout_marginTop="20dp"
+                    android:text="6. Children's Privacy"
                     android:textColor="@color/text_primary"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -149,16 +199,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="This Privacy Policy may be updated when app features or services change. Users are encouraged to review this section periodically."
+                    android:lineSpacingExtra="4dp"
+                    android:text="The app is intended for educational and examination preparation purposes. Users should avoid submitting sensitive personal information through external contact, support or feedback channels."
                     android:textColor="@color/text_secondary"
-                    android:textSize="14sp"
-                    android:lineSpacingExtra="4dp" />
+                    android:textSize="14sp" />
+
+
+                <!-- ======================================== -->
+                <!-- 7. Data Security -->
+                <!-- ======================================== -->
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="18dp"
-                    android:text="7. Contact"
+                    android:layout_marginTop="20dp"
+                    android:text="7. Data Security"
                     android:textColor="@color/text_primary"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -167,10 +222,59 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="4dp"
+                    android:text="Reasonable measures are used to support the operation of locally stored app data. However, no electronic storage or transmission method can be guaranteed to be completely secure."
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp" />
+
+
+                <!-- ======================================== -->
+                <!-- 8. Policy Updates -->
+                <!-- ======================================== -->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="8. Policy Updates"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="4dp"
+                    android:text="This Privacy Policy may be updated when app features, services or data practices change.
+
+Users are encouraged to review this section periodically for the latest information."
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp" />
+
+
+                <!-- ======================================== -->
+                <!-- 9. Contact -->
+                <!-- ======================================== -->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="9. Contact"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="2dp"
+                    android:lineSpacingExtra="4dp"
                     android:text="For privacy-related questions or concerns, please contact the developer through the Help &amp; Support section of the app."
                     android:textColor="@color/text_secondary"
-                    android:textSize="14sp"
-                    android:lineSpacingExtra="4dp" />
+                    android:textSize="14sp" />
 
             </LinearLayout>
 

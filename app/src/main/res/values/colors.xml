@@ -15,6 +15,11 @@
     <color name="text_secondary">#6B7280</color>
     <color name="text_white">#FFFFFF</color>
 
+    <color name="home_green">#2E9B62</color>
+    <color name="home_green_light">#EAF8F0</color>
+    <color name="home_orange">#F59E0B</color>
+    <color name="home_orange_light">#FFF6E5</color>
+
     <!-- Quiz -->
     <color name="option_background">#FFFFFF</color>
     <color name="option_border">#D9E1EC</color>
@@ -29,4 +34,9 @@
     <color name="divider">#E5E7EB</color>
     <color name="icon_gray">#6B7280</color>
 
+    <color name="drawer_icon_normal">#6B7280</color>
+    <color name="drawer_icon_selected">#1565C0</color>
+
+    <color name="drawer_text_normal">#374151</color>
+    <color name="drawer_text_selected">#0D47A1</color>
 </resources>

@@ -7,11 +7,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="12dp"
+    android:clickable="true"
+    android:focusable="true"
 
     app:cardBackgroundColor="@color/card_background"
-    app:cardCornerRadius="16dp"
-    app:cardElevation="3dp"
-    app:strokeColor="@color/option_border"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="2dp"
+    app:strokeColor="@color/divider"
     app:strokeWidth="1dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -19,25 +21,33 @@
         android:layout_height="wrap_content"
         android:padding="16dp">
 
-        <!-- Set Icon -->
+        <!-- ================================================= -->
+        <!-- SET ICON -->
+        <!-- ================================================= -->
+
         <TextView
             android:id="@+id/tvSetIcon"
-            android:layout_width="44dp"
-            android:layout_height="44dp"
-            android:background="@color/primary_blue_light"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:background="@drawable/set_icon_background"
             android:gravity="center"
             android:text="📄"
-            android:textSize="22sp"
+            android:textSize="24sp"
 
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <!-- Set Name -->
+
+        <!-- ================================================= -->
+        <!-- SET NAME -->
+        <!-- ================================================= -->
+
         <TextView
             android:id="@+id/tvSetName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="14dp"
+            android:layout_marginEnd="8dp"
             android:text="Bihar STET 2025"
             android:textColor="@color/text_primary"
             android:textSize="17sp"
@@ -45,9 +55,13 @@
 
             app:layout_constraintStart_toEndOf="@id/tvSetIcon"
             app:layout_constraintEnd_toStartOf="@id/tvSetArrow"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="@id/tvSetIcon" />
 
-        <!-- Question Count -->
+
+        <!-- ================================================= -->
+        <!-- QUESTION COUNT -->
+        <!-- ================================================= -->
+
         <TextView
             android:id="@+id/tvQuestionCount"
             android:layout_width="0dp"
@@ -61,77 +75,96 @@
             app:layout_constraintEnd_toEndOf="@id/tvSetName"
             app:layout_constraintTop_toBottomOf="@id/tvSetName" />
 
-        <!-- Arrow -->
+
+        <!-- ================================================= -->
+        <!-- ARROW -->
+        <!-- ================================================= -->
+
         <TextView
             android:id="@+id/tvSetArrow"
             android:layout_width="36dp"
             android:layout_height="36dp"
+            android:background="@drawable/set_arrow_background"
             android:gravity="center"
             android:text="›"
             android:textColor="@color/primary_blue"
-            android:textSize="30sp"
+            android:textSize="28sp"
+            android:textStyle="bold"
 
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="@id/tvSetIcon" />
 
-        <!-- Action Buttons Row -->
+
+        <!-- ================================================= -->
+        <!-- ACTION BUTTONS -->
+        <!-- ================================================= -->
+
         <LinearLayout
             android:id="@+id/actionButtonsRow"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_marginTop="8dp"
-            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="12dp"
             android:orientation="horizontal"
+            android:gravity="center_vertical"
 
             app:layout_constraintStart_toStartOf="@id/tvSetName"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvQuestionCount">
 
             <!-- Edit -->
+
             <TextView
                 android:id="@+id/btnEditSet"
                 android:layout_width="wrap_content"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
+                android:background="@drawable/action_blue_background"
                 android:gravity="center"
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
                 android:singleLine="true"
                 android:text="Edit"
                 android:textColor="@color/primary_blue"
-                android:textSize="13sp"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 android:clickable="true"
                 android:focusable="true" />
 
+
             <!-- Delete -->
+
             <TextView
                 android:id="@+id/btnDelete"
                 android:layout_width="wrap_content"
-                android:layout_height="40dp"
-                android:layout_marginStart="6dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/action_red_background"
                 android:gravity="center"
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
                 android:singleLine="true"
                 android:text="Delete"
                 android:textColor="@color/wrong_red"
-                android:textSize="13sp"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 android:clickable="true"
                 android:focusable="true" />
 
+
             <!-- Manage Questions -->
+
             <TextView
                 android:id="@+id/btnManageQuestions"
                 android:layout_width="wrap_content"
-                android:layout_height="40dp"
-                android:layout_marginStart="6dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/action_blue_background"
                 android:gravity="center"
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
                 android:singleLine="true"
                 android:text="Manage Questions"
                 android:textColor="@color/primary_blue"
-                android:textSize="13sp"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 android:clickable="true"
                 android:focusable="true" />

@@ -13,7 +13,7 @@ import com.example.csteacherprep.database.AppDatabase;
 import com.example.csteacherprep.models.UserQuestion;
 import com.google.android.material.button.MaterialButton;
 
-public class AddQuestionActivity extends AppCompatActivity {
+public class AddQuestionActivity extends BaseAdActivity {
 
     private EditText etQuestion;
     private EditText etOptionA;

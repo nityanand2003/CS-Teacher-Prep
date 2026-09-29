@@ -3,22 +3,23 @@
 <com.google.android.material.card.MaterialCardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="60dp"
     android:layout_marginStart="12dp"
     android:layout_marginEnd="12dp"
-    android:layout_marginTop="6dp"
+    android:layout_marginTop="4dp"
     android:layout_marginBottom="6dp"
     app:cardBackgroundColor="@color/primary_blue_light"
     app:cardCornerRadius="10dp"
     app:cardElevation="0dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/advertisement"
-        android:textColor="@color/text_secondary"
-        android:textSize="@dimen/text_small" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/mainBannerAd"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/9214589741" />
 
 </com.google.android.material.card.MaterialCardView>

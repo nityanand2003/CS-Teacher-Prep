@@ -19,7 +19,7 @@ import com.example.csteacherprep.utils.JsonHelper;
 import java.util.ArrayList;
 import java.util.List;
 
-public class QuizActivity extends AppCompatActivity {
+public class QuizActivity extends BaseAdActivity {
 
     private List<Question> questionList =
             new ArrayList<>();
@@ -525,63 +525,43 @@ public class QuizActivity extends AppCompatActivity {
         selectedOption = option;
 
         Question question =
-                questionList.get(
-                        currentQuestionIndex
-                );
+                questionList.get(currentQuestionIndex);
 
         String correctAnswer =
                 question.getCorrectAnswer();
 
-        if (
-                selectedAnswer.equalsIgnoreCase(
-                        correctAnswer
-                )
-        ) {
+        if (selectedAnswer.equalsIgnoreCase(correctAnswer)) {
 
-            option.setBackgroundColor(
-                    Color.parseColor(
-                            "#E8F5E9"
-                    )
+            option.setBackgroundResource(
+                    R.drawable.quiz_option_correct
             );
 
             option.setTextColor(
-                    Color.parseColor(
-                            "#2E7D32"
-                    )
+                    getColor(R.color.correct_green)
             );
 
             correctCount++;
 
         } else {
 
-            option.setBackgroundColor(
-                    Color.parseColor(
-                            "#FFEBEE"
-                    )
+            option.setBackgroundResource(
+                    R.drawable.quiz_option_wrong
             );
 
             option.setTextColor(
-                    Color.parseColor(
-                            "#C62828"
-                    )
+                    getColor(R.color.wrong_red)
             );
 
             wrongCount++;
 
-            showCorrectAnswer(
-                    correctAnswer
-            );
+            showCorrectAnswer(correctAnswer);
         }
 
         String explanationText =
                 question.getExplanation();
 
-        if (
-                explanationText != null &&
-                        !explanationText
-                                .trim()
-                                .isEmpty()
-        ) {
+        if (explanationText != null &&
+                !explanationText.trim().isEmpty()) {
 
             explanation.setText(
                     "Explanation: " +
@@ -604,7 +584,7 @@ public class QuizActivity extends AppCompatActivity {
 
         TextView correctOption = null;
 
-        switch (correctAnswer) {
+        switch (correctAnswer.toUpperCase()) {
 
             case "A":
                 correctOption = optionA;
@@ -629,20 +609,15 @@ public class QuizActivity extends AppCompatActivity {
 
         if (correctOption != null) {
 
-            correctOption.setBackgroundColor(
-                    Color.parseColor(
-                            "#E8F5E9"
-                    )
+            correctOption.setBackgroundResource(
+                    R.drawable.quiz_option_correct
             );
 
             correctOption.setTextColor(
-                    Color.parseColor(
-                            "#2E7D32"
-                    )
+                    getColor(R.color.correct_green)
             );
         }
     }
-
 
     // =========================================================
     // Reset Options
@@ -661,13 +636,11 @@ public class QuizActivity extends AppCompatActivity {
         for (TextView option : options) {
 
             option.setBackgroundResource(
-                    R.drawable.bg_card
+                    R.drawable.quiz_option_default
             );
 
             option.setTextColor(
-                    Color.parseColor(
-                            "#1F2937"
-                    )
+                    getColor(R.color.text_primary)
             );
 
             option.setVisibility(
@@ -675,7 +648,6 @@ public class QuizActivity extends AppCompatActivity {
             );
         }
     }
-
 
     // =========================================================
     // Next Question

@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.csteacherprep.R;
 
-public class PrivacyPolicyActivity extends AppCompatActivity {
+public class PrivacyPolicyActivity extends BaseAdActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

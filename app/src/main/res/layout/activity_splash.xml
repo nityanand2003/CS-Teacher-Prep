@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background">
+
+
+    <!-- ================================================= -->
+    <!-- Main Splash Content -->
+    <!-- ================================================= -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+
+        <!-- ================================================= -->
+        <!-- Logo Glow Container -->
+        <!-- ================================================= -->
+
+        <FrameLayout
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/splash_logo_background"
+            android:padding="12dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/cs_teacher_prep_logo"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/app_name" />
+
+        </FrameLayout>
+
+
+        <!-- ================================================= -->
+        <!-- App Name -->
+        <!-- ================================================= -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="@string/app_name"
+            android:textColor="@color/primary_blue_dark"
+            android:textSize="29sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+
+        <!-- ================================================= -->
+        <!-- Subtitle -->
+        <!-- ================================================= -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Computer Science Preparation App"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:gravity="center" />
+
+
+        <!-- ================================================= -->
+        <!-- Exams -->
+        <!-- ================================================= -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:text="Bihar STET  •  BPSC PGT"
+            android:textColor="@color/primary_blue"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+
+        <!-- ================================================= -->
+        <!-- Loading -->
+        <!-- ================================================= -->
+
+        <ProgressBar
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="30dp"
+            android:indeterminate="true" />
+
+
+        <!-- ================================================= -->
+        <!-- Loading Text -->
+        <!-- ================================================= -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="Preparing your learning experience..."
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+
+    <!-- ================================================= -->
+    <!-- Bottom Branding -->
+    <!-- ================================================= -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="28dp"
+        android:text="Learn • Practice • Improve"
+        android:textColor="@color/primary_blue"
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+</FrameLayout>

@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.csteacherprep.R;
 
-public class AboutActivity extends AppCompatActivity {
+public class AboutActivity extends BaseAdActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

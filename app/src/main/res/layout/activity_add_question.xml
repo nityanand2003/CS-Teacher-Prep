@@ -1,204 +1,423 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/screen_background">
+    android:background="@color/screen_background"
+    android:fillViewport="true">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="16dp">
 
-        <TextView
+        <!-- ================================================= -->
+        <!-- HEADER -->
+        <!-- ================================================= -->
+
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Add Question"
-            android:textColor="@color/primary_blue"
-            android:textSize="26sp"
-            android:textStyle="bold" />
+            android:layout_height="145dp"
+            android:layout_marginTop="4dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="2dp"
+            app:strokeWidth="0dp">
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:hint="Question">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etQuestion"
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="top"
-                android:minLines="3"
-                android:inputType="textMultiLine|textCapSentences"
-                android:textColor="@color/text_primary"
-                android:textColorHint="@color/text_secondary"/>
+                android:layout_height="match_parent">
 
-        </com.google.android.material.textfield.TextInputLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/category_banner"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@null" />
 
-        <com.google.android.material.textfield.TextInputLayout
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SELF DESIGNED SET"
+                        android:textColor="@color/primary_blue"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.08" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Add Question"
+                        android:textColor="@color/primary_blue_dark"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Create a question for your practice set."
+                        android:textColor="@color/text_secondary"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <!-- ================================================= -->
+        <!-- QUESTION -->
+        <!-- ================================================= -->
+
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
-            android:hint="Option A">
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="1dp"
+            app:strokeColor="@color/divider"
+            app:strokeWidth="1dp">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etOptionA"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/text_primary"
-                android:textColorHint="@color/text_secondary"/>
+                android:orientation="vertical"
+                android:padding="16dp">
 
-        </com.google.android.material.textfield.TextInputLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Question"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="Option B">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:hint="Enter question"
+                    app:boxCornerRadiusTopStart="12dp"
+                    app:boxCornerRadiusTopEnd="12dp"
+                    app:boxCornerRadiusBottomStart="12dp"
+                    app:boxCornerRadiusBottomEnd="12dp">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etOptionB"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/text_primary"
-                android:textColorHint="@color/text_secondary"/>
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:minLines="3"
+                        android:inputType="textMultiLine|textCapSentences"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/text_secondary" />
 
-        </com.google.android.material.textfield.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="Option C">
+            </LinearLayout>
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etOptionC"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/text_primary"
-                android:textColorHint="@color/text_secondary"/>
+        </com.google.android.material.card.MaterialCardView>
 
-        </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="Option D">
+        <!-- ================================================= -->
+        <!-- OPTIONS -->
+        <!-- ================================================= -->
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etOptionD"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/text_primary"
-                android:textColorHint="@color/text_secondary"/>
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="Option E">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etOptionE"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/text_primary"
-                android:textColorHint="@color/text_secondary"/>
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Select Correct Answer"
-            android:textColor="@color/text_primary"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-
-        <RadioGroup
-            android:id="@+id/radioGroupCorrect"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <RadioButton
-                android:id="@+id/radioA"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="A" />
-
-            <RadioButton
-                android:id="@+id/radioB"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="B" />
-
-            <RadioButton
-                android:id="@+id/radioC"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="C" />
-
-            <RadioButton
-                android:id="@+id/radioD"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="D" />
-
-            <RadioButton
-                android:id="@+id/radioE"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="E" />
-
-        </RadioGroup>
-
-        <com.google.android.material.textfield.TextInputLayout
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:hint="Explanation (Optional)">
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="1dp"
+            app:strokeColor="@color/divider"
+            app:strokeWidth="1dp">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etExplanation"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="top"
-                android:minLines="3"
-                android:inputType="textMultiLine|textCapSentences"
-                android:textColor="@color/text_primary"
-                android:textColorHint="@color/text_secondary"/>
+                android:orientation="vertical"
+                android:padding="16dp">
 
-        </com.google.android.material.textfield.TextInputLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Answer Options"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <!-- A -->
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:hint="Option A">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etOptionA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/text_secondary" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <!-- B -->
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Option B">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etOptionB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/text_secondary" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <!-- C -->
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Option C">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etOptionC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/text_secondary" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <!-- D -->
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Option D">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etOptionD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/text_secondary" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <!-- E -->
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Option E">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etOptionE"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/text_secondary" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <!-- ================================================= -->
+        <!-- CORRECT ANSWER -->
+        <!-- ================================================= -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="1dp"
+            app:strokeColor="@color/divider"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Correct Answer"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupCorrect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/radioA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:textColor="@color/text_primary" />
+
+                    <RadioButton
+                        android:id="@+id/radioB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:textColor="@color/text_primary" />
+
+                    <RadioButton
+                        android:id="@+id/radioC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:textColor="@color/text_primary" />
+
+                    <RadioButton
+                        android:id="@+id/radioD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="D"
+                        android:textColor="@color/text_primary" />
+
+                    <RadioButton
+                        android:id="@+id/radioE"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="E"
+                        android:textColor="@color/text_primary" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <!-- ================================================= -->
+        <!-- EXPLANATION -->
+        <!-- ================================================= -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="1dp"
+            app:strokeColor="@color/divider"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Explanation"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Explanation (Optional)">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etExplanation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:minLines="3"
+                        android:inputType="textMultiLine|textCapSentences"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/text_secondary" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <!-- ================================================= -->
+        <!-- ACTION BUTTONS -->
+        <!-- ================================================= -->
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
             android:orientation="horizontal">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnAddQuestion"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="52dp"
                 android:layout_weight="1"
-                android:text="Add Question" />
+                android:text="Add Question"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:cornerRadius="13dp" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnSaveSet"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="52dp"
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
                 android:text="Save Set"
-                style="?attr/materialButtonOutlinedStyle" />
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                style="?attr/materialButtonOutlinedStyle"
+                app:cornerRadius="13dp" />
 
         </LinearLayout>
 

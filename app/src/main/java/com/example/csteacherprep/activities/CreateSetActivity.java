@@ -3,6 +3,7 @@ package com.example.csteacherprep.activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +13,7 @@ import com.example.csteacherprep.database.AppDatabase;
 import com.example.csteacherprep.models.PracticeSet;
 import com.google.android.material.button.MaterialButton;
 
-public class CreateSetActivity extends AppCompatActivity {
+public class CreateSetActivity extends BaseAdActivity {
 
     private EditText etSetName;
     private EditText etDescription;
@@ -38,6 +39,18 @@ public class CreateSetActivity extends AppCompatActivity {
                 "set_id",
                 -1
         );
+
+        // Show selected exam in header
+        String examName = getIntent().getStringExtra("exam_name");
+
+        if (examName == null || examName.isEmpty()) {
+            examName = "Bihar STET";
+        }
+
+        TextView tvCreateExamName =
+                findViewById(R.id.tvCreateExamName);
+
+        tvCreateExamName.setText(examName);
 
         if (editMode) {
             loadSetForEdit();

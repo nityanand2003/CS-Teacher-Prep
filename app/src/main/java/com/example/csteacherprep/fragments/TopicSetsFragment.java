@@ -237,6 +237,8 @@ public class TopicSetsFragment extends Fragment {
                 new SetAdapter(
                         setNames,
                         questionCounts,
+                        true,
+                        "topic_" + topicId + "_",
 
                         // Set clicked
                         setName -> {

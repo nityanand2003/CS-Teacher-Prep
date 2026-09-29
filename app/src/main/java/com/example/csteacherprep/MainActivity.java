@@ -2,6 +2,8 @@ package com.example.csteacherprep;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.SystemClock;
+import android.widget.Toast;
 
 import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,17 +21,63 @@ import com.example.csteacherprep.fragments.HomeFragment;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.navigation.NavigationView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import android.content.Intent;
+
+import com.google.android.material.appbar.MaterialToolbar;
+import com.example.csteacherprep.activities.PracticeReminderActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
     private MaterialToolbar toolbar;
 
+    // Double back press
+    private long lastBackPressedTime = 0;
+
+    private static final long BACK_PRESS_INTERVAL = 2000;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
+
+        MaterialToolbar commonToolbar =
+                findViewById(R.id.commonToolbar);
+
+        if (commonToolbar != null) {
+
+            commonToolbar.setOnMenuItemClickListener(item -> {
+
+                if (item.getItemId() ==
+                        R.id.action_notifications) {
+
+                    Intent intent =
+                            new Intent(
+                                    MainActivity.this,
+                                    PracticeReminderActivity.class
+                            );
+
+                    startActivity(intent);
+
+                    return true;
+                }
+
+                return false;
+            });
+        }
+
+        AdView mainBannerAd = findViewById(R.id.mainBannerAd);
+
+        if (mainBannerAd != null) {
+            mainBannerAd.loadAd(
+                    new AdRequest.Builder().build()
+            );
+        }
 
         // =====================================================
         // Initialize Views
@@ -190,7 +238,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // =====================================================
-        // Modern Back Button Handling
+        // Back Button
         // =====================================================
 
         getOnBackPressedDispatcher()
@@ -201,6 +249,10 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void handleOnBackPressed() {
 
+                                // ---------------------------------
+                                // Drawer open
+                                // ---------------------------------
+
                                 if (drawerLayout.isDrawerOpen(
                                         GravityCompat.START
                                 )) {
@@ -209,12 +261,91 @@ public class MainActivity extends AppCompatActivity {
                                             GravityCompat.START
                                     );
 
+                                    lastBackPressedTime = 0;
+
+                                    return;
+                                }
+
+
+                                androidx.fragment.app.FragmentManager
+                                        fragmentManager =
+                                        getSupportFragmentManager();
+
+
+                                // ---------------------------------
+                                // Fragment Back Stack
+                                // ---------------------------------
+
+                                if (
+                                        fragmentManager
+                                                .getBackStackEntryCount()
+                                                > 0
+                                ) {
+
+                                    fragmentManager.popBackStack();
+
+                                    lastBackPressedTime = 0;
+
+                                    return;
+                                }
+
+
+                                // ---------------------------------
+                                // Current Fragment
+                                // ---------------------------------
+
+                                androidx.fragment.app.Fragment
+                                        currentFragment =
+                                        fragmentManager.findFragmentById(
+                                                R.id.main_container
+                                        );
+
+
+                                if (
+                                        currentFragment != null &&
+                                                !(currentFragment instanceof HomeFragment)
+                                ) {
+
+                                    fragmentManager
+                                            .beginTransaction()
+                                            .replace(
+                                                    R.id.main_container,
+                                                    new HomeFragment()
+                                            )
+                                            .commit();
+
+                                    lastBackPressedTime = 0;
+
+                                    return;
+                                }
+
+
+                                // ---------------------------------
+                                // Home → Double Back To Exit
+                                // ---------------------------------
+
+                                long currentTime =
+                                        SystemClock.elapsedRealtime();
+
+
+                                if (
+                                        currentTime -
+                                                lastBackPressedTime
+                                                < BACK_PRESS_INTERVAL
+                                ) {
+
+                                    finishAffinity();
+
                                 } else {
 
-                                    setEnabled(false);
+                                    lastBackPressedTime =
+                                            currentTime;
 
-                                    getOnBackPressedDispatcher()
-                                            .onBackPressed();
+                                    Toast.makeText(
+                                            MainActivity.this,
+                                            "Press back again to exit",
+                                            Toast.LENGTH_SHORT
+                                    ).show();
                                 }
                             }
                         }

@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.csteacherprep.R;
 
-public class ShareAppActivity extends AppCompatActivity {
+public class ShareAppActivity extends BaseAdActivity {
 
     // Play Store par publish hone ke baad isi link ko use kar sakte hain
     private static final String APP_LINK =

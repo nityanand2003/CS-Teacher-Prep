@@ -7,79 +7,150 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="12dp"
+    android:clickable="true"
+    android:focusable="true"
 
     app:cardBackgroundColor="@color/card_background"
-    app:cardCornerRadius="16dp"
-    app:cardElevation="3dp"
-    app:strokeColor="@color/option_border"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="2dp"
+    app:strokeColor="@color/divider"
     app:strokeWidth="1dp">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tvQuestionNumber"
-            android:layout_width="wrap_content"
+        <!-- ============================================== -->
+        <!-- QUESTION HEADER -->
+        <!-- ============================================== -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Question 1"
-            android:textColor="@color/primary_blue"
-            android:textSize="14sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingTop="14dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="10dp">
+
+            <!-- Question Number Badge -->
+
+            <TextView
+                android:id="@+id/tvQuestionNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:minWidth="92dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Question 1"
+                android:textColor="@color/primary_blue"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/question_number_background" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+        <!-- ============================================== -->
+        <!-- QUESTION TEXT -->
+        <!-- ============================================== -->
 
         <TextView
             android:id="@+id/tvQuestion"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="14dp"
             android:text="Sample question text"
             android:textColor="@color/text_primary"
             android:textSize="16sp"
-            android:lineSpacingExtra="3dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvQuestionNumber" />
-
-        <TextView
-            android:id="@+id/btnEditQuestion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:paddingStart="10dp"
-            android:paddingTop="5dp"
-            android:paddingEnd="10dp"
-            android:paddingBottom="5dp"
-            android:text="Edit"
-            android:textColor="@color/primary_blue"
-            android:textSize="13sp"
             android:textStyle="bold"
-            android:clickable="true"
-            android:focusable="true"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvQuestion" />
+            android:lineSpacingExtra="3dp" />
 
-        <TextView
-            android:id="@+id/btnDeleteQuestion"
-            android:layout_width="wrap_content"
+
+        <!-- ============================================== -->
+        <!-- DIVIDER -->
+        <!-- ============================================== -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/divider" />
+
+
+        <!-- ============================================== -->
+        <!-- ACTION BUTTONS -->
+        <!-- ============================================== -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:paddingStart="10dp"
-            android:paddingTop="5dp"
-            android:paddingEnd="10dp"
-            android:paddingBottom="5dp"
-            android:text="Delete"
-            android:textColor="@color/wrong_red"
-            android:textSize="13sp"
-            android:textStyle="bold"
-            android:clickable="true"
-            android:focusable="true"
-            app:layout_constraintStart_toEndOf="@id/btnEditQuestion"
-            app:layout_constraintTop_toTopOf="@id/btnEditQuestion" />
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="12dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="10dp">
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            <!-- Edit -->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEditQuestion"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:text="Edit"
+                android:textAllCaps="false"
+                android:textColor="@color/primary_blue"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/primary_blue_light"
+                app:cornerRadius="11dp"
+                app:icon="@drawable/ic_edit"
+                app:iconGravity="textStart"
+                app:iconPadding="6dp"
+                app:iconTint="@color/primary_blue"
+                app:strokeWidth="0dp" />
+
+            <!-- Space -->
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp" />
+
+            <!-- Delete -->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDeleteQuestion"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:textColor="@color/wrong_red"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/wrong_red_light"
+                app:cornerRadius="11dp"
+                app:icon="@drawable/ic_delete"
+                app:iconGravity="textStart"
+                app:iconPadding="6dp"
+                app:iconTint="@color/wrong_red"
+                app:strokeWidth="0dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </com.google.android.material.card.MaterialCardView>
