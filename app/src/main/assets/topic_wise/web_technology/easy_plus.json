@@ -274,16 +274,16 @@
                           "correctAnswer":  "A",
                           "explanation":  "The tfoot element groups table footer rows."
                       },
-                      {
-                          "id":  25,
-                          "questionText":  "Which attribute opens a link in a new browsing context?",
-                          "optionA":  "target=\\",
-                          "optionB":  "_blank\\",
-                          "optionC":  "new=\\",
-                          "optionD":  "true\\",
-                          "optionE":  "",
-                          "correctAnswer":  "open=\\",
-                          "explanation":  "new\\"
-                      }
+        {
+            "id": 25,
+            "questionText": "Which attribute opens a link in a new browsing context?",
+            "optionA": "target=\"_blank\"",
+            "optionB": "href=\"_blank\"",
+            "optionC": "window=\"new\"",
+            "optionD": "open=\"true\"",
+            "optionE": "",
+            "correctAnswer": "A",
+            "explanation": "The target attribute with the value _blank opens the link in a new browsing context."
+        }
                   ]
 }

@@ -485,7 +485,7 @@
     },
     {
       "id": 44,
-      "questionText": "Compiler के लिए सत्य कथन का चयन कीजिए।\n(A) The input of the compiler is source program.\n(B) It translates the source code into object code as a whole.\n(C) The output of the compiler is object code.\n(D) उपर्युक्त में से एक से अधिक\n(E) उपर्युक्त में से कोई नहीं",
+      "questionText": "Compiler के लिए सत्य कथन का चयन कीजिए।",
       "optionA": "The input of the compiler is source program.",
       "optionB": "It translates the source code into object code as a whole.",
       "optionC": "The output of the compiler is object code.",
@@ -749,7 +749,7 @@
     },
     {
       "id": 68,
-      "questionText": "HAVING खण्ड के बारे में, निम्नलिखित में से कौन-सा सत्य है?\n(A) Similar to the WHERE clause but is used for columns rather than groups.\n(B) Similar to WHERE clause but is used for rows rather than columns.\n(C) Similar to WHERE clause but is used for groups rather than rows.\n(D) उपर्युक्त में से एक से अधिक\n(E) उपर्युक्त में से कोई नहीं",
+      "questionText": "HAVING खण्ड के बारे में, निम्नलिखित में से कौन-सा सत्य है?",
       "optionA": "Similar to the WHERE clause but is used for columns rather than groups.",
       "optionB": "Similar to WHERE clause but is used for rows rather than columns.",
       "optionC": "Similar to WHERE clause but is used for groups rather than rows.",
@@ -782,7 +782,7 @@
     },
     {
       "id": 71,
-      "questionText": "SQL कथन\nSELECT ROUND (65.726, -1) FROM DUAL;\nप्रिन्ट\n(A) 70\n(B) garbage\n(C) 726\n(D) उपर्युक्त में से एक से अधिक\n(E) उपर्युक्त में से कोई नहीं",
+      "questionText": "SQL कथन\nSELECT ROUND (65.726, -1) FROM DUAL;\nप्रिन्ट",
       "optionA": "70",
       "optionB": "garbage",
       "optionC": "726",
@@ -958,7 +958,7 @@
     },
     {
       "id": 87,
-      "questionText": "निम्नलिखित में से कौन-सा कथन doubly linked list के बारे में सत्य नहीं है?\n(A) We can traverse in both the directions.\n(B) It requires extra space.\n(C) Implementation of doubly linked list is easier than the singly linked list.\n(D) उपर्युक्त में से एक से अधिक\n(E) उपर्युक्त में से कोई नहीं",
+      "questionText": "निम्नलिखित में से कौन-सा कथन doubly linked list के बारे में सत्य नहीं है?",
       "optionA": "We can traverse in both the directions.",
       "optionB": "It requires extra space.",
       "optionC": "Implementation of doubly linked list is easier than the singly linked list.",
@@ -980,7 +980,7 @@
     },
     {
       "id": 89,
-      "questionText": "Binary search tree के बारे में, निम्नलिखित में से कौन-सा विकल्प सत्य नहीं है?\n(A) The value of the left child should be less than the root node.\n(B) The value of the right child should be greater than the root node.\n(C) The left and right subtrees should also be a binary search tree.\n(D) उपर्युक्त में से एक से अधिक\n(E) उपर्युक्त में से कोई नहीं",
+      "questionText": "Binary search tree के बारे में, निम्नलिखित में से कौन-सा विकल्प सत्य नहीं है?.",
       "optionA": "The value of the left child should be less than the root node.",
       "optionB": "The value of the right child should be greater than the root node.",
       "optionC": "The left and right subtrees should also be a binary search tree.",
@@ -1101,7 +1101,7 @@
     },
     {
       "id": 100,
-      "questionText": "निम्नलिखित में से कौन-सा एक सिस्टम की अखण्डता का उल्लंघन करेगा?\n(A) Locking the room to prevent theft\n(B) Full access rights for all users\n(C) Fitting the system with an anti-theft device\n(D) उपर्युक्त में से एक से अधिक\n(E) उपर्युक्त में से कोई नहीं",
+      "questionText": "निम्नलिखित में से कौन-सा एक सिस्टम की अखण्डता का उल्लंघन करेगा?",
       "optionA": "Locking the room to prevent theft",
       "optionB": "Full access rights for all users",
       "optionC": "Fitting the system with an anti-theft device",
@@ -1200,7 +1200,7 @@
     },
     {
       "id": 109,
-      "questionText": "पिंग कमान्ड के सम्बन्ध में, निम्नलिखित में से कौन-सा सत्य है?\n(A) Ping stands for Packet Internet Generator.\n(B) The ping command checks the port level connectivity between source destinations endpoints.\n(C) Ping summarizes the packet loss and round-trip delay between two IP endpoints.\n(D) उपर्युक्त में से एक से अधिक\n(E) उपर्युक्त में से कोई नहीं",
+      "questionText": "पिंग कमान्ड के सम्बन्ध में, निम्नलिखित में से कौन-सा सत्य है?",
       "optionA": "Ping stands for Packet Internet Generator.",
       "optionB": "The ping command checks the port level connectivity between source destinations endpoints.",
       "optionC": "Ping summarizes the packet loss and round-trip delay between two IP endpoints.",

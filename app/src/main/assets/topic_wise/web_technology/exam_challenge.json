@@ -32,28 +32,28 @@
                           "correctAnswer":  "A",
                           "explanation":  "The order property controls flex item ordering."
                       },
-                      {
-                          "id":  3,
-                          "questionText":  "What is the output of JavaScript expression 2 + \\",
-                          "optionA":  "3\\?",
-                          "optionB":  "\\",
-                          "optionC":  "23\\",
-                          "optionD":  "5",
-                          "optionE":  "",
-                          "correctAnswer":  "6",
-                          "explanation":  "undefined"
-                      },
-                      {
-                          "id":  4,
-                          "questionText":  "What is the result of JavaScript expression 5 === \\",
-                          "optionA":  "5\\?",
-                          "optionB":  "false",
-                          "optionC":  "true",
-                          "optionD":  "5",
-                          "optionE":  "",
-                          "correctAnswer":  "undefined",
-                          "explanation":  "A"
-                      },
+        {
+            "id": 3,
+            "questionText": "What is the output of the JavaScript expression 2 + \"3\"?",
+            "optionA": "5",
+            "optionB": "\"23\"",
+            "optionC": "undefined",
+            "optionD": "NaN",
+            "optionE": "",
+            "correctAnswer": "B",
+            "explanation": "When a number is added to a string in JavaScript, the number is converted to a string and concatenation occurs. Therefore, 2 + \"3\" produces \"23\"."
+        },
+        {
+            "id": 4,
+            "questionText": "What is the result of the JavaScript expression 5 === \"5\"?",
+            "optionA": "true",
+            "optionB": "false",
+            "optionC": "5",
+            "optionD": "undefined",
+            "optionE": "",
+            "correctAnswer": "B",
+            "explanation": "The strict equality operator === checks both value and data type. The number 5 and the string \"5\" have different data types, so the result is false."
+        },
                       {
                           "id":  5,
                           "questionText":  "Which HTML element is used for scalable vector graphics?",

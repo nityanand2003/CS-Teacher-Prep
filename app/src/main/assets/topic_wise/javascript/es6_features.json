@@ -43,17 +43,17 @@
                           "correctAnswer":  "A",
                           "explanation":  "Template literals use backticks."
                       },
-                      {
-                          "id":  4,
-                          "questionText":  "How do you insert an expression into a template literal?",
-                          "optionA":  "",
-                          "optionB":  "#{expression}",
-                          "optionC":  "{{expression}}",
-                          "optionD":  "",
-                          "optionE":  "",
-                          "correctAnswer":  "A",
-                          "explanation":  "Template literals use  interpolation."
-                      },
+        {
+            "id": 4,
+            "questionText": "How do you insert an expression into a template literal?",
+            "optionA": "${expression}",
+            "optionB": "#{expression}",
+            "optionC": "{{expression}}",
+            "optionD": "%{expression}",
+            "optionE": "",
+            "correctAnswer": "A",
+            "explanation": "JavaScript template literals use ${expression} syntax for expression interpolation."
+        },
                       {
                           "id":  5,
                           "questionText":  "What does the spread syntax use?",

@@ -1,6 +1,6 @@
 {
-  "setId": "stet_cs_12_09_2023_shift_1",
-  "setName": "STET CS 12-09-2023 Shift-1",
+  "setId": "stet_12_09_2023_shift_1",
+  "setName": "STET 12-09-2023 Shift-1 (English)",
   "exam": "Bihar STET",
   "type": "PYQ",
   "description": "Bihar STET Computer Science Paper held on 12-09-2023 Shift-1 (Questions 1 to 150).",
@@ -247,7 +247,7 @@
       "optionA": "(A, B)",
       "optionB": "[A, B]",
       "optionC": "<A, B>",
-      "optionD": "(A, B)",
+      "optionD": "{A, B}",
       "optionE": "",
       "correctAnswer": "A",
       "explanation": "An ordered pair (A, B) represents a directed arc running from source node A to destination node B."
