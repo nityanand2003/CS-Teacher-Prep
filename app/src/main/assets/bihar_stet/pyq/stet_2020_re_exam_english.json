@@ -19,7 +19,7 @@
       "optionD": "Wife",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "A and B are siblings. E is the mother of B (hence mother of A and B). A and D are brothers, so D is also E's child. C is the father of D, making C the husband of E. Thus, C is the husband and E is the wife, so the relation of C with E is Wife[cite: 9]."
+      "explanation": "A and B are siblings. E is the mother of B (hence mother of A and B). A and D are brothers, so D is also E's child. C is the father of D, making C the husband of E. Thus, C is the husband and E is the wife, so the relation of C with E is Wife."
     },
     {
       "id": 2,
@@ -30,7 +30,7 @@
       "optionD": "20 m",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Ashok moves 30m North, turns left (West) and moves 40m, then turns left (South) and moves 30m. The net vertical displacement is zero, leaving him 40m away from the starting point[cite: 9]."
+      "explanation": "Ashok moves 30m North, turns left (West) and moves 40m, then turns left (South) and moves 30m. The net vertical displacement is zero, leaving him 40m away from the starting point."
     },
     {
       "id": 3,
@@ -41,18 +41,18 @@
       "optionD": "3929",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "By direct letter-code mapping from CHAIR (5,3,2,6,9) and EAR (7,2,9): H=3, E=7, A=2, R=9, resulting in 3729[cite: 9]."
+      "explanation": "By direct letter-code mapping from CHAIR (5,3,2,6,9) and EAR (7,2,9): H=3, E=7, A=2, R=9, resulting in 3729."
     },
     {
       "id": 4,
       "questionText": "If '+' means 'x', '-' means '+' and 'x' means '-', what will be the value of 5+4-18*3?",
       "optionA": "26",
       "optionB": "14",
-      "optionC": "34",
+      "optionC": "35",
       "optionD": "6",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Replacing symbols according to the given rules: 5 * 4 + 18 - 3 = 20 + 18 - 3 = 38 - 3 = 35 (Note: Options reflect standard evaluation; closest matching option evaluated based on expression mapping)[cite: 9]."
+      "explanation": "Replacing symbols according to the given rules: 5 * 4 + 18 - 3 = 20 + 18 - 3 = 38 - 3 = 35 (Note: Options reflect standard evaluation; closest matching option evaluated based on expression mapping)."
     },
     {
       "id": 5,
@@ -63,7 +63,7 @@
       "optionD": "40",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "The numbers follow a square sequence around the center: 1^2=1, 2^2=4, 3^2=9, 4^2=16, 5^2=25, 6^2=36, 7^2=49, 8^2=64. The missing value corresponding to 6^2 is 36[cite: 9]."
+      "explanation": "The numbers follow a square sequence around the center: 1^2=1, 2^2=4, 3^2=9, 4^2=16, 5^2=25, 6^2=36, 7^2=49, 8^2=64. The missing value corresponding to 6^2 is 36."
     },
     {
       "id": 6,
@@ -74,7 +74,7 @@
       "optionD": "1951",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "The Planning Commission of India was set up by a Cabinet resolution in March 1950[cite: 9]."
+      "explanation": "The Planning Commission of India was set up by a Cabinet resolution in March 1950."
     },
     {
       "id": 7,
@@ -85,7 +85,7 @@
       "optionD": "KMnO4",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Bleaching powder is chemically known as calcium oxychloride with the formula Ca(OCl)Cl[cite: 9]."
+      "explanation": "Bleaching powder is chemically known as calcium oxychloride with the formula Ca(OCl)Cl."
     },
     {
       "id": 8,
@@ -96,7 +96,7 @@
       "optionD": "Maulana Abul Kalam Azad",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "National Education Day in India is celebrated on November 11 every year, commemorating the birth anniversary of Maulana Abul Kalam Azad[cite: 9]."
+      "explanation": "National Education Day in India is celebrated on November 11 every year, commemorating the birth anniversary of Maulana Abul Kalam Azad."
     },
     {
       "id": 9,
@@ -107,7 +107,7 @@
       "optionD": "16",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "The binary number system operates in base 2, using powers of 2[cite: 9]."
+      "explanation": "The binary number system operates in base 2, using powers of 2."
     },
     {
       "id": 10,
@@ -118,7 +118,7 @@
       "optionD": "Sulphur dioxide",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Sulphur dioxide is an acidic oxide when dissolved in water, which turns blue litmus paper red[cite: 9]."
+      "explanation": "Sulphur dioxide is an acidic oxide when dissolved in water, which turns blue litmus paper red."
     },
     {
       "id": 11,
@@ -129,7 +129,7 @@
       "optionD": "Chlorofluorocarbon",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Chlorofluorocarbons (CFCs) are purely synthetic man-made industrial compounds and are not produced naturally[cite: 9]."
+      "explanation": "Chlorofluorocarbons (CFCs) are purely synthetic man-made industrial compounds and are not produced naturally."
     },
     {
       "id": 12,
@@ -140,7 +140,7 @@
       "optionD": "Creative children",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Synectics is a problem-solving methodology that stimulates creative thinking and is used for creative children[cite: 9]."
+      "explanation": "Synectics is a problem-solving methodology that stimulates creative thinking and is used for creative children."
     },
     {
       "id": 13,
@@ -151,7 +151,7 @@
       "optionD": "Burma",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Naypyitaw is the capital city of Myanmar[cite: 9]."
+      "explanation": "Naypyitaw is the capital city of Myanmar."
     },
     {
       "id": 14,
@@ -162,7 +162,7 @@
       "optionD": "B. R. Ambedkar",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Chakravarti Rajagopalachari was the first and last Indian Governor-General of independent India[cite: 9]."
+      "explanation": "Chakravarti Rajagopalachari was the first and last Indian Governor-General of independent India."
     },
     {
       "id": 15,
@@ -173,7 +173,7 @@
       "optionD": "Maintaining the unity of Hindu Society",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "The Champaran Satyagraha of 1917 was launched to address the grievances of indigo sharecroppers against oppressive Tinkathia system[cite: 9]."
+      "explanation": "The Champaran Satyagraha of 1917 was launched to address the grievances of indigo sharecroppers against oppressive Tinkathia system."
     },
     {
       "id": 16,
@@ -195,7 +195,7 @@
       "optionD": "Rs. 7,000",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "A:B = 35:14, B:C = 14:26. Combined ratio A:B:C = 35:14:26. Total parts = 75. B's share = (14/75) * 7500 = Rs. 1,400[cite: 9]."
+      "explanation": "A:B = 35:14, B:C = 14:26. Combined ratio A:B:C = 35:14:26. Total parts = 75. B's share = (14/75) * 7500 = Rs. 1,400."
     },
     {
       "id": 18,
@@ -206,7 +206,7 @@
       "optionD": "8 cm",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Area of first square = d^2 / 2 = (4√2)^2 / 2 = 16. Area of second square = 32. Its diagonal = √(2 * Area) = √(64) = 8 cm[cite: 9]."
+      "explanation": "Area of first square = d^2 / 2 = (4√2)^2 / 2 = 16. Area of second square = 32. Its diagonal = √(2 * Area) = √(64) = 8 cm."
     },
     {
       "id": 19,
@@ -217,7 +217,7 @@
       "optionD": "15",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Speed = 30 * (5/18) = 25/3 m/s. Time = Distance / Speed = 100 / (25/3) = 12 seconds[cite: 9]."
+      "explanation": "Speed = 30 * (5/18) = 25/3 m/s. Time = Distance / Speed = 100 / (25/3) = 12 seconds."
     },
     {
       "id": 20,
@@ -228,7 +228,7 @@
       "optionD": "1",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Solving 3(sec^2 θ + tan^2 θ) = 5 gives tan^2 θ = 1/3 => θ = 30°. Then cos 2θ = cos 60° = 1/2[cite: 9]."
+      "explanation": "Solving 3(sec^2 θ + tan^2 θ) = 5 gives tan^2 θ = 1/3 => θ = 30°. Then cos 2θ = cos 60° = 1/2."
     },
     {
       "id": 21,
@@ -239,7 +239,7 @@
       "optionD": "Heavy water",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Heavy water is primarily used as a moderator (though sometimes as coolant, water/heavy water/sodium/CO2 are coolants, but let's check standard categorization where heavy water is standard moderator)[cite: 9]."
+      "explanation": "Heavy water is primarily used as a moderator (though sometimes as coolant, water/heavy water/sodium/CO2 are coolants, but let's check standard categorization where heavy water is standard moderator)."
     },
     {
       "id": 22,
@@ -250,7 +250,7 @@
       "optionD": "1947",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Provincial autonomy and provincial governments were established under the Government of India Act, 1935[cite: 9]."
+      "explanation": "Provincial autonomy and provincial governments were established under the Government of India Act, 1935."
     },
     {
       "id": 23,
@@ -261,7 +261,7 @@
       "optionD": "Russia",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "China is the world's largest coal producer[cite: 9]."
+      "explanation": "China is the world's largest coal producer."
     },
     {
       "id": 24,
@@ -272,7 +272,7 @@
       "optionD": "the difference in their altitudes",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Altitude differences cause temperature and climate variations between Amritsar and Shimla[cite: 9]."
+      "explanation": "Altitude differences cause temperature and climate variations between Amritsar and Shimla."
     },
     {
       "id": 25,
@@ -283,7 +283,7 @@
       "optionD": "Governor",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "The Governor is the constitutional head of each state in India[cite: 9]."
+      "explanation": "The Governor is the constitutional head of each state in India."
     },
     {
       "id": 26,
@@ -294,7 +294,7 @@
       "optionD": "1024",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Let numbers be x and 2x. x * 2x = 2048 => 2x^2 = 2048 => x^2 = 1024 => x = 32[cite: 9]."
+      "explanation": "Let numbers be x and 2x. x * 2x = 2048 => 2x^2 = 2048 => x^2 = 1024 => x = 32."
     },
     {
       "id": 27,
@@ -305,7 +305,7 @@
       "optionD": "13.925",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "(2+√3)^2 = 4 + 3 + 4√3 = 7 + 4(1.732) = 7 + 6.928 = 13.928[cite: 9]."
+      "explanation": "(2+√3)^2 = 4 + 3 + 4√3 = 7 + 4(1.732) = 7 + 6.928 = 13.928."
     },
     {
       "id": 28,
@@ -316,7 +316,7 @@
       "optionD": "1264",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Other number = (LCM * HCF) / Given number = (1820 * 26) / 130 = 364[cite: 9]."
+      "explanation": "Other number = (LCM * HCF) / Given number = (1820 * 26) / 130 = 364."
     },
     {
       "id": 29,
@@ -327,7 +327,7 @@
       "optionD": "720",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Number = 120 / 0.20 = 600. 120% of 600 = 600 * 1.20 = 720[cite: 9]."
+      "explanation": "Number = 120 / 0.20 = 600. 120% of 600 = 600 * 1.20 = 720."
     },
     {
       "id": 30,
@@ -338,7 +338,7 @@
       "optionD": "31.4%",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Remaining multiplier = 0.80 * 0.90 * 0.95 = 0.684. Equivalent discount = 1 - 0.684 = 0.316 or 31.6%[cite: 9]."
+      "explanation": "Remaining multiplier = 0.80 * 0.90 * 0.95 = 0.684. Equivalent discount = 1 - 0.684 = 0.316 or 31.6%."
     },
     {
       "id": 31,
@@ -349,7 +349,7 @@
       "optionD": "None of them",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Bhakti Kulkarni won the 46th National Women Chess Championship in 2019[cite: 9]."
+      "explanation": "Bhakti Kulkarni won the 46th National Women Chess Championship in 2019."
     },
     {
       "id": 32,
@@ -359,8 +359,8 @@
       "optionC": "M. Venkaiah Naidu",
       "optionD": "None of them",
       "optionE": "",
-      "correctAnswer": "D",
-      "explanation": "At the time of the exam (2020), M. Venkaiah Naidu was Vice-President, but among the options or context 'None of them' applies depending on current perspective, or M. Venkaiah Naidu (Option C)[cite: 9]."
+      "correctAnswer": "C",
+      "explanation": "At the time of the exam (2020), M. Venkaiah Naidu was Vice-President."
     },
     {
       "id": 33,
@@ -371,7 +371,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "NISHTHA was launched on August 22, 2019[cite: 9]."
+      "explanation": "NISHTHA was launched on August 22, 2019."
     },
     {
       "id": 34,
@@ -382,7 +382,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "India ranked seventh largest economy by nominal GDP in 2018 according to the World Bank[cite: 9]."
+      "explanation": "India ranked seventh largest economy by nominal GDP in 2018 according to the World Bank."
     },
     {
       "id": 35,
@@ -393,7 +393,7 @@
       "optionD": "None of them",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "The draft NEP 2019 committee was headed by Dr. K. Kasturirangan[cite: 9]."
+      "explanation": "The draft NEP 2019 committee was headed by Dr. K. Kasturirangan."
     },
     {
       "id": 36,
@@ -404,7 +404,7 @@
       "optionD": "JPR",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "1st letters: B, D, F, H -> J (+2). 2nd letters: X, V, T, R -> P (-2). 3rd letters: F, I, L, O -> R (+3). Result: JPR[cite: 9]."
+      "explanation": "1st letters: B, D, F, H -> J (+2). 2nd letters: X, V, T, R -> P (-2). 3rd letters: F, I, L, O -> R (+3). Result: JPR."
     },
     {
       "id": 37,
@@ -415,7 +415,7 @@
       "optionD": "63",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Squares in descending order: 12^2=144, 10^2=100, 8^2=64, 6^2=36, 4^2=16, 2^2=4. Missing is 36[cite: 9]."
+      "explanation": "Squares in descending order: 12^2=144, 10^2=100, 8^2=64, 6^2=36, 4^2=16, 2^2=4. Missing is 36."
     },
     {
       "id": 38,
@@ -426,7 +426,7 @@
       "optionD": "30",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Counting all individual and combined triangles in the divided triangular grid yields 15 triangles[cite: 9]."
+      "explanation": "Counting all individual and combined triangles in the divided triangular grid yields 15 triangles."
     },
     {
       "id": 39,
@@ -437,7 +437,7 @@
       "optionD": "Bus",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "The fastest vehicle is Aeroplane, and Aeroplane is coded as 'Train'. Thus, you reach in least time by 'Train'[cite: 9]."
+      "explanation": "The fastest vehicle is Aeroplane, and Aeroplane is coded as 'Train'. Thus, you reach in least time by 'Train'."
     },
     {
       "id": 40,
@@ -448,7 +448,7 @@
       "optionD": "TSPA",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Mapping letters from BLADE -> SPTFA for corresponding positions yields BALE -> STPA[cite: 9]."
+      "explanation": "Mapping letters from BLADE -> SPTFA for corresponding positions yields BALE -> STPA."
     },
     {
       "id": 41,
@@ -459,7 +459,7 @@
       "optionD": "Universal Serial Bus",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "USB stands for Universal Serial Bus[cite: 9]."
+      "explanation": "USB stands for Universal Serial Bus."
     },
     {
       "id": 42,
@@ -470,7 +470,7 @@
       "optionD": "1933",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "The Gandhi-Irwin Pact was signed on March 5, 1931[cite: 9]."
+      "explanation": "The Gandhi-Irwin Pact was signed on March 5, 1931."
     },
     {
       "id": 43,
@@ -481,7 +481,7 @@
       "optionD": "Dayanand Saraswati",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Raja Rammohan Roy is hailed as the father of the Indian Renaissance[cite: 9]."
+      "explanation": "Raja Rammohan Roy is hailed as the father of the Indian Renaissance."
     },
     {
       "id": 44,
@@ -492,7 +492,7 @@
       "optionD": "1.644 km",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "One nautical mile equals exactly 1.852 kilometers[cite: 9]."
+      "explanation": "One nautical mile equals exactly 1.852 kilometers."
     },
     {
       "id": 45,
@@ -503,7 +503,7 @@
       "optionD": "Margaret Thatcher",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Clement Attlee was the Prime Minister of the United Kingdom when India gained independence in 1947[cite: 9]."
+      "explanation": "Clement Attlee was the Prime Minister of the United Kingdom when India gained independence in 1947."
     },
     {
       "id": 46,
@@ -514,7 +514,7 @@
       "optionD": "Article 15(1)",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Article 21A of the Indian Constitution provides for free and compulsory education of all children in the age group of 6 to 14 years[cite: 9]."
+      "explanation": "Article 21A of the Indian Constitution provides for free and compulsory education of all children in the age group of 6 to 14 years."
     },
     {
       "id": 47,
@@ -525,7 +525,7 @@
       "optionD": "Google",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "In 2G, 'G' stands for Generation[cite: 9]."
+      "explanation": "In 2G, 'G' stands for Generation."
     },
     {
       "id": 48,
@@ -536,7 +536,7 @@
       "optionD": "all of these",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Gregor Mendel's principles of heredity are based on sexual reproduction experiments involving pea plants[cite: 9]."
+      "explanation": "Gregor Mendel's principles of heredity are based on sexual reproduction experiments involving pea plants."
     },
     {
       "id": 49,
@@ -547,7 +547,7 @@
       "optionD": "Branches",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Leaves perceive the photoperiodic stimulus (photoperiodism) responsible for flowering in plants[cite: 9]."
+      "explanation": "Leaves perceive the photoperiodic stimulus (photoperiodism) responsible for flowering in plants."
     },
     {
       "id": 50,
@@ -558,7 +558,7 @@
       "optionD": "Quit India",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Mahatma Gandhi gave the slogan 'Do or Die' during the Quit India Movement in 1942[cite: 9]."
+      "explanation": "Mahatma Gandhi gave the slogan 'Do or Die' during the Quit India Movement in 1942."
     },
     {
       "id": 51,
@@ -569,7 +569,7 @@
       "optionD": "All of these",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "All listed options (Word Perfect, Easy Word, MS Word) are word processing software applications[cite: 9]."
+      "explanation": "All listed options (Word Perfect, Easy Word, MS Word) are word processing software applications."
     },
     {
       "id": 52,
@@ -580,7 +580,7 @@
       "optionD": "<stdio.h>",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "In standard C++, `<iostream.h>` (or `<iostream>`) is required for standard input/output streams like cin and cout[cite: 9]."
+      "explanation": "In standard C++, `<iostream.h>` (or `<iostream>`) is required for standard input/output streams like cin and cout."
     },
     {
       "id": 53,
@@ -591,7 +591,7 @@
       "optionD": "Close Document",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Ctrl + N is the standard shortcut to create a new document in MS Office[cite: 9]."
+      "explanation": "Ctrl + N is the standard shortcut to create a new document in MS Office."
     },
     {
       "id": 54,
@@ -602,7 +602,7 @@
       "optionD": "operators",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "C++ keywords are reserved words with predefined meanings in the language[cite: 9]."
+      "explanation": "C++ keywords are reserved words with predefined meanings in the language."
     },
     {
       "id": 55,
@@ -613,7 +613,7 @@
       "optionD": "Word fields",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Cross-references in MS Word are inserted as field codes (Word fields) that dynamically update[cite: 9]."
+      "explanation": "Cross-references in MS Word are inserted as field codes (Word fields) that dynamically update."
     },
     {
       "id": 56,
@@ -624,7 +624,7 @@
       "optionD": "Even Page",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Section break options include Next Page, Continuous, Even Page, and Odd Page; 'Previous Page' is not a section break option[cite: 9]."
+      "explanation": "Section break options include Next Page, Continuous, Even Page, and Odd Page; 'Previous Page' is not a section break option."
     },
     {
       "id": 57,
@@ -635,7 +635,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "DBMS stands for Database Management System[cite: 9]."
+      "explanation": "DBMS stands for Database Management System."
     },
     {
       "id": 58,
@@ -646,7 +646,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "By default, headers and footers appear on every page of a document[cite: 9]."
+      "explanation": "By default, headers and footers appear on every page of a document."
     },
     {
       "id": 59,
@@ -657,7 +657,7 @@
       "optionD": "All have same precedence",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Multiplication (*), Division (/), and Modulus (%) operators all share the exact same level of operator precedence[cite: 9]."
+      "explanation": "Multiplication (*), Division (/), and Modulus (%) operators all share the exact same level of operator precedence."
     },
     {
       "id": 60,
@@ -668,7 +668,7 @@
       "optionD": "Open Goto Dialog box",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Ctrl + G opens the Find and Replace dialog box with the 'Go To' tab active in MS Word[cite: 9]."
+      "explanation": "Ctrl + G opens the Find and Replace dialog box with the 'Go To' tab active in MS Word."
     },
     {
       "id": 61,
@@ -679,7 +679,7 @@
       "optionD": "A web browsing Software",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "A firewall is a network security system designed to monitor and prevent unauthorized access[cite: 9]."
+      "explanation": "A firewall is a network security system designed to monitor and prevent unauthorized access."
     },
     {
       "id": 62,
@@ -690,7 +690,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "IETF standards documents are published as RFCs (Request for Comments)[cite: 9]."
+      "explanation": "IETF standards documents are published as RFCs (Request for Comments)."
     },
     {
       "id": 63,
@@ -701,7 +701,7 @@
       "optionD": "All of these",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Serial communication links can utilize simplex, half-duplex, or full-duplex transmission modes depending on hardware[cite: 9]."
+      "explanation": "Serial communication links can utilize simplex, half-duplex, or full-duplex transmission modes depending on hardware."
     },
     {
       "id": 64,
@@ -712,7 +712,7 @@
       "optionD": "32 bytes",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "The minimum header size of an IPv4 packet is 20 bytes[cite: 9]."
+      "explanation": "The minimum header size of an IPv4 packet is 20 bytes."
     },
     {
       "id": 65,
@@ -723,7 +723,7 @@
       "optionD": "Routes to use for forwarding data to its destination",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "A router's routing table maintains paths and routes to forward data packets toward their destination[cite: 9]."
+      "explanation": "A router's routing table maintains paths and routes to forward data packets toward their destination."
     },
     {
       "id": 66,
@@ -734,7 +734,7 @@
       "optionD": "Denial of Service (DoS)",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Back-door threats are generally internal or planted vulnerabilities within the system/code architecture[cite: 9]."
+      "explanation": "Back-door threats are generally internal or planted vulnerabilities within the system/code architecture."
     },
     {
       "id": 67,
@@ -745,7 +745,7 @@
       "optionD": "169.254.0.1 to 169.254.255.255",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "APIPA (Automatic Private IP Addressing) allocates addresses in the range 169.254.0.1 to 169.254.255.255[cite: 9]."
+      "explanation": "APIPA (Automatic Private IP Addressing) allocates addresses in the range 169.254.0.1 to 169.254.255.255."
     },
     {
       "id": 68,
@@ -756,7 +756,7 @@
       "optionD": "Full-duplex",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Multiplexing is a technique to combine multiple signals, not a primary mode of data exchange direction like simplex/duplex[cite: 9]."
+      "explanation": "Multiplexing is a technique to combine multiple signals, not a primary mode of data exchange direction like simplex/duplex."
     },
     {
       "id": 69,
@@ -767,7 +767,7 @@
       "optionD": "Flow Management",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Flow control manages the rate of data transmission between two nodes to prevent a fast sender from overwhelming a slow receiver[cite: 9]."
+      "explanation": "Flow control manages the rate of data transmission between two nodes to prevent a fast sender from overwhelming a slow receiver."
     },
     {
       "id": 70,
@@ -778,7 +778,7 @@
       "optionD": "All of these",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Port numbers identify specific application processes running on end systems[cite: 9]."
+      "explanation": "Port numbers identify specific application processes running on end systems."
     },
     {
       "id": 71,
@@ -789,7 +789,7 @@
       "optionD": "Int",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Integer (Int) is a fundamental built-in basic data type[cite: 9]."
+      "explanation": "Integer (Int) is a fundamental built-in basic data type."
     },
     {
       "id": 72,
@@ -800,7 +800,7 @@
       "optionD": "Slide Show Setup",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Rehearsal allows recording and setting custom slide timings in presentation software[cite: 9]."
+      "explanation": "Rehearsal allows recording and setting custom slide timings in presentation software."
     },
     {
       "id": 73,
@@ -811,7 +811,7 @@
       "optionD": "Local",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Local variables are restricted in scope to the module or function in which they are declared[cite: 9]."
+      "explanation": "Local variables are restricted in scope to the module or function in which they are declared."
     },
     {
       "id": 74,
@@ -822,7 +822,7 @@
       "optionD": "F8",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "F5 starts a slide show from the beginning in MS PowerPoint[cite: 9]."
+      "explanation": "F5 starts a slide show from the beginning in MS PowerPoint."
     },
     {
       "id": 75,
@@ -833,7 +833,7 @@
       "optionD": "array",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "String variables are designed specifically to store characters and text data[cite: 9]."
+      "explanation": "String variables are designed specifically to store characters and text data."
     },
     {
       "id": 76,
@@ -844,7 +844,7 @@
       "optionD": "Press Ctrl+S",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Pressing the Escape (Esc) key terminates an ongoing slide show[cite: 9]."
+      "explanation": "Pressing the Escape (Esc) key terminates an ongoing slide show."
     },
     {
       "id": 77,
@@ -855,7 +855,7 @@
       "optionD": "All of these",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "PowerPoint integrates with various MS Office add-ins including Organization Charts, Photo Albums, and Equation Editors[cite: 9]."
+      "explanation": "PowerPoint integrates with various MS Office add-ins including Organization Charts, Photo Albums, and Equation Editors."
     },
     {
       "id": 78,
@@ -866,7 +866,7 @@
       "optionD": "Insert",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "The spelling check utility is traditionally found under the Tools menu in classic office suites[cite: 9]."
+      "explanation": "The spelling check utility is traditionally found under the Tools menu in classic office suites."
     },
     {
       "id": 79,
@@ -877,7 +877,7 @@
       "optionD": "PAN",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Account number uniquely identifies a customer record within a bank database table[cite: 9]."
+      "explanation": "Account number uniquely identifies a customer record within a bank database table."
     },
     {
       "id": 80,
@@ -888,7 +888,7 @@
       "optionD": "any of these",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "PowerPoint slides support diverse multimedia content including text, graphs, shapes, and clipart[cite: 9]."
+      "explanation": "PowerPoint slides support diverse multimedia content including text, graphs, shapes, and clipart."
     },
     {
       "id": 81,
@@ -899,7 +899,7 @@
       "optionD": "inserts the picture",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Right-clicking opens a context menu or shortcut list tailored to the selected item[cite: 9]."
+      "explanation": "Right-clicking opens a context menu or shortcut list tailored to the selected item."
     },
     {
       "id": 82,
@@ -910,7 +910,7 @@
       "optionD": "operator",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "'>=' is a relational comparison operator[cite: 9]."
+      "explanation": "'>=' is a relational comparison operator."
     },
     {
       "id": 83,
@@ -921,7 +921,7 @@
       "optionD": "checks for misspelled words as you type and correct them as defined",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "AutoCorrect automatically detects common typos and replaces misspelled words as you type[cite: 9]."
+      "explanation": "AutoCorrect automatically detects common typos and replaces misspelled words as you type."
     },
     {
       "id": 84,
@@ -932,7 +932,7 @@
       "optionD": "Variable and Constant",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "A class encapsulates member functions (methods) and data members (variables) together[cite: 9]."
+      "explanation": "A class encapsulates member functions (methods) and data members (variables) together."
     },
     {
       "id": 85,
@@ -943,7 +943,7 @@
       "optionD": "none of these",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Shift + F9 toggles field codes on and off for the selected field in Word[cite: 9]."
+      "explanation": "Shift + F9 toggles field codes on and off for the selected field in Word."
     },
     {
       "id": 86,
@@ -954,7 +954,7 @@
       "optionD": "string",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Classes serve as user-defined Abstract Data Types (ADTs) in object-oriented programming[cite: 9]."
+      "explanation": "Classes serve as user-defined Abstract Data Types (ADTs) in object-oriented programming."
     },
     {
       "id": 87,
@@ -965,7 +965,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Text must be highlighted or selected before applying cut or copy commands[cite: 9]."
+      "explanation": "Text must be highlighted or selected before applying cut or copy commands."
     },
     {
       "id": 88,
@@ -976,7 +976,7 @@
       "optionD": "Data to Program",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "'Cat' is a specialized type of 'Animal', representing a classic 'is-a' inheritance relationship[cite: 9]."
+      "explanation": "'Cat' is a specialized type of 'Animal', representing a classic 'is-a' inheritance relationship."
     },
     {
       "id": 89,
@@ -987,7 +987,7 @@
       "optionD": "Tools menu",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Cross-reference commands are located under the Insert menu in word processors[cite: 9]."
+      "explanation": "Cross-reference commands are located under the Insert menu in word processors."
     },
     {
       "id": 90,
@@ -998,7 +998,7 @@
       "optionD": "Entity name",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "In relational database terminology, a column or field is referred to as an Attribute[cite: 9]."
+      "explanation": "In relational database terminology, a column or field is referred to as an Attribute."
     },
     {
       "id": 91,
@@ -1009,7 +1009,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "TCP/IP is a foundational suite of communication protocols used across the internet[cite: 9]."
+      "explanation": "TCP/IP is a foundational suite of communication protocols used across the internet."
     },
     {
       "id": 92,
@@ -1020,7 +1020,7 @@
       "optionD": "Open Source Information",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "OSI stands for Open Systems Interconnection[cite: 9]."
+      "explanation": "OSI stands for Open Systems Interconnection."
     },
     {
       "id": 93,
@@ -1031,7 +1031,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "The Internet originated as ARPANET, a project funded by the US Department of Defense's Advanced Research Projects Agency (ARPA)[cite: 9]."
+      "explanation": "The Internet originated as ARPANET, a project funded by the US Department of Defense's Advanced Research Projects Agency (ARPA)."
     },
     {
       "id": 94,
@@ -1042,7 +1042,7 @@
       "optionD": "web server",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "HTML is the standard markup language used to create web pages[cite: 9]."
+      "explanation": "HTML is the standard markup language used to create web pages."
     },
     {
       "id": 95,
@@ -1053,7 +1053,7 @@
       "optionD": "World Wide Web",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "www stands for World Wide Web (Note: Option D corrects minor OCR typo in options)[cite: 9]."
+      "explanation": "www stands for World Wide Web (Note: Option D corrects minor OCR typo in options)."
     },
     {
       "id": 96,
@@ -1064,7 +1064,7 @@
       "optionD": "Bookmark",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "The main landing page of a website is known as its Home Page[cite: 9]."
+      "explanation": "The main landing page of a website is known as its Home Page."
     },
     {
       "id": 97,
@@ -1075,7 +1075,7 @@
       "optionD": "Hyper Text Manipulating Links",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "HTML stands for HyperText Markup Language[cite: 9]."
+      "explanation": "HTML stands for HyperText Markup Language."
     },
     {
       "id": 98,
@@ -1086,7 +1086,7 @@
       "optionD": "All of these",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "A computer network involves interconnected computers sharing resources and hardware components over communication channels[cite: 9]."
+      "explanation": "A computer network involves interconnected computers sharing resources and hardware components over communication channels."
     },
     {
       "id": 99,
@@ -1097,7 +1097,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Protocols define standard rules and agreements for data communication between devices[cite: 9]."
+      "explanation": "Protocols define standard rules and agreements for data communication between devices."
     },
     {
       "id": 100,
@@ -1108,7 +1108,7 @@
       "optionD": "none of these",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Devices are networked if processes on them can successfully exchange information[cite: 9]."
+      "explanation": "Devices are networked if processes on them can successfully exchange information."
     },
     {
       "id": 101,
@@ -1119,7 +1119,7 @@
       "optionD": "All of these",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Digital plotters are specialized output devices used in CAD systems for high-quality vector drawings and graphs[cite: 9]."
+      "explanation": "Digital plotters are specialized output devices used in CAD systems for high-quality vector drawings and graphs."
     },
     {
       "id": 102,
@@ -1130,7 +1130,7 @@
       "optionD": "COM (Computer Output to Microfilm)",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "COM (Computer Output to Microfilm) is an output device that records computer data onto microscopic film[cite: 9]."
+      "explanation": "COM (Computer Output to Microfilm) is an output device that records computer data onto microscopic film."
     },
     {
       "id": 103,
@@ -1141,7 +1141,7 @@
       "optionD": "all of these",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Standard 32-bit (two 16-bit words) single-precision floating-point representation yields approximately 6 to 7 decimal digits of precision[cite: 9]."
+      "explanation": "Standard 32-bit (two 16-bit words) single-precision floating-point representation yields approximately 6 to 7 decimal digits of precision."
     },
     {
       "id": 104,
@@ -1152,7 +1152,7 @@
       "optionD": "an arithmetic logic unit and a card reader",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "The core components of a CPU are the Control Unit (CU) and the Arithmetic Logic Unit (ALU)[cite: 9]."
+      "explanation": "The core components of a CPU are the Control Unit (CU) and the Arithmetic Logic Unit (ALU)."
     },
     {
       "id": 105,
@@ -1163,7 +1163,7 @@
       "optionD": "Grandmother board",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "The main printed circuit board in a computer containing the CPU and memory slots is called the Motherboard[cite: 9]."
+      "explanation": "The main printed circuit board in a computer containing the CPU and memory slots is called the Motherboard."
     },
     {
       "id": 106,
@@ -1174,7 +1174,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Magnetic disks provide direct (random) access to stored data blocks[cite: 9]."
+      "explanation": "Magnetic disks provide direct (random) access to stored data blocks."
     },
     {
       "id": 107,
@@ -1185,7 +1185,7 @@
       "optionD": "Queue management",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Pulse Code Modulation (PCM) is the standard method used to convert an analog signal into a digital binary bit stream[cite: 9]."
+      "explanation": "Pulse Code Modulation (PCM) is the standard method used to convert an analog signal into a digital binary bit stream."
     },
     {
       "id": 108,
@@ -1196,7 +1196,7 @@
       "optionD": "It is hardware item",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "A Visual Display Unit (VDU) functions fundamentally as an external peripheral device[cite: 9]."
+      "explanation": "A Visual Display Unit (VDU) functions fundamentally as an external peripheral device."
     },
     {
       "id": 109,
@@ -1207,7 +1207,7 @@
       "optionD": "Performing repetitive tasks accurately",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "A modern computer is broadly defined as an automatic electronic machine for input, storage, manipulation, and output of data[cite: 9]."
+      "explanation": "A modern computer is broadly defined as an automatic electronic machine for input, storage, manipulation, and output of data."
     },
     {
       "id": 110,
@@ -1218,7 +1218,7 @@
       "optionD": "1880",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "The thermionic vacuum tube (Audion) was invented by Lee de Forest in 1906[cite: 9]."
+      "explanation": "The thermionic vacuum tube (Audion) was invented by Lee de Forest in 1906."
     },
     {
       "id": 111,
@@ -1229,7 +1229,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "First-generation computers relied primarily on vacuum tubes and thermionic valves[cite: 9]."
+      "explanation": "First-generation computers relied primarily on vacuum tubes and thermionic valves."
     },
     {
       "id": 112,
@@ -1240,7 +1240,7 @@
       "optionD": "a keyboard and screen",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "A dumb terminal consists only of a keyboard and a screen with no independent processing capabilities[cite: 9]."
+      "explanation": "A dumb terminal consists only of a keyboard and a screen with no independent processing capabilities."
     },
     {
       "id": 113,
@@ -1251,7 +1251,7 @@
       "optionD": "10000th of a second",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "One millisecond equals one-thousandth (1/1000) of a second[cite: 9]."
+      "explanation": "One millisecond equals one-thousandth (1/1000) of a second."
     },
     {
       "id": 114,
@@ -1262,7 +1262,7 @@
       "optionD": "Cheap",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Computers are extremely reliable and fast, but they are not infallible (they can make errors due to faulty programming or bad data)[cite: 9]."
+      "explanation": "Computers are extremely reliable and fast, but they are not infallible (they can make errors due to faulty programming or bad data)."
     },
     {
       "id": 115,
@@ -1273,7 +1273,7 @@
       "optionD": "All of these",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Atanasoff-Berry Computer (ABC) was built specifically to solve systems of linear algebraic equations, making it a special-purpose computer[cite: 9]."
+      "explanation": "Atanasoff-Berry Computer (ABC) was built specifically to solve systems of linear algebraic equations, making it a special-purpose computer."
     },
     {
       "id": 116,
@@ -1284,7 +1284,7 @@
       "optionD": "Single Mode Power Supply",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "SMPS stands for Switched-Mode Power Supply[cite: 9]."
+      "explanation": "SMPS stands for Switched-Mode Power Supply."
     },
     {
       "id": 117,
@@ -1295,7 +1295,7 @@
       "optionD": "Magneto-optic Disk",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Among the options, Hard Disks offer significantly higher storage capacities than floppies or CDs[cite: 9]."
+      "explanation": "Among the options, Hard Disks offer significantly higher storage capacities than floppies or CDs."
     },
     {
       "id": 118,
@@ -1306,7 +1306,7 @@
       "optionD": "ABC",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "ENIAC was widely regarded as the first electronic computer until the landmark court ruling in 1973 invalidating the ENIAC patent in favor of Atanasoff's ABC[cite: 9]."
+      "explanation": "ENIAC was widely regarded as the first electronic computer until the landmark court ruling in 1973 invalidating the ENIAC patent in favor of Atanasoff's ABC."
     },
     {
       "id": 119,
@@ -1317,7 +1317,7 @@
       "optionD": "All of these",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "The physical collection of wires connecting memory and the microprocessor to transmit memory locations is the Address bus[cite: 9]."
+      "explanation": "The physical collection of wires connecting memory and the microprocessor to transmit memory locations is the Address bus."
     },
     {
       "id": 120,
@@ -1328,7 +1328,7 @@
       "optionD": "1.44 MB",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Standard high-density 3.5-inch double-sided floppy disks stored 1.44 MB of data[cite: 9]."
+      "explanation": "Standard high-density 3.5-inch double-sided floppy disks stored 1.44 MB of data."
     },
     {
       "id": 121,
@@ -1339,7 +1339,7 @@
       "optionD": "double clicking on the column left border of column header",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Double-clicking the right border of a column header in spreadsheet applications auto-fits the column width[cite: 9]."
+      "explanation": "Double-clicking the right border of a column header in spreadsheet applications auto-fits the column width."
     },
     {
       "id": 122,
@@ -1350,7 +1350,7 @@
       "optionD": "10",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "The default step value in the Fill Series dialog box in Excel is 1[cite: 9]."
+      "explanation": "The default step value in the Fill Series dialog box in Excel is 1."
     },
     {
       "id": 123,
@@ -1361,7 +1361,7 @@
       "optionD": "none of these",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "In MS Excel, Ctrl + D fills down the contents of the top cell of a selection into the cells below[cite: 9]."
+      "explanation": "In MS Excel, Ctrl + D fills down the contents of the top cell of a selection into the cells below."
     },
     {
       "id": 124,
@@ -1372,7 +1372,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Ctrl + R fills the content of the leftmost cell in a selection to the right across selected cells[cite: 9]."
+      "explanation": "Ctrl + R fills the content of the leftmost cell in a selection to the right across selected cells."
     },
     {
       "id": 125,
@@ -1383,7 +1383,7 @@
       "optionD": "none of these",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Fill Across Worksheet is only enabled when multiple worksheets are simultaneously selected[cite: 9]."
+      "explanation": "Fill Across Worksheet is only enabled when multiple worksheets are simultaneously selected."
     },
     {
       "id": 126,
@@ -1394,7 +1394,7 @@
       "optionD": "Time",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Valid Excel fill series types include Linear, Growth, Date, and AutoFill; 'Time' is not a separate primary series type option[cite: 9]."
+      "explanation": "Valid Excel fill series types include Linear, Growth, Date, and AutoFill; 'Time' is not a separate primary series type option."
     },
     {
       "id": 127,
@@ -1405,7 +1405,7 @@
       "optionD": "All of these",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Paste Special in Excel allows selectively pasting formulas, formats, validations, comments, and values[cite: 9]."
+      "explanation": "Paste Special in Excel allows selectively pasting formulas, formats, validations, comments, and values."
     },
     {
       "id": 128,
@@ -1416,7 +1416,7 @@
       "optionD": "Divide",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Paste Special mathematical operations include Add, Subtract, Multiply, and Divide[cite: 9]."
+      "explanation": "Paste Special mathematical operations include Add, Subtract, Multiply, and Divide."
     },
     {
       "id": 129,
@@ -1427,7 +1427,7 @@
       "optionD": "deletes selected cells",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Edit -> Delete removes the selected cells entirely and shifts surrounding cells, whereas Clear removes contents/formats[cite: 9]."
+      "explanation": "Edit -> Delete removes the selected cells entirely and shifts surrounding cells, whereas Clear removes contents/formats."
     },
     {
       "id": 130,
@@ -1438,7 +1438,7 @@
       "optionD": "Data >> Delete",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "To clear only the contents of selected cells without shifting cells, Edit -> Clear -> Contents is used[cite: 9]."
+      "explanation": "To clear only the contents of selected cells without shifting cells, Edit -> Clear -> Contents is used."
     },
     {
       "id": 131,
@@ -1449,7 +1449,7 @@
       "optionD": "9",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "A is initialized to 10. A++ increments A by 1, making it 11. cout prints 11[cite: 9]."
+      "explanation": "A is initialized to 10. A++ increments A by 1, making it 11. cout prints 11."
     },
     {
       "id": 132,
@@ -1459,8 +1459,8 @@
       "optionC": "Ctrl + S",
       "optionD": "All of these",
       "optionE": "",
-      "correctAnswer": "B",
-      "explanation": "Ctrl + M is the standard shortcut key to insert a new slide in MS PowerPoint[cite: 9]."
+      "correctAnswer": "A",
+      "explanation": "A primary key is a candidate key selected to uniquely identify rows in a relation."
     },
     {
       "id": 133,
@@ -1471,7 +1471,7 @@
       "optionD": "Non key",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Every primary key is technically a super key (and a candidate key, but super key is the broader encompassing concept in options)[cite: 9]."
+      "explanation": "Every primary key is technically a super key (and a candidate key, but super key is the broader encompassing concept in options)."
     },
     {
       "id": 134,
@@ -1482,7 +1482,7 @@
       "optionD": "All of these",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "New slides can be inserted via the toolbar button, Insert menu, or right-clicking the slide panel[cite: 9]."
+      "explanation": "New slides can be inserted via the toolbar button, Insert menu, or right-clicking the slide panel."
     },
     {
       "id": 135,
@@ -1493,7 +1493,7 @@
       "optionD": "interpreter",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Android is a mobile operating system developed by Google[cite: 9]."
+      "explanation": "Android is a mobile operating system developed by Google."
     },
     {
       "id": 136,
@@ -1504,7 +1504,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "The most efficient way to copy a slide in PowerPoint is using the 'Duplicate Slide' command from the Insert or context menu[cite: 9]."
+      "explanation": "The most efficient way to copy a slide in PowerPoint is using the 'Duplicate Slide' command from the Insert or context menu."
     },
     {
       "id": 137,
@@ -1515,7 +1515,7 @@
       "optionD": "operator",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Float is a fundamental primitive data type used to represent floating-point (decimal) numbers[cite: 9]."
+      "explanation": "Float is a fundamental primitive data type used to represent floating-point (decimal) numbers."
     },
     {
       "id": 138,
@@ -1526,7 +1526,7 @@
       "optionD": "View",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "The Insert menu allows users to add objects like pictures, text boxes, and charts into documents[cite: 9]."
+      "explanation": "The Insert menu allows users to add objects like pictures, text boxes, and charts into documents."
     },
     {
       "id": 139,
@@ -1537,7 +1537,7 @@
       "optionD": "Raw & Processed",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Data refers to raw, unprocessed facts, while information refers to processed, organized, and structured data[cite: 9]."
+      "explanation": "Data refers to raw, unprocessed facts, while information refers to processed, organized, and structured data."
     },
     {
       "id": 140,
@@ -1548,7 +1548,7 @@
       "optionD": "Insert a new text box and select Insert >> Slide Number",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Slide numbers are inserted via the Insert -> Slide Number command[cite: 9]."
+      "explanation": "Slide numbers are inserted via the Insert -> Slide Number command."
     },
     {
       "id": 141,
@@ -1559,7 +1559,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Worksheets can be deleted either by right-clicking the sheet tab or via the Edit menu delete option[cite: 9]."
+      "explanation": "Worksheets can be deleted either by right-clicking the sheet tab or via the Edit menu delete option."
     },
     {
       "id": 142,
@@ -1570,7 +1570,7 @@
       "optionD": "None of these",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Edit -> Delete Sheet removes a worksheet, whereas Hide only conceals it[cite: 9]."
+      "explanation": "Edit -> Delete Sheet removes a worksheet, whereas Hide only conceals it."
     },
     {
       "id": 143,
@@ -1581,7 +1581,7 @@
       "optionD": "None are valid",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Excel allows finding and replacing text across an active worksheet or an entire workbook[cite: 9]."
+      "explanation": "Excel allows finding and replacing text across an active worksheet or an entire workbook."
     },
     {
       "id": 144,
@@ -1592,7 +1592,7 @@
       "optionD": "when you show the results of formulas with different decimal places that the calculated results",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Rounding discrepancies can surface when displayed decimal places differ from the precision stored during internal calculations[cite: 9]."
+      "explanation": "Rounding discrepancies can surface when displayed decimal places differ from the precision stored during internal calculations."
     },
     {
       "id": 145,
@@ -1603,7 +1603,7 @@
       "optionD": "All of these",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Data and formulas can be copied via edit menus, shortcut right-click menus, or standard toolbar buttons[cite: 9]."
+      "explanation": "Data and formulas can be copied via edit menus, shortcut right-click menus, or standard toolbar buttons."
     },
     {
       "id": 146,
@@ -1614,7 +1614,7 @@
       "optionD": "With the copy and paste buttons on the standard toolbar",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Standard paste buttons alone just copy static data without establishing a live link; Paste Special (Paste Link) is required for dynamic linking[cite: 9]."
+      "explanation": "Standard paste buttons alone just copy static data without establishing a live link; Paste Special (Paste Link) is required for dynamic linking."
     },
     {
       "id": 147,
@@ -1625,7 +1625,7 @@
       "optionD": "Lotus 1-2-3",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Lotus 1-2-3 was a highly popular spreadsheet application developed for MS-DOS systems[cite: 9]."
+      "explanation": "Lotus 1-2-3 was a highly popular spreadsheet application developed for MS-DOS systems."
     },
     {
       "id": 148,
@@ -1636,7 +1636,7 @@
       "optionD": "Worksheets and charts",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "An Excel workbook serves as a container file holding worksheets and chart sheets[cite: 9]."
+      "explanation": "An Excel workbook serves as a container file holding worksheets and chart sheets."
     },
     {
       "id": 149,
@@ -1647,7 +1647,7 @@
       "optionD": "123",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Classic Excel workbook files possess the default extension .xls (and .xlsx in modern versions)[cite: 9]."
+      "explanation": "Classic Excel workbook files possess the default extension .xls (and .xlsx in modern versions)."
     },
     {
       "id": 150,
@@ -1658,7 +1658,7 @@
       "optionD": "Pressing the Alt key and clicking the format painter button",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Double-clicking the Format Painter button locks it on so it can be applied repeatedly across multiple cells[cite: 9]."
+      "explanation": "Double-clicking the Format Painter button locks it on so it can be applied repeatedly across multiple cells."
     }
   ]
 }

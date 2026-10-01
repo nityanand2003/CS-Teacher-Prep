@@ -14,7 +14,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "E",
-      "explanation": "Expanding (x + 1/x)^2 gives x^2 + 2 + 1/x^2, which is not present in options A, B, or C[cite: 3]."
+      "explanation": "Expanding (x + 1/x)^2 gives x^2 + 2 + 1/x^2, which is not present in options A, B, or C."
     },
     {
       "id": 2,
@@ -25,7 +25,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Net percentage change = +10 - 10 - (10 * 10) / 100 = -1%, which represents a 1% loss[cite: 3]."
+      "explanation": "Net percentage change = +10 - 10 - (10 * 10) / 100 = -1%, which represents a 1% loss."
     },
     {
       "id": 3,
@@ -36,7 +36,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "81 divided by 3 gives 27, which is a perfect cube (3^3 = 27)[cite: 3]."
+      "explanation": "81 divided by 3 gives 27, which is a perfect cube (3^3 = 27)."
     },
     {
       "id": 4,
@@ -47,7 +47,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Let the numbers be 2x and 5x. 5x - 2x = 3x = 66 => x = 22. Numbers are 2 * 22 = 44 and 5 * 22 = 110[cite: 3]."
+      "explanation": "Let the numbers be 2x and 5x. 5x - 2x = 3x = 66 => x = 22. Numbers are 2 * 22 = 44 and 5 * 22 = 110."
     },
     {
       "id": 5,
@@ -58,7 +58,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Adjacent angles in a parallelogram are supplementary: x + 2x = 180 degrees => 3x = 180 degrees => x = 60 degrees[cite: 3]."
+      "explanation": "Adjacent angles in a parallelogram are supplementary: x + 2x = 180 degrees => 3x = 180 degrees => x = 60 degrees."
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Total Surface Area = 2 * pi * r * (r + h) => 2 * (22/7) * 7 * (7 + h) = 968 => 44 * (7 + h) = 968 => 7 + h = 22 => h = 15 cm[cite: 3]."
+      "explanation": "Total Surface Area = 2 * pi * r * (r + h) => 2 * (22/7) * 7 * (7 + h) = 968 => 44 * (7 + h) = 968 => 7 + h = 22 => h = 15 cm."
     },
     {
       "id": 7,
@@ -80,7 +80,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Equating the powers on base (-3): (m + 1) + 5 = 7 => m + 6 = 7 => m = 1[cite: 3]."
+      "explanation": "Equating the powers on base (-3): (m + 1) + 5 = 7 => m + 6 = 7 => m = 1."
     },
     {
       "id": 8,
@@ -91,7 +91,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "When x and y are in inverse proportion, their product x * y remains constant[cite: 3]."
+      "explanation": "When x and y are in inverse proportion, their product x * y remains constant."
     },
     {
       "id": 9,
@@ -102,7 +102,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Resistance of each part = R/5. In parallel, 1/R' = 5 / (R/5) = 25/R => R/R' = 25[cite: 3]."
+      "explanation": "Resistance of each part = R/5. In parallel, 1/R' = 5 / (R/5) = 25/R => R/R' = 25."
     },
     {
       "id": 10,
@@ -124,7 +124,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "E",
-      "explanation": "April has 30 days. Number of days to 10th May = 10. 10 mod 7 = 3 days after Tuesday = Friday, which is not listed[cite: 3]."
+      "explanation": "April has 30 days. Number of days to 10th May = 10. 10 mod 7 = 3 days after Tuesday = Friday, which is not listed."
     },
     {
       "id": 12,
@@ -135,7 +135,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "The crystalline lens of the human eye focuses incoming light rays to form a real and inverted image on the retina[cite: 3]."
+      "explanation": "The crystalline lens of the human eye focuses incoming light rays to form a real and inverted image on the retina."
     },
     {
       "id": 13,
@@ -146,7 +146,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "The anther is the male reproductive organ of the flower that contains microsporangia where pollen grains develop[cite: 3]."
+      "explanation": "The anther is the male reproductive organ of the flower that contains microsporangia where pollen grains develop."
     },
     {
       "id": 14,
@@ -157,7 +157,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Green hydrogen is generated through the electrolysis of water powered by renewable electricity sources[cite: 3]."
+      "explanation": "Green hydrogen is generated through the electrolysis of water powered by renewable electricity sources."
     },
     {
       "id": 15,
@@ -168,7 +168,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Mercury lacks an atmosphere and has an ancient, heavily cratered terrain visually very similar to the Moon[cite: 3]."
+      "explanation": "Mercury lacks an atmosphere and has an ancient, heavily cratered terrain visually very similar to the Moon."
     },
     {
       "id": 16,
@@ -179,7 +179,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "The East African Rift Valley has yielded early hominid fossils, marking it as the primary cradle of human origin[cite: 3]."
+      "explanation": "The East African Rift Valley has yielded early hominid fossils, marking it as the primary cradle of human origin."
     },
     {
       "id": 17,
@@ -190,7 +190,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Dry point settlements are built on upland patches in low-lying, flood-prone river regions to avoid inundation[cite: 3]."
+      "explanation": "Dry point settlements are built on upland patches in low-lying, flood-prone river regions to avoid inundation."
     },
     {
       "id": 18,
@@ -201,7 +201,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Rohtas is the leading paddy-producing district in Bihar and is often referred to as the rice bowl of the state[cite: 3]."
+      "explanation": "Rohtas is the leading paddy-producing district in Bihar and is often referred to as the rice bowl of the state."
     },
     {
       "id": 19,
@@ -212,7 +212,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Tehran is situated on the southern slopes of the Alborz (Alburz) mountain range in northern Iran[cite: 3]."
+      "explanation": "Tehran is situated on the southern slopes of the Alborz (Alburz) mountain range in northern Iran."
     },
     {
       "id": 20,
@@ -223,7 +223,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Lord Chelmsford served as the Viceroy of India from 1916 to 1921 during the Jallianwala Bagh massacre[cite: 3]."
+      "explanation": "Lord Chelmsford served as the Viceroy of India from 1916 to 1921 during the Jallianwala Bagh massacre."
     },
     {
       "id": 21,
@@ -234,7 +234,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Womesh Chandra Bonnerjee presided over the first session of the Indian National Congress held in Bombay in 1885[cite: 3]."
+      "explanation": "Womesh Chandra Bonnerjee presided over the first session of the Indian National Congress held in Bombay in 1885."
     },
     {
       "id": 22,
@@ -245,7 +245,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Dadabhai Naoroji was revered as the Grand Old Man of India for his contribution to the national freedom movement[cite: 3]."
+      "explanation": "Dadabhai Naoroji was revered as the Grand Old Man of India for his contribution to the national freedom movement."
     },
     {
       "id": 23,
@@ -256,7 +256,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Mahatma Gandhi gave the mantra 'Do or Die' at the Gowalia Tank Maidan during the launch of the Quit India Movement in 1942[cite: 3]."
+      "explanation": "Mahatma Gandhi gave the mantra 'Do or Die' at the Gowalia Tank Maidan during the launch of the Quit India Movement in 1942."
     },
     {
       "id": 24,
@@ -267,7 +267,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Vallabhbhai Patel successfully led the Bardoli peasant movement against land revenue hikes, earning the title 'Sardar'[cite: 3]."
+      "explanation": "Vallabhbhai Patel successfully led the Bardoli peasant movement against land revenue hikes, earning the title 'Sardar'."
     },
     {
       "id": 25,
@@ -278,7 +278,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "The two Home Rule Leagues were initiated by Bal Gangadhar Tilak and Annie Besant in 1916[cite: 3]."
+      "explanation": "The two Home Rule Leagues were initiated by Bal Gangadhar Tilak and Annie Besant in 1916."
     },
     {
       "id": 26,
@@ -289,7 +289,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Swami Sahajanand Saraswati was elected as the first President of the All India Kisan Sabha at Lucknow in 1936[cite: 3]."
+      "explanation": "Swami Sahajanand Saraswati was elected as the first President of the All India Kisan Sabha at Lucknow in 1936."
     },
     {
       "id": 27,
@@ -377,7 +377,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "The ozone layer (O3) in the stratosphere absorbs harmful high-frequency ultraviolet radiation from the Sun[cite: 2]."
+      "explanation": "The ozone layer (O3) in the stratosphere absorbs harmful high-frequency ultraviolet radiation from the Sun."
     },
     {
       "id": 35,
@@ -454,7 +454,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "D",
-      "explanation": "Both NAND and NOR are universal gates; any Boolean function can be implemented using either gate alone[cite: 3]."
+      "explanation": "Both NAND and NOR are universal gates; any Boolean function can be implemented using either gate alone."
     },
     {
       "id": 42,
@@ -465,7 +465,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "A truth table for n binary inputs has 2^n rows. With 4 inputs, there are 2^4 = 16 rows[cite: 3]."
+      "explanation": "A truth table for n binary inputs has 2^n rows. With 4 inputs, there are 2^4 = 16 rows."
     },
     {
       "id": 43,
@@ -476,7 +476,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Negative edge-triggered flip-flops sample their inputs and toggle states on the falling edge (High-to-Low) of the clock pulse[cite: 3]."
+      "explanation": "Negative edge-triggered flip-flops sample their inputs and toggle states on the falling edge (High-to-Low) of the clock pulse."
     },
     {
       "id": 44,
@@ -487,7 +487,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Bitwise AND operation: 1 AND 1 = 1; 0 AND 1 = 0; 1 AND 0 = 0; 0 AND 0 = 0. Output is 1000[cite: 3]."
+      "explanation": "Bitwise AND operation: 1 AND 1 = 1; 0 AND 1 = 0; 1 AND 0 = 0; 0 AND 0 = 0. Output is 1000."
     },
     {
       "id": 45,
@@ -498,7 +498,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "A half-adder adds two single binary bits and produces two outputs: Sum (A XOR B) and Carry (A AND B)[cite: 3]."
+      "explanation": "A half-adder adds two single binary bits and produces two outputs: Sum (A XOR B) and Carry (A AND B)."
     },
     {
       "id": 46,
@@ -509,7 +509,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "D",
-      "explanation": "PROM, EPROM, and EEPROM are all non-volatile forms of Read-Only Memory that retain stored data without power[cite: 3]."
+      "explanation": "PROM, EPROM, and EEPROM are all non-volatile forms of Read-Only Memory that retain stored data without power."
     },
     {
       "id": 47,
@@ -520,7 +520,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "PLA stands for Programmable Logic Array, featuring programmable AND and programmable OR arrays[cite: 3]."
+      "explanation": "PLA stands for Programmable Logic Array, featuring programmable AND and programmable OR arrays."
     },
     {
       "id": 48,
@@ -531,7 +531,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "For 2^n inputs, n select lines are needed. 2^3 = 8, so exactly 3 selection lines are required[cite: 3]."
+      "explanation": "For 2^n inputs, n select lines are needed. 2^3 = 8, so exactly 3 selection lines are required."
     },
     {
       "id": 49,
@@ -542,7 +542,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "1234 in binary is 10011010010; in octal is 2322; and in hexadecimal is 4D2 (since 4*256 + 13*16 + 2 = 1234)[cite: 3]."
+      "explanation": "1234 in binary is 10011010010; in octal is 2322; and in hexadecimal is 4D2 (since 4*256 + 13*16 + 2 = 1234)."
     },
     {
       "id": 50,
@@ -553,7 +553,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Booth's algorithm multiplies signed integers in 2's complement notation by encoding adjacent bits[cite: 3]."
+      "explanation": "Booth's algorithm multiplies signed integers in 2's complement notation by encoding adjacent bits."
     },
     {
       "id": 51,
@@ -575,7 +575,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Don't Care conditions are set to 1 or 0 as needed to form larger groupings in K-maps to minimize logic gates[cite: 3]."
+      "explanation": "Don't Care conditions are set to 1 or 0 as needed to form larger groupings in K-maps to minimize logic gates."
     },
     {
       "id": 53,
@@ -586,7 +586,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Graphs and trees are non-linear data structures because their elements are not organized in sequential order[cite: 3]."
+      "explanation": "Graphs and trees are non-linear data structures because their elements are not organized in sequential order ."
     },
     {
       "id": 54,
@@ -597,7 +597,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Hash Tables achieve expected O(1) time complexity for search, insert, and delete through efficient hashing[cite: 3]."
+      "explanation": "Hash Tables achieve expected O(1) time complexity for search, insert, and delete through efficient hashing ."
     },
     {
       "id": 55,
@@ -619,7 +619,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Evaluation: (10 + 5) = 15; (60 / 6) = 10; 15 * 10 = 150; 150 - 8 = 142[cite: 3]."
+      "explanation": "Evaluation: (10 + 5) = 15; (60 / 6) = 10; 15 * 10 = 150; 150 - 8 = 142 ."
     },
     {
       "id": 57,
@@ -630,7 +630,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "An AVL tree maintains height balance such that the difference between left and right subtree heights is -1, 0, or +1[cite: 3]."
+      "explanation": "An AVL tree maintains height balance such that the difference between left and right subtree heights is -1, 0, or +1 ."
     },
     {
       "id": 58,
@@ -641,7 +641,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Binary search divides the search space in half during each step, resulting in O(log N) time[cite: 3]."
+      "explanation": "Binary search divides the search space in half during each step, resulting in O(log N) time ."
     },
     {
       "id": 59,
@@ -652,7 +652,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Sorting keys gives inorder (10, 11, 12, 15, 16, 18, 19, 20). Reconstructing the tree and visiting Left-Right-Root yields 11, 12, 10, 16, 19, 18, 20, 15[cite: 3]."
+      "explanation": "Sorting keys gives inorder (10, 11, 12, 15, 16, 18, 19, 20). Reconstructing the tree and visiting Left-Right-Root yields 11, 12, 10, 16, 19, 18, 20, 15 ."
     },
     {
       "id": 60,
@@ -663,7 +663,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "The number of distinct BSTs with n keys is given by Catalan number C_n = (2n)! / ((n+1)! * n!). For n = 4, C_4 = 14[cite: 3]."
+      "explanation": "The number of distinct BSTs with n keys is given by Catalan number C_n = (2n)! / ((n+1)! * n!). For n = 4, C_4 = 14 ."
     },
     {
       "id": 61,
@@ -674,7 +674,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "The sizeof operator evaluates types at compile time and does not execute the inner assignment, so sizeof yields 4 and k remains 15[cite: 3]."
+      "explanation": "The sizeof operator evaluates types at compile time and does not execute the inner assignment, so sizeof yields 4 and k remains 15 ."
     },
     {
       "id": 62,
@@ -685,7 +685,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Big-O notation describes an asymptotic upper bound on the growth rate of an algorithm's execution time[cite: 3]."
+      "explanation": "Big-O notation describes an asymptotic upper bound on the growth rate of an algorithm's execution time ."
     },
     {
       "id": 63,
@@ -696,7 +696,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Divide and Conquer divides the problem into subproblems, conquers them recursively, and combines the results[cite: 3]."
+      "explanation": "Divide and Conquer divides the problem into subproblems, conquers them recursively, and combines the results ."
     },
     {
       "id": 64,
@@ -707,7 +707,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "A spanning tree on N vertices is a connected acyclic graph and must have exactly N - 1 edges[cite: 3]."
+      "explanation": "A spanning tree on N vertices is a connected acyclic graph and must have exactly N - 1 edges ."
     },
     {
       "id": 65,
@@ -718,7 +718,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "D",
-      "explanation": "Greedy, Divide and Conquer, and Dynamic Programming are general algorithm design paradigms, not specific graph traversal methods like BFS or DFS[cite: 3]."
+      "explanation": "Greedy, Divide and Conquer, and Dynamic Programming are general algorithm design paradigms, not specific graph traversal methods like BFS or DFS ."
     },
     {
       "id": 66,
@@ -729,7 +729,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Single-source shortest path problems can be solved in polynomial time (e.g., Dijkstra's algorithm) and are not NP-complete[cite: 3]."
+      "explanation": "Single-source shortest path problems can be solved in polynomial time (e.g., Dijkstra's algorithm) and are not NP-complete ."
     },
     {
       "id": 67,
@@ -740,7 +740,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "D",
-      "explanation": "Real-time OS, Embedded OS, and Network OS are all legitimate categories of operating systems[cite: 3]."
+      "explanation": "Real-time OS, Embedded OS, and Network OS are all legitimate categories of operating systems ."
     },
     {
       "id": 68,
@@ -751,7 +751,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Fragmentation is an undesirable phenomenon/problem in memory allocation, not a management technique[cite: 3]."
+      "explanation": "Fragmentation is an undesirable phenomenon/problem in memory allocation, not a management technique ."
     },
     {
       "id": 69,
@@ -762,7 +762,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "A page is a contiguous, fixed-size unit of virtual memory; corresponding physical blocks are called frames[cite: 3]."
+      "explanation": "A page is a contiguous, fixed-size unit of virtual memory; corresponding physical blocks are called frames ."
     },
     {
       "id": 70,
@@ -773,7 +773,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Page size is 4 KB = 4096 bytes = 2^12 bytes. Therefore, 12 bits are needed to address bytes within a page[cite: 3]."
+      "explanation": "Page size is 4 KB = 4096 bytes = 2^12 bytes. Therefore, 12 bits are needed to address bytes within a page ."
     },
     {
       "id": 71,
@@ -784,7 +784,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "In segmentation, the base register specifies the physical starting memory address where the segment is stored[cite: 3]."
+      "explanation": "In segmentation, the base register specifies the physical starting memory address where the segment is stored ."
     },
     {
       "id": 72,
@@ -795,7 +795,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Thrashing occurs when the system spends more time executing page swaps than actual process instructions due to insufficient allocated frames[cite: 3]."
+      "explanation": "Thrashing occurs when the system spends more time executing page swaps than actual process instructions due to insufficient allocated frames ."
     },
     {
       "id": 73,
@@ -806,7 +806,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "D",
-      "explanation": "Translation Lookaside Buffers (TLBs) are built as either fully associative or set-associative hardware caches[cite: 3]."
+      "explanation": "Translation Lookaside Buffers (TLBs) are built as either fully associative or set-associative hardware caches ."
     },
     {
       "id": 74,
@@ -817,7 +817,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Head movements: |53-98| + |98-183| + |183-37| + |37-122| + |122-14| + |14-124| + |124-65| + |65-67| = 45+85+146+85+108+110+59+2 = 640[cite: 3]."
+      "explanation": "Head movements: |53-98| + |98-183| + |183-37| + |37-122| + |122-14| + |14-124| + |124-65| + |65-67| = 45+85+146+85+108+110+59+2 = 640 ."
     },
     {
       "id": 75,
@@ -828,7 +828,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Threads in the same process share their virtual address space including the code and data segments and open files[cite: 3]."
+      "explanation": "Threads in the same process share their virtual address space including the code and data segments and open files ."
     },
     {
       "id": 76,
@@ -839,7 +839,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "A primary key is a column or set of columns chosen to uniquely identify every row in a database table[cite: 3]."
+      "explanation": "A primary key is a column or set of columns chosen to uniquely identify every row in a database table ."
     },
     {
       "id": 77,
@@ -850,7 +850,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Second Normal Form (2NF) requires that no non-prime attribute is partially dependent on any candidate key[cite: 3]."
+      "explanation": "Second Normal Form (2NF) requires that no non-prime attribute is partially dependent on any candidate key ."
     },
     {
       "id": 78,
@@ -861,7 +861,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "The INSERT (or INSERT INTO) statement adds new records to an existing table in SQL[cite: 3]."
+      "explanation": "The INSERT (or INSERT INTO) statement adds new records to an existing table in SQL ."
     },
     {
       "id": 79,
@@ -872,7 +872,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "E",
-      "explanation": "Packet routing and forwarding is performed by the Network Layer, which is not listed in options A, B, or C[cite: 3]."
+      "explanation": "Packet routing and forwarding is performed by the Network Layer, which is not listed in options A, B, or C ."
     },
     {
       "id": 80,
@@ -883,7 +883,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "A network switch operates at Layer 2 to connect workstations and devices within the same local network[cite: 3]."
+      "explanation": "A network switch operates at Layer 2 to connect workstations and devices within the same local network ."
     },
     {
       "id": 81,
@@ -894,7 +894,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Simple Mail Transfer Protocol (SMTP) is the standard application protocol for dispatching emails across the internet[cite: 3]."
+      "explanation": "Simple Mail Transfer Protocol (SMTP) is the standard application protocol for dispatching emails across the internet ."
     },
     {
       "id": 82,
@@ -905,7 +905,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "A subnet mask separates the IP address into the network prefix and the host identifier portion[cite: 3]."
+      "explanation": "A subnet mask separates the IP address into the network prefix and the host identifier portion ."
     },
     {
       "id": 83,
@@ -916,7 +916,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Bluetooth 5.0 provides an enhanced physical data transfer rate of up to 2 Mbps[cite: 3]."
+      "explanation": "Bluetooth 5.0 provides an enhanced physical data transfer rate of up to 2 Mbps ."
     },
     {
       "id": 84,
@@ -927,7 +927,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "D",
-      "explanation": "Waterfall, Agile, and Spiral models are all recognized SDLC methodologies[cite: 3]."
+      "explanation": "Waterfall, Agile, and Spiral models are all recognized SDLC methodologies ."
     },
     {
       "id": 85,
@@ -938,7 +938,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Verification ensures conformance to specifications; validation confirms the software meets actual customer needs[cite: 3]."
+      "explanation": "Verification ensures conformance to specifications; validation confirms the software meets actual customer needs ."
     },
     {
       "id": 86,
@@ -949,7 +949,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "E",
-      "explanation": "A software prototype is built primarily to evaluate, clarify, and validate user requirements early in development[cite: 3]."
+      "explanation": "A software prototype is built primarily to evaluate, clarify, and validate user requirements early in development ."
     },
     {
       "id": 87,
@@ -960,7 +960,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "D",
-      "explanation": "Inheritance, Encapsulation, Abstraction, and Polymorphism are the core pillars of Object-Oriented Programming[cite: 3]."
+      "explanation": "Inheritance, Encapsulation, Abstraction, and Polymorphism are the core pillars of Object-Oriented Programming ."
     },
     {
       "id": 88,
@@ -971,7 +971,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "In Java, the `extends` keyword is used when a subclass derives from a superclass[cite: 3]."
+      "explanation": "In Java, the `extends` keyword is used when a subclass derives from a superclass ."
     },
     {
       "id": 89,
@@ -982,7 +982,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "HTML defines the structural markup and document content of web pages[cite: 3]."
+      "explanation": "HTML defines the structural markup and document content of web pages ."
     },
     {
       "id": 90,
@@ -993,7 +993,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "E",
-      "explanation": "HTML and CSS are frontend styling/markup tools, and standard server-side scripting languages include PHP, Node.js, and Python[cite: 3]."
+      "explanation": "HTML and CSS are frontend styling/markup tools, and standard server-side scripting languages include PHP, Node.js, and Python ."
     },
     {
       "id": 91,
@@ -1004,7 +1004,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "The halting problem was proven by Alan Turing to be undecidable (not computable by any Turing machine)[cite: 3]."
+      "explanation": "The halting problem was proven by Alan Turing to be undecidable (not computable by any Turing machine) ."
     },
     {
       "id": 92,
@@ -1015,7 +1015,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "A standard Turing machine uses a single infinite tape for both input and output rather than a separate output tape[cite: 3]."
+      "explanation": "A standard Turing machine uses a single infinite tape for both input and output rather than a separate output tape ."
     },
     {
       "id": 93,
@@ -1026,7 +1026,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "MQTT (Message Queuing Telemetry Transport) is a lightweight publish-subscribe protocol tailored for constrained IoT hardware[cite: 3]."
+      "explanation": "MQTT (Message Queuing Telemetry Transport) is a lightweight publish-subscribe protocol tailored for constrained IoT hardware ."
     },
     {
       "id": 94,
@@ -1037,7 +1037,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "D",
-      "explanation": "Machine Learning, Robotics, and NLP are all integral branches of Artificial Intelligence[cite: 3]."
+      "explanation": "Machine Learning, Robotics, and NLP are all integral branches of Artificial Intelligence ."
     },
     {
       "id": 95,
@@ -1048,7 +1048,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Decision Tree is a supervised machine learning algorithm trained on labeled target data[cite: 3]."
+      "explanation": "Decision Tree is a supervised machine learning algorithm trained on labeled target data ."
     },
     {
       "id": 96,
@@ -1059,7 +1059,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "E",
-      "explanation": "B2C, C2B, and C2C are all recognized, standard e-commerce models[cite: 3]."
+      "explanation": "B2C, C2B, and C2C are all recognized, standard e-commerce models ."
     },
     {
       "id": 97,
@@ -1070,7 +1070,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Amazon functions prominently as a Business-to-Consumer online retail platform[cite: 3]."
+      "explanation": "Amazon functions prominently as a Business-to-Consumer online retail platform ."
     },
     {
       "id": 98,
@@ -1081,7 +1081,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Adobe Flash was historically designed as a multimedia authoring and animation development suite[cite: 3]."
+      "explanation": "Adobe Flash was historically designed as a multimedia authoring and animation development suite ."
     },
     {
       "id": 99,
@@ -1103,7 +1103,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Encapsulation bundles data with functions and prevents arbitrary external access through private visibility[cite: 2]."
+      "explanation": "Encapsulation bundles data with functions and prevents arbitrary external access through private visibility."
     },
     {
       "id": 101,
@@ -1125,7 +1125,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Routers operate at Layer 3 (Network Layer) and determine optimum packet delivery paths based on IP addressing[cite: 3]."
+      "explanation": "Routers operate at Layer 3 (Network Layer) and determine optimum packet delivery paths based on IP addressing ."
     },
     {
       "id": 103,
@@ -1158,7 +1158,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Any member function whose body is defined within the class declaration is treated by the compiler as inline by default[cite: 2]."
+      "explanation": "Any member function whose body is defined within the class declaration is treated by the compiler as inline by default."
     },
     {
       "id": 106,
@@ -1213,7 +1213,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "A destructor takes no arguments, returns no value, and cannot be overloaded[cite: 2]."
+      "explanation": "A destructor takes no arguments, returns no value, and cannot be overloaded."
     },
     {
       "id": 111,
@@ -1279,7 +1279,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "The `friend` declaration allows an outside function or class access to private and protected class members[cite: 2]."
+      "explanation": "The `friend` declaration allows an outside function or class access to private and protected class members."
     },
     {
       "id": 117,
@@ -1323,7 +1323,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "IEEE 802.11 is the internationally recognized engineering standard defining Wi-Fi wireless networking[cite: 3]."
+      "explanation": "IEEE 802.11 is the internationally recognized engineering standard defining Wi-Fi wireless networking ."
     }
   ]
 }

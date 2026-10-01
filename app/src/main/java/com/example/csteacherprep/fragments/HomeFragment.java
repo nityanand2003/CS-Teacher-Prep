@@ -10,6 +10,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.csteacherprep.R;
+import android.content.Intent;
+import com.example.csteacherprep.activities.PlaylistActivity;
 
 public class HomeFragment extends Fragment {
 
@@ -88,6 +90,19 @@ public class HomeFragment extends Fragment {
                     .commit();
         });
 
+        // -----------------------------
+        // Playlist on YouTube
+        // -----------------------------
+
+        view.findViewById(R.id.btnYoutubePlaylist).setOnClickListener(v -> {
+
+            Intent intent = new Intent(
+                    requireContext(),
+                    PlaylistActivity.class
+            );
+
+            startActivity(intent);
+        });
 
         return view;
     }

@@ -39,4 +39,8 @@
 
     <color name="drawer_text_normal">#374151</color>
     <color name="drawer_text_selected">#0D47A1</color>
+
+    <color name="youtube_red">#FF0000</color>
+    <color name="youtube_red_dark">#CC0000</color>
+    <color name="youtube_red_light">#FFEBEE</color>
 </resources>

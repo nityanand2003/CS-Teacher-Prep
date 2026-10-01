@@ -120,6 +120,10 @@
             android:name=".activities.PracticeReminderActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".activities.PlaylistActivity"
+            android:exported="false" />
+
         <receiver
             android:name=".receivers.PracticeReminderReceiver"
             android:enabled="true"

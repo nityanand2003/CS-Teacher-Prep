@@ -212,7 +212,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Aditya-L1 is ISRO's first space-based observatory placed at Lagrangian Point 1 to study the Sun[cite: 2]."
+      "explanation": "Aditya-L1 is ISRO's first space-based observatory placed at Lagrangian Point 1 to study the Sun."
     },
     {
       "id": 20,
@@ -267,7 +267,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "'Ganga Maiya Tohe Piyari Chadhaibo', directed by Kundan Kumar, was released in 1963 as the first Bhojpuri film[cite: 1]."
+      "explanation": "'Ganga Maiya Tohe Piyari Chadhaibo', directed by Kundan Kumar, was released in 1963 as the first Bhojpuri film."
     },
     {
       "id": 25,
@@ -311,7 +311,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Goa is the most urbanized state with 62.17% of its population living in urban areas according to Census 2011[cite: 1]."
+      "explanation": "Goa is the most urbanized state with 62.17% of its population living in urban areas according to Census 2011."
     },
     {
       "id": 29,
@@ -333,7 +333,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "The peninsular block of India is an ancient and stable geological block that was part of the supercontinent Gondwanaland[cite: 1]."
+      "explanation": "The peninsular block of India is an ancient and stable geological block that was part of the supercontinent Gondwanaland."
     },
     {
       "id": 31,
@@ -366,7 +366,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Raja Ram Mohan Roy is acclaimed as the Father of Modern India and the Prophet of Indian Nationalism due to his reformative work[cite: 1]."
+      "explanation": "Raja Ram Mohan Roy is acclaimed as the Father of Modern India and the Prophet of Indian Nationalism due to his reformative work."
     },
     {
       "id": 34,
@@ -388,7 +388,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Shyamji Krishna Varma founded the India House student residence in North London as a center for revolutionary nationalist activities[cite: 1]."
+      "explanation": "Shyamji Krishna Varma founded the India House student residence in North London as a center for revolutionary nationalist activities."
     },
     {
       "id": 36,
@@ -410,7 +410,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "The 'Ulgulan' (Great Tumult) was the historic Munda uprising led by Birsa Munda in the late 1890s[cite: 1]."
+      "explanation": "The 'Ulgulan' (Great Tumult) was the historic Munda uprising led by Birsa Munda in the late 1890s."
     },
     {
       "id": 38,
@@ -443,7 +443,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Sachindra Nath Sanyal established a branch of the revolutionary secret society Anushilan Samiti at Patna in 1913[cite: 1]."
+      "explanation": "Sachindra Nath Sanyal established a branch of the revolutionary secret society Anushilan Samiti at Patna in 1913."
     },
     {
       "id": 41,
@@ -509,7 +509,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "In C++, an identifier must start with an alphabet letter or an underscore, never with a digit[cite: 1]."
+      "explanation": "In C++, an identifier must start with an alphabet letter or an underscore, never with a digit."
     },
     {
       "id": 47,
@@ -586,7 +586,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "In indirect addressing, the address field points to a memory location that contains the effective address of the operand[cite: 1]."
+      "explanation": "In indirect addressing, the address field points to a memory location that contains the effective address of the operand."
     },
     {
       "id": 54,
@@ -674,7 +674,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "A relation can have multiple candidate keys, but exactly one is designated as the primary key[cite: 1]."
+      "explanation": "A relation can have multiple candidate keys, but exactly one is designated as the primary key."
     },
     {
       "id": 62,
@@ -707,7 +707,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "The HAVING clause filters groups created by GROUP BY using aggregate conditions[cite: 1]."
+      "explanation": "The HAVING clause filters groups created by GROUP BY using aggregate conditions."
     },
     {
       "id": 65,
@@ -718,7 +718,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "The Control Unit (CU) interprets instructions and issues control signals to coordinate other processor units[cite: 1]."
+      "explanation": "The Control Unit (CU) interprets instructions and issues control signals to coordinate other processor units."
     },
     {
       "id": 66,
@@ -729,7 +729,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "When not explicitly stated, ORDER BY sorts result rows in ascending (ASC) order[cite: 1]."
+      "explanation": "When not explicitly stated, ORDER BY sorts result rows in ascending (ASC) order."
     },
     {
       "id": 67,
@@ -751,7 +751,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "WHERE filters rows before aggregation, whereas HAVING filters groups after aggregation[cite: 1]."
+      "explanation": "WHERE filters rows before aggregation, whereas HAVING filters groups after aggregation."
     },
     {
       "id": 69,
@@ -762,7 +762,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Programmed I/O with polling involves the CPU periodically reading the device status register in a tight loop[cite: 1]."
+      "explanation": "Programmed I/O with polling involves the CPU periodically reading the device status register in a tight loop."
     },
     {
       "id": 70,
@@ -773,7 +773,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Common Table Expressions are temporary named result sets defined using the WITH clause[cite: 1]."
+      "explanation": "Common Table Expressions are temporary named result sets defined using the WITH clause."
     },
     {
       "id": 71,
@@ -828,7 +828,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Each token is scanned once, resulting in a single push or pop operation taking O(1), giving O(N) overall[cite: 1]."
+      "explanation": "Each token is scanned once, resulting in a single push or pop operation taking O(1), giving O(N) overall."
     },
     {
       "id": 76,
@@ -850,7 +850,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "The call stack allocates activation records (stack frames) for nested and recursive function calls[cite: 1]."
+      "explanation": "The call stack allocates activation records (stack frames) for nested and recursive function calls."
     },
     {
       "id": 78,
@@ -883,7 +883,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "In 0-indexed arrays, an empty stack has top initialized to -1; popping at this point causes underflow[cite: 1]."
+      "explanation": "In 0-indexed arrays, an empty stack has top initialized to -1; popping at this point causes underflow."
     },
     {
       "id": 81,
@@ -938,7 +938,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Preorder traversal processes the current Root node first, followed by Left and Right subtrees[cite: 1]."
+      "explanation": "Preorder traversal processes the current Root node first, followed by Left and Right subtrees."
     },
     {
       "id": 86,
@@ -971,7 +971,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Foreign keys ensure values must match an existing primary/candidate key in the referenced table[cite: 1]."
+      "explanation": "Foreign keys ensure values must match an existing primary/candidate key in the referenced table."
     },
     {
       "id": 89,
@@ -1015,7 +1015,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "The dual is formed by interchanging AND (.) and OR (+) operators and swapping 0 and 1[cite: 2]."
+      "explanation": "The dual is formed by interchanging AND (.) and OR (+) operators and swapping 0 and 1."
     },
     {
       "id": 93,
@@ -1037,7 +1037,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "A decoder decodes n inputs into up to 2^n distinct output lines[cite: 1]."
+      "explanation": "A decoder decodes n inputs into up to 2^n distinct output lines."
     },
     {
       "id": 95,
@@ -1048,7 +1048,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Number of select lines s satisfies 2^s = 16, which gives s = 4[cite: 3]."
+      "explanation": "Number of select lines s satisfies 2^s = 16, which gives s = 4."
     },
     {
       "id": 96,
@@ -1059,7 +1059,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Fiber-optic cables transmit light pulses along the glass core via continuous total internal reflection[cite: 1]."
+      "explanation": "Fiber-optic cables transmit light pulses along the glass core via continuous total internal reflection."
     },
     {
       "id": 97,
@@ -1070,7 +1070,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "In star topology, all end nodes connect to a central hub/switch, forming a single point of failure[cite: 1]."
+      "explanation": "In star topology, all end nodes connect to a central hub/switch, forming a single point of failure."
     },
     {
       "id": 98,
@@ -1081,7 +1081,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "The Transport Layer uses port addresses to achieve end-to-end (process-to-process) communication[cite: 1]."
+      "explanation": "The Transport Layer uses port addresses to achieve end-to-end (process-to-process) communication."
     },
     {
       "id": 99,
@@ -1092,7 +1092,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "An IPv4 address consists of 32 bits divided into four 8-bit octets[cite: 2]."
+      "explanation": "An IPv4 address consists of 32 bits divided into four 8-bit octets."
     },
     {
       "id": 100,
@@ -1103,7 +1103,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Asymmetric cryptography utilizes a public key for encryption and a distinct private key for decryption[cite: 1]."
+      "explanation": "Asymmetric cryptography utilizes a public key for encryption and a distinct private key for decryption."
     },
     {
       "id": 101,
@@ -1114,7 +1114,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "The MAC sublayer determines which device has permission to transmit on the shared physical medium[cite: 1]."
+      "explanation": "The MAC sublayer determines which device has permission to transmit on the shared physical medium."
     },
     {
       "id": 102,
@@ -1136,7 +1136,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "C",
-      "explanation": "Protected members remain accessible to member functions and friend functions of derived classes[cite: 2]."
+      "explanation": "Protected members remain accessible to member functions and friend functions of derived classes."
     },
     {
       "id": 104,
@@ -1191,7 +1191,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "`#include <iostream>` provides objects like std::cin, std::cout, and std::cerr[cite: 1]."
+      "explanation": "`#include <iostream>` provides objects like std::cin, std::cout, and std::cerr."
     },
     {
       "id": 109,
@@ -1202,7 +1202,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Ping transmits an ICMP Echo Request message (Type 8) expecting an Echo Reply (Type 0)[cite: 1]."
+      "explanation": "Ping transmits an ICMP Echo Request message (Type 8) expecting an Echo Reply (Type 0)."
     },
     {
       "id": 110,
@@ -1246,7 +1246,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "A",
-      "explanation": "Function overloading allows multiple functions to share the same identifier with different parameter signatures[cite: 1]."
+      "explanation": "Function overloading allows multiple functions to share the same identifier with different parameter signatures."
     },
     {
       "id": 114,
@@ -1257,7 +1257,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Declaring base classes as `virtual` during inheritance prevents diamond ambiguity[cite: 2]."
+      "explanation": "Declaring base classes as `virtual` during inheritance prevents diamond ambiguity."
     },
     {
       "id": 115,
@@ -1268,7 +1268,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "A pure virtual function (`= 0`) makes the class abstract, meaning it cannot be instantiated[cite: 1]."
+      "explanation": "A pure virtual function (`= 0`) makes the class abstract, meaning it cannot be instantiated."
     },
     {
       "id": 116,
@@ -1279,7 +1279,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Exception handling keywords try, throw, and catch allow structured propagation and handling of runtime anomalies[cite: 2]."
+      "explanation": "Exception handling keywords try, throw, and catch allow structured propagation and handling of runtime anomalies."
     },
     {
       "id": 117,
@@ -1290,7 +1290,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "In C++, all members of a class are private by default unless explicitly placed under public or protected[cite: 1]."
+      "explanation": "In C++, all members of a class are private by default unless explicitly placed under public or protected."
     },
     {
       "id": 118,
@@ -1301,7 +1301,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "A copy constructor signature is `ClassName(const ClassName &obj);` passing by value would cause infinite recursive calls[cite: 2]."
+      "explanation": "A copy constructor signature is `ClassName(const ClassName &obj);` passing by value would cause infinite recursive calls."
     },
     {
       "id": 119,
@@ -1323,7 +1323,7 @@
       "optionD": "More than one of the above",
       "optionE": "None of the above",
       "correctAnswer": "B",
-      "explanation": "Silicon is the primary semiconductor substrate due to its wide bandgap, thermal stability, and abundant raw source (silica)[cite: 1]."
+      "explanation": "Silicon is the primary semiconductor substrate due to its wide bandgap, thermal stability, and abundant raw source (silica)."
     }
   ]
 }

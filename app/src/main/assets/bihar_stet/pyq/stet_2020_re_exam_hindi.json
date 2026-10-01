@@ -48,7 +48,7 @@
       "questionText": "यदि '+' का अर्थ 'x', '-' का अर्थ '+' और 'x' का अर्थ '-', तो 5 + 4 - 18 x 3 का मान होगा",
       "optionA": "26",
       "optionB": "14",
-      "optionC": "34",
+      "optionC": "35",
       "optionD": "6",
       "optionE": "",
       "correctAnswer": "C",
@@ -359,8 +359,8 @@
       "optionC": "एम० वेंकैया नायडू",
       "optionD": "इनमें से कोई नहीं",
       "optionE": "",
-      "correctAnswer": "D",
-      "explanation": "दिए गए विकल्पों में से सही उत्तर 'इनमें से कोई नहीं' है."
+      "correctAnswer": "C",
+      "explanation": "2020 की परीक्षा के समय एम. वेंकैया नायडु भारत के उपराष्ट्रपति थे।"
     },
     {
       "id": 33,
@@ -1409,7 +1409,7 @@
     },
     {
       "id": 128,
-      "questionText": "पेस्ट स्पेशल कुछ ऑपरेशन की अनुमति देता है जबकि आप नए सेल में पेस्ट करते हैं जो निम्न ऑपरेशन में से कौन है?",
+      "questionText": "पेस्ट विशेष कुछ ऑपरेशन की अनुमति देता है जबकि आप नए सेल में पेस्ट करते हैं जो निम्न ऑपरेशन में से कौन है?",
       "optionA": "Square",
       "optionB": "Percentage",
       "optionC": "Goal Seek",
@@ -1470,8 +1470,8 @@
       "optionC": "Alternate key",
       "optionD": "Non key",
       "optionE": "",
-      "correctAnswer": "B",
-      "explanation": "प्राथमिक कुंजी को सुपर की (Super key) भी कहा जाता है."
+      "correctAnswer": "A",
+      "explanation": "प्राथमिक कुंजी (Primary Key) एक Candidate Key होती है जिसे तालिका की पंक्तियों की विशिष्ट पहचान के लिए चुना जाता है।"
     },
     {
       "id": 134,

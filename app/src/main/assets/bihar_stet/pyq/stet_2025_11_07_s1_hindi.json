@@ -13,13 +13,13 @@
     {
       "id": 1,
       "questionText": "तालिका से विशिष्ट पंक्तियों को पुनर्प्राप्त करने के लिए किस SQL खंड का उपयोग किया जाता है?",
-      "optionA": "खोज",
+      "optionA": "INSERT",
       "optionB": "FETCH",
-      "optionC": "चुनना",
-      "optionD": "खोज",
+      "optionC": "SELECT",
+      "optionD": "UPDATE",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "SQL me tables se rows/tuples ko retrieve (chunnane) ke liye SELECT statement ka use kiya jata hai[cite: 8]."
+      "explanation": "SQL में तालिका से rows या tuples को retrieve करने के लिए SELECT statement का उपयोग किया जाता है।"
     },
     {
       "id": 2,
@@ -30,7 +30,7 @@
       "optionD": "बड़ी संख्या में I/O पोर्ट के साथ एक माइक्रोकंट्रोलर",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Harvard architecture me instruction memory aur data memory ke liye alag-alag physical buses aur storage spaces hote hain[cite: 8]."
+      "explanation": "Harvard architecture me instruction memory aur data memory ke liye alag-alag physical buses aur storage spaces hote hain ."
     },
     {
       "id": 3,
@@ -41,7 +41,7 @@
       "optionD": "निवारक रखरखाव",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Adaptive maintenance tab ki jati hai jab software ko naye hardware, OS ya environment ke anukool dhalna (adapt karna) ho[cite: 8]."
+      "explanation": "Adaptive maintenance tab ki jati hai jab software ko naye hardware, OS ya environment ke anukool dhalna (adapt karna) ho ."
     },
     {
       "id": 4,
@@ -52,7 +52,7 @@
       "optionD": "ε (Lambda / Empty string)",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "String concatenation ke sandarbh me empty string (epsilon/ε) identity element hoti hai kyunki kisi bhi string ke sath iska concatenation wahi string deta hai[cite: 8]."
+      "explanation": "String concatenation ke sandarbh me empty string (epsilon/ε) identity element hoti hai kyunki kisi bhi string ke sath iska concatenation wahi string deta hai ."
     },
     {
       "id": 5,
@@ -63,7 +63,7 @@
       "optionD": "HTTP",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "UDP (User Datagram Protocol) bina connection setup kiye connectionless aur low-overhead datagram delivery provide karta hai[cite: 8]."
+      "explanation": "UDP (User Datagram Protocol) bina connection setup kiye connectionless aur low-overhead datagram delivery provide karta hai ."
     },
     {
       "id": 6,
@@ -74,7 +74,7 @@
       "optionD": "PHP में \"mysqli_connect()\" फ़ंक्शन का उपयोग करके",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "PHP me MySQL database se secure connection establish karne ke liye standard mysqli_connect() function ka use hota hai[cite: 8]."
+      "explanation": "PHP me MySQL database se secure connection establish karne ke liye standard mysqli_connect() function ka use hota hai ."
     },
     {
       "id": 7,
@@ -85,7 +85,7 @@
       "optionD": "उपरोक्त सभी",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "HDDs magnetic spinning platters use karti hain jabki SSDs fast flash memory chips par आधारित hoti hain[cite: 8]."
+      "explanation": "HDDs magnetic spinning platters use karti hain jabki SSDs fast flash memory chips par आधारित hoti hain ."
     },
     {
       "id": 8,
@@ -96,7 +96,7 @@
       "optionD": "Interval",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "EDI ka full form Electronic Data Interchange hota hai, jisme 'I' Interchange ko represent karta hai[cite: 8]."
+      "explanation": "EDI ka full form Electronic Data Interchange hota hai, jisme 'I' Interchange ko represent karta hai ."
     },
     {
       "id": 9,
@@ -107,7 +107,7 @@
       "optionD": "चैट (Chat)",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Chat service instant messaging ke zariye real-time text communication facilitate karti hai[cite: 8]."
+      "explanation": "Chat service instant messaging ke zariye real-time text communication facilitate karti hai ."
     },
     {
       "id": 10,
@@ -118,7 +118,7 @@
       "optionD": "सीवीएस",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Git ek sabse lokpriya distributed version control system hai jo collaborative software/web development ke liye use hota hai[cite: 8]."
+      "explanation": "Git ek sabse lokpriya distributed version control system hai jo collaborative software/web development ke liye use hota hai ."
     },
     {
       "id": 11,
@@ -129,7 +129,7 @@
       "optionD": "उपरोक्त सभी।",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "URL ek specific Uniform Resource Locator hai jo web resource ka exact path batata hai, jabki web address broader term hai[cite: 8]."
+      "explanation": "URL ek specific Uniform Resource Locator hai jo web resource ka exact path batata hai, jabki web address broader term hai ."
     },
     {
       "id": 12,
@@ -140,7 +140,7 @@
       "optionD": "colour",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "HTML font tag me face, size aur color/colour attributes hote hain, jabki height uska attribute nahi hai[cite: 8]."
+      "explanation": "HTML font tag me face, size aur color/colour attributes hote hain, jabki height uska attribute nahi hai ."
     },
     {
       "id": 13,
@@ -151,7 +151,7 @@
       "optionD": "अंतरिक्ष अन्वेषण",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Home automation me microcontrollers smart lighting, thermostats aur temperature regulation ke liye use hote hain[cite: 8]."
+      "explanation": "Home automation me microcontrollers smart lighting, thermostats aur temperature regulation ke liye use hote hain ."
     },
     {
       "id": 14,
@@ -162,7 +162,7 @@
       "optionD": "Entity Relation model",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "An Entity set is a collection of similar entities that share the same attributes[cite: 8]."
+      "explanation": "An Entity set is a collection of similar entities that share the same attributes ."
     },
     {
       "id": 15,
@@ -173,7 +173,7 @@
       "optionD": "रिपीटर (Repeater)",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Gateway ek network node hota hai jo alag-alag protocols wale networks ke beech entry aur exit point ke roop me kaam karta hai[cite: 8]."
+      "explanation": "Gateway ek network node hota hai jo alag-alag protocols wale networks ke beech entry aur exit point ke roop me kaam karta hai ."
     },
     {
       "id": 16,
@@ -184,7 +184,7 @@
       "optionD": "-5 0",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Func_1(5) call karne par b=5, a = 5-1=4, b = 5+4=9 print hota hai (4 9)[cite: 8]."
+      "explanation": "Func_1(5) call karne par b=5, a = 5-1=4, b = 5+4=9 print hota hai (4 9) ."
     },
     {
       "id": 17,
@@ -195,7 +195,7 @@
       "optionD": "उपर्युक्त में से कोई नहीं",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "DFD ka full form Data Flow Diagram hota hai, jo system ke data ke flow ko graphically represent karta hai[cite: 8]."
+      "explanation": "DFD ka full form Data Flow Diagram hota hai, jo system ke data ke flow ko graphically represent karta hai ."
     },
     {
       "id": 18,
@@ -206,7 +206,7 @@
       "optionD": "कतारें",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Separate chaining collision resolution technique me colliding elements ko linked lists ke roop me store kiya jata hai[cite: 8]."
+      "explanation": "Separate chaining collision resolution technique me colliding elements ko linked lists ke roop me store kiya jata hai ."
     },
     {
       "id": 19,
@@ -217,7 +217,7 @@
       "optionD": "ओ (एन^3)",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Floyd-Warshall algorithm sabhi pairs ke shortest path nikalne ke liye 3 nested loops chalata hai, jisse time complexity O(N^3) hoti hai[cite: 8]."
+      "explanation": "Floyd-Warshall algorithm sabhi pairs ke shortest path nikalne ke liye 3 nested loops chalata hai, jisse time complexity O(N^3) hoti hai ."
     },
     {
       "id": 20,
@@ -228,7 +228,7 @@
       "optionD": "Fast Transmission Protocol",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "FTP stands for File Transfer Protocol[cite: 8]."
+      "explanation": "FTP stands for File Transfer Protocol ."
     },
     {
       "id": 21,
@@ -239,7 +239,7 @@
       "optionD": "हिस्टोग्राम",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Histogram statistical distribution aur frequency display karne ke liye bar columns ka use karta hai[cite: 8]."
+      "explanation": "Histogram statistical distribution aur frequency display karne ke liye bar columns ka use karta hai ."
     },
     {
       "id": 22,
@@ -250,7 +250,7 @@
       "optionD": "मेमोरी के गैर-सन्निहित ब्लॉक",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Segmentation logical grouping par aadharit variable-sized memory segments allocate karta hai[cite: 8]."
+      "explanation": "Segmentation logical grouping par aadharit variable-sized memory segments allocate karta hai ."
     },
     {
       "id": 23,
@@ -261,7 +261,7 @@
       "optionD": "कन्स्ट्रक्टर",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Object ek class ka instance hota hai jo class variables aur methods ko reference karta hai[cite: 8]."
+      "explanation": "Object ek class ka instance hota hai jo class variables aur methods ko reference karta hai ."
     },
     {
       "id": 24,
@@ -272,7 +272,7 @@
       "optionD": "ValueError",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Python case-sensitive hota hai. String me capital 'C' maujood nahi hai (lowercase 'c' bhi nahi hai), isliye game.index(\"C\") se ValueError generate hota hai[cite: 8]."
+      "explanation": "Python case-sensitive hota hai. String me capital 'C' maujood nahi hai (lowercase 'c' bhi nahi hai), isliye game.index(\"C\") se ValueError generate hota hai ."
     },
     {
       "id": 25,
@@ -283,7 +283,7 @@
       "optionD": "प्रक्रिया समाप्ति",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Monitors high-level synchronization primitives hain jo concurrent processes ke beech mutual exclusion aur condition synchronization manage karte hain[cite: 8]."
+      "explanation": "Monitors high-level synchronization primitives hain jo concurrent processes ke beech mutual exclusion aur condition synchronization manage karte hain ."
     },
     {
       "id": 26,
@@ -294,7 +294,7 @@
       "optionD": "न तो डीएफएस और न ही बीएफएस",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Connected components find karne ke liye DFS aur BFS dono hi traversal algorithms equally use kiye ja sakte hain[cite: 8]."
+      "explanation": "Connected components find karne ke liye DFS aur BFS dono hi traversal algorithms equally use kiye ja sakte hain ."
     },
     {
       "id": 27,
@@ -305,7 +305,7 @@
       "optionD": "सीपीयू उपयोग में सुधार के लिए तकनीक",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Bell-LaPadula and Denning's information flow models formal security frameworks provide karte hain[cite: 8]."
+      "explanation": "Bell-LaPadula and Denning's information flow models formal security frameworks provide karte hain ."
     },
     {
       "id": 28,
@@ -316,7 +316,7 @@
       "optionD": "ऊपर के सभी",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Strategic Computing Initiative (SCI) ke applications me battlefield management, autonomous systems aur pilot's associates shamil the[cite: 8]."
+      "explanation": "Strategic Computing Initiative (SCI) ke applications me battlefield management, autonomous systems aur pilot's associates shamil the ."
     },
     {
       "id": 29,
@@ -327,7 +327,7 @@
       "optionD": "D1.clear(1)",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Python me dictionary items delete karne ke liye 'del D1[1]' statement use hota hai, 'D1.del(1)' invalid syntax hai aur error dega[cite: 8]."
+      "explanation": "Python me dictionary items delete karne ke liye 'del D1[1]' statement use hota hai, 'D1.del(1)' invalid syntax hai aur error dega ."
     },
     {
       "id": 30,
@@ -338,7 +338,7 @@
       "optionD": "ओ (एन^2)",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Merge sort hamesha best, average aur worst case sabhi me O(n log n) time complexity deta hai[cite: 8]."
+      "explanation": "Merge sort hamesha best, average aur worst case sabhi me O(n log n) time complexity deta hai ."
     },
     {
       "id": 31,
@@ -349,7 +349,7 @@
       "optionD": "[ ]",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "XML tags angle brackets `<` aur `>` ke madhyam se define kiye jaate hain[cite: 8]."
+      "explanation": "XML tags angle brackets `<` aur `>` ke madhyam se define kiye jaate hain ."
     },
     {
       "id": 32,
@@ -360,7 +360,7 @@
       "optionD": "अप्रत्याशित",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Threaded binary tree me extra pointer space ki zaroorat nahi padti kyunki ye null links ki jagah threads (pointers) ka use karta hai[cite: 8]."
+      "explanation": "Threaded binary tree me extra pointer space ki zaroorat nahi padti kyunki ye null links ki jagah threads (pointers) ka use karta hai ."
     },
     {
       "id": 33,
@@ -371,7 +371,7 @@
       "optionD": "डेटा सॉर्ट करने के लिए एक अनुक्रमणिका",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Primary key relational table ki har row ko uniquely identify karne wala unique constraint hota hai[cite: 8]."
+      "explanation": "Primary key relational table ki har row ko uniquely identify karne wala unique constraint hota hai ."
     },
     {
       "id": 34,
@@ -382,7 +382,7 @@
       "optionD": "57600",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Standard Modbus RTU serial communication ki default baud rate 19200 hoti hai[cite: 8]."
+      "explanation": "Standard Modbus RTU serial communication ki default baud rate 19200 hoti hai ."
     },
     {
       "id": 35,
@@ -393,7 +393,7 @@
       "optionD": "(डी), (ए), (बी), (सी)",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Aavritti (frequency) ka badhta kram: Radio waves (D) < Microwaves (A) < Infrared (B) < Light waves (C) hota hai[cite: 8]."
+      "explanation": "Aavritti (frequency) ka badhta kram: Radio waves (D) < Microwaves (A) < Infrared (B) < Light waves (C) hota hai ."
     },
     {
       "id": 36,
@@ -404,7 +404,7 @@
       "optionD": "2m",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Order m ke B-Tree ke internal node me maximum m children aur m-1 keys ho sakti hain[cite: 8]."
+      "explanation": "Order m ke B-Tree ke internal node me maximum m children aur m-1 keys ho sakti hain ."
     },
     {
       "id": 37,
@@ -415,7 +415,7 @@
       "optionD": "नियमित",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Agar kisi grammar me ek hi string ke liye ek se adhik parse trees ban sakein toh use ambiguous grammar kehte hain[cite: 8]."
+      "explanation": "Agar kisi grammar me ek hi string ke liye ek se adhik parse trees ban sakein toh use ambiguous grammar kehte hain ."
     },
     {
       "id": 38,
@@ -426,7 +426,7 @@
       "optionD": "2",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Octal numbers (modulo 3 arithmetic) ke remainders 0, 1, 2 hote hain, isliye 3 states ki aavashyakta hoti hai[cite: 8]."
+      "explanation": "Octal numbers (modulo 3 arithmetic) ke remainders 0, 1, 2 hote hain, isliye 3 states ki aavashyakta hoti hai ."
     },
     {
       "id": 39,
@@ -437,7 +437,7 @@
       "optionD": "अनधिकृत पहुंच और सुरक्षा उल्लंघनों से बचाएं",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Network security ka mukhya uddeshya unauthorized access aur security breaches se systems aur data ki raksha karna hai[cite: 8]."
+      "explanation": "Network security ka mukhya uddeshya unauthorized access aur security breaches se systems aur data ki raksha karna hai ."
     },
     {
       "id": 40,
@@ -448,7 +448,7 @@
       "optionD": "प्रकार 3",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Type-0 (Unrestricted) grammars recursively enumerable languages ko generate karti hain jo Turing machines dwara accept hoti hain[cite: 8]."
+      "explanation": "Type-0 (Unrestricted) grammars recursively enumerable languages ko generate karti hain jo Turing machines dwara accept hoti hain ."
     },
     {
       "id": 41,
@@ -459,7 +459,7 @@
       "optionD": "a'bc'd + abc'd + a'bcd + abcd",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "K-map ya boolean algebra simplification ke mutabiq yeh corresponding simplified expression hai[cite: 8]."
+      "explanation": "K-map ya boolean algebra simplification ke mutabiq yeh corresponding simplified expression hai ."
     },
     {
       "id": 42,
@@ -470,7 +470,7 @@
       "optionD": "A और C दोनों",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Middleware ya system utilities jo bridging ka kaam karti hain, wo system software ke antargat aati hain[cite: 8]."
+      "explanation": "Middleware ya system utilities jo bridging ka kaam karti hain, wo system software ke antargat aati hain ."
     },
     {
       "id": 43,
@@ -481,7 +481,7 @@
       "optionD": "Non-servo",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Adaptive ya autonomous robots jo external sensors ki feedback ke anusaar apna path change kar sakein, intelligent robots kehlate hain[cite: 8]."
+      "explanation": "Adaptive ya autonomous robots jo external sensors ki feedback ke anusaar apna path change kar sakein, intelligent robots kehlate hain ."
     },
     {
       "id": 44,
@@ -492,7 +492,7 @@
       "optionD": "122.294.56.68",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "IPv4 address ka har octet 0 se 255 ke beech hona chahiye. Option A ke sabhi octets is range me hain[cite: 8]."
+      "explanation": "IPv4 address ka har octet 0 se 255 ke beech hona chahiye. Option A ke sabhi octets is range me hain ."
     },
     {
       "id": 45,
@@ -503,7 +503,7 @@
       "optionD": "None of the above",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "DBA stands for Database Administrator[cite: 8]."
+      "explanation": "DBA stands for Database Administrator ."
     },
     {
       "id": 46,
@@ -514,7 +514,7 @@
       "optionD": "इन सब",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Pushdown Automata (PDA) ki configuration aur behavior ko instantaneous descriptions, transition diagrams aur transition tables sabhi se represent kiya ja sakta है[cite: 8]."
+      "explanation": "Pushdown Automata (PDA) ki configuration aur behavior ko instantaneous descriptions, transition diagrams aur transition tables sabhi se represent kiya ja sakta है ."
     },
     {
       "id": 47,
@@ -525,7 +525,7 @@
       "optionD": "['TAC', 'TIC']",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Python list slicing L[::-1] list ke elements ka order ulat deti hai, jisse ['TAC', 'TIC'] print hoga[cite: 8]."
+      "explanation": "Python list slicing L[::-1] list ke elements ka order ulat deti hai, jisse ['TAC', 'TIC'] print hoga ."
     },
     {
       "id": 48,
@@ -536,7 +536,7 @@
       "optionD": "डेटा संचार में कम विलंबता",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "CIDR flexible subnet masks provide karta hai jisse IP address space ka allocation aur utilization bahut efficient ho jata hai[cite: 8]."
+      "explanation": "CIDR flexible subnet masks provide karta hai jisse IP address space ka allocation aur utilization bahut efficient ho jata hai ."
     },
     {
       "id": 49,
@@ -547,7 +547,7 @@
       "optionD": "दौड़ की स्थिति (Race conditions) की संख्या बढ़ाएँ",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Parallel programming me synchronization mechanisms (mutex, semaphores) ka mukhya uddeshya race conditions aur deadlock situations se bachna hota hai[cite: 8]."
+      "explanation": "Parallel programming me synchronization mechanisms (mutex, semaphores) ka mukhya uddeshya race conditions aur deadlock situations se bachna hota hai ."
     },
     {
       "id": 50,
@@ -558,7 +558,7 @@
       "optionD": "एनकैप्सुलेशन",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Polymorphism alag-alag classes ke objects ko ek common base class reference ke roop me treat karne ki kshamta deta hai[cite: 8]."
+      "explanation": "Polymorphism alag-alag classes ke objects ko ek common base class reference ke roop me treat karne ki kshamta deta hai ."
     },
     {
       "id": 51,
@@ -569,7 +569,7 @@
       "optionD": "कार्यान्वित करना",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "C++ me pure virtual function define karne ke liye 'virtual' keyword ke sath `= 0` syntax use hota hai (option B / virtual)[cite: 8]."
+      "explanation": "C++ me pure virtual function define karne ke liye 'virtual' keyword ke sath `= 0` syntax use hota hai (option B / virtual) ."
     },
     {
       "id": 52,
@@ -580,7 +580,7 @@
       "optionD": "याहू",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Diksha ek national digital education platform hai, jabki Google, Bing aur Yahoo search engines hain[cite: 8]."
+      "explanation": "Diksha ek national digital education platform hai, jabki Google, Bing aur Yahoo search engines hain ."
     },
     {
       "id": 53,
@@ -591,7 +591,7 @@
       "optionD": "केवल (A) और (B)",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "MAC address 48-bit (12 hex digits) hota hai aur NIC hardware me permanently embedded hota hai, isliye B aur C satya hain[cite: 8]."
+      "explanation": "MAC address 48-bit (12 hex digits) hota hai aur NIC hardware me permanently embedded hota hai, isliye B aur C satya hain ."
     },
     {
       "id": 54,
@@ -602,7 +602,7 @@
       "optionD": "विशिष्ट (DISTINCT)",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "SQL me pattern matching ke liye LIKE operator ka use hota hai (question me option translation ke roop me 'पसंद (LIKE)' diya gaya hai)[cite: 8]."
+      "explanation": "SQL me pattern matching ke liye LIKE operator ka use hota hai (question me option translation ke roop me 'पसंद (LIKE)' diya gaya hai) ."
     },
     {
       "id": 55,
@@ -613,7 +613,7 @@
       "optionD": "4",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Complex SCADA systems generally 4 hierarchical levels (Field devices, RTU/PLC, Supervisory station, Enterprise level) me organized hote hain[cite: 8]."
+      "explanation": "Complex SCADA systems generally 4 hierarchical levels (Field devices, RTU/PLC, Supervisory station, Enterprise level) me organized hote hain ."
     },
     {
       "id": 56,
@@ -624,7 +624,7 @@
       "optionD": "कम गेट गिनती",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Carry Look-Ahead adder ripple carry adder ki tulna me propagation delay ko kam karke tezi se addition perform karta hai[cite: 8]."
+      "explanation": "Carry Look-Ahead adder ripple carry adder ki tulna me propagation delay ko kam karke tezi se addition perform karta hai ."
     },
     {
       "id": 57,
@@ -635,7 +635,7 @@
       "optionD": "काउंटर रजिस्टर",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Accumulator (ACC) microprocessor ka main temporary holding register hai jo ALU operations me directly participate karta hai[cite: 8]."
+      "explanation": "Accumulator (ACC) microprocessor ka main temporary holding register hai jo ALU operations me directly participate karta hai ."
     },
     {
       "id": 58,
@@ -646,7 +646,7 @@
       "optionD": "(iii) और (vi)",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "AI me knowledge representation ke liye propositional logic aur predicate logic pramukh tareeqe hain[cite: 8]."
+      "explanation": "AI me knowledge representation ke liye propositional logic aur predicate logic pramukh tareeqe hain ."
     },
     {
       "id": 59,
@@ -657,7 +657,7 @@
       "optionD": "विशेष तर्क कार्यों के साथ कोशिकाओं को चिह्नित करने के लिए",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Don't care conditions K-map simplification me bade groups banane aur Boolean expressions ko aur adhik saral karne me madad karti hain[cite: 8]."
+      "explanation": "Don't care conditions K-map simplification me bade groups banane aur Boolean expressions ko aur adhik saral karne me madad karti hain ."
     },
     {
       "id": 60,
@@ -668,7 +668,7 @@
       "optionD": "सर्पिल मॉडल (Spiral Model)",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Spiral Model me iterative development ke sath har cycle par risk assessment aur evaluation kiya jata hai[cite: 8]."
+      "explanation": "Spiral Model me iterative development ke sath har cycle par risk assessment aur evaluation kiya jata hai ."
     },
     {
       "id": 61,
@@ -679,7 +679,7 @@
       "optionD": "पीछे हटाना",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Ye recurrence relation Divide and Conquer paradigm ko represent karta hai jisme problem do unequal subproblems me tut ti hai[cite: 8]."
+      "explanation": "Ye recurrence relation Divide and Conquer paradigm ko represent karta hai jisme problem do unequal subproblems me tut ti hai ."
     },
     {
       "id": 62,
@@ -690,7 +690,7 @@
       "optionD": "सर्वश्रेष्ठ प्रथम खोज (Best-First Search)",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "A* search algorithm Best-First Search ka extension hai jo f(n) = g(n) + h(n) evaluation function use karta hai[cite: 8]."
+      "explanation": "A* search algorithm Best-First Search ka extension hai jo f(n) = g(n) + h(n) evaluation function use karta hai ."
     },
     {
       "id": 63,
@@ -701,7 +701,7 @@
       "optionD": "Small Message Service",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "SMS stands for Short Message Service[cite: 8]."
+      "explanation": "SMS stands for Short Message Service ."
     },
     {
       "id": 64,
@@ -712,7 +712,7 @@
       "optionD": "SNMP",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Simple Mail Transfer Protocol (SMTP) email transmission ke liye standard protocol hai[cite: 8]."
+      "explanation": "Simple Mail Transfer Protocol (SMTP) email transmission ke liye standard protocol hai ."
     },
     {
       "id": 65,
@@ -723,7 +723,7 @@
       "optionD": "ज़िगबी अंत डिवाइस",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Zigbee network me Coordinator, Router aur End Device teen prakar ke nodes hote hain; 'प्रारंभ डिवाइस' official type nahi hai[cite: 8]."
+      "explanation": "Zigbee network me Coordinator, Router aur End Device teen prakar ke nodes hote hain; 'प्रारंभ डिवाइस' official type nahi hai ."
     },
     {
       "id": 66,
@@ -734,7 +734,7 @@
       "optionD": "उल्लिखित सभी",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Recursive, Context-Free aur Linearly Bounded sabhi languages Turing machines ya unke variants dwara accept ki jati hain[cite: 8]."
+      "explanation": "Recursive, Context-Free aur Linearly Bounded sabhi languages Turing machines ya unke variants dwara accept ki jati hain ."
     },
     {
       "id": 67,
@@ -745,7 +745,7 @@
       "optionD": "पुश बटन एक डिजिटल सेंसर है",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Microphone ek analog acoustic sensor hota hai jo sound waves ko analog electrical signals me convert karta hai[cite: 8]."
+      "explanation": "Microphone ek analog acoustic sensor hota hai jo sound waves ko analog electrical signals me convert karta hai ."
     },
     {
       "id": 68,
@@ -756,7 +756,7 @@
       "optionD": "g (n) गलत है",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "Theta notation tight bound represent karta hai jab condition g(n) mathematically true hoti hai[cite: 8]."
+      "explanation": "Theta notation tight bound represent karta hai jab condition g(n) mathematically true hoti hai ."
     },
     {
       "id": 69,
@@ -767,7 +767,7 @@
       "optionD": "निकालें",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "DROP TABLE statement database se table ke structure aur data dono ko permanently hata deta hai[cite: 8]."
+      "explanation": "DROP TABLE statement database se table ke structure aur data dono ko permanently hata deta hai ."
     },
     {
       "id": 70,
@@ -778,7 +778,7 @@
       "optionD": "2 सेमी",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Standard passive HF/NFC RFID modules ki typical read range lagbhag 10 cm tak hoti hai[cite: 8]."
+      "explanation": "Standard passive HF/NFC RFID modules ki typical read range lagbhag 10 cm tak hoti hai ."
     },
     {
       "id": 71,
@@ -789,7 +789,7 @@
       "optionD": "रेटिना",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Password ek knowledge-based authentication factor hai, jabki fingerprints, voice aur retina biometric traits hain[cite: 8]."
+      "explanation": "Password ek knowledge-based authentication factor hai, jabki fingerprints, voice aur retina biometric traits hain ."
     },
     {
       "id": 72,
@@ -800,7 +800,7 @@
       "optionD": "सुरक्षा में सुधार के लिए",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Data compression storage space aur network bandwidth consumption ko minimize karta hai[cite: 8]."
+      "explanation": "Data compression storage space aur network bandwidth consumption ko minimize karta hai ."
     },
     {
       "id": 73,
@@ -811,7 +811,7 @@
       "optionD": "डेटा एन्क्रिप्शन बढ़ाने के लिए",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "SQL injection attacks ka mukhya uddeshya database queries me unauthorized SQL code daal kar authentication bypass karna ya data churana hota hai[cite: 8]."
+      "explanation": "SQL injection attacks ka mukhya uddeshya database queries me unauthorized SQL code daal kar authentication bypass karna ya data churana hota hai ."
     },
     {
       "id": 74,
@@ -822,7 +822,7 @@
       "optionD": "WAN",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "ZigBee is standardized under IEEE 802.15.4 for Wireless Personal Area Networks (WPAN / PAN)[cite: 8]."
+      "explanation": "ZigBee is standardized under IEEE 802.15.4 for Wireless Personal Area Networks (WPAN / PAN) ."
     },
     {
       "id": 75,
@@ -833,7 +833,7 @@
       "optionD": "सेंसिटिव",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "HTTPS me 'S' Secure ko represent karta hai jo TLS/SSL encryption denote karta hai[cite: 8]."
+      "explanation": "HTTPS me 'S' Secure ko represent karta hai jo TLS/SSL encryption denote karta hai ."
     },
     {
       "id": 76,
@@ -844,7 +844,7 @@
       "optionD": "नेटवर्क परत में डेटा की एक इकाई",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "TPDU (Transport Protocol Data Unit) OSI model ki transport layer par data unit hoti hai[cite: 8]."
+      "explanation": "TPDU (Transport Protocol Data Unit) OSI model ki transport layer par data unit hoti hai ."
     },
     {
       "id": 77,
@@ -855,7 +855,7 @@
       "optionD": "निगरानी करना (Monitoring)",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "File server ke liye secondary storage, processor aur network connectivity anivarya hain, jabki 'monitoring' core resource nahi hai[cite: 8]."
+      "explanation": "File server ke liye secondary storage, processor aur network connectivity anivarya hain, jabki 'monitoring' core resource nahi hai ."
     },
     {
       "id": 78,
@@ -866,7 +866,7 @@
       "optionD": "स्टोर इनपुट/आउटपुट डिवाइस",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Buffer cache RAM me frequently accessed disk blocks ki copies store karta hai taaki disk I/O latency kam ho[cite: 8]."
+      "explanation": "Buffer cache RAM me frequently accessed disk blocks ki copies store karta hai taaki disk I/O latency kam ho ."
     },
     {
       "id": 79,
@@ -877,7 +877,7 @@
       "optionD": "सुरक्षा के लिए",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Hard real-time scheduling ye guarantee karti hai ki audio/video streaming ke vital tasks strict deadlines ke andar execute hon[cite: 8]."
+      "explanation": "Hard real-time scheduling ye guarantee karti hai ki audio/video streaming ke vital tasks strict deadlines ke andar execute hon ."
     },
     {
       "id": 80,
@@ -888,7 +888,7 @@
       "optionD": "8",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "OSI (Open Systems Interconnection) model me kul 7 layers hoti hain[cite: 8]."
+      "explanation": "OSI (Open Systems Interconnection) model me kul 7 layers hoti hain ."
     },
     {
       "id": 81,
@@ -899,7 +899,7 @@
       "optionD": "(a+b)(a+c')(b+c)",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Maxterms grouping ke madhyam se simplified Product of Sums (POS) expression prapt hoti hai[cite: 8]."
+      "explanation": "Maxterms grouping ke madhyam se simplified Product of Sums (POS) expression prapt hoti hai ."
     },
     {
       "id": 82,
@@ -910,7 +910,7 @@
       "optionD": "Flood",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Hacking ek cyber/logical threat hai, jabki storm, fire aur flood physical environmental hazards hain[cite: 8]."
+      "explanation": "Hacking ek cyber/logical threat hai, jabki storm, fire aur flood physical environmental hazards hain ."
     },
     {
       "id": 83,
@@ -921,7 +921,7 @@
       "optionD": "संदर्भ",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Data unorganized raw facts hote hain jinhe process karke meaningful information banayi jati hai[cite: 8]."
+      "explanation": "Data unorganized raw facts hote hain jinhe process karke meaningful information banayi jati hai ."
     },
     {
       "id": 84,
@@ -932,7 +932,7 @@
       "optionD": "All of the above",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Expert systems ke components me knowledge base, inference engine aur user interface sabhi shamil hain[cite: 8]."
+      "explanation": "Expert systems ke components me knowledge base, inference engine aur user interface sabhi shamil hain ."
     },
     {
       "id": 85,
@@ -943,7 +943,7 @@
       "optionD": "एक ग्राफिकल उपयोगकर्ता इंटरफ़ेस के साथ एक ओएस",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Multi-user operating system ek hi samay par ya time-sharing ke madhyam se kai alag-alag users ko ek hi computer access karne deta hai[cite: 8]."
+      "explanation": "Multi-user operating system ek hi samay par ya time-sharing ke madhyam se kai alag-alag users ko ek hi computer access karne deta hai ."
     },
     {
       "id": 86,
@@ -954,7 +954,7 @@
       "optionD": "HAVING",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "UNIQUE constraint column me duplicate values enter hone se rokta hai[cite: 8]."
+      "explanation": "UNIQUE constraint column me duplicate values enter hone se rokta hai ."
     },
     {
       "id": 87,
@@ -965,7 +965,7 @@
       "optionD": "रैखिक ट्रैवर्सल (Linear Traversal)",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Linked list linear data structure hai, isliye iske nodes ko visit karne ke liye linear traversal kiya jata hai[cite: 8]."
+      "explanation": "Linked list linear data structure hai, isliye iske nodes ko visit karne ke liye linear traversal kiya jata hai ."
     },
     {
       "id": 88,
@@ -976,7 +976,7 @@
       "optionD": "सार्वजनिक कुंजी एन्क्रिप्शन (Public Key Encryption)",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Public-key encryption (asymmetric encryption) public aur private key pair ka use karti hai[cite: 8]."
+      "explanation": "Public-key encryption (asymmetric encryption) public aur private key pair ka use karti hai ."
     },
     {
       "id": 89,
@@ -987,7 +987,7 @@
       "optionD": "MOD (16)",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Square root 16 (matlab 16 ki power 1/2 ya 0.5) calculate karne ke liye POWER(16, 0.5) use hota hai[cite: 8]."
+      "explanation": "Square root 16 (matlab 16 ki power 1/2 ya 0.5) calculate karne ke liye POWER(16, 0.5) use hota hai ."
     },
     {
       "id": 90,
@@ -998,7 +998,7 @@
       "optionD": "addElement()",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "DOM me naya element create karne ke liye document.createElement() method use kiya jata hai[cite: 8]."
+      "explanation": "DOM me naya element create karne ke liye document.createElement() method use kiya jata hai ."
     },
     {
       "id": 91,
@@ -1009,7 +1009,7 @@
       "optionD": "ईमेल संचार",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Telnet text-based bi-directional communication ke liye remote terminal login session provide karta hai[cite: 8]."
+      "explanation": "Telnet text-based bi-directional communication ke liye remote terminal login session provide karta hai ."
     },
     {
       "id": 92,
@@ -1020,7 +1020,7 @@
       "optionD": "एक तालिका",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Relational model me ek relation ko table (तालिका) ke roop me jana jata hai[cite: 8]."
+      "explanation": "Relational model me ek relation ko table (तालिका) ke roop me jana jata hai ."
     },
     {
       "id": 93,
@@ -1031,7 +1031,7 @@
       "optionD": "इन सब",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "PDA ke behavior aur configurations ko transition tables, transition diagrams aur instantaneous descriptions sabhi se represent kiya ja sakta hai[cite: 8]."
+      "explanation": "PDA ke behavior aur configurations ko transition tables, transition diagrams aur instantaneous descriptions sabhi se represent kiya ja sakta hai ."
     },
     {
       "id": 94,
@@ -1042,7 +1042,7 @@
       "optionD": "NOT gates and multiplexers",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "Programmable Logic Array (PLA) me programmable AND gate array aur programmable OR gate array ka use hota hai[cite: 8]."
+      "explanation": "Programmable Logic Array (PLA) me programmable AND gate array aur programmable OR gate array ka use hota hai ."
     },
     {
       "id": 95,
@@ -1053,7 +1053,7 @@
       "optionD": "उदाहरण",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Java, C++, C# aadi languages me class ka instance/object create karne ke liye 'new' keyword use hota hai[cite: 8]."
+      "explanation": "Java, C++, C# aadi languages me class ka instance/object create karne ke liye 'new' keyword use hota hai ."
     },
     {
       "id": 96,
@@ -1064,7 +1064,7 @@
       "optionD": "समूह सरलीकरण",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "K-map wrapping ke rules ke tehat non-adjacent corner cells bhi common variable share karne par group simplify kiye ja sakte hain[cite: 8]."
+      "explanation": "K-map wrapping ke rules ke tehat non-adjacent corner cells bhi common variable share karne par group simplify kiye ja sakte hain ."
     },
     {
       "id": 97,
@@ -1075,7 +1075,7 @@
       "optionD": "To encrypt data before Transmission.",
       "optionE": "",
       "correctAnswer": "C",
-      "explanation": "A firewall filters incoming and outgoing network traffic based on an organization's previously established security rules[cite: 8]."
+      "explanation": "A firewall filters incoming and outgoing network traffic based on an organization's previously established security rules ."
     },
     {
       "id": 98,
@@ -1086,7 +1086,7 @@
       "optionD": "पदानुक्रम में फ्रेम अनुमान",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "AI frames structure me slots ke andar facts, data aur default values building blocks hote hain[cite: 8]."
+      "explanation": "AI frames structure me slots ke andar facts, data aur default values building blocks hote hain ."
     },
     {
       "id": 99,
@@ -1097,7 +1097,7 @@
       "optionD": "मौजूदा सॉफ्टवेयर को संशोधित और अद्यतन करना",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Software maintenance me deployment ke baad existing software me modification, bug fixing aur updates shamil hain[cite: 8]."
+      "explanation": "Software maintenance me deployment ke baad existing software me modification, bug fixing aur updates shamil hain ."
     },
     {
       "id": 100,
@@ -1108,7 +1108,7 @@
       "optionD": "Digital Certificates",
       "optionE": "",
       "correctAnswer": "A",
-      "explanation": "HTTP (Hyper Text Transfer Protocol) WWW par data transmission ko govern karne wala rules ka set hai[cite: 8]."
+      "explanation": "HTTP (Hyper Text Transfer Protocol) WWW par data transmission ko govern karne wala rules ka set hai ."
     },
     {
       "id": 101,
@@ -1119,7 +1119,7 @@
       "optionD": "इनमें सभी",
       "optionE": "",
       "correctAnswer": "D",
-      "explanation": "Discussion method me maximum student participation, critical evaluation aur logical peer feedback sabhi shamil hote hain[cite: 8]."
+      "explanation": "Discussion method me maximum student participation, critical evaluation aur logical peer feedback sabhi shamil hote hain ."
     },
     {
       "id": 102,

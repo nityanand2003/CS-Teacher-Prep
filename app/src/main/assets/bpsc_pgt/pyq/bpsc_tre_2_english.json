@@ -1580,8 +1580,8 @@
       "optionC": "XZ+Y",
       "optionD": "More than one of the above",
       "optionE": "None of the above",
-      "correctAnswer": "E",
-      "explanation": "X + Y + XY simplifies to X + Y. Then (X + Y)(X + Z) simplifies by the distributive law to X + YZ. Because option (B) is X+YZ, official answer key marks option (E)."
+      "correctAnswer": "B",
+      "explanation": "Using the absorption law, X + Y + XY simplifies to X + Y. Therefore, (X + Y)(X + Z) = X + YZ, so option B is correct."
     },
     {
       "id": 144,

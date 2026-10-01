@@ -601,8 +601,8 @@
       "optionC": "To allocate appropriate resources to the project",
       "optionD": "To estimate the maintenance costs of the software",
       "optionE": "",
-      "correctAnswer": "B",
-      "explanation": "Official answer key designated option (B)."
+      "correctAnswer": "C",
+      "explanation": "Staffing level estimation determines the number and type of human resources needed for different project phases."
     },
     {
       "id": 55,
@@ -861,12 +861,12 @@
       "id": 78,
       "questionText": "WSN stands for?",
       "optionA": "Wireless Standard Protocol",
-      "optionB": "Wireless Sensor Protocol",
+      "optionB": "Wireless Sensor Network",
       "optionC": "Wireless Serial Protocol",
       "optionD": "Wireless Single Protocol",
       "optionE": "",
       "correctAnswer": "B",
-      "explanation": "Official answer key designated option (B) Wireless Sensor Protocol (commonly Wireless Sensor Network)."
+      "explanation": "WSN stands for Wireless Sensor Network."
     },
     {
       "id": 79,

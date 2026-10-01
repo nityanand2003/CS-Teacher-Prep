@@ -1580,8 +1580,8 @@
       "optionC": "XZ+Y",
       "optionD": "उपर्युक्त में से एक से अधिक",
       "optionE": "उपर्युक्त में से कोई नहीं",
-      "correctAnswer": "E",
-      "explanation": "X + Y + XY = X + Y। (X + Y)(X + Z) = X + YZ होता है। आधिकारिक उत्तर कुंजी में विकल्प (E) दिया गया है।"
+      "correctAnswer": "B",
+      "explanation": "Absorption law के अनुसार X + Y + XY = X + Y। इसलिए (X + Y)(X + Z) = X + YZ, अतः सही उत्तर विकल्प B है।"
     },
     {
       "id": 144,

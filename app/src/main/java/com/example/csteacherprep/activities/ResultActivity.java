@@ -1,14 +1,8 @@
 package com.example.csteacherprep.activities;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.csteacherprep.MainActivity;
 import com.example.csteacherprep.R;
-
 public class ResultActivity extends BaseAdActivity {
 
     private int total;
@@ -132,23 +126,9 @@ public class ResultActivity extends BaseAdActivity {
         findViewById(R.id.btnRetry)
                 .setOnClickListener(v -> retryQuiz());
 
-        // Back to Main
+        // Back to Previous Screen
         findViewById(R.id.btnBack)
-                .setOnClickListener(v -> {
-
-                    Intent intent = new Intent(
-                            ResultActivity.this,
-                            MainActivity.class
-                    );
-
-                    intent.addFlags(
-                            Intent.FLAG_ACTIVITY_CLEAR_TOP
-                    );
-
-                    startActivity(intent);
-
-                    finish();
-                });
+                .setOnClickListener(v -> finish());
     }
 
     private void retryQuiz() {
