@@ -1,0 +1,254 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "question":  "हिंदी भाषा की लिपि कौन-सी है?",
+                          "optionA":  "देवनागरी",
+                          "optionB":  "गुरुमुखी",
+                          "optionC":  "रोमन",
+                          "optionD":  "उर्दू",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  2,
+                          "question":  "हिंदी में मुख्यतः कितने स्वर माने जाते हैं?",
+                          "optionA":  "11",
+                          "optionB":  "13",
+                          "optionC":  "10",
+                          "optionD":  "8",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  3,
+                          "question":  "हिंदी वर्णमाला में व्यंजन किसे कहते हैं?",
+                          "optionA":  "केवल संयुक्त अक्षरों को",
+                          "optionB":  "केवल अनुस्वार को",
+                          "optionC":  "जिनका उच्चारण स्वतंत्र हो",
+                          "optionD":  "जिनके उच्चारण में स्वर की सहायता लगे",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  4,
+                          "question":  "‘अ’ किस प्रकार का स्वर है?",
+                          "optionA":  "दीर्घ स्वर",
+                          "optionB":  "प्लुत स्वर",
+                          "optionC":  "ह्रस्व स्वर",
+                          "optionD":  "संयुक्त स्वर",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  5,
+                          "question":  "‘आ’ किस प्रकार का स्वर है?",
+                          "optionA":  "व्यंजन",
+                          "optionB":  "ह्रस्व स्वर",
+                          "optionC":  "दीर्घ स्वर",
+                          "optionD":  "प्लुत स्वर",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  6,
+                          "question":  "‘क’ किस वर्ग का व्यंजन है?",
+                          "optionA":  "त-वर्ग",
+                          "optionB":  "क-वर्ग",
+                          "optionC":  "च-वर्ग",
+                          "optionD":  "ट-वर्ग",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  7,
+                          "question":  "‘च’ किस वर्ग का व्यंजन है?",
+                          "optionA":  "क-वर्ग",
+                          "optionB":  "च-वर्ग",
+                          "optionC":  "त-वर्ग",
+                          "optionD":  "प-वर्ग",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  8,
+                          "question":  "‘ट’ किस वर्ग का व्यंजन है?",
+                          "optionA":  "च-वर्ग",
+                          "optionB":  "त-वर्ग",
+                          "optionC":  "ट-वर्ग",
+                          "optionD":  "क-वर्ग",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  9,
+                          "question":  "‘त’ किस वर्ग का व्यंजन है?",
+                          "optionA":  "त-वर्ग",
+                          "optionB":  "च-वर्ग",
+                          "optionC":  "ट-वर्ग",
+                          "optionD":  "प-वर्ग",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  10,
+                          "question":  "‘प’ किस वर्ग का व्यंजन है?",
+                          "optionA":  "त-वर्ग",
+                          "optionB":  "च-वर्ग",
+                          "optionC":  "क-वर्ग",
+                          "optionD":  "प-वर्ग",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  11,
+                          "question":  "‘ङ’ का उच्चारण स्थान क्या है?",
+                          "optionA":  "कंठ",
+                          "optionB":  "दंत",
+                          "optionC":  "मूर्धा",
+                          "optionD":  "तालु",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  12,
+                          "question":  "‘ञ’ का उच्चारण स्थान क्या है?",
+                          "optionA":  "ओष्ठ",
+                          "optionB":  "तालु",
+                          "optionC":  "कंठ",
+                          "optionD":  "दंत",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  13,
+                          "question":  "‘ण’ का उच्चारण स्थान क्या है?",
+                          "optionA":  "दंत",
+                          "optionB":  "कंठ",
+                          "optionC":  "मूर्धा",
+                          "optionD":  "तालु",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  14,
+                          "question":  "‘न’ का उच्चारण स्थान क्या है?",
+                          "optionA":  "दंत",
+                          "optionB":  "मूर्धा",
+                          "optionC":  "ओष्ठ",
+                          "optionD":  "तालु",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  15,
+                          "question":  "‘म’ का उच्चारण स्थान क्या है?",
+                          "optionA":  "तालु",
+                          "optionB":  "कंठ",
+                          "optionC":  "ओष्ठ",
+                          "optionD":  "दंत",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  16,
+                          "question":  "‘य’ किस प्रकार का व्यंजन है?",
+                          "optionA":  "स्पर्श",
+                          "optionB":  "संयुक्त",
+                          "optionC":  "अंतःस्थ",
+                          "optionD":  "ऊष्म",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  17,
+                          "question":  "‘श’ किस प्रकार का व्यंजन है?",
+                          "optionA":  "ऊष्म",
+                          "optionB":  "नासिक्य",
+                          "optionC":  "स्पर्श",
+                          "optionD":  "अंतःस्थ",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  18,
+                          "question":  "‘क, ख, ग, घ’ किस वर्ग में आते हैं?",
+                          "optionA":  "ट-वर्ग",
+                          "optionB":  "क-वर्ग",
+                          "optionC":  "प-वर्ग",
+                          "optionD":  "च-वर्ग",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  19,
+                          "question":  "‘य, र, ल, व’ को क्या कहा जाता है?",
+                          "optionA":  "नासिक्य व्यंजन",
+                          "optionB":  "ऊष्म व्यंजन",
+                          "optionC":  "स्पर्श व्यंजन",
+                          "optionD":  "अंतःस्थ व्यंजन",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  20,
+                          "question":  "‘श, ष, स, ह’ किस वर्ग के व्यंजन हैं?",
+                          "optionA":  "नासिक्य",
+                          "optionB":  "अंतःस्थ",
+                          "optionC":  "स्पर्श",
+                          "optionD":  "ऊष्म",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  21,
+                          "question":  "‘अं’ को सामान्यतः क्या कहा जाता है?",
+                          "optionA":  "अनुस्वार",
+                          "optionB":  "चंद्रबिंदु",
+                          "optionC":  "हलंत",
+                          "optionD":  "विसर्ग",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  22,
+                          "question":  "‘अः’ को क्या कहा जाता है?",
+                          "optionA":  "हलंत",
+                          "optionB":  "अनुस्वार",
+                          "optionC":  "चंद्रबिंदु",
+                          "optionD":  "विसर्ग",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  23,
+                          "question":  "‘ँ’ का नाम क्या है?",
+                          "optionA":  "हलंत",
+                          "optionB":  "अनुस्वार",
+                          "optionC":  "विसर्ग",
+                          "optionD":  "चंद्रबिंदु",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  24,
+                          "question":  "‘क्ष’ किसका उदाहरण है?",
+                          "optionA":  "अंतःस्थ व्यंजन",
+                          "optionB":  "संयुक्त व्यंजन",
+                          "optionC":  "स्वर",
+                          "optionD":  "ऊष्म स्वर",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  25,
+                          "question":  "‘त्र’ किसका उदाहरण है?",
+                          "optionA":  "स्वर",
+                          "optionB":  "संयुक्त व्यंजन",
+                          "optionC":  "विसर्ग",
+                          "optionD":  "नासिक्य स्वर",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      }
+                  ]
+}

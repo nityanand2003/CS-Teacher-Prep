@@ -1,0 +1,254 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "question":  "कार्य के करने या होने का बोध कराने वाले शब्द को क्या कहते हैं?",
+                          "optionA":  "क्रिया",
+                          "optionB":  "विशेषण",
+                          "optionC":  "सर्वनाम",
+                          "optionD":  "संज्ञा",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  2,
+                          "question":  "‘राम पढ़ता है’ में क्रिया कौन-सी है?",
+                          "optionA":  "कोई नहीं",
+                          "optionB":  "पढ़ता है",
+                          "optionC":  "है",
+                          "optionD":  "राम",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  3,
+                          "question":  "‘सीमा ने पत्र लिखा’ में क्रिया है?",
+                          "optionA":  "ने",
+                          "optionB":  "पत्र",
+                          "optionC":  "लिखा",
+                          "optionD":  "सीमा",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  4,
+                          "question":  "‘बच्चा सो रहा है’ कौन-सा काल है?",
+                          "optionA":  "पूर्ण भूतकाल",
+                          "optionB":  "भविष्यत् काल",
+                          "optionC":  "वर्तमान काल",
+                          "optionD":  "भूतकाल",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  5,
+                          "question":  "‘राम कल आएगा’ कौन-सा काल है?",
+                          "optionA":  "अपूर्ण भूतकाल",
+                          "optionB":  "भविष्यत् काल",
+                          "optionC":  "भूतकाल",
+                          "optionD":  "वर्तमान काल",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  6,
+                          "question":  "‘मोहन बाजार गया’ कौन-सा काल है?",
+                          "optionA":  "सामान्य वर्तमान",
+                          "optionB":  "भविष्यत् काल",
+                          "optionC":  "वर्तमान काल",
+                          "optionD":  "भूतकाल",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  7,
+                          "question":  "‘मैं रोज पढ़ता हूँ’ कौन-सा काल है?",
+                          "optionA":  "सामान्य वर्तमान",
+                          "optionB":  "अपूर्ण भूत",
+                          "optionC":  "सामान्य भविष्यत्",
+                          "optionD":  "पूर्ण भूत",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  8,
+                          "question":  "‘मैं पढ़ रहा हूँ’ कौन-सा काल है?",
+                          "optionA":  "अपूर्ण वर्तमान",
+                          "optionB":  "सामान्य भूत",
+                          "optionC":  "पूर्ण वर्तमान",
+                          "optionD":  "पूर्ण भूत",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  9,
+                          "question":  "‘मैं पढ़ चुका हूँ’ कौन-सा काल है?",
+                          "optionA":  "अपूर्ण वर्तमान",
+                          "optionB":  "सामान्य भविष्यत्",
+                          "optionC":  "अपूर्ण भूत",
+                          "optionD":  "पूर्ण वर्तमान",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  10,
+                          "question":  "‘वह कल पढ़ रहा था’ कौन-सा काल है?",
+                          "optionA":  "सामान्य वर्तमान",
+                          "optionB":  "सामान्य भविष्यत्",
+                          "optionC":  "अपूर्ण भूत",
+                          "optionD":  "पूर्ण वर्तमान",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  11,
+                          "question":  "‘वह आ चुका था’ कौन-सा काल है?",
+                          "optionA":  "पूर्ण भूत",
+                          "optionB":  "भविष्यत्",
+                          "optionC":  "अपूर्ण भूत",
+                          "optionD":  "वर्तमान",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  12,
+                          "question":  "‘वह कल आएगा’ कौन-सा काल है?",
+                          "optionA":  "सामान्य भविष्यत्",
+                          "optionB":  "पूर्ण भूत",
+                          "optionC":  "पूर्ण वर्तमान",
+                          "optionD":  "अपूर्ण वर्तमान",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  13,
+                          "question":  "जिस क्रिया का फल कर्ता पर पड़े, उसे क्या कहते हैं?",
+                          "optionA":  "सकर्मक क्रिया",
+                          "optionB":  "नामधातु",
+                          "optionC":  "अकर्मक क्रिया",
+                          "optionD":  "सहायक क्रिया",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  14,
+                          "question":  "जिस क्रिया के साथ कर्म की आवश्यकता हो, वह क्या है?",
+                          "optionA":  "सहायक क्रिया",
+                          "optionB":  "सकर्मक क्रिया",
+                          "optionC":  "अकर्मक क्रिया",
+                          "optionD":  "अव्यय",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  15,
+                          "question":  "‘राम ने आम खाया’ में क्रिया कैसी है?",
+                          "optionA":  "सकर्मक",
+                          "optionB":  "सहायक",
+                          "optionC":  "भाववाचक",
+                          "optionD":  "अकर्मक",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  16,
+                          "question":  "‘बच्चा सोया’ में क्रिया कैसी है?",
+                          "optionA":  "सकर्मक",
+                          "optionB":  "प्रेरणार्थक",
+                          "optionC":  "अकर्मक",
+                          "optionD":  "सहायक",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  17,
+                          "question":  "‘मोहन हँसता है’ में क्रिया कैसी है?",
+                          "optionA":  "द्विकर्मक",
+                          "optionB":  "प्रेरणार्थक",
+                          "optionC":  "सकर्मक",
+                          "optionD":  "अकर्मक",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  18,
+                          "question":  "‘सीमा ने पत्र लिखा’ में कर्म क्या है?",
+                          "optionA":  "लिखा",
+                          "optionB":  "पत्र",
+                          "optionC":  "सीमा",
+                          "optionD":  "ने",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  19,
+                          "question":  "‘राम दौड़ता है’ में क्रिया है?",
+                          "optionA":  "अकर्मक",
+                          "optionB":  "द्विकर्मक",
+                          "optionC":  "सकर्मक",
+                          "optionD":  "प्रेरणार्थक",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  20,
+                          "question":  "‘पढ़ना’ का कौन-सा रूप क्रिया का मूल रूप है?",
+                          "optionA":  "संज्ञा",
+                          "optionB":  "विशेषण",
+                          "optionC":  "सर्वनाम",
+                          "optionD":  "धातु",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  21,
+                          "question":  "‘करना’ में कौन-सा प्रत्यय माना जाता है?",
+                          "optionA":  "ई",
+                          "optionB":  "पन",
+                          "optionC":  "ता",
+                          "optionD":  "ना",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  22,
+                          "question":  "‘वह खेल रहा है’ में सहायक क्रिया कौन-सी है?",
+                          "optionA":  "खेल",
+                          "optionB":  "रहा",
+                          "optionC":  "है",
+                          "optionD":  "वह",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  23,
+                          "question":  "‘मैंने खाना खाया’ में मुख्य क्रिया कौन-सी है?",
+                          "optionA":  "मैंने",
+                          "optionB":  "खाया",
+                          "optionC":  "कोई नहीं",
+                          "optionD":  "खाना",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  24,
+                          "question":  "‘बच्चे खेलेंगे’ कौन-सा काल है?",
+                          "optionA":  "अपूर्ण भूत",
+                          "optionB":  "भविष्यत्",
+                          "optionC":  "वर्तमान",
+                          "optionD":  "भूत",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  25,
+                          "question":  "‘वह रोज जाता है’ कौन-सा काल है?",
+                          "optionA":  "पूर्ण वर्तमान",
+                          "optionB":  "पूर्ण भविष्यत्",
+                          "optionC":  "सामान्य भूत",
+                          "optionD":  "सामान्य वर्तमान",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      }
+                  ]
+}

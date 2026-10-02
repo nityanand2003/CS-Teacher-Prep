@@ -1,0 +1,254 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "question":  "दो वर्णों के मेल से होने वाले परिवर्तन को क्या कहते हैं?",
+                          "optionA":  "प्रत्यय",
+                          "optionB":  "समास",
+                          "optionC":  "उपसर्ग",
+                          "optionD":  "संधि",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  2,
+                          "question":  "संधि के मुख्यतः कितने भेद माने जाते हैं?",
+                          "optionA":  "चार",
+                          "optionB":  "दो",
+                          "optionC":  "तीन",
+                          "optionD":  "पाँच",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  3,
+                          "question":  "स्वर के मेल से होने वाली संधि क्या कहलाती है?",
+                          "optionA":  "व्यंजन संधि",
+                          "optionB":  "स्वर संधि",
+                          "optionC":  "विसर्ग संधि",
+                          "optionD":  "समास",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  4,
+                          "question":  "व्यंजन के मेल से होने वाली संधि क्या कहलाती है?",
+                          "optionA":  "स्वर संधि",
+                          "optionB":  "विसर्ग संधि",
+                          "optionC":  "व्यंजन संधि",
+                          "optionD":  "बहुव्रीहि",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  5,
+                          "question":  "विसर्ग के परिवर्तन से होने वाली संधि क्या है?",
+                          "optionA":  "विसर्ग संधि",
+                          "optionB":  "द्वंद्व",
+                          "optionC":  "स्वर संधि",
+                          "optionD":  "व्यंजन संधि",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  6,
+                          "question":  "‘विद्या + आलय’ का संधि रूप क्या है?",
+                          "optionA":  "विद्याआलय",
+                          "optionB":  "विद्यलय",
+                          "optionC":  "विदालय",
+                          "optionD":  "विद्यालय",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  7,
+                          "question":  "‘महा + ईश’ का संधि रूप क्या है?",
+                          "optionA":  "महेष",
+                          "optionB":  "महाईश",
+                          "optionC":  "महीश",
+                          "optionD":  "महेश",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  8,
+                          "question":  "‘नर + ईश’ का संधि रूप क्या है?",
+                          "optionA":  "नरेश",
+                          "optionB":  "नरिश",
+                          "optionC":  "नरीश",
+                          "optionD":  "नरैश",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  9,
+                          "question":  "‘सदा + एव’ का संधि रूप क्या है?",
+                          "optionA":  "सदैव",
+                          "optionB":  "सदएव",
+                          "optionC":  "सदेव",
+                          "optionD":  "सदिव",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  10,
+                          "question":  "‘पर + उपकार’ का संधि रूप क्या है?",
+                          "optionA":  "परूपकार",
+                          "optionB":  "परोपकर",
+                          "optionC":  "परोपकार",
+                          "optionD":  "परापकार",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  11,
+                          "question":  "‘हित + उपदेश’ का संधि रूप क्या है?",
+                          "optionA":  "हितुपदेश",
+                          "optionB":  "हितोपदेस",
+                          "optionC":  "हितापदेश",
+                          "optionD":  "हितोपदेश",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  12,
+                          "question":  "‘देव + इंद्र’ का संधि रूप क्या है?",
+                          "optionA":  "देविंद्र",
+                          "optionB":  "देवइंद्र",
+                          "optionC":  "देवांद्र",
+                          "optionD":  "देवेंद्र",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  13,
+                          "question":  "‘लोक + ईश’ का संधि रूप क्या है?",
+                          "optionA":  "लोकैश",
+                          "optionB":  "लोकेश",
+                          "optionC":  "लोकीश",
+                          "optionD":  "लोकेष",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  14,
+                          "question":  "‘गण + ईश’ का संधि रूप क्या है?",
+                          "optionA":  "गणीश",
+                          "optionB":  "गणेश",
+                          "optionC":  "गनेश",
+                          "optionD":  "गणैश",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  15,
+                          "question":  "‘महा + उत्सव’ का संधि रूप क्या है?",
+                          "optionA":  "महोत्सवा",
+                          "optionB":  "महाउत्सव",
+                          "optionC":  "महोत्सव",
+                          "optionD":  "महुत्सव",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  16,
+                          "question":  "‘राज + ऋषि’ का संधि रूप क्या है?",
+                          "optionA":  "राजरिषि",
+                          "optionB":  "राजर्षि",
+                          "optionC":  "राजरशी",
+                          "optionD":  "राजऋषि",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  17,
+                          "question":  "‘सत् + जन’ का संधि रूप क्या है?",
+                          "optionA":  "सद्जन",
+                          "optionB":  "सज्जन",
+                          "optionC":  "सतजन",
+                          "optionD":  "सजन",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  18,
+                          "question":  "‘उत् + हार’ का संधि रूप क्या है?",
+                          "optionA":  "उद्धार",
+                          "optionB":  "उधार",
+                          "optionC":  "उतार",
+                          "optionD":  "उत्हार",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  19,
+                          "question":  "‘तत् + रूप’ का संधि रूप क्या है?",
+                          "optionA":  "तरूप",
+                          "optionB":  "तत्सरूप",
+                          "optionC":  "तत्रूप",
+                          "optionD":  "तद्रूप",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  20,
+                          "question":  "‘सत् + चरित्र’ का संधि रूप क्या है?",
+                          "optionA":  "सद्चरित्र",
+                          "optionB":  "सचरित्र",
+                          "optionC":  "सच्चरित्र",
+                          "optionD":  "सत्चरित्र",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  21,
+                          "question":  "‘मनः + हर’ का संधि रूप क्या है?",
+                          "optionA":  "मनोहर",
+                          "optionB":  "मनःहर",
+                          "optionC":  "मनुहर",
+                          "optionD":  "मनहर",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  22,
+                          "question":  "‘यशः + दा’ का संधि रूप क्या है?",
+                          "optionA":  "यशोदा",
+                          "optionB":  "यशदा",
+                          "optionC":  "यशुदा",
+                          "optionD":  "यशोदि",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  23,
+                          "question":  "‘तपः + वन’ का संधि रूप क्या है?",
+                          "optionA":  "तपोवन",
+                          "optionB":  "तपःवन",
+                          "optionC":  "तपवन",
+                          "optionD":  "तपुवन",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  24,
+                          "question":  "‘निः + कपट’ का संधि रूप क्या है?",
+                          "optionA":  "निसकपट",
+                          "optionB":  "निष्कपट",
+                          "optionC":  "निःकपट",
+                          "optionD":  "निषकपट",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  25,
+                          "question":  "‘दुः + जन’ का संधि रूप क्या है?",
+                          "optionA":  "दुःजन",
+                          "optionB":  "दुरजन",
+                          "optionC":  "दुर्जन",
+                          "optionD":  "दुजन",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      }
+                  ]
+}

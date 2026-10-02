@@ -1,0 +1,230 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "optionB":  "go",
+                          "optionC":  "goes",
+                          "correctAnswer":  "C",
+                          "optionA":  "going",
+                          "optionD":  "gone",
+                          "question":  "She ___ to school every day."
+                      },
+                      {
+                          "id":  2,
+                          "optionB":  "playing",
+                          "optionC":  "plays",
+                          "correctAnswer":  "A",
+                          "optionA":  "played",
+                          "optionD":  "play",
+                          "question":  "They ___ football yesterday."
+                      },
+                      {
+                          "id":  3,
+                          "optionB":  "have completed",
+                          "optionC":  "complete",
+                          "correctAnswer":  "B",
+                          "optionA":  "completing",
+                          "optionD":  "completed",
+                          "question":  "I ___ my homework already."
+                      },
+                      {
+                          "id":  4,
+                          "optionB":  "has slept",
+                          "optionC":  "sleeps",
+                          "correctAnswer":  "A",
+                          "optionA":  "was sleeping",
+                          "optionD":  "slept",
+                          "question":  "He ___ when I called him."
+                      },
+                      {
+                          "id":  5,
+                          "optionB":  "finishes",
+                          "optionC":  "finished",
+                          "correctAnswer":  "D",
+                          "optionA":  "will finish",
+                          "optionD":  "will have finished",
+                          "question":  "By tomorrow, she ___ the work."
+                      },
+                      {
+                          "id":  6,
+                          "optionB":  "am living",
+                          "optionC":  "lived",
+                          "correctAnswer":  "D",
+                          "optionA":  "live",
+                          "optionD":  "have lived",
+                          "question":  "I ___ here since 2020."
+                      },
+                      {
+                          "id":  7,
+                          "optionB":  "had left",
+                          "optionC":  "leaves",
+                          "correctAnswer":  "B",
+                          "optionA":  "has left",
+                          "optionD":  "left",
+                          "question":  "When we arrived, the train ___."
+                      },
+                      {
+                          "id":  8,
+                          "optionB":  "is cooking",
+                          "optionC":  "cooks",
+                          "correctAnswer":  "B",
+                          "optionA":  "has cooked",
+                          "optionD":  "cooked",
+                          "question":  "She ___ dinner now."
+                      },
+                      {
+                          "id":  9,
+                          "optionB":  "read",
+                          "optionC":  "reads",
+                          "correctAnswer":  "A",
+                          "optionA":  "had read",
+                          "optionD":  "has read",
+                          "question":  "He ___ the book before the exam started."
+                      },
+                      {
+                          "id":  10,
+                          "optionB":  "will arrive",
+                          "optionC":  "arrived",
+                          "correctAnswer":  "B",
+                          "optionA":  "have arrived yesterday",
+                          "optionD":  "arrive yesterday",
+                          "question":  "They ___ tomorrow."
+                      },
+                      {
+                          "id":  11,
+                          "optionB":  "meeting",
+                          "optionC":  "meet",
+                          "correctAnswer":  "A",
+                          "optionA":  "met",
+                          "optionD":  "have met",
+                          "question":  "I ___ him yesterday."
+                      },
+                      {
+                          "id":  12,
+                          "optionB":  "studies",
+                          "optionC":  "has been studying",
+                          "correctAnswer":  "C",
+                          "optionA":  "studied",
+                          "optionD":  "is study",
+                          "question":  "She ___ for two hours."
+                      },
+                      {
+                          "id":  13,
+                          "optionB":  "went",
+                          "optionC":  "goes",
+                          "correctAnswer":  "B",
+                          "optionA":  "has gone",
+                          "optionD":  "going",
+                          "question":  "He ___ to Delhi last week."
+                      },
+                      {
+                          "id":  14,
+                          "optionB":  "seeing",
+                          "optionC":  "saw",
+                          "correctAnswer":  "A",
+                          "optionA":  "have seen",
+                          "optionD":  "see",
+                          "question":  "We ___ this movie before."
+                      },
+                      {
+                          "id":  15,
+                          "optionB":  "is rising",
+                          "optionC":  "rises",
+                          "correctAnswer":  "C",
+                          "optionA":  "has risen",
+                          "optionD":  "rose",
+                          "question":  "The sun ___ in the east."
+                      },
+                      {
+                          "id":  16,
+                          "optionB":  "had",
+                          "optionC":  "am having",
+                          "correctAnswer":  "D",
+                          "optionA":  "have",
+                          "optionD":  "was having",
+                          "question":  "At 8 PM yesterday, I ___ dinner."
+                      },
+                      {
+                          "id":  17,
+                          "optionB":  "completed",
+                          "optionC":  "will have completed",
+                          "correctAnswer":  "C",
+                          "optionA":  "has completed",
+                          "optionD":  "completes",
+                          "question":  "By 2027, he ___ his course."
+                      },
+                      {
+                          "id":  18,
+                          "optionB":  "had lived",
+                          "optionC":  "has lived",
+                          "correctAnswer":  "B",
+                          "optionA":  "lived",
+                          "optionD":  "lives",
+                          "question":  "She ___ here for five years before moving."
+                      },
+                      {
+                          "id":  19,
+                          "optionB":  "has knocked",
+                          "optionC":  "is knocking",
+                          "correctAnswer":  "C",
+                          "optionA":  "knocked",
+                          "optionD":  "knocks",
+                          "question":  "Listen! Someone ___ at the door."
+                      },
+                      {
+                          "id":  20,
+                          "optionB":  "drunk",
+                          "optionC":  "drink",
+                          "correctAnswer":  "C",
+                          "optionA":  "drank",
+                          "optionD":  "drinking",
+                          "question":  "I usually ___ tea in the morning."
+                      },
+                      {
+                          "id":  21,
+                          "optionB":  "has finished",
+                          "optionC":  "finishes",
+                          "correctAnswer":  "D",
+                          "optionA":  "finishing",
+                          "optionD":  "had finished",
+                          "question":  "He ___ his work before he went home."
+                      },
+                      {
+                          "id":  22,
+                          "optionB":  "work",
+                          "optionC":  "are work",
+                          "correctAnswer":  "D",
+                          "optionA":  "worked",
+                          "optionD":  "have been working",
+                          "question":  "They ___ since morning."
+                      },
+                      {
+                          "id":  23,
+                          "optionB":  "has written",
+                          "optionC":  "writes",
+                          "correctAnswer":  "A",
+                          "optionA":  "was writing",
+                          "optionD":  "wrote tomorrow",
+                          "question":  "She ___ a letter when I entered."
+                      },
+                      {
+                          "id":  24,
+                          "optionB":  "known",
+                          "optionC":  "knew",
+                          "correctAnswer":  "A",
+                          "optionA":  "will know",
+                          "optionD":  "know yesterday",
+                          "question":  "We ___ the result tomorrow."
+                      },
+                      {
+                          "id":  25,
+                          "optionB":  "had, see",
+                          "optionC":  "have, seen",
+                          "correctAnswer":  "D",
+                          "optionA":  "is, saw",
+                          "optionD":  "has, seen",
+                          "question":  "He ___ never ___ such a beautiful place."
+                      }
+                  ],
+    "title":  "tenses"
+}

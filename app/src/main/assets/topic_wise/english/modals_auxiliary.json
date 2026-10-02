@@ -1,0 +1,230 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "optionB":  "might",
+                          "optionC":  "must",
+                          "correctAnswer":  "C",
+                          "optionA":  "may",
+                          "optionD":  "could",
+                          "question":  "You ___ obey the rules."
+                      },
+                      {
+                          "id":  2,
+                          "optionB":  "Would",
+                          "optionC":  "May",
+                          "correctAnswer":  "C",
+                          "optionA":  "Should",
+                          "optionD":  "Must",
+                          "question":  "___ I come in?"
+                      },
+                      {
+                          "id":  3,
+                          "optionB":  "may",
+                          "optionC":  "can",
+                          "correctAnswer":  "D",
+                          "optionA":  "could",
+                          "optionD":  "must",
+                          "question":  "You ___ not smoke here."
+                      },
+                      {
+                          "id":  4,
+                          "optionB":  "must",
+                          "optionC":  "can",
+                          "correctAnswer":  "D",
+                          "optionA":  "may",
+                          "optionD":  "could",
+                          "question":  "He ___ swim when he was five."
+                      },
+                      {
+                          "id":  5,
+                          "optionB":  "could",
+                          "optionC":  "may",
+                          "correctAnswer":  "D",
+                          "optionA":  "might",
+                          "optionD":  "should",
+                          "question":  "We ___ respect our elders."
+                      },
+                      {
+                          "id":  6,
+                          "optionB":  "ought",
+                          "optionC":  "should",
+                          "correctAnswer":  "A",
+                          "optionA":  "might",
+                          "optionD":  "must",
+                          "question":  "It ___ rain tonight."
+                      },
+                      {
+                          "id":  7,
+                          "optionB":  "should",
+                          "optionC":  "may",
+                          "correctAnswer":  "B",
+                          "optionA":  "can",
+                          "optionD":  "might",
+                          "question":  "You ___ see a doctor if you are ill."
+                      },
+                      {
+                          "id":  8,
+                          "optionB":  "Need",
+                          "optionC":  "Must",
+                          "correctAnswer":  "D",
+                          "optionA":  "Shall",
+                          "optionD":  "Could",
+                          "question":  "___ you help me with this bag?"
+                      },
+                      {
+                          "id":  9,
+                          "optionB":  "would",
+                          "optionC":  "have to",
+                          "correctAnswer":  "C",
+                          "optionA":  "might",
+                          "optionD":  "could",
+                          "question":  "We ___ finish this work today."
+                      },
+                      {
+                          "id":  10,
+                          "optionB":  "must",
+                          "optionC":  "could",
+                          "correctAnswer":  "B",
+                          "optionA":  "may",
+                          "optionD":  "should",
+                          "question":  "He ___ be at home; the lights are on."
+                      },
+                      {
+                          "id":  11,
+                          "optionB":  "Must",
+                          "optionC":  "Can",
+                          "correctAnswer":  "A",
+                          "optionA":  "Would",
+                          "optionD":  "Need",
+                          "question":  "___ you like some tea?"
+                      },
+                      {
+                          "id":  12,
+                          "optionB":  "can",
+                          "optionC":  "should",
+                          "correctAnswer":  "A",
+                          "optionA":  "should have",
+                          "optionD":  "may",
+                          "question":  "You ___ have informed me earlier."
+                      },
+                      {
+                          "id":  13,
+                          "optionB":  "can",
+                          "optionC":  "shall",
+                          "correctAnswer":  "B",
+                          "optionA":  "must",
+                          "optionD":  "ought",
+                          "question":  "She ___ speak three languages."
+                      },
+                      {
+                          "id":  14,
+                          "optionB":  "could",
+                          "optionC":  "ought to",
+                          "correctAnswer":  "C",
+                          "optionA":  "would",
+                          "optionD":  "might",
+                          "question":  "We ___ obey the traffic rules."
+                      },
+                      {
+                          "id":  15,
+                          "optionB":  "Ought",
+                          "optionC":  "Shall",
+                          "correctAnswer":  "C",
+                          "optionA":  "Need",
+                          "optionD":  "Must",
+                          "question":  "___ I open the window?"
+                      },
+                      {
+                          "id":  16,
+                          "optionB":  "could",
+                          "optionC":  "must",
+                          "correctAnswer":  "B",
+                          "optionA":  "can",
+                          "optionD":  "may",
+                          "question":  "He ___ not attend the meeting yesterday."
+                      },
+                      {
+                          "id":  17,
+                          "optionB":  "must to",
+                          "optionC":  "need",
+                          "correctAnswer":  "A",
+                          "optionA":  "need not",
+                          "optionD":  "should to",
+                          "question":  "You ___ not worry about it."
+                      },
+                      {
+                          "id":  18,
+                          "optionB":  "should",
+                          "optionC":  "can",
+                          "correctAnswer":  "D",
+                          "optionA":  "shall",
+                          "optionD":  "must",
+                          "question":  "They ___ have missed the train."
+                      },
+                      {
+                          "id":  19,
+                          "optionB":  "shall",
+                          "optionC":  "would",
+                          "correctAnswer":  "C",
+                          "optionA":  "can",
+                          "optionD":  "will",
+                          "question":  "If I were you, I ___ accept the offer."
+                      },
+                      {
+                          "id":  20,
+                          "optionB":  "might",
+                          "optionC":  "would",
+                          "correctAnswer":  "A",
+                          "optionA":  "must",
+                          "optionD":  "could",
+                          "question":  "Students ___ submit the form by Monday."
+                      },
+                      {
+                          "id":  21,
+                          "optionB":  "Ought",
+                          "optionC":  "Must",
+                          "correctAnswer":  "A",
+                          "optionA":  "Would",
+                          "optionD":  "Need",
+                          "question":  "___ you please wait here?"
+                      },
+                      {
+                          "id":  22,
+                          "optionB":  "ought",
+                          "optionC":  "shall",
+                          "correctAnswer":  "A",
+                          "optionA":  "may",
+                          "optionD":  "need",
+                          "question":  "He ___ have forgotten the appointment."
+                      },
+                      {
+                          "id":  23,
+                          "optionB":  "should",
+                          "optionC":  "might",
+                          "correctAnswer":  "B",
+                          "optionA":  "may",
+                          "optionD":  "could",
+                          "question":  "You ___ respect your parents."
+                      },
+                      {
+                          "id":  24,
+                          "optionB":  "must",
+                          "optionC":  "shall",
+                          "correctAnswer":  "B",
+                          "optionA":  "would",
+                          "optionD":  "can",
+                          "question":  "She ___ be tired after the journey."
+                      },
+                      {
+                          "id":  25,
+                          "optionB":  "might",
+                          "optionC":  "would",
+                          "correctAnswer":  "D",
+                          "optionA":  "could",
+                          "optionD":  "should",
+                          "question":  "We ___ not waste water."
+                      }
+                  ],
+    "title":  "modals_auxiliary"
+}

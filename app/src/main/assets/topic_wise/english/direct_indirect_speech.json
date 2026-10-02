@@ -1,0 +1,230 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "optionB":  "He says that he was busy.",
+                          "optionC":  "He said that he is busy.",
+                          "correctAnswer":  "D",
+                          "optionA":  "He said that I am busy.",
+                          "optionD":  "He said that he was busy.",
+                          "question":  "Change into indirect speech: He said, \u0027I am busy.\u0027"
+                      },
+                      {
+                          "id":  2,
+                          "optionB":  "She said that she had finished her work.",
+                          "optionC":  "She says that she had finished her work.",
+                          "correctAnswer":  "B",
+                          "optionA":  "She said that she has finished my work.",
+                          "optionD":  "She said that I had finished her work.",
+                          "question":  "She said, \u0027I have finished my work.\u0027"
+                      },
+                      {
+                          "id":  3,
+                          "optionB":  "Ram says that he will help me.",
+                          "optionC":  "Ram said that I would help you.",
+                          "correctAnswer":  "A",
+                          "optionA":  "Ram said that he would help me.",
+                          "optionD":  "Ram said that he will help you.",
+                          "question":  "Ram said, \u0027I will help you.\u0027"
+                      },
+                      {
+                          "id":  4,
+                          "optionB":  "He says he had seen a movie.",
+                          "optionC":  "He said that he had seen a movie.",
+                          "correctAnswer":  "C",
+                          "optionA":  "He said that he saw a movie.",
+                          "optionD":  "He said that I had seen a movie.",
+                          "question":  "He said, \u0027I saw a movie.\u0027"
+                      },
+                      {
+                          "id":  5,
+                          "optionB":  "She said to me if I am ready.",
+                          "optionC":  "She asked me if I was ready.",
+                          "correctAnswer":  "C",
+                          "optionA":  "She told me I was ready.",
+                          "optionD":  "She asked that I am ready.",
+                          "question":  "She said to me, \u0027Are you ready?\u0027"
+                      },
+                      {
+                          "id":  6,
+                          "optionB":  "He said that do your work.",
+                          "optionC":  "He said me to work.",
+                          "correctAnswer":  "D",
+                          "optionA":  "He asked me that I do your work.",
+                          "optionD":  "He ordered me to do my work.",
+                          "question":  "He said, \u0027Do your work.\u0027"
+                      },
+                      {
+                          "id":  7,
+                          "optionB":  "The teacher told the students to open their books.",
+                          "optionC":  "The teacher asked books to open.",
+                          "correctAnswer":  "B",
+                          "optionA":  "The teacher told that open books.",
+                          "optionD":  "The teacher said the students open your books.",
+                          "question":  "The teacher said, \u0027Open your books.\u0027"
+                      },
+                      {
+                          "id":  8,
+                          "optionB":  "He said where I live.",
+                          "optionC":  "He asked where do I live.",
+                          "correctAnswer":  "A",
+                          "optionA":  "He asked me where I lived.",
+                          "optionD":  "He asked me where did I live.",
+                          "question":  "He said, \u0027Where do you live?\u0027"
+                      },
+                      {
+                          "id":  9,
+                          "optionB":  "She asked what flower it was.",
+                          "optionC":  "She said that it is a beautiful flower.",
+                          "correctAnswer":  "A",
+                          "optionA":  "She exclaimed that it was a very beautiful flower.",
+                          "optionD":  "She told that flower was beautiful.",
+                          "question":  "She said, \u0027What a beautiful flower!\u0027"
+                      },
+                      {
+                          "id":  10,
+                          "optionB":  "He said alas that I am ruined.",
+                          "optionC":  "He told that he is ruined.",
+                          "correctAnswer":  "A",
+                          "optionA":  "He exclaimed sadly that he was ruined.",
+                          "optionD":  "He asked sadly if he was ruined.",
+                          "question":  "He said, \u0027Alas! I am ruined.\u0027"
+                      },
+                      {
+                          "id":  11,
+                          "optionB":  "Rita said she can solved this problem.",
+                          "optionC":  "Rita says that she can solve that problem.",
+                          "correctAnswer":  "D",
+                          "optionA":  "Rita said that I could solve this problem.",
+                          "optionD":  "Rita said that she could solve that problem.",
+                          "question":  "Rita said, \u0027I can solve this problem.\u0027"
+                      },
+                      {
+                          "id":  12,
+                          "optionB":  "He requested me to help him.",
+                          "optionC":  "He said me please help.",
+                          "correctAnswer":  "B",
+                          "optionA":  "He asked that I helped me.",
+                          "optionD":  "He ordered me help him.",
+                          "question":  "He said to me, \u0027Please help me.\u0027"
+                      },
+                      {
+                          "id":  13,
+                          "optionB":  "She said that she was reading a book.",
+                          "optionC":  "She said that she had been reading a book.",
+                          "correctAnswer":  "C",
+                          "optionA":  "She said I had reading.",
+                          "optionD":  "She says she was reading.",
+                          "question":  "She said, \u0027I was reading a book.\u0027"
+                      },
+                      {
+                          "id":  14,
+                          "optionB":  "He says he had been working here.",
+                          "optionC":  "He said I had worked there.",
+                          "correctAnswer":  "A",
+                          "optionA":  "He said that he had been working there for two years.",
+                          "optionD":  "He said he has worked here.",
+                          "question":  "He said, \u0027I have been working here for two years.\u0027"
+                      },
+                      {
+                          "id":  15,
+                          "optionB":  "The boy says he is tired.",
+                          "optionC":  "The boy said that he is tired.",
+                          "correctAnswer":  "A",
+                          "optionA":  "The boy said that he was tired.",
+                          "optionD":  "The boy said that I am tired.",
+                          "question":  "The boy said, \u0027I am tired.\u0027"
+                      },
+                      {
+                          "id":  16,
+                          "optionB":  "She asked him if he would come the next day.",
+                          "optionC":  "She asked him will he come tomorrow.",
+                          "correctAnswer":  "B",
+                          "optionA":  "She told him to come tomorrow.",
+                          "optionD":  "She said if he would come tomorrow.",
+                          "question":  "She said to him, \u0027Will you come tomorrow?\u0027"
+                      },
+                      {
+                          "id":  17,
+                          "optionB":  "He ordered them go for a walk.",
+                          "optionC":  "He suggested that they should go for a walk.",
+                          "correctAnswer":  "C",
+                          "optionA":  "He said that let us go.",
+                          "optionD":  "He asked them that they went.",
+                          "question":  "He said, \u0027Let us go for a walk.\u0027"
+                      },
+                      {
+                          "id":  18,
+                          "optionB":  "Mother told that I did not waste.",
+                          "optionC":  "Mother asked me not waste time.",
+                          "correctAnswer":  "D",
+                          "optionA":  "Mother said me don\u0027t waste your time.",
+                          "optionD":  "Mother told me not to waste my time.",
+                          "question":  "Mother said to me, \u0027Don\u0027t waste your time.\u0027"
+                      },
+                      {
+                          "id":  19,
+                          "optionB":  "He said that I may come late.",
+                          "optionC":  "He said he may came late.",
+                          "correctAnswer":  "D",
+                          "optionA":  "He says that he might came late.",
+                          "optionD":  "He said that he might come late.",
+                          "question":  "He said, \u0027I may come late.\u0027"
+                      },
+                      {
+                          "id":  20,
+                          "optionB":  "She said that the earth is round.",
+                          "optionC":  "She said that the earth was round.",
+                          "correctAnswer":  "B",
+                          "optionA":  "She said earth has round.",
+                          "optionD":  "She says earth was round.",
+                          "question":  "She said, \u0027The earth is round.\u0027"
+                      },
+                      {
+                          "id":  21,
+                          "optionB":  "He asked me if I could swim.",
+                          "optionC":  "He said that I could swim.",
+                          "correctAnswer":  "B",
+                          "optionA":  "He asked me can I swim.",
+                          "optionD":  "He told me if I can swim.",
+                          "question":  "He said to me, \u0027Can you swim?\u0027"
+                      },
+                      {
+                          "id":  22,
+                          "optionB":  "She said I bought that book.",
+                          "optionC":  "She says she had bought this book.",
+                          "correctAnswer":  "A",
+                          "optionA":  "She said that she had bought that book the previous day.",
+                          "optionD":  "She said that she bought this book yesterday.",
+                          "question":  "She said, \u0027I bought this book yesterday.\u0027"
+                      },
+                      {
+                          "id":  23,
+                          "optionB":  "He told me who was I.",
+                          "optionC":  "He asked me who I was.",
+                          "correctAnswer":  "C",
+                          "optionA":  "He said who I am.",
+                          "optionD":  "He asked who was I.",
+                          "question":  "He said, \u0027Who are you?\u0027"
+                      },
+                      {
+                          "id":  24,
+                          "optionB":  "The teacher asked work hard.",
+                          "optionC":  "The teacher advised the students to work hard.",
+                          "correctAnswer":  "C",
+                          "optionA":  "The teacher told that work hard.",
+                          "optionD":  "The teacher said students worked hard.",
+                          "question":  "The teacher said, \u0027Work hard.\u0027"
+                      },
+                      {
+                          "id":  25,
+                          "optionB":  "He said friends good morning.",
+                          "optionC":  "He told good morning to friends.",
+                          "correctAnswer":  "D",
+                          "optionA":  "He asked friends morning.",
+                          "optionD":  "He wished his friends good morning.",
+                          "question":  "He said, \u0027Good morning, friends.\u0027"
+                      }
+                  ],
+    "title":  "direct_indirect_speech"
+}

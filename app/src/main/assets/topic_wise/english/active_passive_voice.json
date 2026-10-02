@@ -1,0 +1,230 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "optionB":  "A letter was written by Ram.",
+                          "optionC":  "A letter is being written by Ram.",
+                          "correctAnswer":  "A",
+                          "optionA":  "A letter is written by Ram.",
+                          "optionD":  "A letter has written by Ram.",
+                          "question":  "Change into passive voice: \u0027Ram writes a letter.\u0027"
+                      },
+                      {
+                          "id":  2,
+                          "optionB":  "The work was completed by her.",
+                          "optionC":  "The work has completed by her.",
+                          "correctAnswer":  "B",
+                          "optionA":  "The work had complete by her.",
+                          "optionD":  "The work is completed by her.",
+                          "question":  "Change into passive voice: \u0027She completed the work.\u0027"
+                      },
+                      {
+                          "id":  3,
+                          "optionB":  "Cricket has been played by them.",
+                          "optionC":  "Cricket is played by them.",
+                          "correctAnswer":  "A",
+                          "optionA":  "Cricket is being played by them.",
+                          "optionD":  "Cricket was played by them.",
+                          "question":  "Change into passive voice: \u0027They are playing cricket.\u0027"
+                      },
+                      {
+                          "id":  4,
+                          "optionB":  "The work had finished by him.",
+                          "optionC":  "The work has been finished by him.",
+                          "correctAnswer":  "C",
+                          "optionA":  "The work is finished by him.",
+                          "optionD":  "The work was finished by him.",
+                          "question":  "Change into passive voice: \u0027He has finished the work.\u0027"
+                      },
+                      {
+                          "id":  5,
+                          "optionB":  "Let the door be opened.",
+                          "optionC":  "The door was opened.",
+                          "correctAnswer":  "B",
+                          "optionA":  "Let the door opened.",
+                          "optionD":  "The door is opened.",
+                          "question":  "Change into passive voice: \u0027Open the door.\u0027"
+                      },
+                      {
+                          "id":  6,
+                          "optionB":  "The thief was arrested by the police.",
+                          "optionC":  "The thief is arrested by the police.",
+                          "correctAnswer":  "B",
+                          "optionA":  "The thief had arrest by police.",
+                          "optionD":  "The thief has arrested by police.",
+                          "question":  "Change into passive voice: \u0027The police arrested the thief.\u0027"
+                      },
+                      {
+                          "id":  7,
+                          "optionB":  "Sita has written the letter.",
+                          "optionC":  "Sita wrote the letter.",
+                          "correctAnswer":  "C",
+                          "optionA":  "Sita was writing the letter.",
+                          "optionD":  "Sita writes the letter.",
+                          "question":  "Change into active voice: \u0027The letter was written by Sita.\u0027"
+                      },
+                      {
+                          "id":  8,
+                          "optionB":  "The work will be finished by him.",
+                          "optionC":  "The work has been finished by him.",
+                          "correctAnswer":  "B",
+                          "optionA":  "The work was finished by him.",
+                          "optionD":  "The work is finished by him.",
+                          "question":  "Change into passive voice: \u0027He will finish the work.\u0027"
+                      },
+                      {
+                          "id":  9,
+                          "optionB":  "The problem is solved by her.",
+                          "optionC":  "The problem can be solved by her.",
+                          "correctAnswer":  "C",
+                          "optionA":  "The problem was solved by her.",
+                          "optionD":  "The problem could solved by her.",
+                          "question":  "Change into passive voice: \u0027She can solve the problem.\u0027"
+                      },
+                      {
+                          "id":  10,
+                          "optionB":  "A bridge had built by them.",
+                          "optionC":  "A bridge was built by them.",
+                          "correctAnswer":  "A",
+                          "optionA":  "A bridge has been built by them.",
+                          "optionD":  "A bridge is built by them.",
+                          "question":  "Change into passive voice: \u0027They have built a bridge.\u0027"
+                      },
+                      {
+                          "id":  11,
+                          "optionB":  "By who the window was broken?",
+                          "optionC":  "Who was the window broken?",
+                          "correctAnswer":  "A",
+                          "optionA":  "By whom was the window broken?",
+                          "optionD":  "By whom is the window broken?",
+                          "question":  "Change into passive voice: \u0027Who broke the window?\u0027"
+                      },
+                      {
+                          "id":  12,
+                          "optionB":  "Let the work done.",
+                          "optionC":  "The work is doing.",
+                          "correctAnswer":  "D",
+                          "optionA":  "The work was done.",
+                          "optionD":  "Let the work be done.",
+                          "question":  "Change into passive voice: \u0027Do the work.\u0027"
+                      },
+                      {
+                          "id":  13,
+                          "optionB":  "A book is being read by him.",
+                          "optionC":  "A book is read by him.",
+                          "correctAnswer":  "B",
+                          "optionA":  "A book has been read by him.",
+                          "optionD":  "A book was read by him.",
+                          "question":  "Change into passive voice: \u0027He is reading a book.\u0027"
+                      },
+                      {
+                          "id":  14,
+                          "optionB":  "India has won the match.",
+                          "optionC":  "India was winning the match.",
+                          "correctAnswer":  "D",
+                          "optionA":  "India wins the match.",
+                          "optionD":  "India won the match.",
+                          "question":  "Change into active voice: \u0027The match was won by India.\u0027"
+                      },
+                      {
+                          "id":  15,
+                          "optionB":  "The rules were obeyed by you.",
+                          "optionC":  "The rules must be obeyed by you.",
+                          "correctAnswer":  "C",
+                          "optionA":  "The rules are obeyed by you.",
+                          "optionD":  "The rules have obeyed by you.",
+                          "question":  "Change into passive voice: \u0027You must obey the rules.\u0027"
+                      },
+                      {
+                          "id":  16,
+                          "optionB":  "My bag was stolen.",
+                          "optionC":  "My bag has been stolen.",
+                          "correctAnswer":  "C",
+                          "optionA":  "My bag had stolen.",
+                          "optionD":  "My bag is stolen by someone.",
+                          "question":  "Change into passive voice: \u0027Someone has stolen my bag.\u0027"
+                      },
+                      {
+                          "id":  17,
+                          "optionB":  "English was taught by the teacher.",
+                          "optionC":  "English has taught by the teacher.",
+                          "correctAnswer":  "A",
+                          "optionA":  "English is taught by the teacher.",
+                          "optionD":  "English is being taught by the teacher.",
+                          "question":  "Change into passive voice: \u0027The teacher teaches English.\u0027"
+                      },
+                      {
+                          "id":  18,
+                          "optionB":  "The road has been repaired by them.",
+                          "optionC":  "The road is repaired by them.",
+                          "correctAnswer":  "D",
+                          "optionA":  "The road was repaired by them.",
+                          "optionD":  "The road was being repaired by them.",
+                          "question":  "Change into passive voice: \u0027They were repairing the road.\u0027"
+                      },
+                      {
+                          "id":  19,
+                          "optionB":  "Ravi has completed the work.",
+                          "optionC":  "Ravi completed the work.",
+                          "correctAnswer":  "B",
+                          "optionA":  "Ravi completes the work.",
+                          "optionD":  "Ravi was completing the work.",
+                          "question":  "Change into active voice: \u0027The work has been completed by Ravi.\u0027"
+                      },
+                      {
+                          "id":  20,
+                          "optionB":  "Did the letter wrote by him?",
+                          "optionC":  "Is the letter written by him?",
+                          "correctAnswer":  "D",
+                          "optionA":  "Has the letter written by him?",
+                          "optionD":  "Was the letter written by him?",
+                          "question":  "Change into passive voice: \u0027Did he write the letter?\u0027"
+                      },
+                      {
+                          "id":  21,
+                          "optionB":  "We are invited by her.",
+                          "optionC":  "We have invited by her.",
+                          "correctAnswer":  "D",
+                          "optionA":  "We were invited by her.",
+                          "optionD":  "We will be invited by her.",
+                          "question":  "Change into passive voice: \u0027She will invite us.\u0027"
+                      },
+                      {
+                          "id":  22,
+                          "optionB":  "They have built the house.",
+                          "optionC":  "They build the house.",
+                          "correctAnswer":  "A",
+                          "optionA":  "They built the house.",
+                          "optionD":  "They were building the house.",
+                          "question":  "Change into active voice: \u0027The house was built by them.\u0027"
+                      },
+                      {
+                          "id":  23,
+                          "optionB":  "English is being spoken all over the world.",
+                          "optionC":  "English has spoken all over the world.",
+                          "correctAnswer":  "D",
+                          "optionA":  "English was spoken all over the world.",
+                          "optionD":  "English is spoken all over the world.",
+                          "question":  "Change into passive voice: \u0027People speak English all over the world.\u0027"
+                      },
+                      {
+                          "id":  24,
+                          "optionB":  "The result has been announced by the manager.",
+                          "optionC":  "The result will be announced by the manager.",
+                          "correctAnswer":  "C",
+                          "optionA":  "The result is announced by the manager.",
+                          "optionD":  "The result was announced by the manager.",
+                          "question":  "Change into passive voice: \u0027The manager will announce the result.\u0027"
+                      },
+                      {
+                          "id":  25,
+                          "optionB":  "He solved the problem.",
+                          "optionC":  "He solves the problem.",
+                          "correctAnswer":  "A",
+                          "optionA":  "He can solve the problem.",
+                          "optionD":  "He has solved the problem.",
+                          "question":  "Change into active voice: \u0027The problem can be solved by him.\u0027"
+                      }
+                  ],
+    "title":  "active_passive_voice"
+}

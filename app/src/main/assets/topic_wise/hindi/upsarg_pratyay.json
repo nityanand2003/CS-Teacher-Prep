@@ -1,0 +1,254 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "question":  "शब्द के आरंभ में जुड़कर अर्थ में परिवर्तन करने वाले शब्दांश को क्या कहते हैं?",
+                          "optionA":  "समास",
+                          "optionB":  "उपसर्ग",
+                          "optionC":  "संधि",
+                          "optionD":  "प्रत्यय",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  2,
+                          "question":  "शब्द के अंत में जुड़ने वाले शब्दांश को क्या कहते हैं?",
+                          "optionA":  "प्रत्यय",
+                          "optionB":  "उपसर्ग",
+                          "optionC":  "संधि",
+                          "optionD":  "समास",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  3,
+                          "question":  "‘अनुशासन’ में उपसर्ग कौन-सा है?",
+                          "optionA":  "अ",
+                          "optionB":  "अनुशा",
+                          "optionC":  "शासन",
+                          "optionD":  "अनु",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  4,
+                          "question":  "‘असफल’ में उपसर्ग कौन-सा है?",
+                          "optionA":  "प्रति",
+                          "optionB":  "अनु",
+                          "optionC":  "सु",
+                          "optionD":  "अ",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  5,
+                          "question":  "‘सुपुत्र’ में उपसर्ग कौन-सा है?",
+                          "optionA":  "प्र",
+                          "optionB":  "अ",
+                          "optionC":  "सु",
+                          "optionD":  "परि",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  6,
+                          "question":  "‘प्रगति’ में उपसर्ग कौन-सा है?",
+                          "optionA":  "प्र",
+                          "optionB":  "परा",
+                          "optionC":  "अनु",
+                          "optionD":  "अव",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  7,
+                          "question":  "‘परिक्रमा’ में उपसर्ग कौन-सा है?",
+                          "optionA":  "प्र",
+                          "optionB":  "अप",
+                          "optionC":  "अनु",
+                          "optionD":  "परि",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  8,
+                          "question":  "‘अपमान’ में उपसर्ग कौन-सा है?",
+                          "optionA":  "सु",
+                          "optionB":  "अप",
+                          "optionC":  "उप",
+                          "optionD":  "अति",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  9,
+                          "question":  "‘उपकार’ में उपसर्ग कौन-सा है?",
+                          "optionA":  "उप",
+                          "optionB":  "प्रति",
+                          "optionC":  "अव",
+                          "optionD":  "अनु",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  10,
+                          "question":  "‘अत्यधिक’ में उपसर्ग कौन-सा है?",
+                          "optionA":  "अप",
+                          "optionB":  "अति",
+                          "optionC":  "उप",
+                          "optionD":  "अनु",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  11,
+                          "question":  "‘प्रतिदिन’ में उपसर्ग कौन-सा है?",
+                          "optionA":  "परि",
+                          "optionB":  "प्र",
+                          "optionC":  "प्रति",
+                          "optionD":  "अव",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  12,
+                          "question":  "‘अवगुण’ में उपसर्ग कौन-सा है?",
+                          "optionA":  "अनु",
+                          "optionB":  "अति",
+                          "optionC":  "उप",
+                          "optionD":  "अव",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  13,
+                          "question":  "‘दुर्गुण’ में उपसर्ग कौन-सा है?",
+                          "optionA":  "प्र",
+                          "optionB":  "दुर्",
+                          "optionC":  "परि",
+                          "optionD":  "सु",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  14,
+                          "question":  "‘निराशा’ में उपसर्ग कौन-सा है?",
+                          "optionA":  "अति",
+                          "optionB":  "प्र",
+                          "optionC":  "निर्",
+                          "optionD":  "अनु",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  15,
+                          "question":  "‘बेईमान’ में उपसर्ग कौन-सा है?",
+                          "optionA":  "सु",
+                          "optionB":  "बे",
+                          "optionC":  "अ",
+                          "optionD":  "परि",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  16,
+                          "question":  "‘लड़कपन’ में प्रत्यय कौन-सा है?",
+                          "optionA":  "कार",
+                          "optionB":  "ई",
+                          "optionC":  "पन",
+                          "optionD":  "ता",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  17,
+                          "question":  "‘बचपन’ में प्रत्यय कौन-सा है?",
+                          "optionA":  "आना",
+                          "optionB":  "पन",
+                          "optionC":  "दार",
+                          "optionD":  "इक",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  18,
+                          "question":  "‘मिठास’ में प्रत्यय कौन-सा है?",
+                          "optionA":  "आस",
+                          "optionB":  "पन",
+                          "optionC":  "ता",
+                          "optionD":  "ई",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  19,
+                          "question":  "‘सुंदरता’ में प्रत्यय कौन-सा है?",
+                          "optionA":  "ता",
+                          "optionB":  "कार",
+                          "optionC":  "पन",
+                          "optionD":  "आस",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  20,
+                          "question":  "‘मानवता’ में प्रत्यय कौन-सा है?",
+                          "optionA":  "ता",
+                          "optionB":  "इक",
+                          "optionC":  "ई",
+                          "optionD":  "पन",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  21,
+                          "question":  "‘दूधवाला’ में प्रत्यय कौन-सा है?",
+                          "optionA":  "ता",
+                          "optionB":  "आस",
+                          "optionC":  "वाला",
+                          "optionD":  "पन",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  22,
+                          "question":  "‘धनवान’ में प्रत्यय कौन-सा है?",
+                          "optionA":  "ई",
+                          "optionB":  "ता",
+                          "optionC":  "पन",
+                          "optionD":  "वान",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  23,
+                          "question":  "‘पढ़ाई’ में प्रत्यय कौन-सा है?",
+                          "optionA":  "कार",
+                          "optionB":  "पन",
+                          "optionC":  "आई",
+                          "optionD":  "ता",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  24,
+                          "question":  "‘कलाकार’ में प्रत्यय कौन-सा है?",
+                          "optionA":  "ता",
+                          "optionB":  "वान",
+                          "optionC":  "पन",
+                          "optionD":  "कार",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  25,
+                          "question":  "‘ऐतिहासिक’ में प्रत्यय कौन-सा है?",
+                          "optionA":  "इक",
+                          "optionB":  "कार",
+                          "optionC":  "ता",
+                          "optionD":  "पन",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      }
+                  ]
+}

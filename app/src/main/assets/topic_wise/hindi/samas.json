@@ -1,0 +1,254 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "question":  "दो या दो से अधिक शब्दों के संक्षिप्त रूप को क्या कहते हैं?",
+                          "optionA":  "उपसर्ग",
+                          "optionB":  "समास",
+                          "optionC":  "प्रत्यय",
+                          "optionD":  "संधि",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  2,
+                          "question":  "समास के विग्रह से क्या स्पष्ट होता है?",
+                          "optionA":  "केवल वचन",
+                          "optionB":  "केवल लिंग",
+                          "optionC":  "केवल उच्चारण",
+                          "optionD":  "समस्त पद का संबंध",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  3,
+                          "question":  "‘राजपुत्र’ में कौन-सा समास है?",
+                          "optionA":  "द्वंद्व",
+                          "optionB":  "तत्पुरुष",
+                          "optionC":  "बहुव्रीहि",
+                          "optionD":  "अव्ययीभाव",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  4,
+                          "question":  "‘नीलकमल’ में कौन-सा समास है?",
+                          "optionA":  "अव्ययीभाव",
+                          "optionB":  "द्विगु",
+                          "optionC":  "कर्मधारय",
+                          "optionD":  "द्वंद्व",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  5,
+                          "question":  "‘माता-पिता’ में कौन-सा समास है?",
+                          "optionA":  "द्वंद्व",
+                          "optionB":  "कर्मधारय",
+                          "optionC":  "बहुव्रीहि",
+                          "optionD":  "तत्पुरुष",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  6,
+                          "question":  "‘प्रतिदिन’ में कौन-सा समास है?",
+                          "optionA":  "अव्ययीभाव",
+                          "optionB":  "तत्पुरुष",
+                          "optionC":  "द्वंद्व",
+                          "optionD":  "बहुव्रीहि",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  7,
+                          "question":  "‘चौराहा’ में कौन-सा समास है?",
+                          "optionA":  "तत्पुरुष",
+                          "optionB":  "द्विगु",
+                          "optionC":  "द्वंद्व",
+                          "optionD":  "कर्मधारय",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  8,
+                          "question":  "‘दशानन’ में कौन-सा समास है?",
+                          "optionA":  "द्वंद्व",
+                          "optionB":  "तत्पुरुष",
+                          "optionC":  "अव्ययीभाव",
+                          "optionD":  "बहुव्रीहि",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  9,
+                          "question":  "‘यथाशक्ति’ में कौन-सा समास है?",
+                          "optionA":  "अव्ययीभाव",
+                          "optionB":  "द्वंद्व",
+                          "optionC":  "द्विगु",
+                          "optionD":  "बहुव्रीहि",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  10,
+                          "question":  "‘गृहप्रवेश’ में कौन-सा समास है?",
+                          "optionA":  "द्विगु",
+                          "optionB":  "कर्मधारय",
+                          "optionC":  "द्वंद्व",
+                          "optionD":  "तत्पुरुष",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  11,
+                          "question":  "‘महापुरुष’ में कौन-सा समास है?",
+                          "optionA":  "कर्मधारय",
+                          "optionB":  "अव्ययीभाव",
+                          "optionC":  "बहुव्रीहि",
+                          "optionD":  "द्वंद्व",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  12,
+                          "question":  "‘त्रिलोचन’ में कौन-सा समास है?",
+                          "optionA":  "तत्पुरुष",
+                          "optionB":  "अव्ययीभाव",
+                          "optionC":  "द्वंद्व",
+                          "optionD":  "बहुव्रीहि",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  13,
+                          "question":  "‘नीलकंठ’ में कौन-सा समास हो सकता है?",
+                          "optionA":  "बहुव्रीहि",
+                          "optionB":  "द्विगु",
+                          "optionC":  "द्वंद्व",
+                          "optionD":  "अव्ययीभाव",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  14,
+                          "question":  "‘राजमार्ग’ में कौन-सा समास है?",
+                          "optionA":  "बहुव्रीहि",
+                          "optionB":  "कर्मधारय",
+                          "optionC":  "तत्पुरुष",
+                          "optionD":  "द्वंद्व",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  15,
+                          "question":  "‘दिन-रात’ में कौन-सा समास है?",
+                          "optionA":  "द्विगु",
+                          "optionB":  "तत्पुरुष",
+                          "optionC":  "कर्मधारय",
+                          "optionD":  "द्वंद्व",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  16,
+                          "question":  "‘पंचवटी’ में कौन-सा समास है?",
+                          "optionA":  "अव्ययीभाव",
+                          "optionB":  "तत्पुरुष",
+                          "optionC":  "द्विगु",
+                          "optionD":  "द्वंद्व",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  17,
+                          "question":  "‘आजीवन’ में कौन-सा समास है?",
+                          "optionA":  "बहुव्रीहि",
+                          "optionB":  "कर्मधारय",
+                          "optionC":  "द्वंद्व",
+                          "optionD":  "अव्ययीभाव",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  18,
+                          "question":  "‘देशभक्ति’ में कौन-सा समास है?",
+                          "optionA":  "तत्पुरुष",
+                          "optionB":  "द्विगु",
+                          "optionC":  "बहुव्रीहि",
+                          "optionD":  "द्वंद्व",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  19,
+                          "question":  "‘रक्तकमल’ में कौन-सा समास है?",
+                          "optionA":  "द्वंद्व",
+                          "optionB":  "अव्ययीभाव",
+                          "optionC":  "कर्मधारय",
+                          "optionD":  "तत्पुरुष",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  20,
+                          "question":  "‘सुख-दुःख’ में कौन-सा समास है?",
+                          "optionA":  "द्विगु",
+                          "optionB":  "द्वंद्व",
+                          "optionC":  "बहुव्रीहि",
+                          "optionD":  "कर्मधारय",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  21,
+                          "question":  "‘लंबोदर’ में कौन-सा समास है?",
+                          "optionA":  "द्वंद्व",
+                          "optionB":  "तत्पुरुष",
+                          "optionC":  "बहुव्रीहि",
+                          "optionD":  "अव्ययीभाव",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  22,
+                          "question":  "‘वनवास’ में कौन-सा समास है?",
+                          "optionA":  "कर्मधारय",
+                          "optionB":  "द्वंद्व",
+                          "optionC":  "तत्पुरुष",
+                          "optionD":  "द्विगु",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  23,
+                          "question":  "‘चारपाई’ में कौन-सा समास है?",
+                          "optionA":  "बहुव्रीहि",
+                          "optionB":  "द्विगु",
+                          "optionC":  "द्वंद्व",
+                          "optionD":  "तत्पुरुष",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  24,
+                          "question":  "‘भरपेट’ में कौन-सा समास है?",
+                          "optionA":  "द्वंद्व",
+                          "optionB":  "अव्ययीभाव",
+                          "optionC":  "तत्पुरुष",
+                          "optionD":  "कर्मधारय",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  25,
+                          "question":  "‘कालीमिर्च’ में कौन-सा समास है?",
+                          "optionA":  "कर्मधारय",
+                          "optionB":  "द्विगु",
+                          "optionC":  "बहुव्रीहि",
+                          "optionD":  "द्वंद्व",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      }
+                  ]
+}

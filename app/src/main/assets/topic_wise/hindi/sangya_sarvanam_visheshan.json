@@ -1,0 +1,254 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "question":  "किसी व्यक्ति, वस्तु, स्थान या भाव के नाम को क्या कहते हैं?",
+                          "optionA":  "संज्ञा",
+                          "optionB":  "विशेषण",
+                          "optionC":  "क्रिया",
+                          "optionD":  "सर्वनाम",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  2,
+                          "question":  "‘राम’ कौन-सी संज्ञा है?",
+                          "optionA":  "व्यक्तिवाचक",
+                          "optionB":  "द्रव्यवाचक",
+                          "optionC":  "भाववाचक",
+                          "optionD":  "जातिवाचक",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  3,
+                          "question":  "‘लड़का’ कौन-सी संज्ञा है?",
+                          "optionA":  "जातिवाचक",
+                          "optionB":  "व्यक्तिवाचक",
+                          "optionC":  "भाववाचक",
+                          "optionD":  "समूहवाचक",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  4,
+                          "question":  "‘ईमानदारी’ कौन-सी संज्ञा है?",
+                          "optionA":  "द्रव्यवाचक",
+                          "optionB":  "व्यक्तिवाचक",
+                          "optionC":  "भाववाचक",
+                          "optionD":  "जातिवाचक",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  5,
+                          "question":  "‘सोना’ कौन-सी संज्ञा है?",
+                          "optionA":  "समूहवाचक",
+                          "optionB":  "भाववाचक",
+                          "optionC":  "व्यक्तिवाचक",
+                          "optionD":  "द्रव्यवाचक",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  6,
+                          "question":  "‘सेना’ कौन-सी संज्ञा है?",
+                          "optionA":  "व्यक्तिवाचक",
+                          "optionB":  "समूहवाचक",
+                          "optionC":  "भाववाचक",
+                          "optionD":  "द्रव्यवाचक",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  7,
+                          "question":  "संज्ञा के स्थान पर प्रयुक्त होने वाले शब्द को क्या कहते हैं?",
+                          "optionA":  "अव्यय",
+                          "optionB":  "विशेषण",
+                          "optionC":  "सर्वनाम",
+                          "optionD":  "क्रिया",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  8,
+                          "question":  "‘मैं’ कौन-सा सर्वनाम है?",
+                          "optionA":  "निश्चयवाचक",
+                          "optionB":  "निजवाचक",
+                          "optionC":  "पुरुषवाचक",
+                          "optionD":  "प्रश्नवाचक",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  9,
+                          "question":  "‘स्वयं’ कौन-सा सर्वनाम है?",
+                          "optionA":  "निजवाचक",
+                          "optionB":  "संबंधवाचक",
+                          "optionC":  "पुरुषवाचक",
+                          "optionD":  "अनिश्चयवाचक",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  10,
+                          "question":  "‘कौन’ कौन-सा सर्वनाम है?",
+                          "optionA":  "निजवाचक",
+                          "optionB":  "प्रश्नवाचक",
+                          "optionC":  "संबंधवाचक",
+                          "optionD":  "निश्चयवाचक",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  11,
+                          "question":  "‘कोई’ कौन-सा सर्वनाम है?",
+                          "optionA":  "पुरुषवाचक",
+                          "optionB":  "अनिश्चयवाचक",
+                          "optionC":  "प्रश्नवाचक",
+                          "optionD":  "निजवाचक",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  12,
+                          "question":  "‘जो’ कौन-सा सर्वनाम है?",
+                          "optionA":  "प्रश्नवाचक",
+                          "optionB":  "निजवाचक",
+                          "optionC":  "पुरुषवाचक",
+                          "optionD":  "संबंधवाचक",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  13,
+                          "question":  "संज्ञा या सर्वनाम की विशेषता बताने वाले शब्द को क्या कहते हैं?",
+                          "optionA":  "समुच्चयबोधक",
+                          "optionB":  "क्रिया",
+                          "optionC":  "सर्वनाम",
+                          "optionD":  "विशेषण",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  14,
+                          "question":  "‘सुंदर फूल’ में ‘सुंदर’ क्या है?",
+                          "optionA":  "सर्वनाम",
+                          "optionB":  "संज्ञा",
+                          "optionC":  "क्रिया",
+                          "optionD":  "विशेषण",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  15,
+                          "question":  "‘पाँच लड़के’ में ‘पाँच’ क्या है?",
+                          "optionA":  "संख्यावाचक विशेषण",
+                          "optionB":  "गुणवाचक विशेषण",
+                          "optionC":  "सार्वनामिक विशेषण",
+                          "optionD":  "परिमाणवाचक विशेषण",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  16,
+                          "question":  "‘थोड़ा पानी’ में ‘थोड़ा’ क्या है?",
+                          "optionA":  "गुणवाचक विशेषण",
+                          "optionB":  "परिमाणवाचक विशेषण",
+                          "optionC":  "संख्यावाचक विशेषण",
+                          "optionD":  "व्यक्तिवाचक विशेषण",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  17,
+                          "question":  "‘लाल फूल’ में ‘लाल’ कौन-सा विशेषण है?",
+                          "optionA":  "परिमाणवाचक",
+                          "optionB":  "संख्यावाचक",
+                          "optionC":  "गुणवाचक",
+                          "optionD":  "संबंधवाचक",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  18,
+                          "question":  "‘दो किलो चावल’ में ‘दो किलो’ क्या बताता है?",
+                          "optionA":  "गुण",
+                          "optionB":  "परिमाण",
+                          "optionC":  "व्यक्ति",
+                          "optionD":  "स्थान",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  19,
+                          "question":  "‘यह पुस्तक मेरी है’ में ‘यह’ क्या है?",
+                          "optionA":  "सार्वनामिक विशेषण",
+                          "optionB":  "भाववाचक संज्ञा",
+                          "optionC":  "क्रिया",
+                          "optionD":  "समुच्चयबोधक",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  20,
+                          "question":  "‘गंगा’ कौन-सी संज्ञा है?",
+                          "optionA":  "जातिवाचक",
+                          "optionB":  "भाववाचक",
+                          "optionC":  "समूहवाचक",
+                          "optionD":  "व्यक्तिवाचक",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  21,
+                          "question":  "‘बचपन’ कौन-सी संज्ञा है?",
+                          "optionA":  "भाववाचक",
+                          "optionB":  "व्यक्तिवाचक",
+                          "optionC":  "द्रव्यवाचक",
+                          "optionD":  "जातिवाचक",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  22,
+                          "question":  "‘झुंड’ कौन-सी संज्ञा है?",
+                          "optionA":  "भाववाचक",
+                          "optionB":  "व्यक्तिवाचक",
+                          "optionC":  "समूहवाचक",
+                          "optionD":  "द्रव्यवाचक",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  23,
+                          "question":  "‘वह स्वयं गया’ में ‘स्वयं’ क्या है?",
+                          "optionA":  "प्रश्नवाचक सर्वनाम",
+                          "optionB":  "संबंधवाचक सर्वनाम",
+                          "optionC":  "अनिश्चयवाचक सर्वनाम",
+                          "optionD":  "निजवाचक सर्वनाम",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  24,
+                          "question":  "‘कुछ लोग आए’ में ‘कुछ’ क्या है?",
+                          "optionA":  "समुच्चयबोधक",
+                          "optionB":  "क्रिया",
+                          "optionC":  "अनिश्चयवाचक विशेषण",
+                          "optionD":  "निजवाचक सर्वनाम",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  25,
+                          "question":  "‘मेरी किताब’ में ‘मेरी’ क्या है?",
+                          "optionA":  "अव्यय",
+                          "optionB":  "सार्वनामिक विशेषण",
+                          "optionC":  "क्रिया",
+                          "optionD":  "भाववाचक संज्ञा",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      }
+                  ]
+}

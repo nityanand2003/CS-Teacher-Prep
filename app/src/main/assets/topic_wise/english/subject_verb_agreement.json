@@ -1,0 +1,230 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "optionB":  "are having",
+                          "optionC":  "have",
+                          "correctAnswer":  "A",
+                          "optionA":  "has",
+                          "optionD":  "having",
+                          "question":  "Each of the students ___ a book."
+                      },
+                      {
+                          "id":  2,
+                          "optionB":  "are",
+                          "optionC":  "was",
+                          "correctAnswer":  "B",
+                          "optionA":  "has",
+                          "optionD":  "is",
+                          "question":  "The boys ___ playing cricket."
+                      },
+                      {
+                          "id":  3,
+                          "optionB":  "is",
+                          "optionC":  "are",
+                          "correctAnswer":  "B",
+                          "optionA":  "were",
+                          "optionD":  "have",
+                          "question":  "Neither Ram nor Shyam ___ present."
+                      },
+                      {
+                          "id":  4,
+                          "optionB":  "have",
+                          "optionC":  "is",
+                          "correctAnswer":  "C",
+                          "optionA":  "are",
+                          "optionD":  "were",
+                          "question":  "The news ___ true."
+                      },
+                      {
+                          "id":  5,
+                          "optionB":  "were",
+                          "optionC":  "have",
+                          "correctAnswer":  "D",
+                          "optionA":  "are",
+                          "optionD":  "is",
+                          "question":  "Mathematics ___ my favorite subject."
+                      },
+                      {
+                          "id":  6,
+                          "optionB":  "have",
+                          "optionC":  "were",
+                          "correctAnswer":  "A",
+                          "optionA":  "is",
+                          "optionD":  "are",
+                          "question":  "A pair of shoes ___ on the floor."
+                      },
+                      {
+                          "id":  7,
+                          "optionB":  "are",
+                          "optionC":  "is",
+                          "correctAnswer":  "C",
+                          "optionA":  "were",
+                          "optionD":  "have",
+                          "question":  "The quality of these products ___ good."
+                      },
+                      {
+                          "id":  8,
+                          "optionB":  "is",
+                          "optionC":  "are",
+                          "correctAnswer":  "B",
+                          "optionA":  "were",
+                          "optionD":  "have",
+                          "question":  "Neither of the answers ___ correct."
+                      },
+                      {
+                          "id":  9,
+                          "optionB":  "were",
+                          "optionC":  "are",
+                          "correctAnswer":  "D",
+                          "optionA":  "have",
+                          "optionD":  "is",
+                          "question":  "Everyone ___ responsible for the work."
+                      },
+                      {
+                          "id":  10,
+                          "optionB":  "was",
+                          "optionC":  "has",
+                          "correctAnswer":  "D",
+                          "optionA":  "is",
+                          "optionD":  "are",
+                          "question":  "The committee ___ divided in its opinion."
+                      },
+                      {
+                          "id":  11,
+                          "optionB":  "is",
+                          "optionC":  "are",
+                          "correctAnswer":  "B",
+                          "optionA":  "have",
+                          "optionD":  "were",
+                          "question":  "Bread and butter ___ my usual breakfast."
+                      },
+                      {
+                          "id":  12,
+                          "optionB":  "is",
+                          "optionC":  "are",
+                          "correctAnswer":  "C",
+                          "optionA":  "has",
+                          "optionD":  "was",
+                          "question":  "The police ___ investigating the case."
+                      },
+                      {
+                          "id":  13,
+                          "optionB":  "were",
+                          "optionC":  "is",
+                          "correctAnswer":  "C",
+                          "optionA":  "have",
+                          "optionD":  "are",
+                          "question":  "Ten kilometers ___ a long distance to walk."
+                      },
+                      {
+                          "id":  14,
+                          "optionB":  "are",
+                          "optionC":  "have",
+                          "correctAnswer":  "A",
+                          "optionA":  "is",
+                          "optionD":  "were",
+                          "question":  "My family ___ going on a trip."
+                      },
+                      {
+                          "id":  15,
+                          "optionB":  "has",
+                          "optionC":  "is",
+                          "correctAnswer":  "D",
+                          "optionA":  "was",
+                          "optionD":  "are",
+                          "question":  "Either the teacher or the students ___ responsible."
+                      },
+                      {
+                          "id":  16,
+                          "optionB":  "has",
+                          "optionC":  "is",
+                          "correctAnswer":  "A",
+                          "optionA":  "are",
+                          "optionD":  "was",
+                          "question":  "There ___ many books on the table."
+                      },
+                      {
+                          "id":  17,
+                          "optionB":  "have",
+                          "optionC":  "were",
+                          "correctAnswer":  "D",
+                          "optionA":  "are",
+                          "optionD":  "is",
+                          "question":  "One of my friends ___ a doctor."
+                      },
+                      {
+                          "id":  18,
+                          "optionB":  "is",
+                          "optionC":  "are",
+                          "correctAnswer":  "B",
+                          "optionA":  "have",
+                          "optionD":  "were",
+                          "question":  "The furniture ___ expensive."
+                      },
+                      {
+                          "id":  19,
+                          "optionB":  "has",
+                          "optionC":  "are",
+                          "correctAnswer":  "C",
+                          "optionA":  "is",
+                          "optionD":  "was",
+                          "question":  "Neither the manager nor his assistants ___ available."
+                      },
+                      {
+                          "id":  20,
+                          "optionB":  "are",
+                          "optionC":  "have",
+                          "correctAnswer":  "A",
+                          "optionA":  "is",
+                          "optionD":  "were",
+                          "question":  "The United States ___ a developed country."
+                      },
+                      {
+                          "id":  21,
+                          "optionB":  "have",
+                          "optionC":  "are",
+                          "correctAnswer":  "A",
+                          "optionA":  "was",
+                          "optionD":  "were",
+                          "question":  "Every boy and girl ___ given a certificate."
+                      },
+                      {
+                          "id":  22,
+                          "optionB":  "is",
+                          "optionC":  "was",
+                          "correctAnswer":  "D",
+                          "optionA":  "has",
+                          "optionD":  "are",
+                          "question":  "The cattle ___ grazing in the field."
+                      },
+                      {
+                          "id":  23,
+                          "optionB":  "was",
+                          "optionC":  "are",
+                          "correctAnswer":  "C",
+                          "optionA":  "has",
+                          "optionD":  "is",
+                          "question":  "A number of students ___ absent."
+                      },
+                      {
+                          "id":  24,
+                          "optionB":  "is",
+                          "optionC":  "are",
+                          "correctAnswer":  "B",
+                          "optionA":  "have",
+                          "optionD":  "were",
+                          "question":  "The number of students ___ increasing."
+                      },
+                      {
+                          "id":  25,
+                          "optionB":  "have",
+                          "optionC":  "are",
+                          "correctAnswer":  "A",
+                          "optionA":  "is",
+                          "optionD":  "were",
+                          "question":  "He as well as his brothers ___ invited."
+                      }
+                  ],
+    "title":  "subject_verb_agreement"
+}

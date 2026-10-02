@@ -1,0 +1,230 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "optionB":  "Adverb",
+                          "optionC":  "Verb",
+                          "correctAnswer":  "B",
+                          "optionA":  "Noun",
+                          "optionD":  "Adjective",
+                          "question":  "Which part of speech is \u0027quickly\u0027 in \u0027He ran quickly\u0027?"
+                      },
+                      {
+                          "id":  2,
+                          "optionB":  "Noun",
+                          "optionC":  "Verb",
+                          "correctAnswer":  "A",
+                          "optionA":  "Adjective",
+                          "optionD":  "Adverb",
+                          "question":  "Which part of speech is \u0027beautiful\u0027 in \u0027a beautiful flower\u0027?"
+                      },
+                      {
+                          "id":  3,
+                          "optionB":  "table",
+                          "optionC":  "they",
+                          "correctAnswer":  "C",
+                          "optionA":  "quickly",
+                          "optionD":  "beautiful",
+                          "question":  "Which word is a pronoun?"
+                      },
+                      {
+                          "id":  4,
+                          "optionB":  "under",
+                          "optionC":  "run",
+                          "correctAnswer":  "B",
+                          "optionA":  "slowly",
+                          "optionD":  "happy",
+                          "question":  "Which word is a preposition?"
+                      },
+                      {
+                          "id":  5,
+                          "optionB":  "and",
+                          "optionC":  "very",
+                          "correctAnswer":  "B",
+                          "optionA":  "green",
+                          "optionD":  "book",
+                          "question":  "Which word is a conjunction?"
+                      },
+                      {
+                          "id":  6,
+                          "optionB":  "house",
+                          "optionC":  "beautiful",
+                          "correctAnswer":  "A",
+                          "optionA":  "Alas!",
+                          "optionD":  "running",
+                          "question":  "Which word is an interjection?"
+                      },
+                      {
+                          "id":  7,
+                          "optionB":  "sky",
+                          "optionC":  "Birds",
+                          "correctAnswer":  "D",
+                          "optionA":  "the",
+                          "optionD":  "fly",
+                          "question":  "Identify the verb: \u0027Birds fly in the sky.\u0027"
+                      },
+                      {
+                          "id":  8,
+                          "optionB":  "playing",
+                          "optionC":  "the",
+                          "correctAnswer":  "A",
+                          "optionA":  "child",
+                          "optionD":  "is",
+                          "question":  "Identify the noun: \u0027The child is playing.\u0027"
+                      },
+                      {
+                          "id":  9,
+                          "optionB":  "dress",
+                          "optionC":  "she",
+                          "correctAnswer":  "A",
+                          "optionA":  "red",
+                          "optionD":  "wore",
+                          "question":  "Identify the adjective: \u0027She wore a red dress.\u0027"
+                      },
+                      {
+                          "id":  10,
+                          "optionB":  "softly",
+                          "optionC":  "none",
+                          "correctAnswer":  "B",
+                          "optionA":  "He",
+                          "optionD":  "speaks",
+                          "question":  "Identify the adverb: \u0027He speaks softly.\u0027"
+                      },
+                      {
+                          "id":  11,
+                          "optionB":  "house",
+                          "optionC":  "slow",
+                          "correctAnswer":  "A",
+                          "optionA":  "although",
+                          "optionD":  "write",
+                          "question":  "Which word is a conjunction?"
+                      },
+                      {
+                          "id":  12,
+                          "optionB":  "quickly",
+                          "optionC":  "beautiful",
+                          "correctAnswer":  "D",
+                          "optionA":  "laugh",
+                          "optionD":  "between",
+                          "question":  "Which word is a preposition?"
+                      },
+                      {
+                          "id":  13,
+                          "optionB":  "walk",
+                          "optionC":  "herself",
+                          "correctAnswer":  "C",
+                          "optionA":  "happy",
+                          "optionD":  "garden",
+                          "question":  "Which word is a pronoun?"
+                      },
+                      {
+                          "id":  14,
+                          "optionB":  "honestly",
+                          "optionC":  "honesty",
+                          "correctAnswer":  "D",
+                          "optionA":  "honor",
+                          "optionD":  "honest",
+                          "question":  "Which word is an adjective?"
+                      },
+                      {
+                          "id":  15,
+                          "optionB":  "careful",
+                          "optionC":  "caring",
+                          "correctAnswer":  "D",
+                          "optionA":  "care",
+                          "optionD":  "carefully",
+                          "question":  "Which word is an adverb?"
+                      },
+                      {
+                          "id":  16,
+                          "optionB":  "decisive",
+                          "optionC":  "decidedly",
+                          "correctAnswer":  "D",
+                          "optionA":  "decision",
+                          "optionD":  "decide",
+                          "question":  "Which word is a verb?"
+                      },
+                      {
+                          "id":  17,
+                          "optionB":  "freely",
+                          "optionC":  "free",
+                          "correctAnswer":  "A",
+                          "optionA":  "freedom",
+                          "optionD":  "freeing",
+                          "question":  "Which word is a noun?"
+                      },
+                      {
+                          "id":  18,
+                          "optionB":  "Wow!",
+                          "optionC":  "wonderfully",
+                          "correctAnswer":  "B",
+                          "optionA":  "wonderful",
+                          "optionD":  "wonder",
+                          "question":  "Which word is an interjection?"
+                      },
+                      {
+                          "id":  19,
+                          "optionB":  "happiness",
+                          "optionC":  "happily",
+                          "correctAnswer":  "D",
+                          "optionA":  "happy",
+                          "optionD":  "during",
+                          "question":  "Which word is a preposition?"
+                      },
+                      {
+                          "id":  20,
+                          "optionB":  "but",
+                          "optionC":  "slowly",
+                          "correctAnswer":  "B",
+                          "optionA":  "book",
+                          "optionD":  "beautiful",
+                          "question":  "Which word is a conjunction?"
+                      },
+                      {
+                          "id":  21,
+                          "optionB":  "They",
+                          "optionC":  "both B and C",
+                          "correctAnswer":  "C",
+                          "optionA":  "us",
+                          "optionD":  "helped",
+                          "question":  "Identify the pronoun: \u0027They helped us.\u0027"
+                      },
+                      {
+                          "id":  22,
+                          "optionB":  "smiled",
+                          "optionC":  "old",
+                          "correctAnswer":  "C",
+                          "optionA":  "the",
+                          "optionD":  "man",
+                          "question":  "Identify the adjective: \u0027The old man smiled.\u0027"
+                      },
+                      {
+                          "id":  23,
+                          "optionB":  "answered",
+                          "optionC":  "correctly",
+                          "correctAnswer":  "C",
+                          "optionA":  "answer",
+                          "optionD":  "she",
+                          "question":  "Identify the adverb: \u0027She answered correctly.\u0027"
+                      },
+                      {
+                          "id":  24,
+                          "optionB":  "known",
+                          "optionC":  "knowledge",
+                          "correctAnswer":  "A",
+                          "optionA":  "know",
+                          "optionD":  "knowingness",
+                          "question":  "Which word is a verb?"
+                      },
+                      {
+                          "id":  25,
+                          "optionB":  "educational",
+                          "optionC":  "education",
+                          "correctAnswer":  "C",
+                          "optionA":  "educationally",
+                          "optionD":  "educate",
+                          "question":  "Which word is a noun?"
+                      }
+                  ],
+    "title":  "parts_of_speech"
+}

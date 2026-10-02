@@ -1,0 +1,230 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "optionB":  "the",
+                          "optionC":  "an",
+                          "correctAnswer":  "C",
+                          "optionA":  "no article",
+                          "optionD":  "a",
+                          "question":  "He is ___ honest person."
+                      },
+                      {
+                          "id":  2,
+                          "optionB":  "the",
+                          "optionC":  "a",
+                          "correctAnswer":  "D",
+                          "optionA":  "no article",
+                          "optionD":  "an",
+                          "question":  "She bought ___ umbrella."
+                      },
+                      {
+                          "id":  3,
+                          "optionB":  "at",
+                          "optionC":  "in",
+                          "correctAnswer":  "C",
+                          "optionA":  "by",
+                          "optionD":  "on",
+                          "question":  "The sun rises ___ the east."
+                      },
+                      {
+                          "id":  4,
+                          "optionB":  "with",
+                          "optionC":  "in",
+                          "correctAnswer":  "A",
+                          "optionA":  "at",
+                          "optionD":  "on",
+                          "question":  "He is good ___ mathematics."
+                      },
+                      {
+                          "id":  5,
+                          "optionB":  "from",
+                          "optionC":  "by",
+                          "correctAnswer":  "A",
+                          "optionA":  "since",
+                          "optionD":  "for",
+                          "question":  "I have lived here ___ 2020."
+                      },
+                      {
+                          "id":  6,
+                          "optionB":  "from",
+                          "optionC":  "at",
+                          "correctAnswer":  "A",
+                          "optionA":  "for",
+                          "optionD":  "since",
+                          "question":  "She waited ___ two hours."
+                      },
+                      {
+                          "id":  7,
+                          "optionB":  "at",
+                          "optionC":  "by",
+                          "correctAnswer":  "B",
+                          "optionA":  "in",
+                          "optionD":  "on",
+                          "question":  "He arrived ___ the station at noon."
+                      },
+                      {
+                          "id":  8,
+                          "optionB":  "by",
+                          "optionC":  "on",
+                          "correctAnswer":  "C",
+                          "optionA":  "at",
+                          "optionD":  "in",
+                          "question":  "The book is ___ the table."
+                      },
+                      {
+                          "id":  9,
+                          "optionB":  "of",
+                          "optionC":  "with",
+                          "correctAnswer":  "B",
+                          "optionA":  "from",
+                          "optionD":  "at",
+                          "question":  "She is afraid ___ dogs."
+                      },
+                      {
+                          "id":  10,
+                          "optionB":  "at",
+                          "optionC":  "on",
+                          "correctAnswer":  "A",
+                          "optionA":  "in",
+                          "optionD":  "for",
+                          "question":  "He is interested ___ music."
+                      },
+                      {
+                          "id":  11,
+                          "optionB":  "with",
+                          "optionC":  "by",
+                          "correctAnswer":  "D",
+                          "optionA":  "in",
+                          "optionD":  "on",
+                          "question":  "I go to school ___ foot."
+                      },
+                      {
+                          "id":  12,
+                          "optionB":  "on",
+                          "optionC":  "by",
+                          "correctAnswer":  "B",
+                          "optionA":  "in",
+                          "optionD":  "at",
+                          "question":  "He came here ___ Monday."
+                      },
+                      {
+                          "id":  13,
+                          "optionB":  "by",
+                          "optionC":  "in",
+                          "correctAnswer":  "C",
+                          "optionA":  "on",
+                          "optionD":  "at",
+                          "question":  "She was born ___ July."
+                      },
+                      {
+                          "id":  14,
+                          "optionB":  "on",
+                          "optionC":  "in",
+                          "correctAnswer":  "B",
+                          "optionA":  "at",
+                          "optionD":  "from",
+                          "question":  "He arrived ___ time for the meeting."
+                      },
+                      {
+                          "id":  15,
+                          "optionB":  "than",
+                          "optionC":  "from",
+                          "correctAnswer":  "A",
+                          "optionA":  "to",
+                          "optionD":  "with",
+                          "question":  "He is senior ___ me."
+                      },
+                      {
+                          "id":  16,
+                          "optionB":  "from",
+                          "optionC":  "with",
+                          "correctAnswer":  "D",
+                          "optionA":  "by",
+                          "optionD":  "to",
+                          "question":  "She is married ___ a doctor."
+                      },
+                      {
+                          "id":  17,
+                          "optionB":  "with",
+                          "optionC":  "by",
+                          "correctAnswer":  "C",
+                          "optionA":  "on",
+                          "optionD":  "in",
+                          "question":  "We travelled ___ train."
+                      },
+                      {
+                          "id":  18,
+                          "optionB":  "among",
+                          "optionC":  "between",
+                          "correctAnswer":  "C",
+                          "optionA":  "into",
+                          "optionD":  "with",
+                          "question":  "He divided the money ___ the two brothers."
+                      },
+                      {
+                          "id":  19,
+                          "optionB":  "at",
+                          "optionC":  "by",
+                          "correctAnswer":  "A",
+                          "optionA":  "into",
+                          "optionD":  "on",
+                          "question":  "The teacher walked ___ the classroom."
+                      },
+                      {
+                          "id":  20,
+                          "optionB":  "from",
+                          "optionC":  "for",
+                          "correctAnswer":  "D",
+                          "optionA":  "by",
+                          "optionD":  "since",
+                          "question":  "She has been absent ___ Monday."
+                      },
+                      {
+                          "id":  21,
+                          "optionB":  "for",
+                          "optionC":  "at",
+                          "correctAnswer":  "B",
+                          "optionA":  "by",
+                          "optionD":  "on",
+                          "question":  "He is looking ___ his keys."
+                      },
+                      {
+                          "id":  22,
+                          "optionB":  "at",
+                          "optionC":  "by",
+                          "correctAnswer":  "D",
+                          "optionA":  "on",
+                          "optionD":  "under",
+                          "question":  "The child is hiding ___ the bed."
+                      },
+                      {
+                          "id":  23,
+                          "optionB":  "with",
+                          "optionC":  "for",
+                          "correctAnswer":  "D",
+                          "optionA":  "at",
+                          "optionD":  "of",
+                          "question":  "He was accused ___ theft."
+                      },
+                      {
+                          "id":  24,
+                          "optionB":  "on",
+                          "optionC":  "with",
+                          "correctAnswer":  "A",
+                          "optionA":  "of",
+                          "optionD":  "at",
+                          "question":  "She is fond ___ music."
+                      },
+                      {
+                          "id":  25,
+                          "optionB":  "in",
+                          "optionC":  "for",
+                          "correctAnswer":  "B",
+                          "optionA":  "at",
+                          "optionD":  "on",
+                          "question":  "He succeeded ___ solving the problem."
+                      }
+                  ],
+    "title":  "articles_prepositions"
+}

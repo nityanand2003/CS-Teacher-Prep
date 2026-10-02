@@ -1,0 +1,254 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "question":  "शुद्ध वाक्य चुनिए।",
+                          "optionA":  "राम बाजार जाती।",
+                          "optionB":  "राम बाजार गए।",
+                          "optionC":  "राम बाजार गया।",
+                          "optionD":  "राम बाजार गई।",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  2,
+                          "question":  "शुद्ध वाक्य कौन-सा है?",
+                          "optionA":  "सीता स्कूल जाते।",
+                          "optionB":  "सीता स्कूल गई।",
+                          "optionC":  "सीता स्कूल गए।",
+                          "optionD":  "सीता स्कूल गया।",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  3,
+                          "question":  "शुद्ध शब्द कौन-सा है?",
+                          "optionA":  "आशीर्वाद्",
+                          "optionB":  "आशीर्वाद",
+                          "optionC":  "आशिर्वाद",
+                          "optionD":  "आर्शीवाद",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  4,
+                          "question":  "शुद्ध शब्द कौन-सा है?",
+                          "optionA":  "स्वातंत्र",
+                          "optionB":  "स्वतन्त्र",
+                          "optionC":  "स्वतंत्र्य",
+                          "optionD":  "स्वतंत्र",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  5,
+                          "question":  "शुद्ध शब्द कौन-सा है?",
+                          "optionA":  "उज्वल",
+                          "optionB":  "उज्जवल",
+                          "optionC":  "उज्वल्ल",
+                          "optionD":  "उज्ज्वल",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  6,
+                          "question":  "शुद्ध शब्द कौन-सा है?",
+                          "optionA":  "आवश्यक",
+                          "optionB":  "आवश्यक्य",
+                          "optionC":  "आवस्यक",
+                          "optionD":  "आवष्यक",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  7,
+                          "question":  "शुद्ध शब्द कौन-सा है?",
+                          "optionA":  "कृतज्ञ",
+                          "optionB":  "कृतज्ञ्य",
+                          "optionC":  "कृतग्य",
+                          "optionD":  "कृतग्न",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  8,
+                          "question":  "शुद्ध शब्द कौन-सा है?",
+                          "optionA":  "व्यवस्था",
+                          "optionB":  "व्यवश्था",
+                          "optionC":  "वयवस्था",
+                          "optionD":  "व्यवस्ता",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  9,
+                          "question":  "शुद्ध शब्द कौन-सा है?",
+                          "optionA":  "प्रष्न",
+                          "optionB":  "प्रशण",
+                          "optionC":  "परश्न",
+                          "optionD":  "प्रश्न",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  10,
+                          "question":  "शुद्ध शब्द कौन-सा है?",
+                          "optionA":  "स्वास्थ्य्य",
+                          "optionB":  "स्वास्थ",
+                          "optionC":  "स्वास्थ्य",
+                          "optionD":  "स्वास्थय",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  11,
+                          "question":  "शुद्ध वाक्य चुनिए।",
+                          "optionA":  "मुझे हिंदी आती है।",
+                          "optionB":  "मुझको हिंदी आते हैं।",
+                          "optionC":  "मैं हिंदी आती हूँ।",
+                          "optionD":  "मुझे हिंदी आता है।",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  12,
+                          "question":  "शुद्ध वाक्य कौन-सा है?",
+                          "optionA":  "वह मुझसे बड़ा है।",
+                          "optionB":  "वह मैंसे बड़ा है।",
+                          "optionC":  "वह मेरे से बड़ा है।",
+                          "optionD":  "वह मुझको बड़ा है।",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  13,
+                          "question":  "शुद्ध वाक्य कौन-सा है?",
+                          "optionA":  "मेरे पास एक पुस्तक हूँ।",
+                          "optionB":  "मेरे पास एक पुस्तक हैं।",
+                          "optionC":  "मुझ पास एक पुस्तक है।",
+                          "optionD":  "मेरे पास एक पुस्तक है।",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  14,
+                          "question":  "शुद्ध वाक्य कौन-सा है?",
+                          "optionA":  "बच्चे मैदान में खेल रहा है।",
+                          "optionB":  "बच्चा मैदान में खेल रहे हैं।",
+                          "optionC":  "बच्चे मैदान में खेल रही है।",
+                          "optionD":  "बच्चे मैदान में खेल रहे हैं।",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  15,
+                          "question":  "शुद्ध वाक्य कौन-सा है?",
+                          "optionA":  "राम और श्याम बाजार गए।",
+                          "optionB":  "राम और श्याम बाजार जाता है।",
+                          "optionC":  "राम और श्याम बाजार गई।",
+                          "optionD":  "राम और श्याम बाजार गया।",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  16,
+                          "question":  "शुद्ध वाक्य कौन-सा है?",
+                          "optionA":  "उसने मेरे बुलाया।",
+                          "optionB":  "उसने मुझे बुलाया।",
+                          "optionC":  "उसने मुझ बुलाया।",
+                          "optionD":  "उसने मैं बुलाया।",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  17,
+                          "question":  "शुद्ध वाक्य कौन-सा है?",
+                          "optionA":  "मैंने खाना खाई।",
+                          "optionB":  "मैंने खाना खाया।",
+                          "optionC":  "मैं खाना खाया।",
+                          "optionD":  "मुझने खाना खाया।",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  18,
+                          "question":  "शुद्ध वाक्य कौन-सा है?",
+                          "optionA":  "वह प्रतिदिन विद्यालय जाती है।",
+                          "optionB":  "वह प्रतिदिन विद्यालय जाना है।",
+                          "optionC":  "वह प्रतिदिन विद्यालय जाता है।",
+                          "optionD":  "वह प्रतिदिन विद्यालय जाते हैं।",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  19,
+                          "question":  "शुद्ध वाक्य कौन-सा है?",
+                          "optionA":  "यह पुस्तक मेरी हैं।",
+                          "optionB":  "यह पुस्तक मेरे है।",
+                          "optionC":  "यह पुस्तक मेरी है।",
+                          "optionD":  "यह पुस्तक मेरा है।",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  20,
+                          "question":  "शुद्ध शब्द कौन-सा है?",
+                          "optionA":  "दाइयत्व",
+                          "optionB":  "दायित्व",
+                          "optionC":  "दाइत्व",
+                          "optionD":  "दायीत्व",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  21,
+                          "question":  "शुद्ध शब्द कौन-सा है?",
+                          "optionA":  "अनुच्छेद",
+                          "optionB":  "अनुच्छेद्",
+                          "optionC":  "अनुक्षेद",
+                          "optionD":  "अनुचेद",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  22,
+                          "question":  "शुद्ध शब्द कौन-सा है?",
+                          "optionA":  "साहित्य्य",
+                          "optionB":  "साहितय",
+                          "optionC":  "साहित्य",
+                          "optionD":  "साहीत्य",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  23,
+                          "question":  "शुद्ध शब्द कौन-सा है?",
+                          "optionA":  "उत्साव",
+                          "optionB":  "उत्सव्व",
+                          "optionC":  "उत्सव्",
+                          "optionD":  "उत्सव",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  24,
+                          "question":  "शुद्ध शब्द कौन-सा है?",
+                          "optionA":  "अत्यधीक",
+                          "optionB":  "अत्यधिक",
+                          "optionC":  "अत्याधिक",
+                          "optionD":  "अतयधिक",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  25,
+                          "question":  "निम्नलिखित में से शुद्ध शब्द कौन-सा है?",
+                          "optionA":  "आर्शीवाद",
+                          "optionB":  "आर्शिवाद",
+                          "optionC":  "आशीर्वाद",
+                          "optionD":  "आर्शीवद",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      }
+                  ]
+}

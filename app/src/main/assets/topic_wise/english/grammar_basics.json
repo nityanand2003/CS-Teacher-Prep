@@ -1,0 +1,230 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "optionB":  "He go to school every day.",
+                          "optionC":  "He goes to school every day.",
+                          "correctAnswer":  "C",
+                          "optionA":  "He gone to school every day.",
+                          "optionD":  "He going to school every day.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  2,
+                          "optionB":  "doing",
+                          "optionC":  "done",
+                          "correctAnswer":  "D",
+                          "optionA":  "do",
+                          "optionD":  "does",
+                          "question":  "Choose the correct form: She ___ her homework every evening."
+                      },
+                      {
+                          "id":  3,
+                          "optionB":  "best",
+                          "optionC":  "is",
+                          "correctAnswer":  "A",
+                          "optionA":  "Honesty",
+                          "optionD":  "the",
+                          "question":  "Identify the noun in the sentence: \u0027Honesty is the best policy.\u0027"
+                      },
+                      {
+                          "id":  4,
+                          "optionB":  "They have completed the work.",
+                          "optionC":  "They having completed the work.",
+                          "correctAnswer":  "B",
+                          "optionA":  "They had complete the work.",
+                          "optionD":  "They has completed the work.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  5,
+                          "optionB":  "at",
+                          "optionC":  "since",
+                          "correctAnswer":  "D",
+                          "optionA":  "from",
+                          "optionD":  "for",
+                          "question":  "Fill in the blank: I have been waiting ___ two hours."
+                      },
+                      {
+                          "id":  6,
+                          "optionB":  "herself",
+                          "optionC":  "hers",
+                          "correctAnswer":  "C",
+                          "optionA":  "she",
+                          "optionD":  "her",
+                          "question":  "Choose the correct pronoun: This book belongs to Riya. It is ___."
+                      },
+                      {
+                          "id":  7,
+                          "optionB":  "the",
+                          "optionC":  "a",
+                          "correctAnswer":  "D",
+                          "optionA":  "no article",
+                          "optionD":  "an",
+                          "question":  "Choose the correct article: He is ___ honest man."
+                      },
+                      {
+                          "id":  8,
+                          "optionB":  "Neither of boys are ready.",
+                          "optionC":  "Neither of the boys are ready.",
+                          "correctAnswer":  "A",
+                          "optionA":  "Neither of the boys is ready.",
+                          "optionD":  "Neither boys is ready.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  9,
+                          "optionB":  "best",
+                          "optionC":  "gooder",
+                          "correctAnswer":  "D",
+                          "optionA":  "more better",
+                          "optionD":  "better",
+                          "question":  "Choose the correct comparative form."
+                      },
+                      {
+                          "id":  10,
+                          "optionB":  "in",
+                          "optionC":  "at",
+                          "correctAnswer":  "A",
+                          "optionA":  "on",
+                          "optionD":  "by",
+                          "question":  "Fill in the blank: The train arrived ___ time."
+                      },
+                      {
+                          "id":  11,
+                          "optionB":  "She is senior to me.",
+                          "optionC":  "She is senior from me.",
+                          "correctAnswer":  "B",
+                          "optionA":  "She is senior than me.",
+                          "optionD":  "She is senior with me.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  12,
+                          "optionB":  "be",
+                          "optionC":  "was",
+                          "correctAnswer":  "A",
+                          "optionA":  "were",
+                          "optionD":  "am",
+                          "question":  "Choose the correct form: If I ___ rich, I would help the poor."
+                      },
+                      {
+                          "id":  13,
+                          "optionB":  "a",
+                          "optionC":  "difficult",
+                          "correctAnswer":  "C",
+                          "optionA":  "was",
+                          "optionD":  "question",
+                          "question":  "Identify the adjective: \u0027It was a difficult question.\u0027"
+                      },
+                      {
+                          "id":  14,
+                          "optionB":  "He did not going there.",
+                          "optionC":  "He does not went there.",
+                          "correctAnswer":  "D",
+                          "optionA":  "He did not went there.",
+                          "optionD":  "He did not go there.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  15,
+                          "optionB":  "many",
+                          "optionC":  "less",
+                          "correctAnswer":  "B",
+                          "optionA":  "little",
+                          "optionD":  "much",
+                          "question":  "Fill in the blank: There are ___ students in the classroom."
+                      },
+                      {
+                          "id":  16,
+                          "optionB":  "Each students have a book.",
+                          "optionC":  "Each student has a book.",
+                          "correctAnswer":  "C",
+                          "optionA":  "Each student have a book.",
+                          "optionD":  "Each students has a book.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  17,
+                          "optionB":  "She",
+                          "optionC":  "beautifully",
+                          "correctAnswer":  "C",
+                          "optionA":  "sings",
+                          "optionD":  "song",
+                          "question":  "Identify the adverb: \u0027She sings beautifully.\u0027"
+                      },
+                      {
+                          "id":  18,
+                          "optionB":  "will have completed",
+                          "optionC":  "complete",
+                          "correctAnswer":  "B",
+                          "optionA":  "have complete",
+                          "optionD":  "completed",
+                          "question":  "Choose the correct form: By next year, I ___ my degree."
+                      },
+                      {
+                          "id":  19,
+                          "optionB":  "I prefer tea than coffee.",
+                          "optionC":  "I prefer tea from coffee.",
+                          "correctAnswer":  "A",
+                          "optionA":  "I prefer tea to coffee.",
+                          "optionD":  "I prefer tea over than coffee.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  20,
+                          "optionB":  "in",
+                          "optionC":  "for",
+                          "correctAnswer":  "A",
+                          "optionA":  "at",
+                          "optionD":  "on",
+                          "question":  "Fill in the blank: He is good ___ mathematics."
+                      },
+                      {
+                          "id":  21,
+                          "optionB":  "The news is true.",
+                          "optionC":  "The news have true.",
+                          "correctAnswer":  "B",
+                          "optionA":  "The news are true.",
+                          "optionD":  "The news were true.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  22,
+                          "optionB":  "home",
+                          "optionC":  "stayed",
+                          "correctAnswer":  "D",
+                          "optionA":  "raining",
+                          "optionD":  "because",
+                          "question":  "Identify the conjunction: \u0027I stayed home because it was raining.\u0027"
+                      },
+                      {
+                          "id":  23,
+                          "optionB":  "She has lived here for five years.",
+                          "optionC":  "She has lived here since five years.",
+                          "correctAnswer":  "B",
+                          "optionA":  "She is living here since five years.",
+                          "optionD":  "She lived here since five years.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  24,
+                          "optionB":  "their",
+                          "optionC":  "your",
+                          "correctAnswer":  "A",
+                          "optionA":  "his",
+                          "optionD":  "our",
+                          "question":  "Fill in the blank: Everyone must do ___ duty."
+                      },
+                      {
+                          "id":  25,
+                          "optionB":  "He as well as his friends have coming.",
+                          "optionC":  "He as well as his friends is coming.",
+                          "correctAnswer":  "C",
+                          "optionA":  "He as well as his friends are coming.",
+                          "optionD":  "He as well as his friends were coming.",
+                          "question":  "Choose the correct sentence."
+                      }
+                  ],
+    "title":  "grammar_basics"
+}

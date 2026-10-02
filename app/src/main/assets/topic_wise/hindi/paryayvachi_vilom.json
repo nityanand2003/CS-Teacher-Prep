@@ -1,0 +1,254 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "question":  "‘सूर्य’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "रात्रि",
+                          "optionB":  "मेघ",
+                          "optionC":  "रवि",
+                          "optionD":  "पवन",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  2,
+                          "question":  "‘चंद्रमा’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "दिनकर",
+                          "optionB":  "अनल",
+                          "optionC":  "शशि",
+                          "optionD":  "भास्कर",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  3,
+                          "question":  "‘पृथ्वी’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "जल",
+                          "optionB":  "पवन",
+                          "optionC":  "गगन",
+                          "optionD":  "धरा",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  4,
+                          "question":  "‘आकाश’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "धरती",
+                          "optionB":  "अनल",
+                          "optionC":  "गगन",
+                          "optionD":  "सागर",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  5,
+                          "question":  "‘जल’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "नीर",
+                          "optionB":  "पवन",
+                          "optionC":  "अनल",
+                          "optionD":  "पावक",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  6,
+                          "question":  "‘अग्नि’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "धरती",
+                          "optionB":  "अनल",
+                          "optionC":  "नीर",
+                          "optionD":  "गगन",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  7,
+                          "question":  "‘वायु’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "अनल",
+                          "optionB":  "पवन",
+                          "optionC":  "शशि",
+                          "optionD":  "नीर",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  8,
+                          "question":  "‘कमल’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "गिरि",
+                          "optionB":  "दिनकर",
+                          "optionC":  "पावक",
+                          "optionD":  "पंकज",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  9,
+                          "question":  "‘समुद्र’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "वन",
+                          "optionB":  "पर्वत",
+                          "optionC":  "गगन",
+                          "optionD":  "सागर",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  10,
+                          "question":  "‘पर्वत’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "सरिता",
+                          "optionB":  "गिरि",
+                          "optionC":  "पवन",
+                          "optionD":  "सागर",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  11,
+                          "question":  "‘नदी’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "सरिता",
+                          "optionB":  "गगन",
+                          "optionC":  "सागर",
+                          "optionD":  "गिरि",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  12,
+                          "question":  "‘वन’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "कानन",
+                          "optionB":  "गिरि",
+                          "optionC":  "नीर",
+                          "optionD":  "अनल",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  13,
+                          "question":  "‘राजा’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "प्रजा",
+                          "optionB":  "दास",
+                          "optionC":  "सेवक",
+                          "optionD":  "नरेश",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  14,
+                          "question":  "‘घर’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "गृह",
+                          "optionB":  "मार्ग",
+                          "optionC":  "वन",
+                          "optionD":  "गिरि",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  15,
+                          "question":  "‘मित्र’ का पर्यायवाची कौन-सा है?",
+                          "optionA":  "अतिथि",
+                          "optionB":  "सखा",
+                          "optionC":  "दुश्मन",
+                          "optionD":  "शत्रु",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  16,
+                          "question":  "‘आदि’ का विलोम क्या है?",
+                          "optionA":  "आरंभ",
+                          "optionB":  "अंत",
+                          "optionC":  "पूर्व",
+                          "optionD":  "मध्य",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  17,
+                          "question":  "‘आय’ का विलोम क्या है?",
+                          "optionA":  "उपार्जन",
+                          "optionB":  "लाभ",
+                          "optionC":  "धन",
+                          "optionD":  "व्यय",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  18,
+                          "question":  "‘आशा’ का विलोम क्या है?",
+                          "optionA":  "निराशा",
+                          "optionB":  "विश्वास",
+                          "optionC":  "सफलता",
+                          "optionD":  "प्रसन्नता",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  19,
+                          "question":  "‘दिन’ का विलोम क्या है?",
+                          "optionA":  "प्रकाश",
+                          "optionB":  "दोपहर",
+                          "optionC":  "रात",
+                          "optionD":  "सुबह",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  20,
+                          "question":  "‘सत्य’ का विलोम क्या है?",
+                          "optionA":  "असत्य",
+                          "optionB":  "धर्म",
+                          "optionC":  "न्याय",
+                          "optionD":  "ज्ञान",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  21,
+                          "question":  "‘लाभ’ का विलोम क्या है?",
+                          "optionA":  "आय",
+                          "optionB":  "विजय",
+                          "optionC":  "धन",
+                          "optionD":  "हानि",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  22,
+                          "question":  "‘जीवन’ का विलोम क्या है?",
+                          "optionA":  "मरण",
+                          "optionB":  "जन्म",
+                          "optionC":  "शरीर",
+                          "optionD":  "यौवन",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  23,
+                          "question":  "‘नया’ का विलोम क्या है?",
+                          "optionA":  "आधुनिक",
+                          "optionB":  "ताजा",
+                          "optionC":  "पुराना",
+                          "optionD":  "सुंदर",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  24,
+                          "question":  "‘उन्नति’ का विलोम क्या है?",
+                          "optionA":  "प्रगति",
+                          "optionB":  "सफलता",
+                          "optionC":  "अवनति",
+                          "optionD":  "विकास",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  25,
+                          "question":  "‘स्वतंत्र’ का विलोम क्या है?",
+                          "optionA":  "स्वाधीन",
+                          "optionB":  "परतंत्र",
+                          "optionC":  "मुक्त",
+                          "optionD":  "स्वेच्छाचारी",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      }
+                  ]
+}

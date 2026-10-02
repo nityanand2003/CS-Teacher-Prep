@@ -1,0 +1,230 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "optionB":  "Empty",
+                          "optionC":  "Plentiful",
+                          "correctAnswer":  "C",
+                          "optionA":  "Limited",
+                          "optionD":  "Rare",
+                          "question":  "Choose the synonym of \u0027Abundant\u0027."
+                      },
+                      {
+                          "id":  2,
+                          "optionB":  "Past",
+                          "optionC":  "Old",
+                          "correctAnswer":  "D",
+                          "optionA":  "Historic",
+                          "optionD":  "Modern",
+                          "question":  "Choose the antonym of \u0027Ancient\u0027."
+                      },
+                      {
+                          "id":  3,
+                          "optionB":  "Short",
+                          "optionC":  "Wide",
+                          "correctAnswer":  "B",
+                          "optionA":  "Long",
+                          "optionD":  "Heavy",
+                          "question":  "Choose the synonym of \u0027Brief\u0027."
+                      },
+                      {
+                          "id":  4,
+                          "optionB":  "Extend",
+                          "optionC":  "Increase",
+                          "correctAnswer":  "A",
+                          "optionA":  "Contract",
+                          "optionD":  "Grow",
+                          "question":  "Choose the antonym of \u0027Expand\u0027."
+                      },
+                      {
+                          "id":  5,
+                          "optionB":  "Illiterate",
+                          "optionC":  "Literate",
+                          "correctAnswer":  "B",
+                          "optionA":  "Author",
+                          "optionD":  "Scholar",
+                          "question":  "One who cannot read or write is called:"
+                      },
+                      {
+                          "id":  6,
+                          "optionB":  "Weakness",
+                          "optionC":  "Doubt",
+                          "correctAnswer":  "D",
+                          "optionA":  "Fear",
+                          "optionD":  "Bravery",
+                          "question":  "Choose the synonym of \u0027Courage\u0027."
+                      },
+                      {
+                          "id":  7,
+                          "optionB":  "Triumph",
+                          "optionC":  "Success",
+                          "correctAnswer":  "D",
+                          "optionA":  "Achievement",
+                          "optionD":  "Defeat",
+                          "question":  "Choose the antonym of \u0027Victory\u0027."
+                      },
+                      {
+                          "id":  8,
+                          "optionB":  "Slow",
+                          "optionC":  "Weak",
+                          "correctAnswer":  "D",
+                          "optionA":  "Late",
+                          "optionD":  "Fast",
+                          "question":  "Choose the synonym of \u0027Rapid\u0027."
+                      },
+                      {
+                          "id":  9,
+                          "optionB":  "Kind",
+                          "optionC":  "Selfish",
+                          "correctAnswer":  "C",
+                          "optionA":  "Helpful",
+                          "optionD":  "Noble",
+                          "question":  "Choose the antonym of \u0027Generous\u0027."
+                      },
+                      {
+                          "id":  10,
+                          "optionB":  "Laboratory",
+                          "optionC":  "Library",
+                          "correctAnswer":  "C",
+                          "optionA":  "Gallery",
+                          "optionD":  "Museum",
+                          "question":  "A place where books are kept is called:"
+                      },
+                      {
+                          "id":  11,
+                          "optionB":  "Easy",
+                          "optionC":  "Light",
+                          "correctAnswer":  "A",
+                          "optionA":  "Hard",
+                          "optionD":  "Simple",
+                          "question":  "Choose the synonym of \u0027Difficult\u0027."
+                      },
+                      {
+                          "id":  12,
+                          "optionB":  "Receive",
+                          "optionC":  "Allow",
+                          "correctAnswer":  "A",
+                          "optionA":  "Reject",
+                          "optionD":  "Admit",
+                          "question":  "Choose the antonym of \u0027Accept\u0027."
+                      },
+                      {
+                          "id":  13,
+                          "optionB":  "Clever",
+                          "optionC":  "Dishonest",
+                          "correctAnswer":  "A",
+                          "optionA":  "Truthful",
+                          "optionD":  "False",
+                          "question":  "Choose the synonym of \u0027Honest\u0027."
+                      },
+                      {
+                          "id":  14,
+                          "optionB":  "Temporary",
+                          "optionC":  "Constant",
+                          "correctAnswer":  "B",
+                          "optionA":  "Stable",
+                          "optionD":  "Fixed",
+                          "question":  "Choose the antonym of \u0027Permanent\u0027."
+                      },
+                      {
+                          "id":  15,
+                          "optionB":  "Philanthropist",
+                          "optionC":  "Pessimist",
+                          "correctAnswer":  "B",
+                          "optionA":  "Atheist",
+                          "optionD":  "Misanthrope",
+                          "question":  "One who loves mankind is called:"
+                      },
+                      {
+                          "id":  16,
+                          "optionB":  "Unwanted",
+                          "optionC":  "Optional",
+                          "correctAnswer":  "A",
+                          "optionA":  "Necessary",
+                          "optionD":  "Extra",
+                          "question":  "Choose the synonym of \u0027Essential\u0027."
+                      },
+                      {
+                          "id":  17,
+                          "optionB":  "Positive",
+                          "optionC":  "Confident",
+                          "correctAnswer":  "A",
+                          "optionA":  "Pessimistic",
+                          "optionD":  "Hopeful",
+                          "question":  "Choose the antonym of \u0027Optimistic\u0027."
+                      },
+                      {
+                          "id":  18,
+                          "optionB":  "Finish",
+                          "optionC":  "Stop",
+                          "correctAnswer":  "D",
+                          "optionA":  "End",
+                          "optionD":  "Start",
+                          "question":  "Choose the synonym of \u0027Begin\u0027."
+                      },
+                      {
+                          "id":  19,
+                          "optionB":  "False",
+                          "optionC":  "Natural",
+                          "correctAnswer":  "C",
+                          "optionA":  "Synthetic",
+                          "optionD":  "Man-made",
+                          "question":  "Choose the antonym of \u0027Artificial\u0027."
+                      },
+                      {
+                          "id":  20,
+                          "optionB":  "Editor",
+                          "optionC":  "Novelist",
+                          "correctAnswer":  "A",
+                          "optionA":  "Poet",
+                          "optionD":  "Critic",
+                          "question":  "A person who writes poems is called:"
+                      },
+                      {
+                          "id":  21,
+                          "optionB":  "Unclear",
+                          "optionC":  "Correct",
+                          "correctAnswer":  "C",
+                          "optionA":  "Wrong",
+                          "optionD":  "False",
+                          "question":  "Choose the synonym of \u0027Accurate\u0027."
+                      },
+                      {
+                          "id":  22,
+                          "optionB":  "Decrease",
+                          "optionC":  "Grow",
+                          "correctAnswer":  "B",
+                          "optionA":  "Expand",
+                          "optionD":  "Rise",
+                          "question":  "Choose the antonym of \u0027Increase\u0027."
+                      },
+                      {
+                          "id":  23,
+                          "optionB":  "Unknown",
+                          "optionC":  "Popular",
+                          "correctAnswer":  "C",
+                          "optionA":  "Ordinary",
+                          "optionD":  "Hidden",
+                          "question":  "Choose the synonym of \u0027Famous\u0027."
+                      },
+                      {
+                          "id":  24,
+                          "optionB":  "Complex",
+                          "optionC":  "Tough",
+                          "correctAnswer":  "D",
+                          "optionA":  "Hard",
+                          "optionD":  "Easy",
+                          "question":  "Choose the antonym of \u0027Difficult\u0027."
+                      },
+                      {
+                          "id":  25,
+                          "optionB":  "Clever",
+                          "optionC":  "Lazy",
+                          "correctAnswer":  "B",
+                          "optionA":  "Foolish",
+                          "optionD":  "Weak",
+                          "question":  "Choose the synonym of \u0027Intelligent\u0027."
+                      }
+                  ],
+    "title":  "vocabulary_comprehension"
+}

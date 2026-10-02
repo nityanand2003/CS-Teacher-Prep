@@ -1,0 +1,254 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "question":  "‘आँखों का तारा’ मुहावरे का अर्थ क्या है?",
+                          "optionA":  "बहुत दुखी होना",
+                          "optionB":  "बहुत क्रोधित होना",
+                          "optionC":  "बहुत प्यारा होना",
+                          "optionD":  "बहुत दूर होना",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  2,
+                          "question":  "‘नाक कटना’ का अर्थ क्या है?",
+                          "optionA":  "बहुत प्रसन्न होना",
+                          "optionB":  "बीमार होना",
+                          "optionC":  "अपमान होना",
+                          "optionD":  "भाग जाना",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  3,
+                          "question":  "‘दाँत खट्टे करना’ का अर्थ क्या है?",
+                          "optionA":  "मुस्कुराना",
+                          "optionB":  "डर जाना",
+                          "optionC":  "बुरी तरह पराजित करना",
+                          "optionD":  "मिठाई खिलाना",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  4,
+                          "question":  "‘हाथ मलना’ का अर्थ क्या है?",
+                          "optionA":  "मेहनत करना",
+                          "optionB":  "पछताना",
+                          "optionC":  "हाथ धोना",
+                          "optionD":  "खुश होना",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  5,
+                          "question":  "‘नौ दो ग्यारह होना’ का अर्थ क्या है?",
+                          "optionA":  "भाग जाना",
+                          "optionB":  "सो जाना",
+                          "optionC":  "बहुत पढ़ना",
+                          "optionD":  "गिनती करना",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  6,
+                          "question":  "‘आसमान सिर पर उठाना’ का अर्थ क्या है?",
+                          "optionA":  "चुप रहना",
+                          "optionB":  "आसमान देखना",
+                          "optionC":  "बहुत ऊँचा उड़ना",
+                          "optionD":  "बहुत शोर करना",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  7,
+                          "question":  "‘कमर कसना’ का अर्थ क्या है?",
+                          "optionA":  "तैयार होना",
+                          "optionB":  "भाग जाना",
+                          "optionC":  "आराम करना",
+                          "optionD":  "डर जाना",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  8,
+                          "question":  "‘रंगे हाथ पकड़ा जाना’ का अर्थ क्या है?",
+                          "optionA":  "खेलना",
+                          "optionB":  "अपराध करते पकड़ा जाना",
+                          "optionC":  "हाथ रंगना",
+                          "optionD":  "रंग लगाना",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  9,
+                          "question":  "‘पानी-पानी होना’ का अर्थ क्या है?",
+                          "optionA":  "प्यास लगना",
+                          "optionB":  "बारिश होना",
+                          "optionC":  "बहुत लज्जित होना",
+                          "optionD":  "नहाना",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  10,
+                          "question":  "‘कान भरना’ का अर्थ क्या है?",
+                          "optionA":  "सुनना",
+                          "optionB":  "कान साफ करना",
+                          "optionC":  "गीत गाना",
+                          "optionD":  "भड़काना",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  11,
+                          "question":  "‘सिर पर कफन बाँधना’ का अर्थ क्या है?",
+                          "optionA":  "मरने-मारने के लिए तैयार होना",
+                          "optionB":  "यात्रा करना",
+                          "optionC":  "सो जाना",
+                          "optionD":  "डर जाना",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  12,
+                          "question":  "‘खून-पसीना एक करना’ का अर्थ क्या है?",
+                          "optionA":  "रोना",
+                          "optionB":  "क्रोधित होना",
+                          "optionC":  "बीमार होना",
+                          "optionD":  "बहुत मेहनत करना",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  13,
+                          "question":  "‘नाक में दम करना’ का अर्थ क्या है?",
+                          "optionA":  "साँस लेना",
+                          "optionB":  "शांत करना",
+                          "optionC":  "बीमार होना",
+                          "optionD":  "बहुत परेशान करना",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  14,
+                          "question":  "‘चार चाँद लगाना’ का अर्थ क्या है?",
+                          "optionA":  "चार बार जाना",
+                          "optionB":  "चंद्रमा देखना",
+                          "optionC":  "शोभा बढ़ाना",
+                          "optionD":  "अंधेरा करना",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  15,
+                          "question":  "‘दाल में काला होना’ का अर्थ क्या है?",
+                          "optionA":  "दाल खाना",
+                          "optionB":  "कुछ गड़बड़ होना",
+                          "optionC":  "खाना बनाना",
+                          "optionD":  "बहुत खुश होना",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  16,
+                          "question":  "‘जैसी करनी वैसी भरनी’ का अर्थ क्या है?",
+                          "optionA":  "कर्म का फल मिलता है",
+                          "optionB":  "मित्रता जरूरी है",
+                          "optionC":  "धन आवश्यक है",
+                          "optionD":  "समय का मूल्य है",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  17,
+                          "question":  "‘अब पछताए होत क्या, जब चिड़िया चुग गई खेत’ का अर्थ क्या है?",
+                          "optionA":  "पक्षियों को खाना देना चाहिए",
+                          "optionB":  "खेती कठिन है",
+                          "optionC":  "समय हमेशा बचा रहता है",
+                          "optionD":  "समय निकलने पर पछतावा व्यर्थ है",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  18,
+                          "question":  "‘नाच न जाने आँगन टेढ़ा’ का अर्थ क्या है?",
+                          "optionA":  "आँगन बनाना",
+                          "optionB":  "नृत्य सीखना",
+                          "optionC":  "अपनी कमी का दोष दूसरों पर देना",
+                          "optionD":  "घर बदलना",
+                          "optionE":  "",
+                          "correctAnswer":  "C"
+                      },
+                      {
+                          "id":  19,
+                          "question":  "‘घर की मुर्गी दाल बराबर’ का अर्थ क्या है?",
+                          "optionA":  "घर में भोजन होना",
+                          "optionB":  "अपनी वस्तु का मूल्य न समझना",
+                          "optionC":  "दाल बनाना",
+                          "optionD":  "मुर्गी पालना",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  20,
+                          "question":  "‘ऊँची दुकान फीका पकवान’ का अर्थ क्या है?",
+                          "optionA":  "दिखावा अधिक, गुणवत्ता कम",
+                          "optionB":  "दुकान बंद है",
+                          "optionC":  "दुकान बहुत बड़ी है",
+                          "optionD":  "भोजन स्वादिष्ट है",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  21,
+                          "question":  "‘अंधों में काना राजा’ का अर्थ क्या है?",
+                          "optionA":  "मूर्खों में थोड़ा ज्ञानी श्रेष्ठ",
+                          "optionB":  "राजा अंधा है",
+                          "optionC":  "कोई योग्य नहीं",
+                          "optionD":  "सब समान हैं",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  22,
+                          "question":  "‘एक अनार सौ बीमार’ का अर्थ क्या है?",
+                          "optionA":  "चाहने वाले बहुत, वस्तु कम",
+                          "optionB":  "फल बहुत हैं",
+                          "optionC":  "बीमारी फैलना",
+                          "optionD":  "अनार महँगा है",
+                          "optionE":  "",
+                          "correctAnswer":  "A"
+                      },
+                      {
+                          "id":  23,
+                          "question":  "‘दूर के ढोल सुहावने’ का अर्थ क्या है?",
+                          "optionA":  "संगीत खराब है",
+                          "optionB":  "दूर की वस्तु अच्छी लगती है",
+                          "optionC":  "ढोल बजाना अच्छा है",
+                          "optionD":  "दूर जाना कठिन है",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      },
+                      {
+                          "id":  24,
+                          "question":  "‘तेते पाँव पसारिए जेती लंबी सौर’ का अर्थ क्या है?",
+                          "optionA":  "आराम करना",
+                          "optionB":  "लंबी यात्रा करना",
+                          "optionC":  "बहुत खर्च करना",
+                          "optionD":  "आय के अनुसार खर्च करना",
+                          "optionE":  "",
+                          "correctAnswer":  "D"
+                      },
+                      {
+                          "id":  25,
+                          "question":  "‘एक हाथ से ताली नहीं बजती’ का अर्थ क्या है?",
+                          "optionA":  "ताली बजाना कठिन है",
+                          "optionB":  "विवाद में दोनों पक्ष जिम्मेदार हो सकते हैं",
+                          "optionC":  "एक व्यक्ति हमेशा दोषी है",
+                          "optionD":  "एक हाथ मजबूत है",
+                          "optionE":  "",
+                          "correctAnswer":  "B"
+                      }
+                  ]
+}

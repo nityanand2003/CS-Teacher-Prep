@@ -1,0 +1,230 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "optionB":  "He don\u0027t know me.",
+                          "optionC":  "He doesn\u0027t knows me.",
+                          "correctAnswer":  "A",
+                          "optionA":  "He doesn\u0027t know me.",
+                          "optionD":  "He not know me.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  2,
+                          "optionB":  "She is senior than me.",
+                          "optionC":  "She senior to me.",
+                          "correctAnswer":  "D",
+                          "optionA":  "She is senior from me.",
+                          "optionD":  "She is senior to me.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  3,
+                          "optionB":  "I see him yesterday.",
+                          "optionC":  "I had saw him yesterday.",
+                          "correctAnswer":  "A",
+                          "optionA":  "I saw him yesterday.",
+                          "optionD":  "I have seen him yesterday.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  4,
+                          "optionB":  "He is good in English.",
+                          "optionC":  "He is good on English.",
+                          "correctAnswer":  "A",
+                          "optionA":  "He is good at English.",
+                          "optionD":  "He good at English.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  5,
+                          "optionB":  "Each boy have a pen.",
+                          "optionC":  "Each boys has a pen.",
+                          "correctAnswer":  "D",
+                          "optionA":  "Each boys have pen.",
+                          "optionD":  "Each boy has a pen.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  6,
+                          "optionB":  "She is living here since five years.",
+                          "optionC":  "She lives here since five years.",
+                          "correctAnswer":  "D",
+                          "optionA":  "She has living here five years.",
+                          "optionD":  "She has been living here for five years.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  7,
+                          "optionB":  "Neither answer are correct.",
+                          "optionC":  "Neither of the answers is correct.",
+                          "correctAnswer":  "C",
+                          "optionA":  "Neither of answers are correct.",
+                          "optionD":  "Neither answers is correct.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  8,
+                          "optionB":  "He did not go there.",
+                          "optionC":  "He does not went there.",
+                          "correctAnswer":  "B",
+                          "optionA":  "He did not gone there.",
+                          "optionD":  "He did not went there.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  9,
+                          "optionB":  "She prefers tea from coffee.",
+                          "optionC":  "She prefers tea to coffee.",
+                          "correctAnswer":  "C",
+                          "optionA":  "She prefers tea than coffee.",
+                          "optionD":  "She prefer tea to coffee.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  10,
+                          "optionB":  "One of my friends is here.",
+                          "optionC":  "One of my friend is here.",
+                          "correctAnswer":  "B",
+                          "optionA":  "One of my friends are here.",
+                          "optionD":  "One of my friend are here.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  11,
+                          "optionB":  "The news is shocking.",
+                          "optionC":  "The news were shocking always.",
+                          "correctAnswer":  "B",
+                          "optionA":  "The news have shocking.",
+                          "optionD":  "The news are shocking.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  12,
+                          "optionB":  "He is married with a doctor.",
+                          "optionC":  "He is married to a doctor.",
+                          "correctAnswer":  "C",
+                          "optionA":  "He is marry to doctor.",
+                          "optionD":  "He married with doctor.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  13,
+                          "optionB":  "I have knowing the answer.",
+                          "optionC":  "I knowing the answer.",
+                          "correctAnswer":  "A",
+                          "optionA":  "I know the answer.",
+                          "optionD":  "I am knowing the answer.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  14,
+                          "optionB":  "She is afraid from dogs.",
+                          "optionC":  "She is afraid of dogs.",
+                          "correctAnswer":  "C",
+                          "optionA":  "She is afraid with dogs.",
+                          "optionD":  "She afraid of dogs.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  15,
+                          "optionB":  "He went to Delhi yesterday.",
+                          "optionC":  "He has gone to Delhi yesterday.",
+                          "correctAnswer":  "B",
+                          "optionA":  "He had gone yesterday now.",
+                          "optionD":  "He goes to Delhi yesterday.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  16,
+                          "optionB":  "The furniture are expensive.",
+                          "optionC":  "Furniture are expensive.",
+                          "correctAnswer":  "D",
+                          "optionA":  "The furnitures is expensive.",
+                          "optionD":  "The furniture is expensive.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  17,
+                          "optionB":  "She is one of the best student.",
+                          "optionC":  "She is one of the best students.",
+                          "correctAnswer":  "C",
+                          "optionA":  "She one of the best students.",
+                          "optionD":  "She is one of best student.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  18,
+                          "optionB":  "He as well as his friends are coming.",
+                          "optionC":  "He as well as his friends were coming.",
+                          "correctAnswer":  "D",
+                          "optionA":  "He as well as friends have coming.",
+                          "optionD":  "He as well as his friends is coming.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  19,
+                          "optionB":  "I look forward meeting you.",
+                          "optionC":  "I look forward to meet you.",
+                          "correctAnswer":  "A",
+                          "optionA":  "I look forward to meeting you.",
+                          "optionD":  "I looking forward to meet you.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  20,
+                          "optionB":  "She is capable to solve it.",
+                          "optionC":  "She is capable of solving it.",
+                          "correctAnswer":  "C",
+                          "optionA":  "She capable of solve it.",
+                          "optionD":  "She is capable for solving it.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  21,
+                          "optionB":  "He insisted to go.",
+                          "optionC":  "He insisted for go.",
+                          "correctAnswer":  "D",
+                          "optionA":  "He insist on go.",
+                          "optionD":  "He insisted on going.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  22,
+                          "optionB":  "I am interested to music.",
+                          "optionC":  "I interested in music.",
+                          "correctAnswer":  "A",
+                          "optionA":  "I am interested in music.",
+                          "optionD":  "I am interested on music.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  23,
+                          "optionB":  "She prevented me from going.",
+                          "optionC":  "She prevented me going from.",
+                          "correctAnswer":  "B",
+                          "optionA":  "She prevented me for go.",
+                          "optionD":  "She prevented me to go.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  24,
+                          "optionB":  "He accustomed to waking.",
+                          "optionC":  "He is accustomed waking early.",
+                          "correctAnswer":  "A",
+                          "optionA":  "He is accustomed to waking early.",
+                          "optionD":  "He is accustomed to wake early.",
+                          "question":  "Choose the correct sentence."
+                      },
+                      {
+                          "id":  25,
+                          "optionB":  "No sooner had he arrived than it rained.",
+                          "optionC":  "No sooner did he arrive when it rained.",
+                          "correctAnswer":  "B",
+                          "optionA":  "No sooner he arrived than it rained.",
+                          "optionD":  "No sooner did he arrived than it rained.",
+                          "question":  "Choose the correct sentence."
+                      }
+                  ],
+    "title":  "sentence_correction_error_detection"
+}
